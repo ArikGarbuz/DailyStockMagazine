@@ -1,21 +1,25 @@
 export default function Header({ date }) {
   const formatDate = (d) => {
+    // Use current date if not provided
+    const displayDate = d ? new Date(d) : new Date();
     return new Intl.DateTimeFormat('en-US', {
       weekday: 'long',
       month: 'long',
       day: 'numeric',
-      year: 'numeric'
-    }).format(d);
+      year: 'numeric',
+      timeZone: 'Asia/Jerusalem'
+    }).format(displayDate);
   };
 
   const formatDateHE = (d) => {
+    const displayDate = d ? new Date(d) : new Date();
     const days = ['ראשון', 'שני', 'שלישי', 'רביעי', 'חמישי', 'שישי', 'שבת'];
     const months = ['ינואר', 'פברואר', 'מרץ', 'אפריל', 'מאי', 'יוני', 'יולי', 'אוגוסט', 'ספטמבר', 'אוקטובר', 'נובמבר', 'דצמבר'];
 
-    const day = days[d.getDay()];
-    const date = d.getDate();
-    const month = months[d.getMonth()];
-    const year = d.getFullYear();
+    const day = days[displayDate.getDay()];
+    const date = displayDate.getDate();
+    const month = months[displayDate.getMonth()];
+    const year = displayDate.getFullYear();
 
     return `${day}, ${date} ב${month} ${year}`;
   };

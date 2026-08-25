@@ -23,7 +23,7 @@ export default function MarketPulse({ date }) {
       </div>
 
       <div className="mt-4 text-xs text-gray-600">
-        <p>Last updated: {new Date(date).toLocaleString('en-US', {
+        <p>Last updated: {new Date().toLocaleString('en-US', {
           month: 'short',
           day: 'numeric',
           hour: '2-digit',
