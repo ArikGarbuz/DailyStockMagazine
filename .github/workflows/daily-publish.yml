@@ -23,17 +23,11 @@ jobs:
           git config user.name "Stock Magazine Bot"
           git config user.email "bot@stockmagazine.dev"
 
-      # Check for new magazine files
-      - name: Check for new magazines
-        id: check
+      # Generate magazine
+      - name: Generate daily magazine
         run: |
-          LATEST=$(git log -1 --name-only --pretty=format: magazines/ 2>/dev/null | head -1)
-          echo "latest_file=$LATEST" >> $GITHUB_OUTPUT
-          if [ -z "$LATEST" ]; then
-            echo "No magazines found - first run"
-          else
-            echo "Latest magazine: $LATEST"
-          fi
+          python3 scripts/generate-magazine.py
+          echo "✅ Magazine generated"
 
       # Auto-commit new files
       - name: Auto-commit new magazines
