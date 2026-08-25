@@ -1,0 +1,60 @@
+name: Daily Stock Magazine Auto-Publish
+
+on:
+  schedule:
+    # Run every weekday at 4:20 PM Israel time (14:20 UTC)
+    - cron: '20 14 * * 1-5'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout repo
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Configure Git
+      - name: Configure Git
+        run: |
+          git config user.name "Stock Magazine Bot"
+          git config user.email "bot@stockmagazine.dev"
+
+      # Check for new magazine files
+      - name: Check for new magazines
+        id: check
+        run: |
+          LATEST=$(git log -1 --name-only --pretty=format: magazines/ 2>/dev/null | head -1)
+          echo "latest_file=$LATEST" >> $GITHUB_OUTPUT
+          if [ -z "$LATEST" ]; then
+            echo "No magazines found - first run"
+          else
+            echo "Latest magazine: $LATEST"
+          fi
+
+      # Auto-commit new files
+      - name: Auto-commit new magazines
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          file_pattern: 'magazines/*.html'
+          commit_message: 'Daily stock magazine: $(date +"%B %d, %Y")'
+          skip_dirty_check: false
+          skip_fetch: false
+          skip_checkout: false
+          commit_user_name: Stock Magazine Bot
+          commit_user_email: bot@stockmagazine.dev
+          push_options: '--force-with-lease'
+
+  # Notify on success
+  notify:
+    needs: publish
+    runs-on: ubuntu-latest
+    if: success()
+    steps:
+      - name: Log success
+        run: |
+          echo "✅ Daily magazine published successfully!"
+          echo "Published at: $(date)"

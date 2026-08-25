@@ -1,0 +1,30 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "projectSettings": {
+    "sourceFilesOutsideRootDirectory": true,
+    "buildCommand": "cd ../web && npm run build",
+    "devCommand": "cd ../web && npm run dev",
+    "installCommand": "cd ../web && npm install"
+  },
+  "env": {
+    "NEXT_PUBLIC_SITE_NAME": {
+      "description": "Site name for meta tags",
+      "type": "string",
+      "default": "Daily Stock Magazine"
+    },
+    "NEXT_PUBLIC_SITE_URL": {
+      "description": "Site URL",
+      "type": "string",
+      "default": "https://dailystockmagazine.vercel.app"
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/generate",
+      "schedule": "20 14 * * 1-5"
+    }
+  ]
+}
