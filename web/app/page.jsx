@@ -1,4 +1,4 @@
-'use client';
+"use client';
 
 import { useEffect, useState } from 'react';
 import StockCard from '@/components/StockCard';
@@ -15,7 +15,7 @@ export default function Home() {
     const fetchData = async () => {
       try {
         setLoading(true);
-        const response = await fetch('/api/stocks');
+        const response = await fetch('/api/stocks', { cache: 'no-store' });
         if (!response.ok) throw new Error('Failed to fetch stocks');
 
         const data = await response.json();
