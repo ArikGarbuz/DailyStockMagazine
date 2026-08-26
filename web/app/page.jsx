@@ -5,6 +5,8 @@ import StockCard from '@/components/StockCard';
 import SP500Card from '@/components/SP500Card';
 import Header from '@/components/Header';
 import MarketPulse from '@/components/MarketPulse';
+import LastUpdatedBadge from '@/components/LastUpdatedBadge';
+import ArchiveTable from '@/components/ArchiveTable';
 
 export default function Home() {
   const [stocks, setStocks] = useState([]);
@@ -58,6 +60,13 @@ export default function Home() {
     <main className="min-h-screen bg-slate-950 text-gray-100">
       <div className="max-w-7xl mx-auto px-4 py-8">
         <Header date={date} />
+
+        {/* Last Updated badge — reads the Cloud Archive's last write
+            timestamp from Vercel KV. Purely additive: does not read from
+            or affect the /api/stocks or /api/sp500 data paths above. */}
+        <div className="flex justify-end mb-4">
+          <LastUpdatedBadge />
+        </div>
 
         {loading ? (
           <div className="text-center py-12">
@@ -136,6 +145,10 @@ export default function Home() {
             </div>
           )}
         </div>
+
+        {/* Cloud Archive — historical daily snapshots read from Vercel KV.
+            Purely additive; independent of the two sections above. */}
+        <ArchiveTable />
 
         <footer className="mt-12 pt-8 border-t border-slate-800 text-center text-sm text-gray-500">
           <p>Generated at 4:20 PM IST • Data: WebSearch + Market Aggregators</p>
