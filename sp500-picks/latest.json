@@ -1,13 +1,13 @@
 {
   "date": "2026-08-26",
-  "generatedAt": "2026-08-26T14:12:19.931Z",
+  "generatedAt": "2026-08-26T14:19:49.933Z",
   "windowStart": 320,
   "windowSize": 40,
   "cyclePosition": 8,
   "totalWindows": 13,
   "requested": 15,
   "picked": 15,
-  "skippedCount": 22,
+  "skippedCount": 18,
   "skipped": [
     {
       "ticker": "MPWR",
@@ -23,10 +23,6 @@
     },
     {
       "ticker": "MSCI",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "NFLX",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
@@ -82,19 +78,7 @@
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "ON",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
       "ticker": "OKE",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "OTIS",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "PKG",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     }
   ],
@@ -110,8 +94,8 @@
       "descriptionHE": "מורגן סטנלי הוא תאגיד אמריקני הנסחר בבורסה לניירות ערך בניו יורק, ואשר עוסק בתחום בנקאות ההשקעות והשירותים הפיננסיים. החברה, שמטהַ נמצא בעיר ניו יורק, משרתת מגוון של תאגידים, ממשלות, ארגונים פיננסיים ואנשים פרטיים. מורגן סטנלי פועל ב-33 מדינות ברחבי העולם, ויש לו 600 משרדים שבהם מועסקים כ-45,000 עובדים. על פי דיווחי החברה, היא מנהלת נכסים בהיקף של 779 מיליארד דולר.",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Morgan_Stanley",
       "employees": 80006,
-      "price": 213.59,
-      "change": -1.467
+      "price": 212.24,
+      "change": -2.0898
     },
     {
       "ticker": "MOS",
@@ -124,8 +108,8 @@
       "descriptionHE": null,
       "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Mosaic_Company",
       "employees": 8400,
-      "price": 25.12,
-      "change": 3.5023
+      "price": 24.89,
+      "change": 2.5546
     },
     {
       "ticker": "MSI",
@@ -138,8 +122,8 @@
       "descriptionHE": null,
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Motorola_Solutions",
       "employees": 18000,
-      "price": 483.6,
-      "change": -0.3688
+      "price": 484.08,
+      "change": -0.2699
     },
     {
       "ticker": "NDAQ",
@@ -152,8 +136,8 @@
       "descriptionHE": null,
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Nasdaq%2C_Inc.",
       "employees": 8809,
-      "price": 99.23,
-      "change": 0.5064
+      "price": 99.09,
+      "change": 0.3646
     },
     {
       "ticker": "NTAP",
@@ -166,8 +150,22 @@
       "descriptionHE": "נטאפ בע\"מ היא חברת מחשבים אמריקאית המתמחה בניהול אחסון ובמאגרי נתונים. קובצי האחסון של נטאפ מחוברים לרשתות, ומאפשרים לקהל הלקוחות הארגוני לאחסן ולשתף נתונים בין העובדים. משרדיה הראשיים של החברה ממוקמים בסאניווייל, קליפורניה. החברה חברה בנאסד\"ק-100, ודורגה כאחת מ־500 החברות ששוויין הגדול ביותר בפעם הראשונה ב-2012.",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/NetApp",
       "employees": 12000,
-      "price": 191.21,
-      "change": 2.0168
+      "price": 190.81,
+      "change": 1.8033
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Netflix",
+      "skipped": false,
+      "website": "https://www.netflix.com/",
+      "industry": "Media",
+      "marketCap": "$342.4B",
+      "description": "Netflix, Inc. is an American media company founded on August 29, 1997, by Reed Hastings and Marc Randolph in Scotts Valley, California, and currently based in Los Gatos, California, with production offices and stages at the Los Angeles–based Hollywood studios and the Albuquerque Studios. It owns and operates an eponymous over-the-top subscription video on-demand service, which showcases acquired and original programming as well as third-party content licensed from other production companies and distributors. Netflix is also the first streaming media company to be a member of the Motion Picture Association.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Netflix%2C_Inc.",
+      "employees": 11300,
+      "price": 82.1,
+      "change": -0.1581
     },
     {
       "ticker": "NKE",
@@ -180,8 +178,8 @@
       "descriptionHE": "נייקי הוא תאגיד רב-לאומי אמריקאי העוסק בייצור נעלי ספורט, ביגוד וציוד ספורט.",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Nike%2C_Inc.",
       "employees": 76700,
-      "price": 39.16,
-      "change": -0.8105
+      "price": 39.22,
+      "change": -0.6586
     },
     {
       "ticker": "NTRS",
@@ -194,8 +192,8 @@
       "descriptionHE": null,
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Northern_Trust",
       "employees": 20900,
-      "price": 187.29,
-      "change": 0.2516
+      "price": 186.31,
+      "change": -0.273
     },
     {
       "ticker": "NOC",
@@ -208,8 +206,8 @@
       "descriptionHE": "נוֹרְתְ'רוֹפּ גְּרָאמֶן הוא קונצרן ספנות, תעופה, חלל וביטחון, תוצאה של רכישת גראמן על ידי נורת'רופ. החברה, הממוקמת במטרופולין וושינגטון די. סי. שבווירג'יניה, ארצות הברית, היא יצרנית מערכות־ביטחוניות השלישית בגודלה בעולם, יצרנית מערכות המכ\"ם הגדולה ביותר, והיצרנית המובילה בעולם של כלי שיט. נכון לשנת 2017, העסיקה למעלה מ-67,000 עובדים בכמה מאות אתרים בארצות הברית ומחוצה לה. נכון לשנת 2010, \"נורת'רופ גראמן\" מדורגת במקום ה-61 ברשימת פורצ'ן 500 של חברות תעשייתיות אמריקניות.",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Northrop_Grumman",
       "employees": 65600,
-      "price": 551.43,
-      "change": 1.6423
+      "price": 551.94,
+      "change": 1.7363
     },
     {
       "ticker": "NRG",
@@ -222,8 +220,8 @@
       "descriptionHE": null,
       "wikipediaUrl": "https://en.wikipedia.org/wiki/NRG_Energy",
       "employees": 9806,
-      "price": 116.82,
-      "change": 2.8255
+      "price": 115.98,
+      "change": 2.0861
     },
     {
       "ticker": "NUE",
@@ -236,8 +234,8 @@
       "descriptionHE": null,
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Nucor",
       "employees": 31400,
-      "price": 251.32,
-      "change": 1.5229
+      "price": 251.93,
+      "change": 1.7693
     },
     {
       "ticker": "NVDA",
@@ -250,8 +248,8 @@
       "descriptionHE": "אנבידיה היא חברה אמריקאית, ספקית גדולה של מיקרו-שבבים המשמשים לערכות שבבים של מחשבים אישיים, יחידות עיבוד גרפיות (GPU), כרטיסי מסך, חישובי בינה מלאכותית, התקני מדיה ותקשורת וקונסולות משחקים. החברה מוכרת בזכות סדרות כרטיסי המסך למחשב GeForce ו-Quadro, סדרת ערכות השבבים nForce, וסדרת השבבים טגרה לסמארטפונים ולטאבלטים. המטה הראשי של החברה נמצא בסנטה קלרה שבקליפורניה.",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Nvidia",
       "employees": 42000,
-      "price": 211.71,
-      "change": -0.629
+      "price": 211.29,
+      "change": -0.8261
     },
     {
       "ticker": "ODFL",
@@ -260,12 +258,26 @@
       "website": "https://www.odfl.com/",
       "industry": "Road & Rail",
       "marketCap": "$41.1B",
-      "description": "Old Dominion University (ODU) is a public research university in Norfolk, Virginia, United States. Established in 1930 as the two-year Norfolk Division of the College of William & Mary, the school became an independent college in 1962 and attained university status in 1969. In 2023, it had an enrollment of 23,494 students, and its main campus covers 250 acres.",
+      "description": "Old Dominion Freight Line, Inc. (ODFL) is an American regional, inter-regional and national less than truckload shipping (LTL) company. In addition to its core LTL services, the company offers expedited, logistics and household moving services.",
       "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Old_Dominion_University",
-      "employees": 3240,
-      "price": 198.89,
-      "change": 0.2773
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Old_Dominion_Freight_Line",
+      "employees": 21279,
+      "price": 199.94,
+      "change": 0.8067
+    },
+    {
+      "ticker": "ON",
+      "name": "ON Semiconductor",
+      "skipped": false,
+      "website": "https://www.onsemi.com/",
+      "industry": "Semiconductors",
+      "marketCap": "$28.2B",
+      "description": "ON Semiconductor Corporation is an American semiconductor supplier company, based in Scottsdale, Arizona. Products include power and signal management, logic, discrete, and custom devices for automotive, communications, computing, consumer, industrial, LED lighting, medical, military/aerospace and power applications. onsemi runs a network of manufacturing facilities, sales offices and design centers in North America, Europe, and the Asia Pacific regions. Based on its 2016 revenues of $3.907 billion, onsemi ranked among the worldwide top 20 semiconductor sales leaders, and was ranked No. 483 on the 2022 Fortune 500 based on its 2021 sales.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Onsemi",
+      "employees": 26400,
+      "price": 73.39,
+      "change": 1.2136
     },
     {
       "ticker": "ORCL",
@@ -278,36 +290,8 @@
       "descriptionHE": "אורקל היא חברת תוכנה אמריקאית רב־לאומית מהגדולות בעולם, הידועה בעיקר בשל פיתוח שניים ממסדי הנתונים המובילים בעולם: אורקל ו־MySQL. בנוסף לכך מוכרת החברה שירותי מחשוב ענן ותוכנה ארגונית בתחומים שונים: ERP, ניהול משאבי אנוש, ניהול קשרי לקוחות, ניהול שרשרת האספקה ועוד. בנוסף, בעקבות רכישת סאן מיקרוסיסטמס, אורקל מייצרת חומרה והיא הבעלים של שפת התכנות Java.",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Oracle_Corporation",
       "employees": 162000,
-      "price": 148.87,
-      "change": 2.8392
-    },
-    {
-      "ticker": "PCAR",
-      "name": "Paccar",
-      "skipped": false,
-      "website": "https://www.paccar.com/",
-      "industry": "Machinery",
-      "marketCap": "$68.0B",
-      "description": "Paccar Inc. is an American company that manufactures heavy-duty trucks. It operates subsidiaries including Kenworth, Peterbilt, and DAF Trucks. Headquartered in Bellevue, Washington, PACCAR also provides financial services and industrial parts. Its stock is listed on the Nasdaq and is part of the S&P 500 index.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Paccar",
-      "employees": 22800,
-      "price": 130.8,
-      "change": 1.2227
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Palantir Technologies",
-      "skipped": false,
-      "website": "https://www.palantir.com/",
-      "industry": "Technology",
-      "marketCap": "$415.1B",
-      "description": "Palantir Technologies Inc. is an American publicly traded company that develops data integration and analytics software. Palantir is headquartered in Miami, Florida, and was founded in 2003 by Peter Thiel, Stephen Cohen, Joe Lonsdale, Alex Karp, and Nathan Gettings.",
-      "descriptionHE": "פלנטיר טכנולוגיות היא חברה ציבורית אמריקאית המתמחה בתוכנות לניתוח ביג דאטה.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Palantir",
-      "employees": 4429,
-      "price": 174.56,
-      "change": 1.0595
+      "price": 148.88,
+      "change": 2.8461
     }
   ]
 }
