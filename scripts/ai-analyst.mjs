@@ -33,6 +33,14 @@
 // error message that could reference a request URL now goes through
 // sanitizeUrlForLog(), which strips query parameters, so no error text can
 // ever contain the API key.
+//
+// RATE-LIMIT NOTE: discovered live — running this script twice in quick
+// succession (e.g. a manual test run soon after another run) hit Gemini's
+// free-tier per-minute request limit (HTTP 429) on 3/15 tickers, even
+// though calls are already sequential. A fixed delay between calls keeps
+// us comfortably under the free-tier RPM ceiling; on 429 specifically we
+// also back off and retry once before giving up on that ticker, since a
+// single retry after a short wait usually succeeds.
 
 import { writeFile, mkdir, appendFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -46,9 +54,15 @@ const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID;
 const GEMINI_TIMEOUT_MS = 25000;
 const SITE_FETCH_TIMEOUT_MS = 20000;
 const TELEGRAM_TIMEOUT_MS = 10000;
+const GEMINI_MIN_INTERVAL_MS = 4500; // keeps us under free-tier RPM even back-to-back with another run
+const GEMINI_429_RETRY_DELAY_MS = 8000; // one extra breather before a single retry on rate-limit
 
 function todayISO() {
   return new Date().toISOString().slice(0, 10);
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 // Strips query parameters (and thus any API key) before a URL can ever end
@@ -92,6 +106,8 @@ function buildPrompt(stock) {
     `Recent headline: ${stock.why || 'none available'}`;
 }
 
+// isRateLimit lets the caller decide whether a failure is worth a single
+// retry (429 only) vs. failing the ticker immediately (everything else).
 async function callGemini(prompt) {
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${GOOGLE_API_KEY}`;
   const res = await fetchWithTimeout(url, {
@@ -105,7 +121,9 @@ async function callGemini(prompt) {
   if (!res.ok) {
     const errText = await res.text().catch(() => '');
     // errText is Gemini's own response body, never the request URL — safe to include.
-    throw new Error(`Gemini HTTP ${res.status}: ${errText.slice(0, 300)}`);
+    const err = new Error(`Gemini HTTP ${res.status}: ${errText.slice(0, 300)}`);
+    err.isRateLimit = res.status === 429;
+    throw err;
   }
   const data = await res.json();
   const text = data?.candidates?.[0]?.content?.parts?.[0]?.text;
@@ -124,6 +142,21 @@ async function callGemini(prompt) {
     throw new Error(`Gemini returned unexpected verdict: ${JSON.stringify(parsed).slice(0, 200)}`);
   }
   return { ...parsed, tokens };
+}
+
+// One retry, only for 429s, after an extra breather beyond the normal
+// per-call spacing — a single retry after backing off usually clears a
+// transient per-minute quota bump instead of burning the whole ticker.
+async function callGeminiWithRetry(prompt) {
+  try {
+    return await callGemini(prompt);
+  } catch (err) {
+    if (err.isRateLimit) {
+      await sleep(GEMINI_429_RETRY_DELAY_MS);
+      return await callGemini(prompt);
+    }
+    throw err;
+  }
 }
 
 async function notifyTelegram(message) {
@@ -170,9 +203,10 @@ async function main() {
   const failures = [];
   let totalTokens = 0;
 
-  for (const stock of stocks) {
+  for (let i = 0; i < stocks.length; i++) {
+    const stock = stocks[i];
     try {
-      const verdict = await callGemini(buildPrompt(stock));
+      const verdict = await callGeminiWithRetry(buildPrompt(stock));
       results.push({
         ticker: stock.ticker,
         status: 'ok',
@@ -186,6 +220,12 @@ async function main() {
       console.error(`AI analysis failed for ${stock.ticker}:`, err.message);
       failures.push({ ticker: stock.ticker, error: err.message });
       results.push({ ticker: stock.ticker, status: 'error', error: err.message });
+    }
+
+    // Space out requests to stay under Gemini's free-tier per-minute limit —
+    // skip the wait after the last ticker.
+    if (i < stocks.length - 1) {
+      await sleep(GEMINI_MIN_INTERVAL_MS);
     }
   }
 
