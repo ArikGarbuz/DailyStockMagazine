@@ -43,12 +43,28 @@ jobs:
           node scripts/ai-analyst.mjs
           echo "✅ AI analyst step finished (see ai-verdicts/log.jsonl for outcome)"
 
+      # S&P 500 Daily Spotlight — rotating in-depth company profiles.
+      # Every published ticker must have a real business description
+      # (Wikipedia), a real employee count (Wikidata), and an official
+      # website link (Finnhub); any ticker missing one of the three is
+      # skipped and a different S&P 500 company is tried in its place.
+      # Soft-fails on purpose, same as the AI analyst step above — never
+      # blocks the magazine publish. See sp500-picks/log.jsonl for outcome.
+      - name: Run S&P 500 daily spotlight
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          node scripts/sp500-picks.mjs
+          echo "✅ S&P 500 spotlight step finished (see sp500-picks/log.jsonl for outcome)"
+
       # Auto-commit new files
       - name: Auto-commit new magazines
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          file_pattern: 'magazines/*.html ai-verdicts/*.json ai-verdicts/*.jsonl'
-          commit_message: 'Daily stock magazine + AI analyst: $(date +"%B %d, %Y")'
+          file_pattern: 'magazines/*.html ai-verdicts/*.json ai-verdicts/*.jsonl sp500-picks/*.json sp500-picks/*.jsonl'
+          commit_message: 'Daily stock magazine + AI analyst + S&P 500 spotlight: $(date +"%B %d, %Y")'
           skip_dirty_check: false
           skip_fetch: false
           skip_checkout: false
