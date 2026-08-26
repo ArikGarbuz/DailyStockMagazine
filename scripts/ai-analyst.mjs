@@ -17,6 +17,13 @@
 // reason, plus a run-level summary. Nothing fails silently. A majority-failure
 // run also pings the existing Telegram bot so problems surface immediately
 // instead of being discovered days later.
+//
+// TIMEOUT NOTE: every network call (Gemini, site stocks fetch) is wrapped
+// with an AbortController timeout. Discovered live: without this, a single
+// stalled Gemini request hangs the entire sequential loop indefinitely,
+// since GitHub Actions has no default per-step timeout — a 4+ minute hang
+// was observed on a re-run vs. a normal ~20s run. Timeouts turn a hang into
+// a fast, logged per-ticker failure instead.
 
 import { writeFile, mkdir, appendFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -27,9 +34,27 @@ const MODEL = 'gemini-flash-lite-latest'; // cheapest current Gemini tier; alway
 const OUT_DIR = path.join(process.cwd(), 'ai-verdicts');
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID;
+const GEMINI_TIMEOUT_MS = 25000;
+const SITE_FETCH_TIMEOUT_MS = 20000;
+const TELEGRAM_TIMEOUT_MS = 10000;
 
 function todayISO() {
   return new Date().toISOString().slice(0, 10);
+}
+
+async function fetchWithTimeout(url, options = {}, timeoutMs = 25000) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    return await fetch(url, { ...options, signal: controller.signal });
+  } catch (err) {
+    if (err.name === 'AbortError') {
+      throw new Error(`Request timed out after ${timeoutMs}ms: ${url}`);
+    }
+    throw err;
+  } finally {
+    clearTimeout(timer);
+  }
 }
 
 function buildPrompt(stock) {
@@ -46,14 +71,14 @@ function buildPrompt(stock) {
 
 async function callGemini(prompt) {
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${GOOGLE_API_KEY}`;
-  const res = await fetch(url, {
+  const res = await fetchWithTimeout(url, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       contents: [{ parts: [{ text: prompt }] }],
       generationConfig: { temperature: 0.3, maxOutputTokens: 200 }
     })
-  });
+  }, GEMINI_TIMEOUT_MS);
   if (!res.ok) {
     const errText = await res.text().catch(() => '');
     throw new Error(`Gemini HTTP ${res.status}: ${errText.slice(0, 300)}`);
@@ -80,11 +105,11 @@ async function callGemini(prompt) {
 async function notifyTelegram(message) {
   if (!TELEGRAM_BOT_TOKEN || !TELEGRAM_CHAT_ID) return;
   try {
-    await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
+    await fetchWithTimeout(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ chat_id: TELEGRAM_CHAT_ID, text: message })
-    });
+    }, TELEGRAM_TIMEOUT_MS);
   } catch (err) {
     console.error('Telegram notification failed (non-fatal):', err.message);
   }
@@ -103,7 +128,7 @@ async function main() {
 
   let stocks = [];
   try {
-    const res = await fetch(SITE_STOCKS_URL, { cache: 'no-store' });
+    const res = await fetchWithTimeout(SITE_STOCKS_URL, { cache: 'no-store' }, SITE_FETCH_TIMEOUT_MS);
     if (!res.ok) throw new Error(`Site stocks fetch failed: HTTP ${res.status}`);
     const data = await res.json();
     stocks = Array.isArray(data.stocks) ? data.stocks : [];
