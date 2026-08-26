@@ -2,9 +2,20 @@ name: Daily Stock Magazine Auto-Publish
 
 on:
   schedule:
-    # Run every weekday at 4:20 PM Israel time (14:20 UTC)
+    # PRIMARY RUN — 16:20 Israel time.
+    # Israel is on IDT (UTC+3) from late March to late October, so 16:20 local
+    # is 13:20 UTC. (The previous value, 14:20 UTC, assumed UTC+2 winter time
+    # and therefore fired an hour late, at 17:20 local, all summer.)
+    # NOTE: when Israel returns to IST (UTC+2) on 25 Oct 2026, this must
+    # change to '20 14 * * 1-5' to stay at 16:20 local.
+    - cron: '20 13 * * 1-5'
+    # CATCH-UP RUN — 17:20 Israel time (14:20 UTC).
+    # GitHub's scheduled triggers are best-effort and can be delayed or dropped
+    # entirely under load. This second schedule self-heals that: it checks
+    # whether today's magazine already exists and exits in seconds if it does,
+    # so it costs almost nothing on a normal day but rescues a missed run.
     - cron: '20 14 * * 1-5'
-  workflow_dispatch: # Allow manual trigger
+  workflow_dispatch:  # Allow manual trigger
 
 jobs:
   publish:
@@ -17,17 +28,58 @@ jobs:
         with:
           fetch-depth: 0
 
+      # Decide whether this invocation should do the work.
+      # Manual runs and the primary 13:20 UTC run always proceed. The 14:20 UTC
+      # catch-up run proceeds ONLY if today's magazine is missing, which keeps
+      # it from publishing twice on a healthy day.
+      - name: Decide whether to run
+        id: gate
+        run: |
+          TODAY_FILE="magazines/PreMarket_$(date -u +'%m%d%Y').html"
+          echo "today_file=$TODAY_FILE" >> "$GITHUB_OUTPUT"
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "Manual run - proceeding."
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "20 13 * * 1-5" ]; then
+            echo "Primary scheduled run - proceeding."
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          elif [ -f "$TODAY_FILE" ]; then
+            echo "Catch-up run, but $TODAY_FILE already exists - skipping."
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "Catch-up run and $TODAY_FILE is MISSING - primary run failed, proceeding."
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          fi
+
       # Configure Git
       - name: Configure Git
+        if: steps.gate.outputs.should_run == 'true'
         run: |
           git config user.name "Stock Magazine Bot"
           git config user.email "bot@stockmagazine.dev"
 
-      # Generate magazine
+      # Generate magazine.
+      # generate-magazine.py now exits nonzero on failure, so a crash fails
+      # this step loudly instead of showing a false green check.
       - name: Generate daily magazine
+        if: steps.gate.outputs.should_run == 'true'
         run: |
           python3 scripts/generate-magazine.py
           echo "✅ Magazine generated"
+
+      # Post-condition guard: prove the file we expect actually exists and is
+      # non-empty before anything downstream claims success. This is the check
+      # that would have caught the silent KeyError failure immediately.
+      - name: Verify today's magazine was created
+        if: steps.gate.outputs.should_run == 'true'
+        run: |
+          TODAY_FILE="${{ steps.gate.outputs.today_file }}"
+          if [ ! -s "$TODAY_FILE" ]; then
+            echo "::error::Expected $TODAY_FILE to exist and be non-empty, but it does not. Failing the run."
+            ls -la magazines/ || true
+            exit 1
+          fi
+          echo "✅ Verified $TODAY_FILE ($(wc -c < "$TODAY_FILE") bytes)"
 
       # Lean AI analyst pass (one Gemini call per ticker, not the full
       # TradingAgents multi-agent framework — see scripts/ai-analyst.mjs for
@@ -35,6 +87,7 @@ jobs:
       # publish step above. All outcomes, including failures, are logged to
       # ai-verdicts/log.jsonl as the control/audit trail.
       - name: Run AI analyst (Gemini)
+        if: steps.gate.outputs.should_run == 'true'
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -51,6 +104,7 @@ jobs:
       # Soft-fails on purpose, same as the AI analyst step above — never
       # blocks the magazine publish. See sp500-picks/log.jsonl for outcome.
       - name: Run S&P 500 daily spotlight
+        if: steps.gate.outputs.should_run == 'true'
         env:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -66,6 +120,7 @@ jobs:
       # AI analyst, or S&P 500 generation logic. Soft-fails on purpose,
       # same as the steps above.
       - name: Archive daily snapshot to Vercel KV
+        if: steps.gate.outputs.should_run == 'true'
         env:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
           KV_REST_API_URL: ${{ secrets.KV_REST_API_URL }}
@@ -76,6 +131,7 @@ jobs:
 
       # Auto-commit new files
       - name: Auto-commit new magazines
+        if: steps.gate.outputs.should_run == 'true'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           file_pattern: 'magazines/*.html ai-verdicts/*.json ai-verdicts/*.jsonl sp500-picks/*.json sp500-picks/*.jsonl'
@@ -83,9 +139,23 @@ jobs:
           skip_dirty_check: false
           skip_fetch: false
           skip_checkout: false
-          commit_user_name: Stock Magazine Bot
-          commit_user_email: bot@stockmagazine.dev
+          commit_user_name: 'Stock Magazine Bot'
+          commit_user_email: 'bot@stockmagazine.dev'
           push_options: '--force-with-lease'
+
+      # Confirm the commit actually landed on the remote. Without this, a
+      # push rejected by --force-with-lease would pass silently.
+      - name: Verify magazine is committed on origin/main
+        if: steps.gate.outputs.should_run == 'true'
+        run: |
+          TODAY_FILE="${{ steps.gate.outputs.today_file }}"
+          git fetch origin main --quiet
+          if git cat-file -e "origin/main:$TODAY_FILE" 2>/dev/null; then
+            echo "✅ $TODAY_FILE is present on origin/main"
+          else
+            echo "::error::$TODAY_FILE was generated but is NOT on origin/main - the push did not land."
+            exit 1
+          fi
 
   # Notify on success
   notify:
@@ -97,3 +167,29 @@ jobs:
         run: |
           echo "✅ Daily magazine published successfully!"
           echo "Published at: $(date)"
+
+  # Notify on FAILURE. This is the alarm that was missing: previously a failed
+  # publish produced no notification at all, so a broken day looked identical
+  # to a quiet one. Uses the Telegram secrets already configured in the repo.
+  notify-failure:
+    needs: publish
+    runs-on: ubuntu-latest
+    if: failure()
+    steps:
+      - name: Send Telegram failure alert
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          echo "::error::Daily publish FAILED. See $RUN_URL"
+          if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHAT_ID" ]; then
+            echo "Telegram secrets not set - skipping alert."
+            exit 0
+          fi
+          curl -sS -X POST \
+            "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d "chat_id=${TELEGRAM_CHAT_ID}" \
+            --data-urlencode "text=❌ Daily Stock Magazine FAILED to publish on $(date -u +'%Y-%m-%d %H:%M UTC'). Run: ${RUN_URL}" \
+            > /dev/null || echo "Telegram alert failed to send (non-fatal)."
+          echo "Failure alert dispatched."
