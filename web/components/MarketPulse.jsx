@@ -21,16 +21,6 @@ export default function MarketPulse({ date }) {
           </p>
         </div>
       </div>
-
-      <div className="mt-4 text-xs text-gray-600">
-        <p>Last updated: {new Date().toLocaleString('en-US', {
-          month: 'short',
-          day: 'numeric',
-          hour: '2-digit',
-          minute: '2-digit',
-          timeZone: 'Asia/Jerusalem'
-        })} IST</p>
-      </div>
     </div>
   );
 }
