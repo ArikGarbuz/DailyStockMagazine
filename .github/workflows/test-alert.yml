@@ -1,41 +1,41 @@
-name: TEST - Failure Alert Smoke Test
+name: TEST - Telegram Diagnostic
 
-# TEMPORARY, MANUAL-ONLY. Proves the Telegram failure alarm actually rings.
-# Mirrors the production notify-failure wiring exactly (deliberate failure ->
-# if: failure() -> Telegram) without touching daily-publish.yml. Delete after use.
+# TEMPORARY, MANUAL-ONLY. Diagnoses why the failure alarm could not deliver.
+# Sends NO messages. Only asks Telegram which bot the token belongs to and
+# which chats that bot can actually see. Delete once alerting is fixed.
 
 on:
   workflow_dispatch:
 
 jobs:
-  fail-on-purpose:
+  diagnose:
     runs-on: ubuntu-latest
     steps:
-      - name: Deliberately fail
-        run: |
-          echo 'Simulating a publish failure to test the alarm path.'
-          exit 1
-
-  notify-failure:
-    needs: fail-on-purpose
-    runs-on: ubuntu-latest
-    if: failure()
-    steps:
-      - name: Send Telegram failure alert
+      - name: Diagnose Telegram configuration
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
-          if [ -z "$TELEGRAM_BOT_TOKEN" ]; then echo '::error::TELEGRAM_BOT_TOKEN secret is EMPTY'; exit 1; fi
-          if [ -z "$TELEGRAM_CHAT_ID" ]; then echo '::error::TELEGRAM_CHAT_ID secret is EMPTY'; exit 1; fi
-          echo "Token length: ${#TELEGRAM_BOT_TOKEN} chars; chat id length: ${#TELEGRAM_CHAT_ID} chars"
-          HTTP=$(curl -sS -o /tmp/tg.json -w '%{http_code}' -X POST \
-            "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
-            -d "chat_id=${TELEGRAM_CHAT_ID}" \
-            --data-urlencode "text=✅ TEST: this is the Daily Stock Magazine failure alarm. If you can read this, alerting works. Sent $(TZ='Asia/Jerusalem' date +'%Y-%m-%d %H:%M %Z').")
-          echo "Telegram HTTP status: $HTTP"
-          echo 'Telegram API response (token is never echoed):'
-          cat /tmp/tg.json | sed 's/[0-9]\{6,\}:[A-Za-z0-9_-]*/REDACTED/g'
-          if [ "$HTTP" != "200" ]; then echo '::error::Telegram rejected the message - alerting is BROKEN'; exit 1; fi
-          echo '::notice::Telegram accepted the message (HTTP 200).'
+          echo '=== 1. Is the BOT TOKEN valid? ==='
+          curl -sS "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/getMe" -o /tmp/me.json
+          jq -r 'if .ok then "TOKEN VALID - bot is @" + .result.username else "TOKEN INVALID: " + .description end' /tmp/me.json
+
+          echo ''
+          echo '=== 2. What chat id is currently configured? ==='
+          echo "configured value: ${TELEGRAM_CHAT_ID}"
+          case "$TELEGRAM_CHAT_ID" in
+            -100*) echo 'format: supergroup/channel id' ;;
+            -*)    echo 'format: NEGATIVE = a GROUP id. A personal chat id must be POSITIVE.' ;;
+            *)     echo 'format: positive = personal chat id' ;;
+          esac
+
+          echo ''
+          echo '=== 3. Which chats can the bot actually see? ==='
+          curl -sS "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/getUpdates" -o /tmp/up.json
+          COUNT=$(jq -r '.result | length' /tmp/up.json)
+          if [ "$COUNT" = "0" ]; then
+            echo 'NO CHATS VISIBLE.'
+            echo 'Open Telegram, find the bot from step 1, press START / send /start, then re-run this workflow.'
+          else
+            jq -r '.result[]? | (.message // .channel_post // .my_chat_member) as $m | select($m != null) | "USE THIS -> chat_id=" + ($m.chat.id|tostring) + "   type=" + $m.chat.type + "   name=" + (($m.chat.title // $m.chat.username // $m.chat.first_name) // "?")' /tmp/up.json | sort -u
+          fi
