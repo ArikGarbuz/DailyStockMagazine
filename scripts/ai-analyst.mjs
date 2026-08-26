@@ -60,10 +60,13 @@ const MODEL = 'gemini-flash-lite-latest'; // cheapest current Gemini tier; alway
 const OUT_DIR = path.join(process.cwd(), 'ai-verdicts');
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID;
-const GEMINI_TIMEOUT_MS = 30000; // slightly higher than before: the richer prompt/response takes a bit longer
+const GEMINI_TIMEOUT_MS = 35000; // slightly higher than before: the richer prompt/response takes a bit longer
 const SITE_FETCH_TIMEOUT_MS = 20000;
 const TELEGRAM_TIMEOUT_MS = 10000;
-const GEMINI_MAX_OUTPUT_TOKENS = 700; // room for the fuller bilingual fundamental/technical/risk brief
+// Live run discovered 700 was too low: 4/6 failures on the first deep-analysis
+// run were valid responses truncated mid-JSON by the output cap (13 fields,
+// bilingual EN+HE, sometimes verbose fundamentals). Raised with headroom.
+const GEMINI_MAX_OUTPUT_TOKENS = 1300;
 const GEMINI_MIN_INTERVAL_MS = 4500; // keeps us under free-tier RPM even back-to-back with another run
 const GEMINI_429_RETRY_DELAY_MS = 8000; // one extra breather before a single retry on rate-limit
 
