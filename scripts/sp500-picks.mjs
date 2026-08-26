@@ -170,6 +170,31 @@ async function searchWikipediaTitle(name) {
   return hit.title;
 }
 
+// Resolves the Wikipedia article for a candidate by trying each of several
+// name variants in order, keeping the first one that yields a usable
+// summary. This exists because short static-list names can collide with an
+// unrelated, more prominent article — e.g. ticker ODFL's static name "Old
+// Dominion" resolves to Old Dominion University on Wikipedia instead of the
+// trucking company Old Dominion Freight Line. Finnhub's own `profile.name`
+// (the fuller legal name, e.g. "Old Dominion Freight Line, Inc.") is tried
+// first since it disambiguates far better than a short display name; the
+// static list name is kept only as a fallback for cases where the legal
+// name doesn't match Wikipedia's article title well.
+async function resolveWikipediaSummary(nameVariants) {
+  let lastErr;
+  for (const candidate of nameVariants) {
+    if (!candidate) continue;
+    try {
+      const resolvedTitle = await searchWikipediaTitle(candidate);
+      const summary = await fetchWikipediaSummary(resolvedTitle);
+      return summary;
+    } catch (err) {
+      lastErr = err;
+    }
+  }
+  throw lastErr || new Error('no Wikipedia match for any name variant');
+}
+
 async function fetchWikipediaSummary(title, lang = 'en') {
   const url = `https://${lang}.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title.replace(/ /g, '_'))}`;
   const res = await fetchWithTimeout(url, { headers: { 'User-Agent': WIKI_UA } }, WIKI_TIMEOUT_MS);
@@ -245,11 +270,9 @@ async function tryEnrichCandidate(entry) {
     return { ticker, name, skipped: true, reason: 'no official website (Finnhub weburl empty)' };
   }
 
-  let resolvedTitle;
   let summary;
   try {
-    resolvedTitle = await searchWikipediaTitle(name);
-    summary = await fetchWikipediaSummary(resolvedTitle);
+    summary = await resolveWikipediaSummary([profile.name, name]);
   } catch (err) {
     return { ticker, name, skipped: true, reason: `business description unavailable: ${err.message}` };
   }
