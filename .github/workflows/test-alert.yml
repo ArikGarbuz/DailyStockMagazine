@@ -1,0 +1,41 @@
+name: TEST - Failure Alert Smoke Test
+
+# TEMPORARY, MANUAL-ONLY. Proves the Telegram failure alarm actually rings.
+# Mirrors the production notify-failure wiring exactly (deliberate failure ->
+# if: failure() -> Telegram) without touching daily-publish.yml. Delete after use.
+
+on:
+  workflow_dispatch:
+
+jobs:
+  fail-on-purpose:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deliberately fail
+        run: |
+          echo 'Simulating a publish failure to test the alarm path.'
+          exit 1
+
+  notify-failure:
+    needs: fail-on-purpose
+    runs-on: ubuntu-latest
+    if: failure()
+    steps:
+      - name: Send Telegram failure alert
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -z "$TELEGRAM_BOT_TOKEN" ]; then echo '::error::TELEGRAM_BOT_TOKEN secret is EMPTY'; exit 1; fi
+          if [ -z "$TELEGRAM_CHAT_ID" ]; then echo '::error::TELEGRAM_CHAT_ID secret is EMPTY'; exit 1; fi
+          echo "Token length: ${#TELEGRAM_BOT_TOKEN} chars; chat id length: ${#TELEGRAM_CHAT_ID} chars"
+          HTTP=$(curl -sS -o /tmp/tg.json -w '%{http_code}' -X POST \
+            "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d "chat_id=${TELEGRAM_CHAT_ID}" \
+            --data-urlencode "text=✅ TEST: this is the Daily Stock Magazine failure alarm. If you can read this, alerting works. Sent $(TZ='Asia/Jerusalem' date +'%Y-%m-%d %H:%M %Z').")
+          echo "Telegram HTTP status: $HTTP"
+          echo 'Telegram API response (token is never echoed):'
+          cat /tmp/tg.json | sed 's/[0-9]\{6,\}:[A-Za-z0-9_-]*/REDACTED/g'
+          if [ "$HTTP" != "200" ]; then echo '::error::Telegram rejected the message - alerting is BROKEN'; exit 1; fi
+          echo '::notice::Telegram accepted the message (HTTP 200).'
