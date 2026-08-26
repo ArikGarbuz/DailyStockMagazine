@@ -84,6 +84,8 @@ jobs:
       # step loudly instead of showing a false green check.
       - name: Generate daily magazine
         if: steps.gate.outputs.should_run == 'true'
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
         run: |
           python3 scripts/generate-magazine.py
           echo "✅ Magazine generated"
