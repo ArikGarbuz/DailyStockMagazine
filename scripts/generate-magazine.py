@@ -73,7 +73,7 @@ def generate_stock_card(stock):
       <div class="social">
         <span class="tag tag-{stock['sentiment'].lower()}">{sentiment_text}</span>
         {reddit_tag}
-        <span class="tag tag-neutral">📊 {stock['catalyst']}</span>
+        <span class="tag tag-neutral">📊 {stock.get('catalyst', 'Momentum')}</span>
       </div>
       <div class="mcap">Market Cap: {stock['marketCap']} | Vol: {stock['volume']}</div>
       <div class="links">
