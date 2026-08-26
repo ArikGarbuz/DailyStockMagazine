@@ -1,16 +1,25 @@
-// AI Analyst — lean, single-call-per-ticker sentiment layer inspired by
-// TauricResearch/TradingAgents (multi-agent LLM trading framework), but
-// deliberately NOT the full framework: that project runs 4 analysts + a
-// bull/bear debate + trader + risk team + portfolio manager per ticker
-// (8-15+ LLM calls). Running that live, per pageview, for 15 tickers/day
-// would be slow and needlessly expensive. This script instead makes ONE
-// Gemini call per ticker, using the same real Finnhub-derived numbers the
-// site already shows (price, % change, 52-week range, volume trend, news
-// headline), and asks for a single structured bull/bear-style verdict.
+// AI Analyst — lean, single-call-per-ticker fund-style research brief,
+// inspired by TauricResearch/TradingAgents (multi-agent LLM trading
+// framework), but deliberately NOT the full framework: that project runs
+// 4 analysts + a bull/bear debate + trader + risk team + portfolio manager
+// per ticker (8-15+ LLM calls). Running that live for 15 tickers/day would
+// be far slower, more expensive, and more failure-prone than this app
+// needs. This script instead makes ONE Gemini call per ticker, but asks
+// for real fund-analyst-style depth in that single call: a fundamental
+// read (using real P/E, EPS, margins, ROE, debt/equity, revenue growth
+// pulled from Finnhub), a technical read (price momentum, position in the
+// 52-week range, volume trend), a risk assessment, and an explicit
+// investment recommendation (BUY/HOLD/AVOID/SELL) with entry zone, target,
+// and stop-loss. If the risk/reward doesn't look favorable, the model is
+// explicitly told the conclusion must be AVOID or SELL, not a vague HOLD.
 //
 // Runs once per day via GitHub Actions (see .github/workflows/daily-publish.yml),
 // never inside the Vercel request path — so it costs nothing extra per visitor
 // and never competes with Finnhub's own rate limit.
+//
+// NOT PERSONALIZED FINANCIAL ADVICE: this is a general-purpose LLM's read
+// of public data, clearly labeled as a research heuristic in the UI. It has
+// no knowledge of any individual's portfolio, risk tolerance, or goals.
 //
 // CONTROL / OBSERVABILITY (requested explicitly): every run appends one line
 // to ai-verdicts/log.jsonl with per-ticker success/failure and an error
@@ -51,11 +60,15 @@ const MODEL = 'gemini-flash-lite-latest'; // cheapest current Gemini tier; alway
 const OUT_DIR = path.join(process.cwd(), 'ai-verdicts');
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID;
-const GEMINI_TIMEOUT_MS = 25000;
+const GEMINI_TIMEOUT_MS = 30000; // slightly higher than before: the richer prompt/response takes a bit longer
 const SITE_FETCH_TIMEOUT_MS = 20000;
 const TELEGRAM_TIMEOUT_MS = 10000;
+const GEMINI_MAX_OUTPUT_TOKENS = 700; // room for the fuller bilingual fundamental/technical/risk brief
 const GEMINI_MIN_INTERVAL_MS = 4500; // keeps us under free-tier RPM even back-to-back with another run
 const GEMINI_429_RETRY_DELAY_MS = 8000; // one extra breather before a single retry on rate-limit
+
+const VALID_RECOMMENDATIONS = ['BUY', 'HOLD', 'AVOID', 'SELL'];
+const VALID_RISK_LEVELS = ['LOW', 'MEDIUM', 'HIGH'];
 
 function todayISO() {
   return new Date().toISOString().slice(0, 10);
@@ -94,20 +107,37 @@ async function fetchWithTimeout(url, options = {}, timeoutMs = 25000) {
   }
 }
 
+// Builds the fundamentals line from whatever real Finnhub ratios route.js
+// was able to pull — never invents a number that wasn't actually provided.
+function buildFundamentalsSummary(stock) {
+  const parts = [
+    stock.peTTM != null ? `P/E (TTM): ${stock.peTTM.toFixed(1)}` : null,
+    stock.epsTTM != null ? `EPS (TTM): $${stock.epsTTM.toFixed(2)}` : null,
+    stock.revenueGrowthYoY != null ? `Revenue growth (YoY): ${stock.revenueGrowthYoY.toFixed(1)}%` : null,
+    stock.grossMarginTTM != null ? `Gross margin (TTM): ${stock.grossMarginTTM.toFixed(1)}%` : null,
+    stock.netMarginTTM != null ? `Net margin (TTM): ${stock.netMarginTTM.toFixed(1)}%` : null,
+    stock.roeTTM != null ? `ROE (TTM): ${stock.roeTTM.toFixed(1)}%` : null,
+    stock.debtToEquity != null ? `Debt/Equity: ${stock.debtToEquity.toFixed(2)}` : null
+  ].filter(Boolean);
+  return parts.length > 0 ? parts.join(', ') : 'not available from data provider';
+}
+
 function buildPrompt(stock) {
-  return `You are one analyst giving a single, concise research take on a stock — not financial advice. ` +
-    `Reply with STRICT JSON only, no markdown fences, no extra text: ` +
-    `{"verdict":"BULLISH|BEARISH|NEUTRAL","rationale":"one short English sentence","rationaleHE":"one short Hebrew sentence, same meaning"}\n\n` +
+  return `You are a research analyst at an investment fund writing a concise but rigorous single-stock brief for internal use — ` +
+    `this is general research, NOT personalized financial advice, and the reader knows that. ` +
+    `Base your read strictly on the data given below; if a figure is marked "not available", say so rather than inventing a number. ` +
+    `Be willing to recommend AVOID or SELL when the risk/reward genuinely looks unfavorable — do not default to HOLD just to be safe. ` +
+    `Reply with STRICT JSON only, no markdown fences, no extra commentary, matching exactly this shape:\n` +
+    `{"recommendation":"BUY|HOLD|AVOID|SELL","riskLevel":"LOW|MEDIUM|HIGH","entryZone":"short price range or n/a","targetPrice":"short price target or n/a","stopLoss":"short stop-loss price or n/a","fundamental":"1-2 English sentences","fundamentalHE":"Hebrew, same meaning","technical":"1-2 English sentences","technicalHE":"Hebrew, same meaning","risk":"1-2 English sentences","riskHE":"Hebrew, same meaning","rationale":"one English sentence, overall conclusion","rationaleHE":"Hebrew, same meaning"}\n\n` +
     `Ticker: ${stock.ticker} (${stock.exchange})\n` +
     `Price: $${stock.price} (${stock.change >= 0 ? '+' : ''}${Number(stock.change).toFixed(2)}% today)\n` +
     `Market cap: ${stock.marketCap || 'n/a'}\n` +
     `52-week range: ${stock.week52Low != null ? '$' + stock.week52Low.toFixed(2) : 'n/a'}-${stock.week52High != null ? '$' + stock.week52High.toFixed(2) : 'n/a'}\n` +
     `Volume trend: 10-day avg ${stock.dailyVolumeAvg || 'n/a'} vs 3-month avg ${stock.volume3MonthAvg || 'n/a'} shares\n` +
+    `Fundamentals: ${buildFundamentalsSummary(stock)}\n` +
     `Recent headline: ${stock.why || 'none available'}`;
 }
 
-// isRateLimit lets the caller decide whether a failure is worth a single
-// retry (429 only) vs. failing the ticker immediately (everything else).
 async function callGemini(prompt) {
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${GOOGLE_API_KEY}`;
   const res = await fetchWithTimeout(url, {
@@ -115,7 +145,7 @@ async function callGemini(prompt) {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       contents: [{ parts: [{ text: prompt }] }],
-      generationConfig: { temperature: 0.3, maxOutputTokens: 200 }
+      generationConfig: { temperature: 0.3, maxOutputTokens: GEMINI_MAX_OUTPUT_TOKENS }
     })
   }, GEMINI_TIMEOUT_MS);
   if (!res.ok) {
@@ -138,8 +168,11 @@ async function callGemini(prompt) {
   } catch (err) {
     throw new Error(`Gemini response was not valid JSON: ${text.slice(0, 200)}`);
   }
-  if (!['BULLISH', 'BEARISH', 'NEUTRAL'].includes(parsed.verdict)) {
-    throw new Error(`Gemini returned unexpected verdict: ${JSON.stringify(parsed).slice(0, 200)}`);
+  if (!VALID_RECOMMENDATIONS.includes(parsed.recommendation)) {
+    throw new Error(`Gemini returned unexpected recommendation: ${JSON.stringify(parsed).slice(0, 200)}`);
+  }
+  if (!VALID_RISK_LEVELS.includes(parsed.riskLevel)) {
+    throw new Error(`Gemini returned unexpected riskLevel: ${JSON.stringify(parsed).slice(0, 200)}`);
   }
   return { ...parsed, tokens };
 }
@@ -210,7 +243,17 @@ async function main() {
       results.push({
         ticker: stock.ticker,
         status: 'ok',
-        verdict: verdict.verdict,
+        recommendation: verdict.recommendation,
+        riskLevel: verdict.riskLevel,
+        entryZone: verdict.entryZone,
+        targetPrice: verdict.targetPrice,
+        stopLoss: verdict.stopLoss,
+        fundamental: verdict.fundamental,
+        fundamentalHE: verdict.fundamentalHE,
+        technical: verdict.technical,
+        technicalHE: verdict.technicalHE,
+        risk: verdict.risk,
+        riskHE: verdict.riskHE,
         rationale: verdict.rationale,
         rationaleHE: verdict.rationaleHE,
         tokens: verdict.tokens
