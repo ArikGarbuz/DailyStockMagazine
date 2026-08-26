@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "generatedAt": "2026-08-26T19:26:08.932Z",
+  "generatedAt": "2026-08-26T20:30:58.937Z",
   "windowStart": 320,
   "windowSize": 40,
   "cyclePosition": 8,
@@ -94,8 +94,8 @@
       "descriptionHE": "מורגן סטנלי הוא תאגיד אמריקני הנסחר בבורסה לניירות ערך בניו יורק, ואשר עוסק בתחום בנקאות ההשקעות והשירותים הפיננסיים. החברה, שמטהַ נמצא בעיר ניו יורק, משרתת מגוון של תאגידים, ממשלות, ארגונים פיננסיים ואנשים פרטיים. מורגן סטנלי פועל ב-33 מדינות ברחבי העולם, ויש לו 600 משרדים שבהם מועסקים כ-45,000 עובדים. על פי דיווחי החברה, היא מנהלת נכסים בהיקף של 779 מיליארד דולר.",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Morgan_Stanley",
       "employees": 80006,
-      "price": 213.86,
-      "change": -1.3424
+      "price": 214.08,
+      "change": -1.2409
     },
     {
       "ticker": "MOS",
@@ -108,8 +108,8 @@
       "descriptionHE": null,
       "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Mosaic_Company",
       "employees": 8400,
-      "price": 24.27,
-      "change": 0
+      "price": 24.16,
+      "change": -0.4532
     },
     {
       "ticker": "MSI",
@@ -122,8 +122,8 @@
       "descriptionHE": null,
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Motorola_Solutions",
       "employees": 18000,
-      "price": 487.15,
-      "change": 0.3626
+      "price": 487.28,
+      "change": 0.3894
     },
     {
       "ticker": "NDAQ",
@@ -136,8 +136,8 @@
       "descriptionHE": null,
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Nasdaq%2C_Inc.",
       "employees": 8809,
-      "price": 99.31,
-      "change": 0.5875
+      "price": 99.47,
+      "change": 0.7495
     },
     {
       "ticker": "NTAP",
@@ -150,8 +150,8 @@
       "descriptionHE": "נטאפ בע\"מ היא חברת מחשבים אמריקאית המתמחה בניהול אחסון ובמאגרי נתונים. קובצי האחסון של נטאפ מחוברים לרשתות, ומאפשרים לקהל הלקוחות הארגוני לאחסן ולשתף נתונים בין העובדים. משרדיה הראשיים של החברה ממוקמים בסאניווייל, קליפורניה. החברה חברה בנאסד\"ק-100, ודורגה כאחת מ־500 החברות ששוויין הגדול ביותר בפעם הראשונה ב-2012.",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/NetApp",
       "employees": 12000,
-      "price": 194.31,
-      "change": 3.6707
+      "price": 193.85,
+      "change": 3.4253
     },
     {
       "ticker": "NFLX",
@@ -164,8 +164,8 @@
       "descriptionHE": null,
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Netflix%2C_Inc.",
       "employees": 11300,
-      "price": 81.86,
-      "change": -0.45
+      "price": 81.46,
+      "change": -0.9364
     },
     {
       "ticker": "NKE",
@@ -178,8 +178,8 @@
       "descriptionHE": "נייקי הוא תאגיד רב-לאומי אמריקאי העוסק בייצור נעלי ספורט, ביגוד וציוד ספורט.",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Nike%2C_Inc.",
       "employees": 76700,
-      "price": 38.67,
-      "change": -2.0517
+      "price": 38.59,
+      "change": -2.2543
     },
     {
       "ticker": "NTRS",
@@ -192,8 +192,8 @@
       "descriptionHE": null,
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Northern_Trust",
       "employees": 20900,
-      "price": 187.53,
-      "change": 0.38
+      "price": 187.66,
+      "change": 0.4496
     },
     {
       "ticker": "NOC",
@@ -206,8 +206,8 @@
       "descriptionHE": "נוֹרְתְ'רוֹפּ גְּרָאמֶן הוא קונצרן ספנות, תעופה, חלל וביטחון, תוצאה של רכישת גראמן על ידי נורת'רופ. החברה, הממוקמת במטרופולין וושינגטון די. סי. שבווירג'יניה, ארצות הברית, היא יצרנית מערכות־ביטחוניות השלישית בגודלה בעולם, יצרנית מערכות המכ\"ם הגדולה ביותר, והיצרנית המובילה בעולם של כלי שיט. נכון לשנת 2017, העסיקה למעלה מ-67,000 עובדים בכמה מאות אתרים בארצות הברית ומחוצה לה. נכון לשנת 2010, \"נורת'רופ גראמן\" מדורגת במקום ה-61 ברשימת פורצ'ן 500 של חברות תעשייתיות אמריקניות.",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Northrop_Grumman",
       "employees": 65600,
-      "price": 551.55,
-      "change": 1.6645
+      "price": 549.95,
+      "change": 1.3695
     },
     {
       "ticker": "NRG",
@@ -220,8 +220,8 @@
       "descriptionHE": null,
       "wikipediaUrl": "https://en.wikipedia.org/wiki/NRG_Energy",
       "employees": 9806,
-      "price": 116.34,
-      "change": 2.403
+      "price": 116.14,
+      "change": 2.2269
     },
     {
       "ticker": "NUE",
@@ -234,8 +234,8 @@
       "descriptionHE": null,
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Nucor",
       "employees": 31400,
-      "price": 252.86,
-      "change": 2.145
+      "price": 252.8,
+      "change": 2.1208
     },
     {
       "ticker": "NVDA",
@@ -248,8 +248,8 @@
       "descriptionHE": "אנבידיה היא חברה אמריקאית, ספקית גדולה של מיקרו-שבבים המשמשים לערכות שבבים של מחשבים אישיים, יחידות עיבוד גרפיות (GPU), כרטיסי מסך, חישובי בינה מלאכותית, התקני מדיה ותקשורת וקונסולות משחקים. החברה מוכרת בזכות סדרות כרטיסי המסך למחשב GeForce ו-Quadro, סדרת ערכות השבבים nForce, וסדרת השבבים טגרה לסמארטפונים ולטאבלטים. המטה הראשי של החברה נמצא בסנטה קלרה שבקליפורניה.",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Nvidia",
       "employees": 42000,
-      "price": 211,
-      "change": -0.9622
+      "price": 209.66,
+      "change": -1.5912
     },
     {
       "ticker": "ODFL",
@@ -262,8 +262,8 @@
       "descriptionHE": null,
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Old_Dominion_Freight_Line",
       "employees": 21279,
-      "price": 199.79,
-      "change": 0.7311
+      "price": 199.43,
+      "change": 0.5496
     },
     {
       "ticker": "ON",
@@ -276,8 +276,8 @@
       "descriptionHE": null,
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Onsemi",
       "employees": 26400,
-      "price": 73.31,
-      "change": 1.1033
+      "price": 73.22,
+      "change": 0.9792
     },
     {
       "ticker": "ORCL",
@@ -290,8 +290,8 @@
       "descriptionHE": "אורקל היא חברת תוכנה אמריקאית רב־לאומית מהגדולות בעולם, הידועה בעיקר בשל פיתוח שניים ממסדי הנתונים המובילים בעולם: אורקל ו־MySQL. בנוסף לכך מוכרת החברה שירותי מחשוב ענן ותוכנה ארגונית בתחומים שונים: ERP, ניהול משאבי אנוש, ניהול קשרי לקוחות, ניהול שרשרת האספקה ועוד. בנוסף, בעקבות רכישת סאן מיקרוסיסטמס, אורקל מייצרת חומרה והיא הבעלים של שפת התכנות Java.",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Oracle_Corporation",
       "employees": 162000,
-      "price": 149.1,
-      "change": 2.9981
+      "price": 148.87,
+      "change": 2.8392
     }
   ]
 }
