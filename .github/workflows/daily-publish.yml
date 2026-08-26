@@ -59,6 +59,21 @@ jobs:
           node scripts/sp500-picks.mjs
           echo "✅ S&P 500 spotlight step finished (see sp500-picks/log.jsonl for outcome)"
 
+      # Cloud archive write — appends today's stock snapshots to Vercel KV
+      # (Upstash Redis) for the "Cloud Archive" table and "Last Updated"
+      # badge. Purely additive: only reads ai-verdicts/latest.json (already
+      # produced above) and writes to KV — never touches the magazine,
+      # AI analyst, or S&P 500 generation logic. Soft-fails on purpose,
+      # same as the steps above.
+      - name: Archive daily snapshot to Vercel KV
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          KV_REST_API_URL: ${{ secrets.KV_REST_API_URL }}
+          KV_REST_API_TOKEN: ${{ secrets.KV_REST_API_TOKEN }}
+        run: |
+          node scripts/archive-to-kv.mjs
+          echo "✅ KV archive step finished"
+
       # Auto-commit new files
       - name: Auto-commit new magazines
         uses: stefanzweifel/git-auto-commit-action@v5
