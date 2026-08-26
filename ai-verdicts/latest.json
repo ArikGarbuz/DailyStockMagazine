@@ -1,131 +1,122 @@
 {
   "date": "2026-08-26",
-  "generatedAt": "2026-08-26T06:11:14.563Z",
+  "generatedAt": "2026-08-26T06:50:35.683Z",
   "model": "gemini-flash-lite-latest",
   "tickersAttempted": 15,
-  "succeeded": 15,
-  "failed": 0,
-  "totalTokens": 3736,
+  "succeeded": 12,
+  "failed": 3,
+  "totalTokens": 3050,
   "results": [
     {
       "ticker": "CLSK",
       "status": "ok",
       "verdict": "BULLISH",
-      "rationale": "CleanSpark benefits from strong institutional whale interest and momentum in the Bitcoin mining sector.",
-      "rationaleHE": "קלין ספארק נהנית מעניין מוסדי חזק וממומנטום בסקטור כריית הביטקוין.",
-      "tokens": 234
+      "rationale": "Strong upward momentum and institutional whale interest signal favorable near-term upside despite broader crypto volatility.",
+      "rationaleHE": "מוهentum עולה חזק ועניין מצד משקיעים מוסדיים גדולים מצביעים על פוטנציאל חיובי בטווח הקצר למרות תנודתיות קריפטו רחבה.",
+      "tokens": 254
     },
     {
       "ticker": "RIOT",
-      "status": "ok",
-      "verdict": "BULLISH",
-      "rationale": "Rising trading volume and stealth investor accumulation signal an impending breakout for this major Bitcoin miner.",
-      "rationaleHE": "נפח המסחר העולה והצטברות המשקיעים החשאית מסמנים פריצה קרובה עבור כורה הביטקוין הגדול הזה.",
-      "tokens": 251
+      "status": "error",
+      "error": "Request timed out after 25000ms: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent"
     },
     {
       "ticker": "CIFR",
       "status": "ok",
       "verdict": "BULLISH",
-      "rationale": "The pivot of crypto miners into AI infrastructure offers significant untapped upside for high-volume players like CIFR.",
-      "rationaleHE": "המעבר של כורי קריפטו לתשתיות בינה מלאכותית מציע פוטנציאל צמיחה משמעותי ולא ממומש עבור שחקנים בנפח מסחר גבוה כמו CIFR.",
-      "tokens": 257
+      "rationale": "The pivot of crypto miners into AI infrastructure offers high growth potential at a relatively attractive valuation.",
+      "rationaleHE": "המעבר של כורי קריפטו לתשתית בינה מלאכותית מציע פוטנציאל צמיחה גבוה בהערכת שווי אטרקטיבית יחסית.",
+      "tokens": 245
     },
     {
       "ticker": "MARA",
       "status": "ok",
-      "verdict": "BULLISH",
-      "rationale": "Rising trading volume and strong upward price momentum signal sustained speculative interest despite macroeconomic headwinds.",
-      "rationaleHE": "נפח המסחר העולה ומומנטום המחירים החזק מסמנים עניין ספקולטיבי נמשך למרות הרוחות הנגדיות המאקרו-כלכליות.",
-      "tokens": 267
+      "verdict": "BEARISH",
+      "rationale": "High volatility and rising crypto-AI narrative conflicts threaten valuation stability despite short-term momentum.",
+      "rationaleHE": "התנודתיות הגבוהה והסתירות סביב נרטיב הקריפטו-AI מאיימות על יציבות ההערכה למרות המומנטום לטווח הקצר.",
+      "tokens": 268
     },
     {
       "ticker": "WULF",
       "status": "ok",
       "verdict": "BULLISH",
-      "rationale": "WULF is uniquely positioned to capitalize on the high-growth AI infrastructure conversion trend.",
-      "rationaleHE": "WULF ממוקמת באופן ייחודי לנצל את מגמת ההמרה לצמיחה גבוהה של תשתיות בינה מלאכותית.",
-      "tokens": 233
+      "rationale": "WULF is uniquely positioned to capitalize on the high-margin transition of crypto mining assets into AI data center infrastructure.",
+      "rationaleHE": "WULF ממוקמת באופן ייחודי למנף את המעבר רווחי השוליים של נכסי כריית קריפטו לתשתית מרכזי נתונים של בינה מלאכותית.",
+      "tokens": 256
     },
     {
       "ticker": "PLUG",
       "status": "ok",
       "verdict": "NEUTRAL",
-      "rationale": "Improving gross margins show operational progress, but persistent cash burn and heavy dilution risks warrant a cautious hold.",
-      "rationaleHE": "שיפור במרווחים הגולמיים מראה התקדמות תפעולית, אך שריפת מזומנים מתמשכת וסיכוני דילול כבדים מחייבים המתנה זהירה.",
-      "tokens": 248
+      "rationale": "Plug Power shows improving margins, but persistent execution challenges and capital needs warrant a cautious stance.",
+      "rationaleHE": "פלאג פאוור מציגה שיפור במרווחים, אך אתגרים מתמשכים בביצוע וצרכי הון מצדיקים עמדה זהירה.",
+      "tokens": 238
     },
     {
       "ticker": "POET",
       "status": "ok",
       "verdict": "NEUTRAL",
-      "rationale": "High volatility and whale interest suggest potential momentum, but fading volume warrants caution at these valuation levels.",
-      "rationaleHE": "התנודתיות הגבוהה ועניין הלווייתנים מרמזים על פוטנציאל מומנטום, אך מחזור המסחר הדועך מצדיק זהירות ברמות שווי אלו.",
-      "tokens": 251
+      "rationale": "Subdued volume relative to averages and whale activity point to consolidation after a volatile run, leaving the stock directionless for now.",
+      "rationaleHE": "נפח המסחר הנמוך יחסית לממוצע ופעילות הלווייתנים מצביעים על התבססות לאחר תקופה תנודתית, מה שותיר את המניה ללא כיוון ברור לעת עתה.",
+      "tokens": 264
     },
     {
       "ticker": "SOFI",
       "status": "ok",
       "verdict": "BULLISH",
-      "rationale": "SoFi's multi-product ecosystem is successfully scaling, driving strong user growth and validating the everything-app thesis.",
-      "rationaleHE": "אקוסיסטם המוצרים המרובים של סופי צומח בהצלחה, מניע גידול חזק במשתמשים ומאמת את תזת אפליקציית הכל-בכל.",
-      "tokens": 253
+      "rationale": "SoFi's financial super-app strategy is gaining traction, driving strong user growth and monetization.",
+      "rationaleHE": "אסטרטגיית אפליקציית-העל הפיננסית של סופי צוברת תאוצה ומניעה צמיחה חזקה במשתמשים ובמונטיזציה.",
+      "tokens": 244
     },
     {
       "ticker": "NOK",
       "status": "ok",
-      "verdict": "BULLISH",
-      "rationale": "Nokia demonstrates strong momentum near the upper half of its 52-week range, supported by solid market capitalization and steady trading volume.",
-      "rationaleHE": "נוקיה מציגה מומנטום חזק בקרבה לחצי העליון של טווח 52 השבועות שלה, נתמכת בשווי שוק מוצק ובנפח מסחר יציב.",
-      "tokens": 262
+      "verdict": "NEUTRAL",
+      "rationale": "Nokia is consolidating in the mid-range of its 52-week span with typical volume, lacking a strong near-term catalyst.",
+      "rationaleHE": "נוקيا מתבססת באמצע טווח 52 השבועות שלה עם נפח מסחר רגיל, ללא זזר משמעותי בטווח הקצר.",
+      "tokens": 249
     },
     {
       "ticker": "LCID",
       "status": "ok",
       "verdict": "BEARISH",
-      "rationale": "Lucid trades near historic lows with severe volume contraction and ongoing cash burn risks.",
-      "rationaleHE": "לוסיד נסחרת קרוב לשפל היסטורי עם ירידה חדה בנפח המסחר וסיכוני שריפת מזומנים מתמשכים.",
-      "tokens": 250
+      "rationale": "Severe long-term downward price momentum, collapsing trading volume, and extreme structural cash burn outweigh minor daily gains.",
+      "rationaleHE": "מו momentum שלילי ארוך טווח, קריסה בנפח המסחר ושריפת מזומנים מבנית קיצונית גוברים על רווחים יומיים קלים.",
+      "tokens": 260
     },
     {
       "ticker": "FCEL",
       "status": "ok",
-      "verdict": "BEARISH",
-      "rationale": "High volatility and heavy institutional options interest amid waning volume suggest continued downward pressure for the stock.",
-      "rationaleHE": "התנודתיות הגבוהה ועניין רב מצד מוסדיים על רקע דעיכת מחזורי המסחר מרמזים על לחץ שלילי מתמשך על המניה.",
-      "tokens": 246
+      "verdict": "NEUTRAL",
+      "rationale": "High volatility and heavy institutional whale activity suggest consolidation as the stock trades in the middle of its wide 52-week range.",
+      "rationaleHE": "תנודתיות גבוהה ופעילות מוסדית ערה מרמזות על התבססות בעוד המניות נסחרות במרכז טווח 52 השבועות הרחב שלהן.",
+      "tokens": 259
     },
     {
       "ticker": "NIO",
       "status": "ok",
       "verdict": "BEARISH",
-      "rationale": "Persistent losses and intense price competition in China's EV market outweigh modest volume trends.",
-      "rationaleHE": "הפסדים מתמשכים ותחרות מחירים עזה בשוק הרכב החשמלי בסין עולים על מגמות המסחר המתונות.",
-      "tokens": 225
+      "rationale": "Trading near 52-week lows and lagging volume indicate persistent downward pressure despite broader sector optimism.",
+      "rationaleHE": "המסחר בקרפל שפל 52 השבועות ונפח המסחר הנמוך מעידים על לחץ שלילי מתמשך למרות אופטימיות רחבה יותר בסקטอร์.",
+      "tokens": 242
     },
     {
       "ticker": "ACHR",
       "status": "ok",
-      "verdict": "BEARISH",
-      "rationale": "High capital burn and stiff competition in the speculative eVTOL sector outweigh near-term commercialization milestones.",
-      "rationaleHE": "שריפת הון גבוהה ותחרות עזה במגזר ה-eVTOL הספקולטיבי עולות על אבני הדרך המסחריות בטווח הקצר.",
-      "tokens": 252
+      "verdict": "NEUTRAL",
+      "rationale": "Archer Aviation holds strong strategic backing and capital, but remains a pre-revenue speculative play facing intense eVTOL sector competition.",
+      "rationaleHE": "ארצ'ר אוביאיישן נהנית מגב אסטרטגי חזק ומהון, אך נותרת מניה ספקולטיבית טרום-הכנסות המתמודדת עם תחרות עזה במגזר ה-eVTOL.",
+      "tokens": 271
     },
     {
       "ticker": "SIRI",
-      "status": "ok",
-      "verdict": "NEUTRAL",
-      "rationale": "Stable audio subscriber base and dividend appeal are offset by declining volume and lack of aggressive growth catalysts.",
-      "rationaleHE": "בסיס מנויים יציב ומושכות דיבידנד מאוזנים על ידי ירידה בנפח המסחר וחוסר בזרזי צמיחה אגרסיביים.",
-      "tokens": 248
+      "status": "error",
+      "error": "Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota ex"
     },
     {
       "ticker": "RIVN",
-      "status": "ok",
-      "verdict": "BULLISH",
-      "rationale": "Strong early indicators for the R2 platform support Rivian's path toward profitability despite lower current trading volumes.",
-      "rationaleHE": "חיוויים מוקדמים חזקים לפלטפורמת R2 תומכים בדרכה של ריביאן לעבר רווחיות למרות נפחי מסחר נוכחיים נמוכים יחסית.",
-      "tokens": 259
+      "status": "error",
+      "error": "Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota ex"
     }
   ]
 }
