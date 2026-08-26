@@ -22,9 +22,15 @@
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 
-const FINNHUB_API_KEY = process.env.FINNHUB_API_KEY;
-const KV_REST_API_URL = process.env.KV_REST_API_URL;
-const KV_REST_API_TOKEN = process.env.KV_REST_API_TOKEN;
+// Defensive: strip accidental surrounding quotes if a secret was pasted
+// verbatim from a .env file line like KV_REST_API_URL="https://...".
+function stripQuotes(v) {
+  return typeof v === 'string' ? v.trim().replace(/^["']|["']$/g, '') : v;
+}
+
+const FINNHUB_API_KEY = stripQuotes(process.env.FINNHUB_API_KEY);
+const KV_REST_API_URL = stripQuotes(process.env.KV_REST_API_URL);
+const KV_REST_API_TOKEN = stripQuotes(process.env.KV_REST_API_TOKEN);
 
 const FINNHUB_BASE = 'https://finnhub.io/api/v1';
 const FINNHUB_TIMEOUT_MS = 20000;
