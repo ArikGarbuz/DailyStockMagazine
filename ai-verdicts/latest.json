@@ -1,0 +1,131 @@
+{
+  "date": "2026-08-26",
+  "generatedAt": "2026-08-26T06:11:14.563Z",
+  "model": "gemini-flash-lite-latest",
+  "tickersAttempted": 15,
+  "succeeded": 15,
+  "failed": 0,
+  "totalTokens": 3736,
+  "results": [
+    {
+      "ticker": "CLSK",
+      "status": "ok",
+      "verdict": "BULLISH",
+      "rationale": "CleanSpark benefits from strong institutional whale interest and momentum in the Bitcoin mining sector.",
+      "rationaleHE": "קלין ספארק נהנית מעניין מוסדי חזק וממומנטום בסקטור כריית הביטקוין.",
+      "tokens": 234
+    },
+    {
+      "ticker": "RIOT",
+      "status": "ok",
+      "verdict": "BULLISH",
+      "rationale": "Rising trading volume and stealth investor accumulation signal an impending breakout for this major Bitcoin miner.",
+      "rationaleHE": "נפח המסחר העולה והצטברות המשקיעים החשאית מסמנים פריצה קרובה עבור כורה הביטקוין הגדול הזה.",
+      "tokens": 251
+    },
+    {
+      "ticker": "CIFR",
+      "status": "ok",
+      "verdict": "BULLISH",
+      "rationale": "The pivot of crypto miners into AI infrastructure offers significant untapped upside for high-volume players like CIFR.",
+      "rationaleHE": "המעבר של כורי קריפטו לתשתיות בינה מלאכותית מציע פוטנציאל צמיחה משמעותי ולא ממומש עבור שחקנים בנפח מסחר גבוה כמו CIFR.",
+      "tokens": 257
+    },
+    {
+      "ticker": "MARA",
+      "status": "ok",
+      "verdict": "BULLISH",
+      "rationale": "Rising trading volume and strong upward price momentum signal sustained speculative interest despite macroeconomic headwinds.",
+      "rationaleHE": "נפח המסחר העולה ומומנטום המחירים החזק מסמנים עניין ספקולטיבי נמשך למרות הרוחות הנגדיות המאקרו-כלכליות.",
+      "tokens": 267
+    },
+    {
+      "ticker": "WULF",
+      "status": "ok",
+      "verdict": "BULLISH",
+      "rationale": "WULF is uniquely positioned to capitalize on the high-growth AI infrastructure conversion trend.",
+      "rationaleHE": "WULF ממוקמת באופן ייחודי לנצל את מגמת ההמרה לצמיחה גבוהה של תשתיות בינה מלאכותית.",
+      "tokens": 233
+    },
+    {
+      "ticker": "PLUG",
+      "status": "ok",
+      "verdict": "NEUTRAL",
+      "rationale": "Improving gross margins show operational progress, but persistent cash burn and heavy dilution risks warrant a cautious hold.",
+      "rationaleHE": "שיפור במרווחים הגולמיים מראה התקדמות תפעולית, אך שריפת מזומנים מתמשכת וסיכוני דילול כבדים מחייבים המתנה זהירה.",
+      "tokens": 248
+    },
+    {
+      "ticker": "POET",
+      "status": "ok",
+      "verdict": "NEUTRAL",
+      "rationale": "High volatility and whale interest suggest potential momentum, but fading volume warrants caution at these valuation levels.",
+      "rationaleHE": "התנודתיות הגבוהה ועניין הלווייתנים מרמזים על פוטנציאל מומנטום, אך מחזור המסחר הדועך מצדיק זהירות ברמות שווי אלו.",
+      "tokens": 251
+    },
+    {
+      "ticker": "SOFI",
+      "status": "ok",
+      "verdict": "BULLISH",
+      "rationale": "SoFi's multi-product ecosystem is successfully scaling, driving strong user growth and validating the everything-app thesis.",
+      "rationaleHE": "אקוסיסטם המוצרים המרובים של סופי צומח בהצלחה, מניע גידול חזק במשתמשים ומאמת את תזת אפליקציית הכל-בכל.",
+      "tokens": 253
+    },
+    {
+      "ticker": "NOK",
+      "status": "ok",
+      "verdict": "BULLISH",
+      "rationale": "Nokia demonstrates strong momentum near the upper half of its 52-week range, supported by solid market capitalization and steady trading volume.",
+      "rationaleHE": "נוקיה מציגה מומנטום חזק בקרבה לחצי העליון של טווח 52 השבועות שלה, נתמכת בשווי שוק מוצק ובנפח מסחר יציב.",
+      "tokens": 262
+    },
+    {
+      "ticker": "LCID",
+      "status": "ok",
+      "verdict": "BEARISH",
+      "rationale": "Lucid trades near historic lows with severe volume contraction and ongoing cash burn risks.",
+      "rationaleHE": "לוסיד נסחרת קרוב לשפל היסטורי עם ירידה חדה בנפח המסחר וסיכוני שריפת מזומנים מתמשכים.",
+      "tokens": 250
+    },
+    {
+      "ticker": "FCEL",
+      "status": "ok",
+      "verdict": "BEARISH",
+      "rationale": "High volatility and heavy institutional options interest amid waning volume suggest continued downward pressure for the stock.",
+      "rationaleHE": "התנודתיות הגבוהה ועניין רב מצד מוסדיים על רקע דעיכת מחזורי המסחר מרמזים על לחץ שלילי מתמשך על המניה.",
+      "tokens": 246
+    },
+    {
+      "ticker": "NIO",
+      "status": "ok",
+      "verdict": "BEARISH",
+      "rationale": "Persistent losses and intense price competition in China's EV market outweigh modest volume trends.",
+      "rationaleHE": "הפסדים מתמשכים ותחרות מחירים עזה בשוק הרכב החשמלי בסין עולים על מגמות המסחר המתונות.",
+      "tokens": 225
+    },
+    {
+      "ticker": "ACHR",
+      "status": "ok",
+      "verdict": "BEARISH",
+      "rationale": "High capital burn and stiff competition in the speculative eVTOL sector outweigh near-term commercialization milestones.",
+      "rationaleHE": "שריפת הון גבוהה ותחרות עזה במגזר ה-eVTOL הספקולטיבי עולות על אבני הדרך המסחריות בטווח הקצר.",
+      "tokens": 252
+    },
+    {
+      "ticker": "SIRI",
+      "status": "ok",
+      "verdict": "NEUTRAL",
+      "rationale": "Stable audio subscriber base and dividend appeal are offset by declining volume and lack of aggressive growth catalysts.",
+      "rationaleHE": "בסיס מנויים יציב ומושכות דיבידנד מאוזנים על ידי ירידה בנפח המסחר וחוסר בזרזי צמיחה אגרסיביים.",
+      "tokens": 248
+    },
+    {
+      "ticker": "RIVN",
+      "status": "ok",
+      "verdict": "BULLISH",
+      "rationale": "Strong early indicators for the R2 platform support Rivian's path toward profitability despite lower current trading volumes.",
+      "rationaleHE": "חיוויים מוקדמים חזקים לפלטפורמת R2 תומכים בדרכה של ריביאן לעבר רווחיות למרות נפחי מסחר נוכחיים נמוכים יחסית.",
+      "tokens": 259
+    }
+  ]
+}
