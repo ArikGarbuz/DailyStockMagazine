@@ -24,6 +24,15 @@
 // since GitHub Actions has no default per-step timeout — a 4+ minute hang
 // was observed on a re-run vs. a normal ~20s run. Timeouts turn a hang into
 // a fast, logged per-ticker failure instead.
+//
+// SECRET-SAFETY NOTE: the Gemini request URL includes the API key as a query
+// parameter (?key=...). Discovered live: an earlier version of this script's
+// timeout error included the raw URL, which then got written into
+// ai-verdicts/*.json and log.jsonl — GitHub's push protection correctly
+// blocked the commit before it went public, but the bug was real. Every
+// error message that could reference a request URL now goes through
+// sanitizeUrlForLog(), which strips query parameters, so no error text can
+// ever contain the API key.
 
 import { writeFile, mkdir, appendFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -42,16 +51,30 @@ function todayISO() {
   return new Date().toISOString().slice(0, 10);
 }
 
+// Strips query parameters (and thus any API key) before a URL can ever end
+// up in an error message that gets logged or committed.
+function sanitizeUrlForLog(url) {
+  try {
+    const u = new URL(url);
+    return `${u.origin}${u.pathname}`;
+  } catch {
+    return String(url).split('?')[0];
+  }
+}
+
 async function fetchWithTimeout(url, options = {}, timeoutMs = 25000) {
+  const safeUrl = sanitizeUrlForLog(url);
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeoutMs);
   try {
     return await fetch(url, { ...options, signal: controller.signal });
   } catch (err) {
     if (err.name === 'AbortError') {
-      throw new Error(`Request timed out after ${timeoutMs}ms: ${url}`);
+      throw new Error(`Request timed out after ${timeoutMs}ms: ${safeUrl}`);
     }
-    throw err;
+    // Never surface err.message raw here either — some runtimes embed the
+    // full failing URL (including query string) in network error text.
+    throw new Error(`Request failed: ${safeUrl} (${err.name || 'Error'})`);
   } finally {
     clearTimeout(timer);
   }
@@ -81,6 +104,7 @@ async function callGemini(prompt) {
   }, GEMINI_TIMEOUT_MS);
   if (!res.ok) {
     const errText = await res.text().catch(() => '');
+    // errText is Gemini's own response body, never the request URL — safe to include.
     throw new Error(`Gemini HTTP ${res.status}: ${errText.slice(0, 300)}`);
   }
   const data = await res.json();
