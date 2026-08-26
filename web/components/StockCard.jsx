@@ -13,6 +13,33 @@ export default function StockCard({ stock }) {
     }
   };
 
+  // BUY = green, HOLD = amber, AVOID/SELL = red — mirrors the sentiment
+  // badge styling but keyed off the AI Analyst's actual recommendation.
+  const getRecommendationColor = (rec) => {
+    switch (rec) {
+      case 'BUY':
+        return 'bg-emerald-900/30 text-emerald-400 border-emerald-600';
+      case 'SELL':
+      case 'AVOID':
+        return 'bg-red-900/30 text-red-400 border-red-600';
+      case 'HOLD':
+      default:
+        return 'bg-amber-900/30 text-amber-400 border-amber-600';
+    }
+  };
+
+  const getRiskColor = (risk) => {
+    switch (risk) {
+      case 'LOW':
+        return 'text-emerald-400';
+      case 'HIGH':
+        return 'text-red-400';
+      case 'MEDIUM':
+      default:
+        return 'text-amber-400';
+    }
+  };
+
   const fetchedTime = stock.fetchedAt
     ? new Date(stock.fetchedAt).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })
     : null;
@@ -96,19 +123,71 @@ export default function StockCard({ stock }) {
         )}
       </div>
 
-      {/* AI Analyst View — one Gemini call/day per ticker, computed offline.
-          Research-only heuristic, never a live call, clearly labeled. */}
+      {/* AI Analyst View — one deep Gemini call/day per ticker, computed
+          offline, modeled on a fund-analyst brief: fundamental + technical +
+          risk read plus an explicit BUY/HOLD/AVOID/SELL call with entry,
+          target, and stop-loss. Research heuristic from a general-purpose
+          LLM, never a live call and never personalized advice — clearly
+          labeled throughout. */}
       <div className="pt-2 mt-2 border-t border-slate-700">
-        {stock.aiVerdict ? (
+        {stock.aiRecommendation ? (
           <>
-            <div className="flex items-center gap-2 mb-1">
-              <span className={`text-xs px-2 py-1 rounded-full border ${getSentimentColor(stock.aiVerdict)}`}>
-                🤖 AI Analyst: {stock.aiVerdict}
+            <div className="flex items-center gap-2 mb-2 flex-wrap">
+              <span className={`text-xs px-2 py-1 rounded-full border font-semibold ${getRecommendationColor(stock.aiRecommendation)}`}>
+                🤖 {stock.aiRecommendation}
               </span>
+              {stock.aiRiskLevel && (
+                <span className={`text-xs font-medium ${getRiskColor(stock.aiRiskLevel)}`}>
+                  Risk: {stock.aiRiskLevel}
+                </span>
+              )}
             </div>
-            <div className="text-xs text-gray-400 leading-relaxed">{stock.aiRationale}</div>
-            {stock.aiRationaleHE && (
-              <div className="text-xs text-gray-500 leading-relaxed text-right">{stock.aiRationaleHE}</div>
+
+            {(stock.aiEntryZone || stock.aiTargetPrice || stock.aiStopLoss) && (
+              <div className="flex flex-wrap gap-x-3 gap-y-0.5 text-[11px] text-gray-500 font-mono mb-2">
+                {stock.aiEntryZone && <span>Entry: {stock.aiEntryZone}</span>}
+                {stock.aiTargetPrice && <span>Target: {stock.aiTargetPrice}</span>}
+                {stock.aiStopLoss && <span>Stop: {stock.aiStopLoss}</span>}
+              </div>
+            )}
+
+            {stock.aiFundamental && (
+              <div className="mb-1.5">
+                <div className="text-[10px] uppercase tracking-wide text-gray-600">Fundamental</div>
+                <div className="text-xs text-gray-400 leading-relaxed">{stock.aiFundamental}</div>
+                {stock.aiFundamentalHE && (
+                  <div className="text-xs text-gray-500 leading-relaxed text-right">{stock.aiFundamentalHE}</div>
+                )}
+              </div>
+            )}
+
+            {stock.aiTechnical && (
+              <div className="mb-1.5">
+                <div className="text-[10px] uppercase tracking-wide text-gray-600">Technical</div>
+                <div className="text-xs text-gray-400 leading-relaxed">{stock.aiTechnical}</div>
+                {stock.aiTechnicalHE && (
+                  <div className="text-xs text-gray-500 leading-relaxed text-right">{stock.aiTechnicalHE}</div>
+                )}
+              </div>
+            )}
+
+            {stock.aiRisk && (
+              <div className="mb-1.5">
+                <div className="text-[10px] uppercase tracking-wide text-gray-600">Risk</div>
+                <div className="text-xs text-gray-400 leading-relaxed">{stock.aiRisk}</div>
+                {stock.aiRiskHE && (
+                  <div className="text-xs text-gray-500 leading-relaxed text-right">{stock.aiRiskHE}</div>
+                )}
+              </div>
+            )}
+
+            {stock.aiRationale && (
+              <div className="mt-1.5 pt-1.5 border-t border-slate-800">
+                <div className="text-xs text-gray-300 leading-relaxed italic">{stock.aiRationale}</div>
+                {stock.aiRationaleHE && (
+                  <div className="text-xs text-gray-400 leading-relaxed italic text-right">{stock.aiRationaleHE}</div>
+                )}
+              </div>
             )}
           </>
         ) : (
@@ -163,7 +242,7 @@ export default function StockCard({ stock }) {
       )}
       {stock.isLive === true && (
         <div className="mt-1 text-[10px] text-gray-600 leading-snug">
-          Live data via Finnhub{fetchedTime ? ` · fetched ${fetchedTime}` : ''}. 52-week range and volume are Finnhub free-tier basic financials (not intraday). Sentiment and AI Analyst view are heuristics, not predictions or financial advice — verify before acting.
+          Live data via Finnhub{fetchedTime ? ` · fetched ${fetchedTime}` : ''}. 52-week range, volume, and fundamental ratios are Finnhub free-tier data (not intraday). AI Analyst view is a research heuristic generated by a general-purpose language model — not personalized financial advice, and not a substitute for your own due diligence or a licensed advisor. Verify independently before acting.
         </div>
       )}
     </div>
