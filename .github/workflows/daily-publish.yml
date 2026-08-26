@@ -29,12 +29,26 @@ jobs:
           python3 scripts/generate-magazine.py
           echo "✅ Magazine generated"
 
+      # Lean AI analyst pass (one Gemini call per ticker, not the full
+      # TradingAgents multi-agent framework — see scripts/ai-analyst.mjs for
+      # the reasoning). Soft-fails on purpose: never blocks the magazine
+      # publish step above. All outcomes, including failures, are logged to
+      # ai-verdicts/log.jsonl as the control/audit trail.
+      - name: Run AI analyst (Gemini)
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          node scripts/ai-analyst.mjs
+          echo "✅ AI analyst step finished (see ai-verdicts/log.jsonl for outcome)"
+
       # Auto-commit new files
       - name: Auto-commit new magazines
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          file_pattern: 'magazines/*.html'
-          commit_message: 'Daily stock magazine: $(date +"%B %d, %Y")'
+          file_pattern: 'magazines/*.html ai-verdicts/*.json ai-verdicts/*.jsonl'
+          commit_message: 'Daily stock magazine + AI analyst: $(date +"%B %d, %Y")'
           skip_dirty_check: false
           skip_fetch: false
           skip_checkout: false
