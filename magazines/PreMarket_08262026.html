@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-Market Intelligence — Wednesday, August 26, 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background: #0a0a0f;
+            color: #e0e0e0;
+            font-family: 'Space Grotesk', sans-serif;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container { max-width: 1400px; margin: 0 auto; }
+        .header { border-bottom: 2px solid #00ff88; padding-bottom: 20px; margin-bottom: 30px; }
+        .header h1 {
+            font-size: 2.5em;
+            color: #00ff88;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        .header .date { font-size: 0.9em; color: #888; font-family: 'JetBrains Mono', monospace; margin-bottom: 5px; }
+        .header .date-he { font-size: 0.85em; color: #666; text-align: right; direction: rtl; font-family: Arial, sans-serif; }
+        .market-pulse {
+            background: #12121a;
+            border: 1px solid #1e1e2e;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            font-size: 0.95em;
+            line-height: 1.8;
+        }
+        .market-pulse h2 { font-size: 0.75em; color: #888; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 15px; }
+        .market-pulse-he {
+            text-align: right;
+            direction: rtl;
+            font-family: Arial, sans-serif;
+            color: #aaa;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #333;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 16px;
+            margin-bottom: 30px;
+        }
+        .card {
+            background: #12121a;
+            border: 1px solid #1e1e2e;
+            border-radius: 10px;
+            padding: 18px;
+            transition: border-color 0.3s ease;
+        }
+        .card:hover { border-color: #2a2a3a; }
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+        .ticker {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.6em;
+            font-weight: 700;
+            color: #fff;
+        }
+        .exchange {
+            font-size: 0.65em;
+            color: #666;
+            font-family: 'JetBrains Mono', monospace;
+            margin-top: 4px;
+        }
+        .price-block { text-align: right; }
+        .price {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.4em;
+            font-weight: 700;
+        }
+        .change { font-size: 0.85em; font-weight: 600; margin-top: 4px; }
+        .up { color: #00ff88; }
+        .down { color: #ff4444; }
+        .company-name {
+            font-size: 0.85em;
+            color: #999;
+            margin-bottom: 12px;
+            font-weight: 500;
+        }
+        .why {
+            font-size: 0.9em;
+            line-height: 1.5;
+            color: #ccc;
+            margin-bottom: 12px;
+            border-left: 2px solid #333;
+            padding-left: 12px;
+        }
+        .social {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 12px;
+        }
+        .tag {
+            font-size: 0.7em;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            white-space: nowrap;
+        }
+        .tag-bullish { background: #003320; color: #00ff88; border: 1px solid #00ff8833; }
+        .tag-bearish { background: #330000; color: #ff4444; border: 1px solid #ff444433; }
+        .tag-neutral { background: #332200; color: #ffd700; border: 1px solid #ffd70033; }
+        .tag-reddit { background: #1a0d00; color: #ff6314; border: 1px solid #ff631433; }
+        .mcap {
+            font-size: 0.7em;
+            color: #666;
+            font-family: 'JetBrains Mono', monospace;
+            margin-top: 10px;
+        }
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid #1e1e2e;
+        }
+        .links a {
+            font-size: 0.7em;
+            color: #4da3ff;
+            text-decoration: underline;
+        }
+        .links a:hover { color: #7cc0ff; }
+        .disclaimer {
+            font-size: 0.62em;
+            color: #555;
+            margin-top: 6px;
+            line-height: 1.4;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 0.75em;
+            color: #555;
+            text-align: center;
+            border-top: 1px solid #1e1e2e;
+            padding-top: 20px;
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .section-label {
+            font-size: 0.7em;
+            color: #666;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        @media (max-width: 768px) {
+            .header h1 { font-size: 1.8em; }
+            .grid { grid-template-columns: 1fr; }
+            .card { padding: 14px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🗞 PRE-MARKET INTELLIGENCE</h1>
+            <div class="date">Wednesday, August 26, 2026 • NYSE opens in 10 minutes • 🇮🇱 Israel Edition</div>
+            <div class="date-he">שלישי, 26 באוגוסט 2026 • NYSE נפתח בעוד 10 דקות</div>
+        </div>
+
+        <div class="market-pulse">
+            <h2>📡 Market Pulse</h2>
+            <p>Mixed sentiment with trade tensions and tariff concerns dominating headlines. SPY and QQQ showed weakness due to U.S.-Canada trade escalation and weakening consumer confidence. Tech sector remains focal point ahead of earnings. Healthcare and Financial Services leading market performance. Risk-off mood early, watching for potential reversal on dovish signals.</p>
+            <div class="market-pulse-he">
+                <strong>🇮🇱 דעה בשוק:</strong> אווירה מעורבת עם מתחי סחר והשפעה של דירוג מס. SPY ו-QQQ הראו חולשה בגלל הגברת המתח בין ארה״ב וקנדה. סקטור הטכנולוגיה נשאר במוקד הביקורת. סקטור בריאות ושירותים פיננסיים מובילים בביצוע.
+            </div>
+        </div>
+
+        <div class="section-label">🔥 Top 15 Movers — Under $30 • Market Cap >$500M • NYSE/NASDAQ</div>
+        <div class="grid">
+            
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">BMNR</div>
+          <div class="exchange">NYSE</div>
+        </div>
+        <div class="price-block">
+          <div class="price up">$24.36</div>
+          <div class="change up">+6.7%</div>
+        </div>
+      </div>
+      <div class="company-name">BitMine Immersion</div>
+      <div class="why">Ethereum treasury $14.9B</div>
+      <div class="social">
+        <span class="tag tag-bullish">BULLISH</span>
+        <span class="tag tag-reddit">🤖 Reddit Buzz</span>
+        <span class="tag tag-neutral">📊 Treasury</span>
+      </div>
+      <div class="mcap">Market Cap: $3.2B | Vol: +6.7%</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/BMNR" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/BMNR/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://www.google.com/finance/quote/BMNR:NYSE" target="_blank" rel="noopener noreferrer">🔎 Google Finance</a>
+      </div>
+      <div class="disclaimer">Sample/demo data, not a live feed — verify via links above.</div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">SOFI</div>
+          <div class="exchange">NASDAQ</div>
+        </div>
+        <div class="price-block">
+          <div class="price up">$18.31</div>
+          <div class="change up">+32.0%</div>
+        </div>
+      </div>
+      <div class="company-name">SoFi Technologies</div>
+      <div class="why">Fintech momentum strong</div>
+      <div class="social">
+        <span class="tag tag-bullish">BULLISH</span>
+        <span class="tag tag-reddit">🤖 Reddit Buzz</span>
+        <span class="tag tag-neutral">📊 Earnings</span>
+      </div>
+      <div class="mcap">Market Cap: $14.8B | Vol: High</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/SOFI" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/SOFI/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://www.google.com/finance/quote/SOFI:NASDAQ" target="_blank" rel="noopener noreferrer">🔎 Google Finance</a>
+      </div>
+      <div class="disclaimer">Sample/demo data, not a live feed — verify via links above.</div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">RIVN</div>
+          <div class="exchange">NASDAQ</div>
+        </div>
+        <div class="price-block">
+          <div class="price down">$16.97</div>
+          <div class="change down">-2.1%</div>
+        </div>
+      </div>
+      <div class="company-name">Rivian Automotive</div>
+      <div class="why">EV sector pullback</div>
+      <div class="social">
+        <span class="tag tag-neutral">NEUTRAL</span>
+        
+        <span class="tag tag-neutral">📊 Momentum</span>
+      </div>
+      <div class="mcap">Market Cap: $18.5B | Vol: Elevated</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/RIVN" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/RIVN/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://www.google.com/finance/quote/RIVN:NASDAQ" target="_blank" rel="noopener noreferrer">🔎 Google Finance</a>
+      </div>
+      <div class="disclaimer">Sample/demo data, not a live feed — verify via links above.</div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">JOBY</div>
+          <div class="exchange">NYSE</div>
+        </div>
+        <div class="price-block">
+          <div class="price up">$9.42</div>
+          <div class="change up">+5.3%</div>
+        </div>
+      </div>
+      <div class="company-name">Joby Aviation</div>
+      <div class="why">Urban air mobility approved</div>
+      <div class="social">
+        <span class="tag tag-bullish">BULLISH</span>
+        <span class="tag tag-reddit">🤖 Reddit Buzz</span>
+        <span class="tag tag-neutral">📊 Momentum</span>
+      </div>
+      <div class="mcap">Market Cap: $2.1B | Vol: +5.3%</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/JOBY" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/JOBY/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://www.google.com/finance/quote/JOBY:NYSE" target="_blank" rel="noopener noreferrer">🔎 Google Finance</a>
+      </div>
+      <div class="disclaimer">Sample/demo data, not a live feed — verify via links above.</div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">NOK</div>
+          <div class="exchange">NYSE</div>
+        </div>
+        <div class="price-block">
+          <div class="price down">$4.18</div>
+          <div class="change down">-3.2%</div>
+        </div>
+      </div>
+      <div class="company-name">Nokia Oyj</div>
+      <div class="why">R&D restructuring</div>
+      <div class="social">
+        <span class="tag tag-bearish">BEARISH</span>
+        
+        <span class="tag tag-neutral">📊 Momentum</span>
+      </div>
+      <div class="mcap">Market Cap: $23.4B | Vol: +2.1M</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/NOK" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/NOK/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://www.google.com/finance/quote/NOK:NYSE" target="_blank" rel="noopener noreferrer">🔎 Google Finance</a>
+      </div>
+      <div class="disclaimer">Sample/demo data, not a live feed — verify via links above.</div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">POET</div>
+          <div class="exchange">NASDAQ</div>
+        </div>
+        <div class="price-block">
+          <div class="price up">$8.27</div>
+          <div class="change up">+7.9%</div>
+        </div>
+      </div>
+      <div class="company-name">POET Technologies</div>
+      <div class="why">AI semiconductor demand</div>
+      <div class="social">
+        <span class="tag tag-bullish">BULLISH</span>
+        <span class="tag tag-reddit">🤖 Reddit Buzz</span>
+        <span class="tag tag-neutral">📊 Momentum</span>
+      </div>
+      <div class="mcap">Market Cap: $625M | Vol: +7.9%</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/POET" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/POET/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://www.google.com/finance/quote/POET:NASDAQ" target="_blank" rel="noopener noreferrer">🔎 Google Finance</a>
+      </div>
+      <div class="disclaimer">Sample/demo data, not a live feed — verify via links above.</div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">OCFN</div>
+          <div class="exchange">NASDAQ</div>
+        </div>
+        <div class="price-block">
+          <div class="price up">$19.08</div>
+          <div class="change up">+4.2%</div>
+        </div>
+      </div>
+      <div class="company-name">OceanFirst Financial</div>
+      <div class="why">Regional bank strength</div>
+      <div class="social">
+        <span class="tag tag-bullish">BULLISH</span>
+        
+        <span class="tag tag-neutral">📊 Momentum</span>
+      </div>
+      <div class="mcap">Market Cap: $891M | Vol: +4.2%</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/OCFN" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/OCFN/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://www.google.com/finance/quote/OCFN:NASDAQ" target="_blank" rel="noopener noreferrer">🔎 Google Finance</a>
+      </div>
+      <div class="disclaimer">Sample/demo data, not a live feed — verify via links above.</div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">HUT</div>
+          <div class="exchange">NASDAQ</div>
+        </div>
+        <div class="price-block">
+          <div class="price up">$14.62</div>
+          <div class="change up">+12.1%</div>
+        </div>
+      </div>
+      <div class="company-name">Hut 8 Corp</div>
+      <div class="why">Bitcoin mining and HPC capacity growth</div>
+      <div class="social">
+        <span class="tag tag-bullish">BULLISH</span>
+        <span class="tag tag-reddit">🤖 Reddit Buzz</span>
+        <span class="tag tag-neutral">📊 Momentum</span>
+      </div>
+      <div class="mcap">Market Cap: $2.9B | Vol: +12.1%</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/HUT" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/HUT/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://www.google.com/finance/quote/HUT:NASDAQ" target="_blank" rel="noopener noreferrer">🔎 Google Finance</a>
+      </div>
+      <div class="disclaimer">Sample/demo data, not a live feed — verify via links above.</div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">MARA</div>
+          <div class="exchange">NASDAQ</div>
+        </div>
+        <div class="price-block">
+          <div class="price up">$15.42</div>
+          <div class="change up">+8.9%</div>
+        </div>
+      </div>
+      <div class="company-name">Marathon Digital</div>
+      <div class="why">BTC mining efficiency gains</div>
+      <div class="social">
+        <span class="tag tag-bullish">BULLISH</span>
+        <span class="tag tag-reddit">🤖 Reddit Buzz</span>
+        <span class="tag tag-neutral">📊 Momentum</span>
+      </div>
+      <div class="mcap">Market Cap: $2.1B | Vol: +8.9%</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/MARA" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/MARA/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://www.google.com/finance/quote/MARA:NASDAQ" target="_blank" rel="noopener noreferrer">🔎 Google Finance</a>
+      </div>
+      <div class="disclaimer">Sample/demo data, not a live feed — verify via links above.</div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">CLSK</div>
+          <div class="exchange">NASDAQ</div>
+        </div>
+        <div class="price-block">
+          <div class="price up">$12.55</div>
+          <div class="change up">+6.3%</div>
+        </div>
+      </div>
+      <div class="company-name">CleanSpark Inc</div>
+      <div class="why">Renewable mining focus</div>
+      <div class="social">
+        <span class="tag tag-bullish">BULLISH</span>
+        <span class="tag tag-reddit">🤖 Reddit Buzz</span>
+        <span class="tag tag-neutral">📊 Momentum</span>
+      </div>
+      <div class="mcap">Market Cap: $1.8B | Vol: +6.3%</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/CLSK" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/CLSK/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://www.google.com/finance/quote/CLSK:NASDAQ" target="_blank" rel="noopener noreferrer">🔎 Google Finance</a>
+      </div>
+      <div class="disclaimer">Sample/demo data, not a live feed — verify via links above.</div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">RIOT</div>
+          <div class="exchange">NASDAQ</div>
+        </div>
+        <div class="price-block">
+          <div class="price up">$11.28</div>
+          <div class="change up">+9.4%</div>
+        </div>
+      </div>
+      <div class="company-name">Riot Platforms</div>
+      <div class="why">Bitcoin infrastructure play</div>
+      <div class="social">
+        <span class="tag tag-bullish">BULLISH</span>
+        <span class="tag tag-reddit">🤖 Reddit Buzz</span>
+        <span class="tag tag-neutral">📊 Momentum</span>
+      </div>
+      <div class="mcap">Market Cap: $3.5B | Vol: +9.4%</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/RIOT" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/RIOT/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://www.google.com/finance/quote/RIOT:NASDAQ" target="_blank" rel="noopener noreferrer">🔎 Google Finance</a>
+      </div>
+      <div class="disclaimer">Sample/demo data, not a live feed — verify via links above.</div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">CIFR</div>
+          <div class="exchange">NASDAQ</div>
+        </div>
+        <div class="price-block">
+          <div class="price up">$8.76</div>
+          <div class="change up">+5.1%</div>
+        </div>
+      </div>
+      <div class="company-name">Cipher Mining</div>
+      <div class="why">Mining capacity expansion</div>
+      <div class="social">
+        <span class="tag tag-bullish">BULLISH</span>
+        
+        <span class="tag tag-neutral">📊 Momentum</span>
+      </div>
+      <div class="mcap">Market Cap: $950M | Vol: +5.1%</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/CIFR" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/CIFR/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://www.google.com/finance/quote/CIFR:NASDAQ" target="_blank" rel="noopener noreferrer">🔎 Google Finance</a>
+      </div>
+      <div class="disclaimer">Sample/demo data, not a live feed — verify via links above.</div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">CORE</div>
+          <div class="exchange">NASDAQ</div>
+        </div>
+        <div class="price-block">
+          <div class="price up">$6.89</div>
+          <div class="change up">+3.7%</div>
+        </div>
+      </div>
+      <div class="company-name">Core Scientific</div>
+      <div class="why">Mining operations growing</div>
+      <div class="social">
+        <span class="tag tag-neutral">NEUTRAL</span>
+        
+        <span class="tag tag-neutral">📊 Momentum</span>
+      </div>
+      <div class="mcap">Market Cap: $820M | Vol: +3.7%</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/CORE" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/CORE/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://www.google.com/finance/quote/CORE:NASDAQ" target="_blank" rel="noopener noreferrer">🔎 Google Finance</a>
+      </div>
+      <div class="disclaimer">Sample/demo data, not a live feed — verify via links above.</div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">WULF</div>
+          <div class="exchange">NASDAQ</div>
+        </div>
+        <div class="price-block">
+          <div class="price up">$6.89</div>
+          <div class="change up">+4.2%</div>
+        </div>
+      </div>
+      <div class="company-name">TeraWulf Inc</div>
+      <div class="why">Sustainable mining capacity increase</div>
+      <div class="social">
+        <span class="tag tag-bullish">BULLISH</span>
+        <span class="tag tag-reddit">🤖 Reddit Buzz</span>
+        <span class="tag tag-neutral">📊 Momentum</span>
+      </div>
+      <div class="mcap">Market Cap: $2.1B | Vol: +4.2%</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/WULF" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/WULF/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://www.google.com/finance/quote/WULF:NASDAQ" target="_blank" rel="noopener noreferrer">🔎 Google Finance</a>
+      </div>
+      <div class="disclaimer">Sample/demo data, not a live feed — verify via links above.</div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">IREN</div>
+          <div class="exchange">NASDAQ</div>
+        </div>
+        <div class="price-block">
+          <div class="price up">$18.45</div>
+          <div class="change up">+6.8%</div>
+        </div>
+      </div>
+      <div class="company-name">Iris Energy Ltd</div>
+      <div class="why">AI data center expansion news</div>
+      <div class="social">
+        <span class="tag tag-bullish">BULLISH</span>
+        <span class="tag tag-reddit">🤖 Reddit Buzz</span>
+        <span class="tag tag-neutral">📊 Momentum</span>
+      </div>
+      <div class="mcap">Market Cap: $3.4B | Vol: +6.8%</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/IREN" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/IREN/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://www.google.com/finance/quote/IREN:NASDAQ" target="_blank" rel="noopener noreferrer">🔎 Google Finance</a>
+      </div>
+      <div class="disclaimer">Sample/demo data, not a live feed — verify via links above.</div>
+    </div>
+    
+        </div>
+
+        <div class="footer">
+            <p>Generated at 4:20 PM IST • Data: Market Aggregators • For informational purposes only • Not financial advice</p>
+            <p>Magazine ID: 20260826_1836</p>
+        </div>
+    </div>
+</body>
+</html>
