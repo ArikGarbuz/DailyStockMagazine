@@ -1,0 +1,313 @@
+{
+  "date": "2026-08-26",
+  "generatedAt": "2026-08-26T14:12:19.931Z",
+  "windowStart": 320,
+  "windowSize": 40,
+  "cyclePosition": 8,
+  "totalWindows": 13,
+  "requested": 15,
+  "picked": 15,
+  "skippedCount": 22,
+  "skipped": [
+    {
+      "ticker": "MPWR",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "MNST",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "MCO",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "MSCI",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "NFLX",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "NEM",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "NWSA",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "NWS",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "NEE",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "NI",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "NDSN",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "NSC",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "NCLH",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "NVR",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "NXPI",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ORLY",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "OXY",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "OMC",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ON",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "OKE",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "OTIS",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "PKG",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    }
+  ],
+  "picks": [
+    {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "skipped": false,
+      "website": "https://www.morganstanley.com/",
+      "industry": "Financial Services",
+      "marketCap": "$340.5B",
+      "description": "Morgan Stanley is an American multinational investment bank and financial services company headquartered at 1585 Broadway in Midtown Manhattan, New York City. With offices in 42 countries and more than 80,000 employees, the firm's clients include corporations, governments, institutions, and individuals. Morgan Stanley ranked No. 61 in the 2023 Fortune 500 list of the largest United States corporations by total revenue and in the same year ranked No. 30 in the Forbes Global 2000.",
+      "descriptionHE": "מורגן סטנלי הוא תאגיד אמריקני הנסחר בבורסה לניירות ערך בניו יורק, ואשר עוסק בתחום בנקאות ההשקעות והשירותים הפיננסיים. החברה, שמטהַ נמצא בעיר ניו יורק, משרתת מגוון של תאגידים, ממשלות, ארגונים פיננסיים ואנשים פרטיים. מורגן סטנלי פועל ב-33 מדינות ברחבי העולם, ויש לו 600 משרדים שבהם מועסקים כ-45,000 עובדים. על פי דיווחי החברה, היא מנהלת נכסים בהיקף של 779 מיליארד דולר.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Morgan_Stanley",
+      "employees": 80006,
+      "price": 213.59,
+      "change": -1.467
+    },
+    {
+      "ticker": "MOS",
+      "name": "Mosaic Company (The)",
+      "skipped": false,
+      "website": "https://www.mosaicco.com/",
+      "industry": "Chemicals",
+      "marketCap": "$7.7B",
+      "description": "The Mosaic Company is an American chemical company based in Tampa, Florida, which mines phosphate and potash and collects urea used for fertilizer, through various international distribution networks and Mosaic Fertilizantes. It is the largest U.S. producer of potash and phosphate fertilizers.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Mosaic_Company",
+      "employees": 8400,
+      "price": 25.12,
+      "change": 3.5023
+    },
+    {
+      "ticker": "MSI",
+      "name": "Motorola Solutions",
+      "skipped": false,
+      "website": "https://www.motorolasolutions.com",
+      "industry": "Communications",
+      "marketCap": "$80.3B",
+      "description": "Motorola Solutions, Inc., is an American technology company that provides safety and security products and services. Headquartered in Chicago, Illinois, the company provides critical communications, video security, and command center technologies, used by public safety agencies and enterprises. It was formed in 2011 by the division of Motorola, Inc., and is its legal successor; the former company's mobile phone division was spun off as Motorola Mobility, now part of Chinese technology company Lenovo.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Motorola_Solutions",
+      "employees": 18000,
+      "price": 483.6,
+      "change": -0.3688
+    },
+    {
+      "ticker": "NDAQ",
+      "name": "Nasdaq, Inc.",
+      "skipped": false,
+      "website": "https://www.nasdaq.com/",
+      "industry": "Financial Services",
+      "marketCap": "$55.2B",
+      "description": "Nasdaq, Inc. is an American multinational financial services corporation providing data, analytics, software, exchange capabilities, and advisory services to corporate clients, investment managers, banks, brokers, and exchange operators across the global financial system. Nasdaq was founded in 1971 as the world's first electronic stock market, and became publicly traded in 2000. It is headquartered in New York City, and its chair and chief executive officer is Adena Friedman.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nasdaq%2C_Inc.",
+      "employees": 8809,
+      "price": 99.23,
+      "change": 0.5064
+    },
+    {
+      "ticker": "NTAP",
+      "name": "NetApp",
+      "skipped": false,
+      "website": "https://www.netapp.com/",
+      "industry": "Technology",
+      "marketCap": "$36.8B",
+      "description": "NetApp, Inc. is an American data infrastructure company that provides unified data storage, integrated data services, and cloud operations (CloudOps) solutions to enterprise customers. The company is based in San Jose, California. It was ranked in the Fortune 500 from 2012 to 2021. Founded in 1992 with an initial public offering in 1995, NetApp offers cloud data services for management of applications and data both online and physically.",
+      "descriptionHE": "נטאפ בע\"מ היא חברת מחשבים אמריקאית המתמחה בניהול אחסון ובמאגרי נתונים. קובצי האחסון של נטאפ מחוברים לרשתות, ומאפשרים לקהל הלקוחות הארגוני לאחסן ולשתף נתונים בין העובדים. משרדיה הראשיים של החברה ממוקמים בסאניווייל, קליפורניה. החברה חברה בנאסד\"ק-100, ודורגה כאחת מ־500 החברות ששוויין הגדול ביותר בפעם הראשונה ב-2012.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/NetApp",
+      "employees": 12000,
+      "price": 191.21,
+      "change": 2.0168
+    },
+    {
+      "ticker": "NKE",
+      "name": "Nike, Inc.",
+      "skipped": false,
+      "website": "https://about.nike.com/",
+      "industry": "Textiles, Apparel & Luxury Goods",
+      "marketCap": "$58.6B",
+      "description": "Nike, Inc. is an American athletic footwear and apparel corporation headquartered near Beaverton, Oregon. It is the world's largest supplier of athletic shoes and apparel and a major manufacturer of sports equipment, with revenue in excess of US$46 billion in its fiscal year 2022.",
+      "descriptionHE": "נייקי הוא תאגיד רב-לאומי אמריקאי העוסק בייצור נעלי ספורט, ביגוד וציוד ספורט.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nike%2C_Inc.",
+      "employees": 76700,
+      "price": 39.16,
+      "change": -0.8105
+    },
+    {
+      "ticker": "NTRS",
+      "name": "Northern Trust",
+      "skipped": false,
+      "website": "https://www.northerntrust.com/",
+      "industry": "Financial Services",
+      "marketCap": "$34.2B",
+      "description": "Northern Trust Corporation is an American financial services company headquartered in Chicago, Illinois, that caters to corporations, institutional investors, and ultra high net worth individuals. Northern Trust is one of the largest banking institutions in the United States and one of the oldest banks in continuous operation. As of December 31, 2025, it had $1.8 trillion in assets under management and $14.9 trillion in assets under custody. Northern Trust Corporation is incorporated in Delaware.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Northern_Trust",
+      "employees": 20900,
+      "price": 187.29,
+      "change": 0.2516
+    },
+    {
+      "ticker": "NOC",
+      "name": "Northrop Grumman",
+      "skipped": false,
+      "website": "https://www.northropgrumman.com",
+      "industry": "Aerospace & Defense",
+      "marketCap": "$77.1B",
+      "description": "Northrop Grumman Corporation, headquartered in West Falls Church, Virginia, is an American aerospace and defense company that designs and manufactures systems for aeronautics, defense, missions, and space. The company is the 5th largest contractor of the U.S. federal government; it receives over 2% of all federal government spending at contractors.",
+      "descriptionHE": "נוֹרְתְ'רוֹפּ גְּרָאמֶן הוא קונצרן ספנות, תעופה, חלל וביטחון, תוצאה של רכישת גראמן על ידי נורת'רופ. החברה, הממוקמת במטרופולין וושינגטון די. סי. שבווירג'יניה, ארצות הברית, היא יצרנית מערכות־ביטחוניות השלישית בגודלה בעולם, יצרנית מערכות המכ\"ם הגדולה ביותר, והיצרנית המובילה בעולם של כלי שיט. נכון לשנת 2017, העסיקה למעלה מ-67,000 עובדים בכמה מאות אתרים בארצות הברית ומחוצה לה. נכון לשנת 2010, \"נורת'רופ גראמן\" מדורגת במקום ה-61 ברשימת פורצ'ן 500 של חברות תעשייתיות אמריקניות.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Northrop_Grumman",
+      "employees": 65600,
+      "price": 551.43,
+      "change": 1.6423
+    },
+    {
+      "ticker": "NRG",
+      "name": "NRG Energy",
+      "skipped": false,
+      "website": "https://www.nrg.com/",
+      "industry": "Utilities",
+      "marketCap": "$23.9B",
+      "description": "NRG Energy, Inc. is an American energy company, headquartered in Houston, Texas. It was formerly the wholesale arm of Northern States Power Company (NSP), which became Xcel Energy, but became independent in 2000. NRG Energy is involved in energy generation and retail electricity. Their portfolio includes natural gas generation, coal generation, oil generation, nuclear generation, wind generation, utility-scale generation, and distributed solar generation. NRG serves over 7 million retail customers in 24 US states including Texas, Connecticut, Delaware, Illinois, Maryland, Massachusetts, New Jersey, New York, Pennsylvania, Ohio; the District of Columbia, and eight provinces in Canada.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/NRG_Energy",
+      "employees": 9806,
+      "price": 116.82,
+      "change": 2.8255
+    },
+    {
+      "ticker": "NUE",
+      "name": "Nucor",
+      "skipped": false,
+      "website": "https://nucor.com/",
+      "industry": "Metals & Mining",
+      "marketCap": "$56.2B",
+      "description": "Nucor Corporation is an American company based in Charlotte, North Carolina, that produces steel and related products. It is the largest steel producer in the United States and the largest recycler of scrap in North America. Nucor is the 16th-largest steel producer in the world. Along with Commercial Metals Company, it is one of two primary suppliers of rebar used to reinforce concrete in buildings, bridges, roads, and infrastructure in the U.S.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nucor",
+      "employees": 31400,
+      "price": 251.32,
+      "change": 1.5229
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "skipped": false,
+      "website": "https://www.nvidia.com/",
+      "industry": "Semiconductors",
+      "marketCap": "$5.16T",
+      "description": "Nvidia Corporation is an American multinational technology company headquartered in Santa Clara, California. The company develops graphics processing units (GPUs), systems on chips (SoCs), and application programming interfaces (APIs) for data science, high-performance computing, artificial intelligence (AI), and mobile and automotive applications. Founded in 1993 by Jensen Huang, Chris Malachowsky, and Curtis Priem, Nvidia has been widely described as a Big Tech company.",
+      "descriptionHE": "אנבידיה היא חברה אמריקאית, ספקית גדולה של מיקרו-שבבים המשמשים לערכות שבבים של מחשבים אישיים, יחידות עיבוד גרפיות (GPU), כרטיסי מסך, חישובי בינה מלאכותית, התקני מדיה ותקשורת וקונסולות משחקים. החברה מוכרת בזכות סדרות כרטיסי המסך למחשב GeForce ו-Quadro, סדרת ערכות השבבים nForce, וסדרת השבבים טגרה לסמארטפונים ולטאבלטים. המטה הראשי של החברה נמצא בסנטה קלרה שבקליפורניה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nvidia",
+      "employees": 42000,
+      "price": 211.71,
+      "change": -0.629
+    },
+    {
+      "ticker": "ODFL",
+      "name": "Old Dominion",
+      "skipped": false,
+      "website": "https://www.odfl.com/",
+      "industry": "Road & Rail",
+      "marketCap": "$41.1B",
+      "description": "Old Dominion University (ODU) is a public research university in Norfolk, Virginia, United States. Established in 1930 as the two-year Norfolk Division of the College of William & Mary, the school became an independent college in 1962 and attained university status in 1969. In 2023, it had an enrollment of 23,494 students, and its main campus covers 250 acres.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Old_Dominion_University",
+      "employees": 3240,
+      "price": 198.89,
+      "change": 0.2773
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle Corporation",
+      "skipped": false,
+      "website": "https://www.oracle.com/",
+      "industry": "Technology",
+      "marketCap": "$417.0B",
+      "description": "Oracle Corporation is an American multinational technology company headquartered in Austin, Texas. Co-founded in Santa Clara, California, in 1977 by Bob Miner, Ed Oates, and current chairman of the board and chief technology officer Larry Ellison, Oracle is among the 50 largest companies in the world by market cap, and ranked 66th on the Forbes Global 2000 as of 2025.",
+      "descriptionHE": "אורקל היא חברת תוכנה אמריקאית רב־לאומית מהגדולות בעולם, הידועה בעיקר בשל פיתוח שניים ממסדי הנתונים המובילים בעולם: אורקל ו־MySQL. בנוסף לכך מוכרת החברה שירותי מחשוב ענן ותוכנה ארגונית בתחומים שונים: ERP, ניהול משאבי אנוש, ניהול קשרי לקוחות, ניהול שרשרת האספקה ועוד. בנוסף, בעקבות רכישת סאן מיקרוסיסטמס, אורקל מייצרת חומרה והיא הבעלים של שפת התכנות Java.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Oracle_Corporation",
+      "employees": 162000,
+      "price": 148.87,
+      "change": 2.8392
+    },
+    {
+      "ticker": "PCAR",
+      "name": "Paccar",
+      "skipped": false,
+      "website": "https://www.paccar.com/",
+      "industry": "Machinery",
+      "marketCap": "$68.0B",
+      "description": "Paccar Inc. is an American company that manufactures heavy-duty trucks. It operates subsidiaries including Kenworth, Peterbilt, and DAF Trucks. Headquartered in Bellevue, Washington, PACCAR also provides financial services and industrial parts. Its stock is listed on the Nasdaq and is part of the S&P 500 index.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Paccar",
+      "employees": 22800,
+      "price": 130.8,
+      "change": 1.2227
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies",
+      "skipped": false,
+      "website": "https://www.palantir.com/",
+      "industry": "Technology",
+      "marketCap": "$415.1B",
+      "description": "Palantir Technologies Inc. is an American publicly traded company that develops data integration and analytics software. Palantir is headquartered in Miami, Florida, and was founded in 2003 by Peter Thiel, Stephen Cohen, Joe Lonsdale, Alex Karp, and Nathan Gettings.",
+      "descriptionHE": "פלנטיר טכנולוגיות היא חברה ציבורית אמריקאית המתמחה בתוכנות לניתוח ביג דאטה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Palantir",
+      "employees": 4429,
+      "price": 174.56,
+      "change": 1.0595
+    }
+  ]
+}
