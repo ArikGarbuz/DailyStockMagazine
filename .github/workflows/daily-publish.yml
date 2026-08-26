@@ -1,21 +1,35 @@
 name: Daily Stock Magazine Auto-Publish
 
+# TARGET: publish every weekday at 16:20 Israel local time.
+#
+# GitHub cron has no timezone support — it is always UTC — so a fixed UTC hour
+# drifts by an hour twice a year when Israel switches between IST (UTC+2) and
+# IDT (UTC+3). Rather than hand-editing this file every March and October, we
+# fire at all three plausible UTC hours and let the job itself decide, at
+# runtime, using the real Israel local clock:
+#
+#   local hour <  16  -> too early (the correct-time trigger is still coming) -> skip
+#   local hour == 16  -> this IS 16:20 Israel time -> RUN
+#   local hour >  16  -> late/catch-up -> run ONLY if today's magazine is missing
+#
+# Net effect, verified against both seasons: exactly one real publish per
+# weekday, plus two cheap no-op safety nets that rescue a missed or delayed
+# run. No DST maintenance ever required.
+#
+#            | summer (UTC+3)      | winter (UTC+2)
+#   13:20 UTC| 16:20 -> PRIMARY    | 15:20 -> skip (early)
+#   14:20 UTC| 17:20 -> catch-up   | 16:20 -> PRIMARY
+#   15:20 UTC| 18:20 -> catch-up   | 17:20 -> catch-up
+
 on:
   schedule:
-    # PRIMARY RUN — 16:20 Israel time.
-    # Israel is on IDT (UTC+3) from late March to late October, so 16:20 local
-    # is 13:20 UTC. (The previous value, 14:20 UTC, assumed UTC+2 winter time
-    # and therefore fired an hour late, at 17:20 local, all summer.)
-    # NOTE: when Israel returns to IST (UTC+2) on 25 Oct 2026, this must
-    # change to '20 14 * * 1-5' to stay at 16:20 local.
     - cron: '20 13 * * 1-5'
-    # CATCH-UP RUN — 17:20 Israel time (14:20 UTC).
-    # GitHub's scheduled triggers are best-effort and can be delayed or dropped
-    # entirely under load. This second schedule self-heals that: it checks
-    # whether today's magazine already exists and exits in seconds if it does,
-    # so it costs almost nothing on a normal day but rescues a missed run.
     - cron: '20 14 * * 1-5'
+    - cron: '20 15 * * 1-5'
   workflow_dispatch:  # Allow manual trigger
+
+env:
+  TARGET_HOUR_ISRAEL: '16'
 
 jobs:
   publish:
@@ -28,26 +42,33 @@ jobs:
         with:
           fetch-depth: 0
 
-      # Decide whether this invocation should do the work.
-      # Manual runs and the primary 13:20 UTC run always proceed. The 14:20 UTC
-      # catch-up run proceeds ONLY if today's magazine is missing, which keeps
-      # it from publishing twice on a healthy day.
+      # Runtime gate — see the header comment for the full rationale.
+      # Uses %-H (unpadded) deliberately: a zero-padded "08" would be parsed
+      # as invalid octal by shell arithmetic and break the comparison.
       - name: Decide whether to run
         id: gate
         run: |
           TODAY_FILE="magazines/PreMarket_$(date -u +'%m%d%Y').html"
           echo "today_file=$TODAY_FILE" >> "$GITHUB_OUTPUT"
+
+          ISRAEL_HOUR=$(TZ='Asia/Jerusalem' date +%-H)
+          ISRAEL_TIME=$(TZ='Asia/Jerusalem' date +'%Y-%m-%d %H:%M %Z')
+          echo "Israel local time is $ISRAEL_TIME (hour=$ISRAEL_HOUR), target hour=$TARGET_HOUR_ISRAEL"
+
           if [ "${{ github.event_name }}" != "schedule" ]; then
-            echo "Manual run - proceeding."
+            echo "Manual run - proceeding regardless of clock."
             echo "should_run=true" >> "$GITHUB_OUTPUT"
-          elif [ "${{ github.event.schedule }}" = "20 13 * * 1-5" ]; then
-            echo "Primary scheduled run - proceeding."
+          elif [ "$ISRAEL_HOUR" -lt "$TARGET_HOUR_ISRAEL" ]; then
+            echo "Too early in Israel ($ISRAEL_HOUR:xx) - the on-time trigger is still ahead. Skipping."
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          elif [ "$ISRAEL_HOUR" -eq "$TARGET_HOUR_ISRAEL" ]; then
+            echo "On-time primary run for 16:20 Israel time - proceeding."
             echo "should_run=true" >> "$GITHUB_OUTPUT"
           elif [ -f "$TODAY_FILE" ]; then
-            echo "Catch-up run, but $TODAY_FILE already exists - skipping."
+            echo "Catch-up window, but $TODAY_FILE already exists - nothing to do. Skipping."
             echo "should_run=false" >> "$GITHUB_OUTPUT"
           else
-            echo "Catch-up run and $TODAY_FILE is MISSING - primary run failed, proceeding."
+            echo "::warning::Catch-up window and $TODAY_FILE is MISSING - the on-time run did not publish. Recovering now."
             echo "should_run=true" >> "$GITHUB_OUTPUT"
           fi
 
@@ -59,8 +80,8 @@ jobs:
           git config user.email "bot@stockmagazine.dev"
 
       # Generate magazine.
-      # generate-magazine.py now exits nonzero on failure, so a crash fails
-      # this step loudly instead of showing a false green check.
+      # generate-magazine.py exits nonzero on failure, so a crash fails this
+      # step loudly instead of showing a false green check.
       - name: Generate daily magazine
         if: steps.gate.outputs.should_run == 'true'
         run: |
@@ -68,8 +89,7 @@ jobs:
           echo "✅ Magazine generated"
 
       # Post-condition guard: prove the file we expect actually exists and is
-      # non-empty before anything downstream claims success. This is the check
-      # that would have caught the silent KeyError failure immediately.
+      # non-empty before anything downstream claims success.
       - name: Verify today's magazine was created
         if: steps.gate.outputs.should_run == 'true'
         run: |
@@ -135,7 +155,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           file_pattern: 'magazines/*.html ai-verdicts/*.json ai-verdicts/*.jsonl sp500-picks/*.json sp500-picks/*.jsonl'
-          commit_message: 'Daily stock magazine + AI analyst + S&P 500 spotlight: $(date +"%B %d, %Y")'
+          commit_message: 'Daily stock magazine + AI analyst + S&P 500 spotlight'
           skip_dirty_check: false
           skip_fetch: false
           skip_checkout: false
@@ -166,7 +186,7 @@ jobs:
       - name: Log success
         run: |
           echo "✅ Daily magazine published successfully!"
-          echo "Published at: $(date)"
+          echo "Published at: $(TZ='Asia/Jerusalem' date +'%Y-%m-%d %H:%M %Z')"
 
   # Notify on FAILURE. This is the alarm that was missing: previously a failed
   # publish produced no notification at all, so a broken day looked identical
@@ -190,6 +210,6 @@ jobs:
           curl -sS -X POST \
             "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
             -d "chat_id=${TELEGRAM_CHAT_ID}" \
-            --data-urlencode "text=❌ Daily Stock Magazine FAILED to publish on $(date -u +'%Y-%m-%d %H:%M UTC'). Run: ${RUN_URL}" \
+            --data-urlencode "text=❌ Daily Stock Magazine FAILED to publish ($(TZ='Asia/Jerusalem' date +'%Y-%m-%d %H:%M %Z')). Run: ${RUN_URL}" \
             > /dev/null || echo "Telegram alert failed to send (non-fatal)."
           echo "Failure alert dispatched."
