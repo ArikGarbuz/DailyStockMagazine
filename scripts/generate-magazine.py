@@ -7,6 +7,7 @@ Runs via GitHub Actions at 4:20 PM IST daily
 import json
 import datetime
 import os
+import sys
 from pathlib import Path
 
 # Stock data - same as in web/app/api/stocks/route.js
@@ -342,4 +343,7 @@ def main():
         return False
 
 if __name__ == '__main__':
-    main()
+    # Exit nonzero on failure so GitHub Actions marks the run RED.
+    # Previously main() returned False on a crash but the process still
+    # exited 0, which showed a false green check while producing no file.
+    sys.exit(0 if main() else 1)
