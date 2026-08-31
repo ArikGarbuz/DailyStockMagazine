@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-Market Intelligence — Monday, August 31, 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background: #0a0a0f;
+            color: #e0e0e0;
+            font-family: 'Space Grotesk', sans-serif;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container { max-width: 1400px; margin: 0 auto; }
+        .header { border-bottom: 2px solid #00ff88; padding-bottom: 20px; margin-bottom: 30px; }
+        .header h1 {
+            font-size: 2.5em;
+            color: #00ff88;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        .header .date { font-size: 0.9em; color: #888; font-family: 'JetBrains Mono', monospace; margin-bottom: 5px; }
+        .header .date-he { font-size: 0.85em; color: #666; text-align: right; direction: rtl; font-family: Arial, sans-serif; }
+        .market-pulse {
+            background: #12121a;
+            border: 1px solid #1e1e2e;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            font-size: 0.95em;
+            line-height: 1.8;
+        }
+        .market-pulse h2 { font-size: 0.75em; color: #888; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 15px; }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 16px;
+            margin-bottom: 30px;
+        }
+        .card {
+            background: #12121a;
+            border: 1px solid #1e1e2e;
+            border-radius: 10px;
+            padding: 18px;
+            transition: border-color 0.3s ease;
+        }
+        .card:hover { border-color: #2a2a3a; }
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+        .ticker {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.6em;
+            font-weight: 700;
+            color: #fff;
+        }
+        .exchange {
+            font-size: 0.65em;
+            color: #666;
+            font-family: 'JetBrains Mono', monospace;
+            margin-top: 4px;
+        }
+        .price-block { text-align: right; }
+        .price {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.4em;
+            font-weight: 700;
+        }
+        .change { font-size: 0.85em; font-weight: 600; margin-top: 4px; }
+        .up { color: #00ff88; }
+        .down { color: #ff4444; }
+        .company-name {
+            font-size: 0.85em;
+            color: #999;
+            margin-bottom: 12px;
+            font-weight: 500;
+        }
+        .why {
+            font-size: 0.9em;
+            line-height: 1.5;
+            color: #ccc;
+            margin-bottom: 12px;
+            border-left: 2px solid #333;
+            padding-left: 12px;
+        }
+        .social {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 12px;
+        }
+        .tag {
+            font-size: 0.7em;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            white-space: nowrap;
+        }
+        .tag-bullish { background: #003320; color: #00ff88; border: 1px solid #00ff8833; }
+        .tag-bearish { background: #330000; color: #ff4444; border: 1px solid #ff444433; }
+        .tag-neutral { background: #332200; color: #ffd700; border: 1px solid #ffd70033; }
+        .mcap {
+            font-size: 0.7em;
+            color: #666;
+            font-family: 'JetBrains Mono', monospace;
+            margin-top: 10px;
+        }
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid #1e1e2e;
+        }
+        .links a {
+            font-size: 0.7em;
+            color: #4da3ff;
+            text-decoration: underline;
+        }
+        .links a:hover { color: #7cc0ff; }
+        .footer {
+            margin-top: 40px;
+            font-size: 0.75em;
+            color: #555;
+            text-align: center;
+            border-top: 1px solid #1e1e2e;
+            padding-top: 20px;
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .section-label {
+            font-size: 0.7em;
+            color: #666;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        @media (max-width: 768px) {
+            .header h1 { font-size: 1.8em; }
+            .grid { grid-template-columns: 1fr; }
+            .card { padding: 14px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🗞 PRE-MARKET INTELLIGENCE</h1>
+            <div class="date">Monday, August 31, 2026 • 🇮🇱 Israel Edition</div>
+            <div class="date-he">ראשון, 31 באוגוסט 2026</div>
+        </div>
+
+        <div class="market-pulse">
+            <h2>📡 Market Pulse</h2>
+            <p>Of the 15 movers published today, 5 advanced and 10 declined.
+            Every price, percentage change, market capitalisation and day range below was fetched live
+            from Finnhub at 2026-08-31 19:36 UTC. Sentiment tags are derived arithmetically from each name's
+            move on the day (≥ +2% bullish, ≤ −2% bearish, otherwise neutral) and are not an editorial
+            opinion or a recommendation.</p>
+        </div>
+
+        <div class="section-label">🔥 Top 15 Movers — Under $30 • Market Cap &gt;$500M</div>
+        <div class="grid">
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">BMNR</div>
+          <div class="exchange">NYSE MKT LLC</div>
+        </div>
+        <div class="price-block">
+          <div class="price up">$25.12</div>
+          <div class="change up">+5.55%</div>
+        </div>
+      </div>
+      <div class="company-name">Bitmine Immersion Technologies Inc</div>
+      <div class="why">Technology · +5.55% vs prev close $23.80</div>
+      <div class="social">
+        <span class="tag tag-bullish">BULLISH</span>
+        <span class="tag tag-neutral">📊 $14.4B cap</span>
+      </div>
+      <div class="mcap">Market Cap: $14.4B | Day range: $23.70–$25.14</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/BMNR" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/BMNR/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://sandyspringsholdings.com" target="_blank" rel="noopener noreferrer">🌐 Company site</a>
+      </div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">FCEL</div>
+          <div class="exchange">NASDAQ NMS - GLOBAL MARKET</div>
+        </div>
+        <div class="price-block">
+          <div class="price down">$16.95</div>
+          <div class="change down">-4.56%</div>
+        </div>
+      </div>
+      <div class="company-name">Fuelcell Energy Inc</div>
+      <div class="why">Electrical Equipment · -4.56% vs prev close $17.76</div>
+      <div class="social">
+        <span class="tag tag-bearish">BEARISH</span>
+        <span class="tag tag-neutral">📊 $1.4B cap</span>
+      </div>
+      <div class="mcap">Market Cap: $1.4B | Day range: $16.73–$17.84</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/FCEL" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/FCEL/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://www.fuelcellenergy.com/" target="_blank" rel="noopener noreferrer">🌐 Company site</a>
+      </div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">RUN</div>
+          <div class="exchange">NASDAQ NMS - GLOBAL MARKET</div>
+        </div>
+        <div class="price-block">
+          <div class="price down">$8.55</div>
+          <div class="change down">-2.62%</div>
+        </div>
+      </div>
+      <div class="company-name">Sunrun Inc</div>
+      <div class="why">Electrical Equipment · -2.62% vs prev close $8.78</div>
+      <div class="social">
+        <span class="tag tag-bearish">BEARISH</span>
+        <span class="tag tag-neutral">📊 $2.1B cap</span>
+      </div>
+      <div class="mcap">Market Cap: $2.1B | Day range: $8.53–$8.78</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/RUN" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/RUN/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://www.sunrun.com/" target="_blank" rel="noopener noreferrer">🌐 Company site</a>
+      </div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">BBAI</div>
+          <div class="exchange">NEW YORK STOCK, INC.</div>
+        </div>
+        <div class="price-block">
+          <div class="price up">$3.12</div>
+          <div class="change up">+2.30%</div>
+        </div>
+      </div>
+      <div class="company-name">BigBear.ai Holdings Inc</div>
+      <div class="why">Technology · +2.30% vs prev close $3.05</div>
+      <div class="social">
+        <span class="tag tag-bullish">BULLISH</span>
+        <span class="tag tag-neutral">📊 $1.5B cap</span>
+      </div>
+      <div class="mcap">Market Cap: $1.5B | Day range: $3.02–$3.13</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/BBAI" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/BBAI/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://ir.bigbear.ai/" target="_blank" rel="noopener noreferrer">🌐 Company site</a>
+      </div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">NIO</div>
+          <div class="exchange">NEW YORK STOCK, INC.</div>
+        </div>
+        <div class="price-block">
+          <div class="price down">$4.27</div>
+          <div class="change down">-2.29%</div>
+        </div>
+      </div>
+      <div class="company-name">NIO Inc</div>
+      <div class="why">Automobiles · -2.29% vs prev close $4.37</div>
+      <div class="social">
+        <span class="tag tag-bearish">BEARISH</span>
+        <span class="tag tag-neutral">📊 $10.1B cap</span>
+      </div>
+      <div class="mcap">Market Cap: $10.1B | Day range: $4.26–$4.41</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/NIO" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/NIO/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://ir.nio.com/" target="_blank" rel="noopener noreferrer">🌐 Company site</a>
+      </div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">PATH</div>
+          <div class="exchange">NEW YORK STOCK, INC.</div>
+        </div>
+        <div class="price-block">
+          <div class="price up">$18.56</div>
+          <div class="change up">+2.26%</div>
+        </div>
+      </div>
+      <div class="company-name">UiPath Inc</div>
+      <div class="why">Technology · +2.26% vs prev close $18.15</div>
+      <div class="social">
+        <span class="tag tag-bullish">BULLISH</span>
+        <span class="tag tag-neutral">📊 $9.4B cap</span>
+      </div>
+      <div class="mcap">Market Cap: $9.4B | Day range: $18.02–$18.75</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/PATH" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/PATH/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://www.uipath.com/" target="_blank" rel="noopener noreferrer">🌐 Company site</a>
+      </div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">SNAP</div>
+          <div class="exchange">NEW YORK STOCK, INC.</div>
+        </div>
+        <div class="price-block">
+          <div class="price up">$5.55</div>
+          <div class="change up">+2.21%</div>
+        </div>
+      </div>
+      <div class="company-name">Snap Inc</div>
+      <div class="why">Media · +2.21% vs prev close $5.43</div>
+      <div class="social">
+        <span class="tag tag-bullish">BULLISH</span>
+        <span class="tag tag-neutral">📊 $9.2B cap</span>
+      </div>
+      <div class="mcap">Market Cap: $9.2B | Day range: $5.43–$5.69</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/SNAP" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/SNAP/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://snap.com/" target="_blank" rel="noopener noreferrer">🌐 Company site</a>
+      </div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">GME</div>
+          <div class="exchange">NEW YORK STOCK, INC.</div>
+        </div>
+        <div class="price-block">
+          <div class="price up">$18.26</div>
+          <div class="change up">+2.18%</div>
+        </div>
+      </div>
+      <div class="company-name">GameStop Corp</div>
+      <div class="why">Retail · +2.18% vs prev close $17.87</div>
+      <div class="social">
+        <span class="tag tag-bullish">BULLISH</span>
+        <span class="tag tag-neutral">📊 $8.1B cap</span>
+      </div>
+      <div class="mcap">Market Cap: $8.1B | Day range: $18.21–$18.92</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/GME" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/GME/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://news.gamestop.com/" target="_blank" rel="noopener noreferrer">🌐 Company site</a>
+      </div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">WULF</div>
+          <div class="exchange">NASDAQ NMS - GLOBAL MARKET</div>
+        </div>
+        <div class="price-block">
+          <div class="price down">$15.08</div>
+          <div class="change down">-1.76%</div>
+        </div>
+      </div>
+      <div class="company-name">Terawulf Inc</div>
+      <div class="why">Technology · -1.76% vs prev close $15.35</div>
+      <div class="social">
+        <span class="tag tag-neutral">NEUTRAL</span>
+        <span class="tag tag-neutral">📊 $8.8B cap</span>
+      </div>
+      <div class="mcap">Market Cap: $8.8B | Day range: $14.82–$15.31</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/WULF" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/WULF/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://terawulf.com" target="_blank" rel="noopener noreferrer">🌐 Company site</a>
+      </div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">CORZ</div>
+          <div class="exchange">NASDAQ NMS - GLOBAL MARKET</div>
+        </div>
+        <div class="price-block">
+          <div class="price down">$16.22</div>
+          <div class="change down">-1.76%</div>
+        </div>
+      </div>
+      <div class="company-name">Core Scientific Inc</div>
+      <div class="why">Technology · -1.76% vs prev close $16.51</div>
+      <div class="social">
+        <span class="tag tag-neutral">NEUTRAL</span>
+        <span class="tag tag-neutral">📊 $5.3B cap</span>
+      </div>
+      <div class="mcap">Market Cap: $5.3B | Day range: $16.01–$16.62</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/CORZ" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/CORZ/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://corescientific.com/" target="_blank" rel="noopener noreferrer">🌐 Company site</a>
+      </div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">RIOT</div>
+          <div class="exchange">NASDAQ NMS - GLOBAL MARKET</div>
+        </div>
+        <div class="price-block">
+          <div class="price down">$18.66</div>
+          <div class="change down">-1.74%</div>
+        </div>
+      </div>
+      <div class="company-name">Riot Platforms Inc</div>
+      <div class="why">Technology · -1.74% vs prev close $18.99</div>
+      <div class="social">
+        <span class="tag tag-neutral">NEUTRAL</span>
+        <span class="tag tag-neutral">📊 $7.1B cap</span>
+      </div>
+      <div class="mcap">Market Cap: $7.1B | Day range: $18.12–$18.91</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/RIOT" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/RIOT/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://www.riotplatforms.com/" target="_blank" rel="noopener noreferrer">🌐 Company site</a>
+      </div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">JOBY</div>
+          <div class="exchange">NEW YORK STOCK, INC.</div>
+        </div>
+        <div class="price-block">
+          <div class="price down">$6.87</div>
+          <div class="change down">-1.58%</div>
+        </div>
+      </div>
+      <div class="company-name">Joby Aviation Inc</div>
+      <div class="why">Airlines · -1.58% vs prev close $6.98</div>
+      <div class="social">
+        <span class="tag tag-neutral">NEUTRAL</span>
+        <span class="tag tag-neutral">📊 $6.9B cap</span>
+      </div>
+      <div class="mcap">Market Cap: $6.9B | Day range: $6.84–$7.03</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/JOBY" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/JOBY/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://www.jobyaviation.com/" target="_blank" rel="noopener noreferrer">🌐 Company site</a>
+      </div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">SIRI</div>
+          <div class="exchange">NASDAQ NMS - GLOBAL MARKET</div>
+        </div>
+        <div class="price-block">
+          <div class="price down">$28.13</div>
+          <div class="change down">-1.44%</div>
+        </div>
+      </div>
+      <div class="company-name">Sirius XM Holdings Inc</div>
+      <div class="why">Media · -1.44% vs prev close $28.54</div>
+      <div class="social">
+        <span class="tag tag-neutral">NEUTRAL</span>
+        <span class="tag tag-neutral">📊 $9.6B cap</span>
+      </div>
+      <div class="mcap">Market Cap: $9.6B | Day range: $27.99–$28.51</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/SIRI" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/SIRI/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://www.siriusxm.com/" target="_blank" rel="noopener noreferrer">🌐 Company site</a>
+      </div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">AAL</div>
+          <div class="exchange">NASDAQ NMS - GLOBAL MARKET</div>
+        </div>
+        <div class="price-block">
+          <div class="price down">$13.46</div>
+          <div class="change down">-1.32%</div>
+        </div>
+      </div>
+      <div class="company-name">American Airlines Group Inc</div>
+      <div class="why">Airlines · -1.32% vs prev close $13.64</div>
+      <div class="social">
+        <span class="tag tag-neutral">NEUTRAL</span>
+        <span class="tag tag-neutral">📊 $9.1B cap</span>
+      </div>
+      <div class="mcap">Market Cap: $9.1B | Day range: $13.27–$13.50</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/AAL" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/AAL/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://americanairlines.gcs-web.com/" target="_blank" rel="noopener noreferrer">🌐 Company site</a>
+      </div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="ticker">UPST</div>
+          <div class="exchange">NASDAQ NMS - GLOBAL MARKET</div>
+        </div>
+        <div class="price-block">
+          <div class="price down">$28.71</div>
+          <div class="change down">-1.27%</div>
+        </div>
+      </div>
+      <div class="company-name">Upstart Holdings Inc</div>
+      <div class="why">Financial Services · -1.27% vs prev close $29.08</div>
+      <div class="social">
+        <span class="tag tag-neutral">NEUTRAL</span>
+        <span class="tag tag-neutral">📊 $3.0B cap</span>
+      </div>
+      <div class="mcap">Market Cap: $3.0B | Day range: $28.00–$29.05</div>
+      <div class="links">
+        <a href="https://finance.yahoo.com/quote/UPST" target="_blank" rel="noopener noreferrer">📈 Yahoo Chart</a>
+        <a href="https://finance.yahoo.com/quote/UPST/news" target="_blank" rel="noopener noreferrer">📰 Yahoo News</a>
+        <a href="https://www.upstart.com/" target="_blank" rel="noopener noreferrer">🌐 Company site</a>
+      </div>
+    </div>
+    
+        </div>
+
+        <div class="footer">
+            <p>Live data: Finnhub • Fetched 2026-08-31 19:36 UTC • For informational purposes only • Not financial advice</p>
+            <p>Magazine ID: 20260831_1936</p>
+        </div>
+    </div>
+</body>
+</html>
