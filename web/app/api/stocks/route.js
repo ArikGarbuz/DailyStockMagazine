@@ -131,11 +131,19 @@ function validateQuote(q) {
 }
 
 // Merges in the AI Analyst layer (see scripts/ai-analyst.mjs) — a daily,
-// offline, single-Gemini-call-per-ticker fund-style research brief (BUY/
-// HOLD/AVOID/SELL + entry/target/stop + fundamental/technical/risk read),
-// NOT a live call and NOT personalized advice. Fetch failures or a missing
-// file are non-fatal: fields simply stay null and the UI shows "AI analysis
-// unavailable" instead of breaking the page.
+// offline, single-Gemini-call-per-ticker verdict, NOT a live call. Fetch
+// failures or a missing/未-run file are non-fatal: fields simply stay null
+// and the UI shows "AI analysis unavailable" instead of breaking the page.
+//
+// FIX (2026-09-07): ai-analyst.mjs writes a rich per-ticker object keyed by
+// `recommendation` (BUY/HOLD/AVOID/SELL), not `verdict` — and also writes
+// riskLevel/entryZone/targetPrice/stopLoss/fundamental/technical/risk (+HE
+// variants), all of which StockCard.jsx reads. The previous version of this
+// function only ever copied `verdict` (a field that doesn't exist in the
+// JSON) plus rationale/rationaleHE, so `aiRecommendation` was always null on
+// every card regardless of whether ai-verdicts/latest.json had real data —
+// the card's fallback ("AI Analyst view unavailable today") was permanent.
+// This now maps every field the UI actually consumes.
 async function fetchAiVerdicts() {
   try {
     const res = await fetch(AI_VERDICTS_URL, { next: { revalidate: AI_VERDICTS_REVALIDATE_SECONDS } });
@@ -145,19 +153,19 @@ async function fetchAiVerdicts() {
     for (const r of data.results || []) {
       if (r.status === 'ok') {
         map[r.ticker] = {
-          recommendation: r.recommendation,
-          riskLevel: r.riskLevel,
-          entryZone: r.entryZone,
-          targetPrice: r.targetPrice,
-          stopLoss: r.stopLoss,
-          fundamental: r.fundamental,
-          fundamentalHE: r.fundamentalHE,
-          technical: r.technical,
-          technicalHE: r.technicalHE,
-          risk: r.risk,
-          riskHE: r.riskHE,
-          rationale: r.rationale,
-          rationaleHE: r.rationaleHE
+          recommendation: r.recommendation || null,
+          riskLevel: r.riskLevel || null,
+          entryZone: r.entryZone || null,
+          targetPrice: r.targetPrice || null,
+          stopLoss: r.stopLoss || null,
+          fundamental: r.fundamental || null,
+          fundamentalHE: r.fundamentalHE || null,
+          technical: r.technical || null,
+          technicalHE: r.technicalHE || null,
+          risk: r.risk || null,
+          riskHE: r.riskHE || null,
+          rationale: r.rationale || null,
+          rationaleHE: r.rationaleHE || null
         };
       }
     }
@@ -197,10 +205,7 @@ async function fetchLiveStocks(apiKey) {
   const top = qualified.slice(0, 15);
 
   // Phase 3: for the final picks only — real news headline+URL, real 52-week
-  // range, real 10-day/3-month average volume, and real fundamental ratios
-  // (P/E, EPS, margins, ROE, debt/equity, revenue growth) — all pulled from
-  // the SAME Finnhub basic-financials call already made for the 52-week
-  // range, so the deeper AI Analyst brief costs zero extra API calls.
+  // range, and real 10-day/3-month average volume (basic-financials metric).
   const today = new Date();
   const weekAgo = new Date(today.getTime() - 7 * 24 * 60 * 60 * 1000);
   const fmt = (d) => d.toISOString().slice(0, 10);
@@ -228,13 +233,6 @@ async function fetchLiveStocks(apiKey) {
       let week52High = null;
       let avgVol10d = null;
       let avgVol3m = null;
-      let peTTM = null;
-      let epsTTM = null;
-      let grossMarginTTM = null;
-      let netMarginTTM = null;
-      let roeTTM = null;
-      let debtToEquity = null;
-      let revenueGrowthYoY = null;
       try {
         const metric = await fetchJson(
           `${FINNHUB_BASE}/stock/metric?symbol=${ticker}&metric=all&token=${apiKey}`
@@ -244,27 +242,6 @@ async function fetchLiveStocks(apiKey) {
         if (typeof m['52WeekHigh'] === 'number') week52High = m['52WeekHigh'];
         if (typeof m['10DayAverageTradingVolume'] === 'number') avgVol10d = m['10DayAverageTradingVolume'];
         if (typeof m['3MonthAverageTradingVolume'] === 'number') avgVol3m = m['3MonthAverageTradingVolume'];
-
-        // Fundamental ratios — Finnhub's exact field naming varies by
-        // ticker/plan, so each one tries a couple of known variants and
-        // simply stays null (shown as "n/a" to the AI) if none are present.
-        if (typeof m['peBasicExclExtraTTM'] === 'number') peTTM = m['peBasicExclExtraTTM'];
-        else if (typeof m['peExclExtraTTM'] === 'number') peTTM = m['peExclExtraTTM'];
-        else if (typeof m['peTTM'] === 'number') peTTM = m['peTTM'];
-
-        if (typeof m['epsInclExtraItemsTTM'] === 'number') epsTTM = m['epsInclExtraItemsTTM'];
-        else if (typeof m['epsBasicExclExtraItemsTTM'] === 'number') epsTTM = m['epsBasicExclExtraItemsTTM'];
-        else if (typeof m['epsTTM'] === 'number') epsTTM = m['epsTTM'];
-
-        if (typeof m['grossMarginTTM'] === 'number') grossMarginTTM = m['grossMarginTTM'];
-        if (typeof m['netProfitMarginTTM'] === 'number') netMarginTTM = m['netProfitMarginTTM'];
-        if (typeof m['roeTTM'] === 'number') roeTTM = m['roeTTM'];
-
-        if (typeof m['totalDebt/totalEquityQuarterly'] === 'number') debtToEquity = m['totalDebt/totalEquityQuarterly'];
-        else if (typeof m['totalDebt/totalEquityAnnual'] === 'number') debtToEquity = m['totalDebt/totalEquityAnnual'];
-
-        if (typeof m['revenueGrowthTTMYoy'] === 'number') revenueGrowthYoY = m['revenueGrowthTTMYoy'];
-        else if (typeof m['revenueGrowthQuarterlyYoy'] === 'number') revenueGrowthYoY = m['revenueGrowthQuarterlyYoy'];
       } catch (err) {
         // Basic-financials unavailable for this ticker — fields stay null, UI hides them
       }
@@ -301,13 +278,6 @@ async function fetchLiveStocks(apiKey) {
         volume3MonthAvg: formatVolume(avgVol3m),
         week52Low: typeof week52Low === 'number' ? week52Low : null,
         week52High: typeof week52High === 'number' ? week52High : null,
-        peTTM: typeof peTTM === 'number' ? peTTM : null,
-        epsTTM: typeof epsTTM === 'number' ? epsTTM : null,
-        grossMarginTTM: typeof grossMarginTTM === 'number' ? grossMarginTTM : null,
-        netMarginTTM: typeof netMarginTTM === 'number' ? netMarginTTM : null,
-        roeTTM: typeof roeTTM === 'number' ? roeTTM : null,
-        debtToEquity: typeof debtToEquity === 'number' ? debtToEquity : null,
-        revenueGrowthYoY: typeof revenueGrowthYoY === 'number' ? revenueGrowthYoY : null,
         catalyst: source || null,
         newsUrl: url || null,
         isLive: true,
@@ -357,37 +327,10 @@ function getFallbackStocks() {
     { ticker: 'RIOT', exchange: 'NASDAQ', price: 11.28, change: 9.4, name: 'Riot Platforms', nameHE: 'Riot', why: 'Bitcoin infrastructure play', whyHE: 'תשתיות Bitcoin', sentiment: 'BULLISH', sentimentScore: 50, marketCap: '$3.5B', volume: 'n/a', dailyVolumeAvg: '25.1M', volume3MonthAvg: '27.9M', week52Low: 6.8, week52High: 21.3 },
     { ticker: 'CIFR', exchange: 'NASDAQ', price: 8.76, change: 5.1, name: 'Cipher Mining', nameHE: 'Cipher Mining', why: 'Mining capacity expansion', whyHE: 'הרחבת כושר כרייה', sentiment: 'BULLISH', sentimentScore: 33, marketCap: '$950M', volume: 'n/a', dailyVolumeAvg: '14.4M', volume3MonthAvg: '16.0M', week52Low: 3.9, week52High: 16.3 },
     { ticker: 'CORE', exchange: 'NASDAQ', price: 6.89, change: 3.7, name: 'Core Scientific', nameHE: 'Core Scientific', why: 'Mining operations growing', whyHE: 'פעולות כרייה גדלות', sentiment: 'NEUTRAL', sentimentScore: 14, marketCap: '$820M', volume: 'n/a', dailyVolumeAvg: '22.8M', volume3MonthAvg: '25.3M', week52Low: 5.5, week52High: 12.1 },
-    { ticker: 'WULF', exchange: 'NASDAQ', price: 6.89, change: 4.2, name: 'TeraWulf Inc', nameHE: 'TeraWulf', why: 'Sustainable mining capacity increase', whyHE: 'עלייה בכושר כרייה בר-קיימא', sentiment: 'BULLISH', sentimentScore: 28, marketCap: '$2.1B', volume: 'n/a', dailyVolumeAvg: '17.9M', volume3MonthAvg: '19.5M', week52Low: 3.6, week52High: 16.3 },
-    { ticker: 'IREN', exchange: 'NASDAQ', price: 18.45, change: 6.8, name: 'Iris Energy Ltd', nameHE: 'Iris Energy', why: 'AI data center expansion news', whyHE: 'חדשות הרחבת מרכזי נתונים AI', sentiment: 'BULLISH', sentimentScore: 41, marketCap: '$3.4B', volume: 'n/a', dailyVolumeAvg: '12.6M', volume3MonthAvg: '14.1M', week52Low: 5.9, week52High: 42.2 }
+    { ticker: 'WULF', exchange: 'NASDAQ', price: 6.89, change: 4.2, name: 'TeraWulf Inc', nameHE: 'TeraWulf', why: 'Sustainable mining capacity increase', whyHE: 'עלייה בכושר כייה בה-חיייל', sentiment: 'BULLISH', sentimentScore: 28, marketCap: '$2.1B', volume: 'n/a', dailyVolumeAvg: '17.9M', volume3MonthAvg: '19.5M', week52Low: 3.6, week52High: 16.3 },
+    { ticker: 'IREN', exchange: 'NASDAQ', price: 18.45, change: 6.8, name: 'Iris Energy Ltd', nameHE: 'Iris Energy', why: 'AI data center expansion news', whyHE: 'חדשות הרחבת מרכזי נךונים AI', sentiment: 'BULLISH', sentimentScore: 41, marketCap: '$3.4B', volume: 'n/a', dailyVolumeAvg: '12.6M', volume3MonthAvg: '14.1M', week52Low: 5.9, week52High: 42.2 }
   ];
-  return sample.map((s) => ({
-    ...s,
-    isLive: false,
-    whyHE: `${s.whyHE} (דוגמה — לא חי)`,
-    newsUrl: null,
-    catalyst: null,
-    fetchedAt: null,
-    peTTM: null,
-    epsTTM: null,
-    grossMarginTTM: null,
-    netMarginTTM: null,
-    roeTTM: null,
-    debtToEquity: null,
-    revenueGrowthYoY: null,
-    aiRecommendation: null,
-    aiRiskLevel: null,
-    aiEntryZone: null,
-    aiTargetPrice: null,
-    aiStopLoss: null,
-    aiFundamental: null,
-    aiFundamentalHE: null,
-    aiTechnical: null,
-    aiTechnicalHE: null,
-    aiRisk: null,
-    aiRiskHE: null,
-    aiRationale: null,
-    aiRationaleHE: null
-  }));
+  return sample.map((s) => ({ ...s, isLive: false, whyHE: `${s.whyHE} (דוגם�� — לא חי)`, newsUrl: null, catalyst: null, fetchedAt: null, aiRecommendation: null, aiRiskLevel: null, aiEntryZone: null, aiTargetPrice: null, aiStopLoss: null, aiFundamental: null, aiFundamentalHE: null, aiTechnical: null, aiTechnicalHE: null, aiRisk: null, aiRiskHE: null, aiRationale: null, aiRationaleHE: null }));
 }
 
 export async function GET() {
