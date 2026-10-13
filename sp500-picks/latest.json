@@ -1,277 +1,285 @@
 {
-  "date": "2026-10-09",
-  "generatedAt": "2026-10-09T18:54:31.900Z",
-  "windowStart": 0,
+  "date": "2026-10-13",
+  "generatedAt": "2026-10-13T19:56:38.870Z",
+  "windowStart": 160,
   "windowSize": 40,
-  "cyclePosition": 0,
+  "cyclePosition": 4,
   "totalWindows": 13,
   "requested": 15,
-  "picked": 15,
-  "skippedCount": 13,
+  "picked": 11,
+  "skippedCount": 29,
   "skipped": [
     {
-      "ticker": "AOS",
+      "ticker": "DTE",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "ABBV",
+      "ticker": "DUK",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "AES",
+      "ticker": "SATS",
+      "reason": "profile lookup failed: empty profile response"
+    },
+    {
+      "ticker": "ECL",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "APD",
+      "ticker": "ELV",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "ALB",
+      "ticker": "EME",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "ARE",
+      "ticker": "ETR",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "ALGN",
+      "ticker": "EOG",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "ALLE",
+      "ticker": "EPAM",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "LNT",
+      "ticker": "EQT",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "ALL",
+      "ticker": "EQR",
+      "reason": "profile lookup failed: empty profile response"
+    },
+    {
+      "ticker": "ERIE",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "AMCR",
+      "ticker": "ESS",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "AEE",
+      "ticker": "EL",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "AEP",
+      "ticker": "EG",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "EVRG",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ES",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "EXE",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "EXPE",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "EXPD",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "EXR",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "XOM",
+      "reason": "no official website (Finnhub weburl empty)"
+    },
+    {
+      "ticker": "FFIV",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "FDS",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "FICO",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "FAST",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "FRT",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "FIS",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "FITB",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     }
   ],
   "picks": [
     {
-      "ticker": "MMM",
-      "name": "3M",
+      "ticker": "DD",
+      "name": "DuPont",
       "skipped": false,
-      "website": "https://www.3m.com/",
-      "industry": "Industrial Conglomerates",
-      "marketCap": "$84.4B",
-      "description": "The 3M Company is an American multinational conglomerate operating in the fields of industry, worker safety, and consumer goods. Based in the Saint Paul suburb of Maplewood, the company produces over 60,000 products, including adhesives, abrasives, laminates, passive fire protection, personal protective equipment, window films, paint protection film, electrical, electronic connecting, insulating materials, car-care products, electronic circuits, and optical films. Among its best-known consumer brands are Scotch Tape, Scotchgard surface protectants, Post-it notes, and Nexcare adhesive bandages. 3M's stock ticker symbol is MMM and is listed on the New York Stock Exchange, Inc. (NYSE), and the SIX Swiss Exchange.",
-      "descriptionHE": "3M‏ היא קונצרן רב-לאומי אמריקני המפתח ומייצר אלפי מוצרים שונים בתחומי התעשייה, הבטיחות והמיגון, האלקטרוניקה, התקשורת, המשרד ובית, רפואה, אבטחה, ננוטכנולוגיה, אנרגיה חלופית, בנייה ירוקה ועוד. החברה מונה כ-75,000 עובדים ברחבי העולם, ולה אתרי ייצור ביותר מ-60 מדינות. מוצרי החברה נמכרים באמצעות מפיצים מקומיים וקמעונאים ברחבי העולם. 3M היא אחת מ-30 החברות המרכיבות את מדד הדאו-ג'ונס. משרדי ההנהלה הראשית של החברה נמצאים בעיר מייפלווד, פרבר של הערים סיינט פול ומיניאפוליס שבמדינת מינסוטה.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/3M",
-      "employees": 94987,
-      "price": 161,
-      "change": -1.5772
+      "website": "https://www.dupont.com/",
+      "industry": "Chemicals",
+      "marketCap": "$17.5B",
+      "description": "DuPont de Nemours, Inc., commonly shortened to DuPont, is a company headquartered and organized in Delaware that produces products for the healthcare, water, construction and industrial markets. It was formed in 1802 by French-American chemist and industrialist Éleuthère Irénée du Pont de Nemours.",
+      "descriptionHE": "דופונט היא חברה אמריקאית, שהוקמה לטובת מיזוג של דאו כימיקלים ודופונט ב-31 באוגוסט 2017.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/DuPont",
+      "employees": 98000,
+      "price": 129.53,
+      "change": 0.1237
     },
     {
-      "ticker": "ABT",
-      "name": "Abbott Laboratories",
+      "ticker": "ETN",
+      "name": "Eaton Corporation",
       "skipped": false,
-      "website": "https://www.abbott.com",
-      "industry": "Health Care",
-      "marketCap": "$170.4B",
-      "description": "Abbott Laboratories, commonly known as Abbott, is an American multinational medical devices and health care company founded in Chicago with headquarters in Abbott Park, Illinois. The company produces pharmaceuticals for sale outside the United States, diagnostic products, nutritional products, and medical devices.",
-      "descriptionHE": "מעבדות אבוט היא חברת מכשור רפואי תרכובות מזון לתינוקות ותוספי תזונה אמריקאית. החברה נוסדה ב-1888 והמטה הראשי שלה באילינוי. היא מעסיקה כ-107,000 עובדים ברחבי העולם והכנסותיה כ-32 מיליארד דולר. בין מוצרי החברה הבולטים סימילאק, פדיאלייט, אנשור, גלוצרנה, פדיאשור, פריסטייל ליברה, ומכשור לבדיקת קורונה.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Abbott_Laboratories",
-      "employees": 73000,
-      "price": 99.13,
-      "change": 0.6498
-    },
-    {
-      "ticker": "ACN",
-      "name": "Accenture",
-      "skipped": false,
-      "website": "https://www.accenture.com/ie-en/",
-      "industry": "Technology",
-      "marketCap": "$127.5B",
-      "description": "Accenture plc is a technology consulting company headquartered in Dublin, Ireland. Founded in 1989 in the United States, Accenture provides information technology and management consulting services across 120 countries globally.",
-      "descriptionHE": "אקסנצ'ר היא חברה גלובלית המעניקה ייעוץ עסקי, שירותים טכנולוגיים ושירותי מיקור חוץ לארגונים ולחברות הגדולות במשק. הכנסותיה של אקסנצ'ר ממקמות אותה כאחת מחברות הייעוץ הגדולות בעולם, ונמצאת ברשימת 500 החברות הגדולות בעולם של המגזין Fortune Global 500.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Accenture",
-      "employees": 779000,
-      "price": 207.25,
-      "change": -0.5327
-    },
-    {
-      "ticker": "ADBE",
-      "name": "Adobe Inc.",
-      "skipped": false,
-      "website": "https://www.adobe.com/",
-      "industry": "Technology",
-      "marketCap": "$93.8B",
-      "description": "Adobe Inc., formerly Adobe Systems Incorporated, is an American multinational computer software company based in San Jose, California. It offers a wide range of programs from web design tools, photo manipulation, and vector creation to video and audio editing, mobile app development, print layout and animation software.",
-      "descriptionHE": "אַדוֹבִּי, שנקראה בעבר \"אדובי מערכות\", היא חברת תוכנה שנוסדה בדצמבר 1982 על ידי ג'ון וארנוק וצ'ארלס גצ'קי.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Adobe_Inc.",
-      "employees": 25988,
-      "price": 243.09,
-      "change": 0.8463
-    },
-    {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices",
-      "skipped": false,
-      "website": "https://www.amd.com/",
-      "industry": "Semiconductors",
-      "marketCap": "$1.01T",
-      "description": "Advanced Micro Devices, Inc. (AMD) is an American multinational semiconductor company headquartered in Santa Clara, California. It develops central processing units (CPUs), graphics processing units (GPUs), field-programmable gate arrays (FPGAs), system-on-chips (SoCs), and high-performance computer components. AMD serves a wide range of business and consumer markets, including personal computers (PCs), gaming, data centers, and embedded systems.",
-      "descriptionHE": "Advanced Micro Devices, Inc. היא חברה אמריקאית רב-לאומית, יצרנית של מעגלים משולבים. בסיסה בסנטה קלרה, קליפורניה. היא היצרן השני בגודלו של יחידות עיבוד מרכזי תואמי x86, היצרנית הגדולה ביותר של יחידות עיבוד מרכזי תואם FPGA, וספק מוביל של זיכרון מסוג Flash. היא נוסדה ב-1969 על ידי קבוצה של פורשים מחברת המוליכים למחצה \"Fairchild\", הכוללת את ג'רי סנדרס. בעוד שבעבר ייצרה מעבדים במפעלים משלה, החל משנת 2009 מכרה את מפעלי הייצור שלה לחברת \"מובאדלה\", קרן העושר הריבונית של ממשלת אבו דאבי, הפועלים תחת חברה חדשה בשם \"Global Foundaries\", כאשר נותרה המתכננת והמעצבת של השבבים, שאותם אחר-כך שולחת לייצור במפעלים חיצוניים, ביניהם גם החל מ-2014 חברת השבבים הטיוואנית TSMC, שסיפקה לה קווי ייצור של 7 ננומטר.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/AMD",
-      "employees": 15500,
-      "price": 611.92,
-      "change": -1.4114
-    },
-    {
-      "ticker": "AFL",
-      "name": "Aflac",
-      "skipped": false,
-      "website": "https://www.aflac.com/",
-      "industry": "Insurance",
-      "marketCap": "$57.6B",
-      "description": "Aflac Incorporated is an American insurance company and is the largest provider of supplemental insurance in the United States. It was founded in 1955 and is based in Columbus, Georgia. In the U.S., it underwrites a wide range of insurance policies, but is perhaps more known for its payroll deduction insurance coverage, which pays cash benefits when a policyholder has a covered accident or illness. The company states it \"provides financial protection to more than 50 million people worldwide\".",
+      "website": "https://www.eaton.com/",
+      "industry": "Electrical Equipment",
+      "marketCap": "$165.7B",
+      "description": "Eaton Corporation plc is an Irish multinational power management company, with global headquarters at the Eaton House in Dublin and a primary administrative center in Beachwood, Ohio. Eaton has more than 85,000 employees and sells products to customers in more than 175 countries.",
       "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Aflac",
-      "employees": 12003,
-      "price": 114.78,
-      "change": -0.1392
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Eaton_Corporation",
+      "employees": 92000,
+      "price": 428.88,
+      "change": 0.5133
     },
     {
-      "ticker": "A",
-      "name": "Agilent Technologies",
+      "ticker": "EBAY",
+      "name": "eBay Inc.",
       "skipped": false,
-      "website": "https://www.agilent.com/",
-      "industry": "Life Sciences Tools & Services",
-      "marketCap": "$47.4B",
-      "description": "Agilent Technologies, Inc. is an American global company headquartered in Santa Clara, California, that provides instruments, software, services, and consumables for laboratories. Agilent was established in 1999 as a spin-off from Hewlett-Packard. The resulting initial public offering of Agilent stock was the largest in the history of Silicon Valley at the time.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Agilent_Technologies",
-      "employees": 17671,
-      "price": 171.4,
-      "change": 1.9207
-    },
-    {
-      "ticker": "ABNB",
-      "name": "Airbnb",
-      "skipped": false,
-      "website": "https://www.airbnb.com/",
-      "industry": "Hotels, Restaurants & Leisure",
-      "marketCap": "$97.7B",
-      "description": "Airbnb, Inc. is an American company operating an online marketplace for short-and-long-term homestays, experiences and services in various countries and regions. It acts as a broker and charges a commission from each booking. Airbnb was founded in 2008 by Brian Chesky, Nathan Blecharczyk, and Joe Gebbia.",
-      "descriptionHE": "Airbnb הוא אתר אינטרנט המתווך בין שוכרי יחידות נופש להשכרה או יחידות מגורים לטווח קצר לבין בעלים של יחידות כאלו.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Airbnb",
-      "employees": 5597,
-      "price": 165.94,
-      "change": 1.6602
-    },
-    {
-      "ticker": "AKAM",
-      "name": "Akamai Technologies",
-      "skipped": false,
-      "website": "https://www.akamai.com/",
-      "industry": "Technology",
-      "marketCap": "$14.5B",
-      "description": "Akamai Technologies, Inc. is an American company specializing in content delivery network (CDN), cybersecurity, DDoS mitigation, and cloud services. It is headquartered in Cambridge, Massachusetts.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Akamai_Technologies",
-      "employees": 8368,
-      "price": 108.74,
-      "change": 7.7701
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Alphabet Inc. (Class A)",
-      "skipped": false,
-      "website": "https://abc.xyz/",
-      "industry": "Media",
-      "marketCap": "$4.26T",
-      "description": "Alphabet Inc. is an American multinational technology conglomerate holding company headquartered in Mountain View, California. It was created through a restructuring of Google on October 2, 2015, and became the parent holding company of Google and several former Google subsidiaries. Alphabet is listed on the large-cap section of the Nasdaq under the ticker symbols GOOGL and GOOG; both classes of stock are components of major stock market indices such as the S&P 500 and Nasdaq-100. Alphabet has been described as a Big Tech company. As of July 2026, it is the third largest publicly traded company in the world by market capitalization.",
-      "descriptionHE": "אלפאבית היא חברת החזקות העוסקת בטכנולוגיה וממוקמת במאונטיין ויו, קליפורניה. היא הוקמה על מנת להפוך את גוגל לחברה שמתמקדת רק בשירותי אינטרנט ולאפשר עצמאות לחברות הבנות שלא עוסקות בתחום, ונוצרה כתוצאה מארגון מחדש של חברת גוגל ב-2 באוקטובר 2015. בכך הפכה לחברת האם של גוגל ומספר חברות בנות שלה. שני המייסדים של גוגל מינו את עצמם לתפקידים בכירים בחברה החדשה: לארי פייג' בתפקיד המנכ\"ל וסרגיי ברין בתפקיד נשיא החברה.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Alphabet_Inc.",
-      "employees": 190234,
-      "price": 351.41,
-      "change": 0.8958
-    },
-    {
-      "ticker": "GOOG",
-      "name": "Alphabet Inc. (Class C)",
-      "skipped": false,
-      "website": "https://abc.xyz/",
-      "industry": "Media",
-      "marketCap": "$4.26T",
-      "description": "Alphabet Inc. is an American multinational technology conglomerate holding company headquartered in Mountain View, California. It was created through a restructuring of Google on October 2, 2015, and became the parent holding company of Google and several former Google subsidiaries. Alphabet is listed on the large-cap section of the Nasdaq under the ticker symbols GOOGL and GOOG; both classes of stock are components of major stock market indices such as the S&P 500 and Nasdaq-100. Alphabet has been described as a Big Tech company. As of July 2026, it is the third largest publicly traded company in the world by market capitalization.",
-      "descriptionHE": "אלפאבית היא חברת החזקות העוסקת בטכנולוגיה וממוקמת במאונטיין ויו, קליפורניה. היא הוקמה על מנת להפוך את גוגל לחברה שמתמקדת רק בשירותי אינטרנט ולאפשר עצמאות לחברות הבנות שלא עוסקות בתחום, ונוצרה כתוצאה מארגון מחדש של חברת גוגל ב-2 באוקטובר 2015. בכך הפכה לחברת האם של גוגל ומספר חברות בנות שלה. שני המייסדים של גוגל מינו את עצמם לתפקידים בכירים בחברה החדשה: לארי פייג' בתפקיד המנכ\"ל וסרגיי ברין בתפקיד נשיא החברה.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Alphabet_Inc.",
-      "employees": 190234,
-      "price": 347.88,
-      "change": 0.8757
-    },
-    {
-      "ticker": "MO",
-      "name": "Altria",
-      "skipped": false,
-      "website": "https://www.altria.com/",
-      "industry": "Tobacco",
-      "marketCap": "$119.3B",
-      "description": "Altria Group, Inc. is an American corporation and one of the world's largest producers and marketers of tobacco, cigarettes, and medical products in the treatment of illnesses caused by tobacco. It operates worldwide and is headquartered in the city of Richmond, Virginia.",
-      "descriptionHE": "קבוצת אלטריה היא חברת טבק אמריקאית העוסקת בייצור ושיווק של טבק, סיגריות, ומוצרים הנלווים אליהם. כמו כן, היא גם אחת מחברה הגדולות בעולם הפועלות בתחום זה. משרדיה הראשיים של החברה שוכנים במדינת וירג'יניה שבארצות הברית.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Altria",
-      "employees": 9900,
-      "price": 71.52,
-      "change": 0.14
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Amazon",
-      "skipped": false,
-      "website": "https://www.amazon.com/",
+      "website": "https://www.ebayinc.com/",
       "industry": "Retail",
-      "marketCap": "$2.74T",
-      "description": "Amazon.com, Inc. is an American multinational conglomerate engaged in e-commerce, retail, cloud computing, online advertising, digital streaming, entertainment, and artificial intelligence. Founded in 1994 by Jeff Bezos in Bellevue, Washington, the company started as an online book marketplace that gradually expanded to include virtually all consumer products as well as many other categories, positioned as \"The Everything Store\".",
-      "descriptionHE": "אמזון.קום בע\"מ, המוכרת בשם המקוצר אמזון, היא חברה אמריקאית למסחר אלקטרוני ושירותי מחשוב ענן. החברה שבסיסה בסיאטל, וושינגטון, נוסדה ב-5 ביולי 1994. היא הייתה מחלוצות המסחר באינטרנט והתפרסמה בראשיתה במכירת ספרים, אך בהמשך החלה למכור גם דיסקים, סרטים, מוצרי אלקטרוניקה, בגדים ועוד. עם התפתחותה של החברה ניתן לקנות באתר החברה מגוון רחב מאוד של מוצרים.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Amazon_(company)",
-      "employees": 1500000,
-      "price": 261.45,
-      "change": 2.9088
+      "marketCap": "$51.0B",
+      "description": "eBay Inc. is an American multinational e-commerce company based in San Jose, California, that allows users to buy or view items via retail sales through online marketplaces and websites in 190 markets worldwide. Sales occur either via online auctions or \"Buy It Now\" instant sales, and the company charges commissions to sellers upon sale. eBay was founded by Pierre Omidyar in September 1995. In 2021, eBay had approximately 17 million global sellers; in 2023, it reported 132 million annual active buyers worldwide and handled $73 billion in transactions, 48% of which were in the United States. In 2023, the company had a take rate of 13.81%.",
+      "descriptionHE": "איביי הוא אתר מכירות פומביות וישירות באינטרנט, כמו גם שמה של החברה האמריקנית המנהלת אותו, .eBay, Inc. האתר הוא שוק עולמי מקוון המאפשר מסחר מקומי, ובינלאומי. המוכרים הם אנשים פרטיים ועסקים קטנים עד בינוניים המציעים מיליוני פריטים ושירותים דרך הפלטפורמה המקוונת.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/EBay",
+      "employees": 12600,
+      "price": 116.42,
+      "change": 1.5438
     },
     {
-      "ticker": "AXP",
-      "name": "American Express",
+      "ticker": "EIX",
+      "name": "Edison International",
       "skipped": false,
-      "website": "https://www.americanexpress.com/",
-      "industry": "Financial Services",
-      "marketCap": "$208.1B",
-      "description": "American Express Company (Amex) is an American bank holding company and multinational financial services corporation that specializes in payment cards. It is headquartered at 200 Vesey Street, also known as American Express Tower, in the Battery Park City neighborhood of Lower Manhattan; in 2026, the company announced that it would develop and be the sole occupant of the new 2 World Trade Center skyscraper in the nearby World Trade Center complex.",
-      "descriptionHE": "אמריקן אקספרס, היא חברת שירותים פיננסיים אמריקאית בינלאומית, שמרכזה בבניין רחוב וסי 200, מנהטן, ניו יורק, ארצות הברית. החברה הוקמה בשנת 1850, והיא אחת משלושים החברות הנכללות במדד דאו ג'ונס. החברה ידועה בעיקר בשל שירותי כרטיסי האשראי, כרטיסי החיוב, והמחאות הנוסעים שלה. כרטיסי אמריקן אקספרס אחראים לכ-24% מסך נפח החיוב בעסקאות בכרטיסי אשראי בדולר אמריקני בארצות הברית, שיעור גבוה מכל מנפיק כרטיסים אחר. ביזנסוויק ואינטרברנד דירגו את אמריקן אקספרס כמותג ה-22 בחשיבותו בעולם, בהערכתם את שווי המותג ב-14.97 מיליארד דולר אמריקני. מגזין Fortune דירג את אמריקן אקספרס כאחת מ-20 החברות הנערצות ביותר בעולם. סמל החברה, אשר אומץ בשנת 1958, הוא קנטוריון, דרגת קצונה בצבא הרומאי. סמל זה מופיע על המחאות הנוסעים וכרטיסי החיוב של החברה.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/American_Express",
-      "employees": 64000,
-      "price": 307.88,
-      "change": -0.0714
+      "website": "https://www.edison.com/",
+      "industry": "Utilities",
+      "marketCap": "$21.4B",
+      "description": "Edison International is a public utility holding company based in Rosemead, California. Its subsidiaries include Southern California Edison, and unregulated non-utility business assets Edison Energy. Edison's roots trace back to Holt & Knupps, a company founded in 1886 as a provider of street lights in Visalia, California.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Edison_International",
+      "employees": 16677,
+      "price": 55.38,
+      "change": -0.4673
     },
     {
-      "ticker": "AIG",
-      "name": "American International Group",
+      "ticker": "EW",
+      "name": "Edwards Lifesciences",
       "skipped": false,
-      "website": "https://www.aig.com/home",
-      "industry": "Insurance",
-      "marketCap": "$40.3B",
-      "description": "American International Group, Inc. (AIG) is an American multinational finance and insurance corporation with operations in more than 200 countries and jurisdictions. As of 2023, AIG employed 25,200 people. The company primarily provides commercial and personal insurance products, including property and casualty insurance, liability coverage, accident and health insurance, and specialty insurance products. The company also provides risk management, multinational, and related insurance services to businesses and individuals. AIG is the title sponsor of the AIG Women's Open golf tournament. In 2023, for the sixth consecutive year, DiversityInc named AIG among the Top 50 Companies for Diversity list.",
-      "descriptionHE": "AIG היא תאגיד ביטוח אמריקני בינלאומי שמרכזו בעיר ניו יורק. ל-AIG מטה באירופה (בלונדון) ומטה באסיה.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/American_International_Group",
-      "employees": 26200,
-      "price": 77.44,
-      "change": 0.5062
+      "website": "https://www.edwards.com",
+      "industry": "Health Care",
+      "marketCap": "$49.8B",
+      "description": "Edwards Lifesciences Corporation is an American medical technology company headquartered in Irvine, California, specializing in tissue heart valves and transcatheter technologies for the treatment of structural heart disease. The company has manufacturing facilities at the Irvine headquarters, as well as in Draper, Utah; Costa Rica; Singapore; and Limerick, Ireland. The company is also constructing a manufacturing plant in Moncada, near Valencia, Spain, with a €150 million investment. Production is scheduled to begin in 2027.",
+      "descriptionHE": "Edwards Lifesciences‏ היא מפתחת, יצרנית ומשווקת עולמית של התקנים רפואיים בתחום קרדיולוגיה וציוד ליחידה לטיפול נמרץ.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Edwards_Lifesciences",
+      "employees": 14000,
+      "price": 85.13,
+      "change": -1.4585
+    },
+    {
+      "ticker": "EA",
+      "name": "Electronic Arts",
+      "skipped": false,
+      "website": "https://www.ea.com/",
+      "industry": "Media",
+      "marketCap": "$52.9B",
+      "description": "Electronic Arts Inc. (EA) is an American video game company headquartered in Redwood City, California. Founded in May 1982 by former Apple employee Trip Hawkins, the company was a pioneer of the early home computer game industry and promoted the designers and programmers responsible for its games as \"software artists\". EA published numerous games and some productivity software for personal computers, all of which were developed by external individuals or groups until 1987's Skate or Die! The company shifted toward internal game studios, often through acquisitions, such as Distinctive Software becoming EA Canada in 1991.",
+      "descriptionHE": "Electronic Arts היא חברה בינלאומית לפיתוח, שיווק והפצת משחקי וידאו.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Electronic_Arts",
+      "employees": 11000,
+      "price": null,
+      "change": null
+    },
+    {
+      "ticker": "EMR",
+      "name": "Emerson Electric",
+      "skipped": false,
+      "website": "https://www.emerson.com/en-us",
+      "industry": "Electrical Equipment",
+      "marketCap": "$90.6B",
+      "description": "Emerson Electric Co., commonly known as Emerson, is an American multinational corporation headquartered in St. Louis, Missouri. The Fortune 500 company manufactures and delivers a range of industrial automation and control systems, climate control solutions, measurement and analytical instrumentation, and provides engineering services for industrial, commercial, and consumer markets.",
+      "descriptionHE": "אמרסון היא תאגיד אמריקאי רב-לאומי שבסיסו בסנט לואיס, מיזורי. היא חברת Fortune 500 ומספקת מגוון שירותי הנדסה, מייצרת ציוד אוטומציה תעשייתית, מערכות בקרת אקלים ומכשירי מדידה מדויקים, ומספקת הנדסת תוכנה לשווקים תעשייתיים, מסחריים וצרכניים.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Emerson_Electric",
+      "employees": 134900,
+      "price": 163.27,
+      "change": 0.4986
+    },
+    {
+      "ticker": "EFX",
+      "name": "Equifax",
+      "skipped": false,
+      "website": "https://www.equifax.com/",
+      "industry": "Professional Services",
+      "marketCap": "$17.3B",
+      "description": "Equifax Inc. is an American multinational consumer credit reporting agency headquartered in Atlanta, Georgia, and is one of the three largest consumer credit reporting agencies, along with Experian and TransUnion. Equifax collects and aggregates information on more than 800 million individual consumers and more than 88 million businesses worldwide. In addition to credit and demographic data and services to business, Equifax sells credit monitoring and fraud prevention services directly to consumers.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Equifax",
+      "employees": 9500,
+      "price": 149.35,
+      "change": 1.3711
+    },
+    {
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "skipped": false,
+      "website": "https://www.equinix.com/",
+      "industry": "Real Estate",
+      "marketCap": "$101.9B",
+      "description": "Equinix Inc., is an American multinational internet and data center company headquartered in Redwood City, California. It specialized in internet connectivity and data center colocation centers, commonly known as carrier hotels, until the company converted to a real estate investment trust (REIT) in January 2015. It is listed on the Nasdaq stock exchange under the ticker symbol EQIX. As of 2025, the company operates 260 data centers in 33 countries, across five continents and employed more than 13,000 people worldwide.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Equinix",
+      "employees": 8378,
+      "price": 1020.49,
+      "change": -1.1728
+    },
+    {
+      "ticker": "EXC",
+      "name": "Exelon",
+      "skipped": false,
+      "website": "https://www.exeloncorp.com/",
+      "industry": "Utilities",
+      "marketCap": "$43.5B",
+      "description": "Exelon Corporation is an American public utility headquartered in Chicago, and incorporated in Pennsylvania. Exelon is the largest electric parent company in the United States by revenue and is the largest regulated electric utility in the United States with approximately 10 million customers. The company is ranked 187th on the Fortune 500.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Exelon",
+      "employees": 34000,
+      "price": 42.38,
+      "change": 0.6173
+    },
+    {
+      "ticker": "FDX",
+      "name": "FedEx",
+      "skipped": false,
+      "website": "https://www.fedex.com/en-us/home.html",
+      "industry": "Logistics & Transportation",
+      "marketCap": "$69.2B",
+      "description": "FedEx Corporation, headquartered in Memphis, Tennessee, is an American multinational conglomerate holding company specializing in package delivery. Its services include FedEx Express, FedEx Ground, FedEx Office, FedEx Supply Chain, FedEx Freight, and FedEx Dataworks.",
+      "descriptionHE": "פדקס, לשעבר פדרל אקספרס, היא חברת שילוח מטענים שמרכזה בארצות הברית, המציעה שירותי שליחים בארצות הברית וברחבי העולם. החברה מציעה גם שינוע מטענים כבדים, ביבשה ובאוויר, וכן שירות העתקת מסמכים ושירותים לוגיסטיים. \"פדקס\" הוא קיצור של שמה המקורי של החברה, \"פדרל אקספרס\".",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/FedEx",
+      "employees": 400000,
+      "price": 290.3,
+      "change": -0.6604
     }
   ]
 }
