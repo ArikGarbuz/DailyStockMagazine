@@ -1,285 +1,281 @@
 {
-  "date": "2026-10-13",
-  "generatedAt": "2026-10-13T19:56:38.870Z",
-  "windowStart": 160,
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-14T18:07:10.099Z",
+  "windowStart": 200,
   "windowSize": 40,
-  "cyclePosition": 4,
+  "cyclePosition": 5,
   "totalWindows": 13,
   "requested": 15,
-  "picked": 11,
-  "skippedCount": 29,
+  "picked": 15,
+  "skippedCount": 14,
   "skipped": [
     {
-      "ticker": "DTE",
+      "ticker": "FSLR",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "DUK",
+      "ticker": "FE",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "SATS",
-      "reason": "profile lookup failed: empty profile response"
-    },
-    {
-      "ticker": "ECL",
+      "ticker": "FTV",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "ELV",
+      "ticker": "BEN",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "EME",
+      "ticker": "FCX",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "ETR",
+      "ticker": "GRMN",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "EOG",
+      "ticker": "IT",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "EPAM",
+      "ticker": "GE",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "EQT",
+      "ticker": "GEHC",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "EQR",
-      "reason": "profile lookup failed: empty profile response"
-    },
-    {
-      "ticker": "ERIE",
+      "ticker": "GEV",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "ESS",
+      "ticker": "GNRC",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "EL",
+      "ticker": "GPC",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "EG",
+      "ticker": "GPN",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "EVRG",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "ES",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "EXE",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "EXPE",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "EXPD",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "EXR",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "XOM",
-      "reason": "no official website (Finnhub weburl empty)"
-    },
-    {
-      "ticker": "FFIV",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "FDS",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "FICO",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "FAST",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "FRT",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "FIS",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "FITB",
+      "ticker": "GL",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     }
   ],
   "picks": [
     {
-      "ticker": "DD",
-      "name": "DuPont",
+      "ticker": "FISV",
+      "name": "Fiserv",
       "skipped": false,
-      "website": "https://www.dupont.com/",
-      "industry": "Chemicals",
-      "marketCap": "$17.5B",
-      "description": "DuPont de Nemours, Inc., commonly shortened to DuPont, is a company headquartered and organized in Delaware that produces products for the healthcare, water, construction and industrial markets. It was formed in 1802 by French-American chemist and industrialist Éleuthère Irénée du Pont de Nemours.",
-      "descriptionHE": "דופונט היא חברה אמריקאית, שהוקמה לטובת מיזוג של דאו כימיקלים ודופונט ב-31 באוגוסט 2017.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/DuPont",
-      "employees": 98000,
-      "price": 129.53,
-      "change": 0.1237
-    },
-    {
-      "ticker": "ETN",
-      "name": "Eaton Corporation",
-      "skipped": false,
-      "website": "https://www.eaton.com/",
-      "industry": "Electrical Equipment",
-      "marketCap": "$165.7B",
-      "description": "Eaton Corporation plc is an Irish multinational power management company, with global headquarters at the Eaton House in Dublin and a primary administrative center in Beachwood, Ohio. Eaton has more than 85,000 employees and sells products to customers in more than 175 countries.",
+      "website": "https://www.fiserv.com/",
+      "industry": "Financial Services",
+      "marketCap": "$24.6B",
+      "description": "Fiserv, Inc. is an American multinational financial technology company headquartered in Milwaukee, Wisconsin. The company processes debit and credit card transactions, loyalty programs, loans, electronic bill pay, wires and ACH transfers, check deposits, and ATM transactions on behalf of banking institutions. The company also produces debit and credit cards and point of sale terminals.",
       "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Eaton_Corporation",
-      "employees": 92000,
-      "price": 428.88,
-      "change": 0.5133
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiserv",
+      "employees": 21000,
+      "price": 45.73,
+      "change": -1.9931
     },
     {
-      "ticker": "EBAY",
-      "name": "eBay Inc.",
+      "ticker": "F",
+      "name": "Ford Motor Company",
       "skipped": false,
-      "website": "https://www.ebayinc.com/",
-      "industry": "Retail",
-      "marketCap": "$51.0B",
-      "description": "eBay Inc. is an American multinational e-commerce company based in San Jose, California, that allows users to buy or view items via retail sales through online marketplaces and websites in 190 markets worldwide. Sales occur either via online auctions or \"Buy It Now\" instant sales, and the company charges commissions to sellers upon sale. eBay was founded by Pierre Omidyar in September 1995. In 2021, eBay had approximately 17 million global sellers; in 2023, it reported 132 million annual active buyers worldwide and handled $73 billion in transactions, 48% of which were in the United States. In 2023, the company had a take rate of 13.81%.",
-      "descriptionHE": "איביי הוא אתר מכירות פומביות וישירות באינטרנט, כמו גם שמה של החברה האמריקנית המנהלת אותו, .eBay, Inc. האתר הוא שוק עולמי מקוון המאפשר מסחר מקומי, ובינלאומי. המוכרים הם אנשים פרטיים ועסקים קטנים עד בינוניים המציעים מיליוני פריטים ושירותים דרך הפלטפורמה המקוונת.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/EBay",
-      "employees": 12600,
-      "price": 116.42,
-      "change": 1.5438
+      "website": "https://www.ford.com/",
+      "industry": "Automobiles",
+      "marketCap": "$47.7B",
+      "description": "The Ford Motor Company is an American multinational automobile manufacturer headquartered in Dearborn, Michigan, United States. It was founded by Henry Ford and incorporated on June 16, 1903. The company sells automobiles and commercial vehicles under the Ford brand, and luxury cars under its Lincoln brand. The company is listed on the New York Stock Exchange under the single-letter ticker symbol F and is controlled by the Ford family. They have minority ownership but a plurality of the voting power.",
+      "descriptionHE": "החברה המוטורית פורד היא יצרנית רכב אמריקאית בינלאומית מהגדולות בעולם. בשנת 2005 קבוצת פורד הייתה במקום השני בדירוג מכירות הרכב העולמי שנייה לג'נרל מוטורס, אך החל משנת 2006, בה עקפה חברת טויוטה את פורד במכירות, היא החלה לרדת בעקביות בדירוג. ב-2011 היא דורגה כיצרן החמישי בגודלו בעולם. סדרת רכבי ה\"פיק-אפ\" מדגם F של פורד, היא המכונית הנמכרת ביותר בארצות הברית בכל שנה, ברציפות משנת 1981. בשנת 2004 נמכרו בארצות הברית כ-940 אלף יחידות (שיא) מסדרה זו, רובן מדגם F-150. קבוצת פורד כוללת את המותגים פורד ולינקולן, והיא מחזיקה באסטון מרטין הבריטית. ב-2008 מכרה פורד את אחזקותיה בלנד רובר ויגואר הבריטיות לטאטא ההודית. ב-2010 מכרה פורד את אחזקותיה בחטיבת המכוניות של וולוו השוודית ומאזדה היפנית, וכן הפסיקה את ייצור המותג מרקורי האמריקאי.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Motor_Company",
+      "employees": 186000,
+      "price": 11.91,
+      "change": -1.5702
     },
     {
-      "ticker": "EIX",
-      "name": "Edison International",
+      "ticker": "FTNT",
+      "name": "Fortinet",
       "skipped": false,
-      "website": "https://www.edison.com/",
-      "industry": "Utilities",
-      "marketCap": "$21.4B",
-      "description": "Edison International is a public utility holding company based in Rosemead, California. Its subsidiaries include Southern California Edison, and unregulated non-utility business assets Edison Energy. Edison's roots trace back to Holt & Knupps, a company founded in 1886 as a provider of street lights in Visalia, California.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Edison_International",
-      "employees": 16677,
-      "price": 55.38,
-      "change": -0.4673
+      "website": "https://www.fortinet.com/",
+      "industry": "Technology",
+      "marketCap": "$138.3B",
+      "description": "Fortinet, Inc. is an American cybersecurity company headquartered in Sunnyvale, California. It develops and sells security products including firewalls, endpoint security and intrusion detection systems. Fortinet has offices in the US, Canada, and UK.",
+      "descriptionHE": "פורטינט היא חברה אמריקאית רב-לאומית טכנולוגית המפתחת ומשווקת מוצרי אבטחת מידע.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Fortinet",
+      "employees": 15109,
+      "price": 185.38,
+      "change": -2.8203
     },
     {
-      "ticker": "EW",
-      "name": "Edwards Lifesciences",
+      "ticker": "FOXA",
+      "name": "Fox Corporation (Class A)",
       "skipped": false,
-      "website": "https://www.edwards.com",
-      "industry": "Health Care",
-      "marketCap": "$49.8B",
-      "description": "Edwards Lifesciences Corporation is an American medical technology company headquartered in Irvine, California, specializing in tissue heart valves and transcatheter technologies for the treatment of structural heart disease. The company has manufacturing facilities at the Irvine headquarters, as well as in Draper, Utah; Costa Rica; Singapore; and Limerick, Ireland. The company is also constructing a manufacturing plant in Moncada, near Valencia, Spain, with a €150 million investment. Production is scheduled to begin in 2027.",
-      "descriptionHE": "Edwards Lifesciences‏ היא מפתחת, יצרנית ומשווקת עולמית של התקנים רפואיים בתחום קרדיולוגיה וציוד ליחידה לטיפול נמרץ.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Edwards_Lifesciences",
-      "employees": 14000,
-      "price": 85.13,
-      "change": -1.4585
-    },
-    {
-      "ticker": "EA",
-      "name": "Electronic Arts",
-      "skipped": false,
-      "website": "https://www.ea.com/",
+      "website": "https://www.foxcorporation.com/",
       "industry": "Media",
-      "marketCap": "$52.9B",
-      "description": "Electronic Arts Inc. (EA) is an American video game company headquartered in Redwood City, California. Founded in May 1982 by former Apple employee Trip Hawkins, the company was a pioneer of the early home computer game industry and promoted the designers and programmers responsible for its games as \"software artists\". EA published numerous games and some productivity software for personal computers, all of which were developed by external individuals or groups until 1987's Skate or Die! The company shifted toward internal game studios, often through acquisitions, such as Distinctive Software becoming EA Canada in 1991.",
-      "descriptionHE": "Electronic Arts היא חברה בינלאומית לפיתוח, שיווק והפצת משחקי וידאו.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Electronic_Arts",
-      "employees": 11000,
-      "price": null,
-      "change": null
-    },
-    {
-      "ticker": "EMR",
-      "name": "Emerson Electric",
-      "skipped": false,
-      "website": "https://www.emerson.com/en-us",
-      "industry": "Electrical Equipment",
-      "marketCap": "$90.6B",
-      "description": "Emerson Electric Co., commonly known as Emerson, is an American multinational corporation headquartered in St. Louis, Missouri. The Fortune 500 company manufactures and delivers a range of industrial automation and control systems, climate control solutions, measurement and analytical instrumentation, and provides engineering services for industrial, commercial, and consumer markets.",
-      "descriptionHE": "אמרסון היא תאגיד אמריקאי רב-לאומי שבסיסו בסנט לואיס, מיזורי. היא חברת Fortune 500 ומספקת מגוון שירותי הנדסה, מייצרת ציוד אוטומציה תעשייתית, מערכות בקרת אקלים ומכשירי מדידה מדויקים, ומספקת הנדסת תוכנה לשווקים תעשייתיים, מסחריים וצרכניים.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Emerson_Electric",
-      "employees": 134900,
-      "price": 163.27,
-      "change": 0.4986
-    },
-    {
-      "ticker": "EFX",
-      "name": "Equifax",
-      "skipped": false,
-      "website": "https://www.equifax.com/",
-      "industry": "Professional Services",
-      "marketCap": "$17.3B",
-      "description": "Equifax Inc. is an American multinational consumer credit reporting agency headquartered in Atlanta, Georgia, and is one of the three largest consumer credit reporting agencies, along with Experian and TransUnion. Equifax collects and aggregates information on more than 800 million individual consumers and more than 88 million businesses worldwide. In addition to credit and demographic data and services to business, Equifax sells credit monitoring and fraud prevention services directly to consumers.",
+      "marketCap": "$24.7B",
+      "description": "Fox Corporation, commonly known as Fox Corp or Fox, is an American multinational mass media company headquartered at 1211 Avenue of the Americas in Midtown Manhattan with offices also in Burbank, California. Named after William Fox and incorporated in Delaware, it was formed as a spin-off of 21st Century Fox's television broadcasting, news, and sports assets on March 19, 2019. 21CF's remaining assets were acquired the next day by The Walt Disney Company. Fox Corp is controlled by Lachlan Murdoch through a family trust with 36% voting shares. Lachlan Murdoch's father Rupert Murdoch is chairman emeritus, while Lachlan is chairman and CEO.",
       "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Equifax",
-      "employees": 9500,
-      "price": 149.35,
-      "change": 1.3711
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Fox_Corporation",
+      "employees": 9000,
+      "price": 61.68,
+      "change": -1.312
     },
     {
-      "ticker": "EQIX",
-      "name": "Equinix",
+      "ticker": "FOX",
+      "name": "Fox Corporation (Class B)",
       "skipped": false,
-      "website": "https://www.equinix.com/",
-      "industry": "Real Estate",
-      "marketCap": "$101.9B",
-      "description": "Equinix Inc., is an American multinational internet and data center company headquartered in Redwood City, California. It specialized in internet connectivity and data center colocation centers, commonly known as carrier hotels, until the company converted to a real estate investment trust (REIT) in January 2015. It is listed on the Nasdaq stock exchange under the ticker symbol EQIX. As of 2025, the company operates 260 data centers in 33 countries, across five continents and employed more than 13,000 people worldwide.",
+      "website": "https://www.foxcorporation.com/",
+      "industry": "Media",
+      "marketCap": "$24.7B",
+      "description": "Fox Corporation, commonly known as Fox Corp or Fox, is an American multinational mass media company headquartered at 1211 Avenue of the Americas in Midtown Manhattan with offices also in Burbank, California. Named after William Fox and incorporated in Delaware, it was formed as a spin-off of 21st Century Fox's television broadcasting, news, and sports assets on March 19, 2019. 21CF's remaining assets were acquired the next day by The Walt Disney Company. Fox Corp is controlled by Lachlan Murdoch through a family trust with 36% voting shares. Lachlan Murdoch's father Rupert Murdoch is chairman emeritus, while Lachlan is chairman and CEO.",
       "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Equinix",
-      "employees": 8378,
-      "price": 1020.49,
-      "change": -1.1728
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Fox_Corporation",
+      "employees": 9000,
+      "price": 55.11,
+      "change": -1.4661
     },
     {
-      "ticker": "EXC",
-      "name": "Exelon",
+      "ticker": "GEN",
+      "name": "Gen Digital",
       "skipped": false,
-      "website": "https://www.exeloncorp.com/",
-      "industry": "Utilities",
-      "marketCap": "$43.5B",
-      "description": "Exelon Corporation is an American public utility headquartered in Chicago, and incorporated in Pennsylvania. Exelon is the largest electric parent company in the United States by revenue and is the largest regulated electric utility in the United States with approximately 10 million customers. The company is ranked 187th on the Fortune 500.",
+      "website": "https://www.gendigital.com/us/en/",
+      "industry": "Technology",
+      "marketCap": "$14.3B",
+      "description": "Gen Digital Inc. is a multinational software company co-headquartered in Tempe, Arizona, United States, and Prague, Czech Republic. The company provides cybersecurity software, financial technology, and services. Gen is a Fortune 500 company and a member of the S&P 500 stock-market index. It is listed on the NASDAQ and Prague Stock Exchange. Its portfolio includes Norton, Avast, LifeLock, Avira, AVG, ReputationDefender, MoneyLion and CCleaner.",
+      "descriptionHE": "Gen Digital הוא תאגיד תוכנה אמריקאי המייצר תוכנה לאבטחה, אחסון, גיבוי וזמינות מערכות מידע.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Gen_Digital",
+      "employees": 3659,
+      "price": 23.68,
+      "change": -0.546
+    },
+    {
+      "ticker": "GD",
+      "name": "General Dynamics",
+      "skipped": false,
+      "website": "https://www.gd.com",
+      "industry": "Aerospace & Defense",
+      "marketCap": "$90.7B",
+      "description": "General Dynamics Corporation (GD) is an American industrial and technology company based in Reston, Virginia. It is primarily a developer and producer of advanced military equipment of a wide variety, such as nuclear submarines, main battle tanks, and armoured fighting vehicles. It is also the manufacturer of the civilian aviation Gulfstream business jets and a provider of information technology services. The company is the 3rd largest of the top 100 contractors of the U.S. federal government; it receives over 3% of total spending by the federal government of the United States on contractors.",
+      "descriptionHE": "ג'נרל דיינמיקס הוא קונצרן מערכות ביטחון אמריקני. נכון ל-2012 החברה היא יצרנית מערכות הביטחון החמישית בגודלה בעולם. מטה החברה שוכן בווסט פולז צ'רץ', וירג'יניה. החברה מעסיקה כ-99,500 עובדים בעולם. הכנסתה ב-2014 הסתכמה בכ-30.85 מיליארד דולר. מקורן של עיקר הכנסות החברה הוא במכירת מוצרים צבאיים, אך גם במוצרים אזרחיים של יחידת הגאלפסטרים איירוספייס שלה ובניית ספינות ותיקונן עם חברת הבת נשיונל סטיל אנד שיפבילדינג. כשני שלישים ממכירות החברה הן לממשל האמריקני. בעידן שלאחר המלחמה הקרה בו התמזגו חברות רבות בתחום הביטחון עברה החברה שינויים מבניים שאפשרו לה לשרוד. לחברה ארבע יחידות עסקיות עיקריות: תעופה וחלל, מערכות ימיות, מערכות לחימה, ומערכות וטכנולוגיות מידע.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/General_Dynamics",
+      "employees": 83500,
+      "price": 335.18,
+      "change": 0.8303
+    },
+    {
+      "ticker": "GIS",
+      "name": "General Mills",
+      "skipped": false,
+      "website": "https://www.generalmills.com/",
+      "industry": "Food Products",
+      "marketCap": "$17.1B",
+      "description": "General Mills, Inc. is an American multinational manufacturer and marketer of branded consumer foods sold through retail stores. Founded on the banks of the Mississippi River at Saint Anthony Falls in Minneapolis, the company originally gained fame for being a large flour miller. It is headquartered in Golden Valley, Minnesota, a suburb of Minneapolis.",
+      "descriptionHE": "ג’נרל מילס היא חברה אמריקאית רב־לאומית העוסקת בייצור ובשיווק מוצרי מזון, השישית בגודלה בעולם בתחום המזון. החברה נוסדה על גדות נהר המיסיסיפי שבמיניאפוליס, והתפרסמה בראשית דרכה כטחנת קמח גדולה. מטה החברה הראשי ממוקם בגולדן ואלי, מינסוטה. החברה משווקת מותגים רבים ידועים – ביניהם פילסברי, בטי קרוקר, נייצ'ר ואלי, האגן דאז, צ'יריוס, ועוד.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/General_Mills",
+      "employees": 35000,
+      "price": 32.02,
+      "change": 0.5969
+    },
+    {
+      "ticker": "GM",
+      "name": "General Motors",
+      "skipped": false,
+      "website": "https://www.gm.com/",
+      "industry": "Automobiles",
+      "marketCap": "$72.7B",
+      "description": "The General Motors Company (GM) is an American multinational automotive manufacturing company headquartered in Detroit, Michigan, United States. The company is most known for owning and manufacturing four automobile brands: Chevrolet, Buick, GMC, and Cadillac, each a separate division of GM. By total sales, it has continuously been the largest automaker in the United States, and was the largest in the world for 77 years before losing the title to Toyota in 2008.",
+      "descriptionHE": "ג'נרל מוטורס היא יצרנית רכב בינלאומית שבסיסה בארצות הברית. החברה נוסדה בשנת 1908 על ידי ויליאם דוראנט. המותגים הבולטים שבבעלות החברה הם, בין היתר, ביואיק, קאדילק, שברולט, ו-GMC. חטיבת אולדסמוביל פורקה בשנת 2004, חטיבת פונטיאק פורקה בשנת 2010.\nחלק ממותגי החברה נמכרו או נמצאים בתהליך של מכירה, במסגרת הליכי פירוק. ביוני 2009 הגישה ג'נרל מוטורס בקשה להליך פירוק לאחר שחובותיה הגיעו לסך של כ-172 מיליארד דולר אמריקני. כתוצאה מכך, החברה הולאמה למעשה על ידי ממשלת ארצות הברית בהשקעה של 45 מיליארד דולר שמהווה למעשה 61 אחוז ממניות החברה בידי ממשלת ארצות הברית.\nבשנת 2013 ממשלת ארצות הברית מכרה את המניות בחברה בשווי של 39 מיליארד דולר בלבד.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/General_Motors",
+      "employees": 164000,
+      "price": 82.34,
+      "change": -1.9762
+    },
+    {
+      "ticker": "GILD",
+      "name": "Gilead Sciences",
+      "skipped": false,
+      "website": "https://www.gilead.com",
+      "industry": "Biotechnology",
+      "marketCap": "$186.0B",
+      "description": "Gilead Sciences, Inc. is an American biopharmaceutical company headquartered in Foster City, California, that focuses on researching and developing antiviral drugs used in the treatment of HIV/AIDS, hepatitis B, hepatitis C, influenza, and COVID-19. It also develops medicines in therapeutic areas such as oncology and inflammation and cell therapy.",
+      "descriptionHE": "גיליאד סיאנסז היא חברת ביופארמה אמריקאית המפתחת תרופות מסחריות. במשך שנים רבות מאז היווסדה התרכזה החברה בתרופות אנטי-ויראליות המשמשות לטיפול ב-HIV, הפטיטיס B, הפטיטיס C, ושפעת. ב-2006 רכשה גיליאד שתי חברות שעסקו בפיתוח תרופות לטיפול בחולים עם מחלות ריאה שונות.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Gilead_Sciences",
+      "employees": 17000,
+      "price": 153.6,
+      "change": 3.8399
+    },
+    {
+      "ticker": "GDDY",
+      "name": "GoDaddy",
+      "skipped": false,
+      "website": "https://investors.godaddy.net/",
+      "industry": "Technology",
+      "marketCap": "$13.1B",
+      "description": "GoDaddy Inc. is an American publicly traded Internet domain registry, domain registrar and web hosting company headquartered in Tempe, Arizona, and incorporated under the Delaware General Corporation Law. As of 2023, GoDaddy is the world's fifth-largest web host by market share, with over 62 million registered domains. The company primarily serves small and micro companies, which make up most of its 20 million customers.",
+      "descriptionHE": "GoDaddy היא חברה ציבורית אשר מתמחה בעיקר ביצירת שמות תחום אינטרנטיים ואחסון אתרי אינטרנט.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/GoDaddy",
+      "employees": 5990,
+      "price": 103.69,
+      "change": 0.6406
+    },
+    {
+      "ticker": "GS",
+      "name": "Goldman Sachs",
+      "skipped": false,
+      "website": "https://www.goldmansachs.com/",
+      "industry": "Financial Services",
+      "marketCap": "$260.0B",
+      "description": "The Goldman Sachs Group, Inc. is an American multinational investment bank and financial services company. It was founded in 1869 and is headquartered in the Battery Park City neighborhood of Manhattan in New York City, with offices in many financial centers worldwide. Goldman Sachs is one of the largest investment banks by revenue. It is ranked 32nd on the Fortune 500 and 19th on the Forbes Global 2000. It is considered a systemically important financial institution by the Financial Stability Board.",
+      "descriptionHE": "קבוצת גולדמן זקס בע\"מ היא חברה רב לאומית המתמחה בבנקאות השקעות ושירותים פיננסיים. גולדמן זאקס הוא בנק ההשקעות הגדול בעולם מבחינת הכנסות והוא דורג במקום ה-32 ברשימת פורצ'ן 500 לשנת 2025, של התאגידים הגדולים ביותר בארצות הברית מבחינת סך ההכנסות. במגזין פורבס גלובל 2000 לשנת 2025, גולדמן זאקס דורג במקום ה-20. הבנק נחשב למוסד פיננסי בעל חשיבות מערכתית (SIFI) על ידי המועצה ליציבות פיננסית (FSB).",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Goldman_Sachs",
+      "employees": 34400,
+      "price": 867.91,
+      "change": -2.6909
+    },
+    {
+      "ticker": "HAL",
+      "name": "Halliburton",
+      "skipped": false,
+      "website": "https://www.halliburton.com/",
+      "industry": "Energy",
+      "marketCap": "$27.4B",
+      "description": "Halliburton Company is an American multinational corporation and the world's second-largest oil service company, responsible for most of the world's fracking operations. The company, incorporated in the United States, has dual headquarters located in Houston and in Dubai.",
+      "descriptionHE": "הליברטון הוא תאגיד רב-לאומי אמריקאי בתחום האנרגיה. תחומי פעילותו כוללים שירותי קידוחי נפט, הערכת מצאי נפט ומוצרים לתעשיית הקידוחים. התאגיד פועל ביותר מ-70 מדינות, ובבעלותו מאות חברות-בת. מועסקים בו למישרין ודרך חברות-הבת למעלה מ-50,000 איש. התאגיד רשום בארצות הברית, ולו מטה הנהלה ביוסטון ובדובאי.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Halliburton",
+      "employees": 70000,
+      "price": 32.75,
+      "change": -0.122
+    },
+    {
+      "ticker": "HIG",
+      "name": "Hartford (The)",
+      "skipped": false,
+      "website": "https://www.thehartford.com/",
+      "industry": "Insurance",
+      "marketCap": "$35.2B",
+      "description": "The Hartford Insurance Group, Inc., known as The Hartford, is a U.S.-based insurance company. The Hartford is a Fortune 500 company headquartered in its namesake city of Hartford, Connecticut. It was ranked 162nd in Fortune 500 in 2024. The Hartford is a leader in property and casualty insurance, employee benefits and mutual funds. It sells products primarily through a network of agents and brokers, and has also been the auto and home insurance writer for AARP members for more than 40 years.",
       "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Exelon",
-      "employees": 34000,
-      "price": 42.38,
-      "change": 0.6173
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Hartford",
+      "employees": 19200,
+      "price": 131.69,
+      "change": 0.3811
     },
     {
-      "ticker": "FDX",
-      "name": "FedEx",
+      "ticker": "HAS",
+      "name": "Hasbro",
       "skipped": false,
-      "website": "https://www.fedex.com/en-us/home.html",
-      "industry": "Logistics & Transportation",
-      "marketCap": "$69.2B",
-      "description": "FedEx Corporation, headquartered in Memphis, Tennessee, is an American multinational conglomerate holding company specializing in package delivery. Its services include FedEx Express, FedEx Ground, FedEx Office, FedEx Supply Chain, FedEx Freight, and FedEx Dataworks.",
-      "descriptionHE": "פדקס, לשעבר פדרל אקספרס, היא חברת שילוח מטענים שמרכזה בארצות הברית, המציעה שירותי שליחים בארצות הברית וברחבי העולם. החברה מציעה גם שינוע מטענים כבדים, ביבשה ובאוויר, וכן שירות העתקת מסמכים ושירותים לוגיסטיים. \"פדקס\" הוא קיצור של שמה המקורי של החברה, \"פדרל אקספרס\".",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/FedEx",
-      "employees": 400000,
-      "price": 290.3,
-      "change": -0.6604
+      "website": "https://shop.hasbro.com/en-in",
+      "industry": "Leisure Products",
+      "marketCap": "$13.2B",
+      "description": "Hasbro, Inc. is an American multinational toy manufacturing and media company headquartered in Pawtucket, Rhode Island. Founded on December 6, 1923, by Henry, Hillel, and Herman Hassenfeld, the company develops and sells toys, games, and entertainment properties. Hasbro owns several brands, including Transformers, G.I. Joe, Monopoly, Peppa Pig, Furby, Nerf, Play-Doh, and My Little Pony.",
+      "descriptionHE": "הַסְבְּרוֹ בע\"מ היא חברה אמריקאית לייצור צעצועים ומשחקי לוח, אחת הגדולות בעולם בתחום זה. מטה החברה ממוקם בפוטאקט, רוד איילנד, ארצות הברית, ומרבית מוצריה מיוצרים במזרח אסיה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hasbro",
+      "employees": 5000,
+      "price": 94.57,
+      "change": -1.428
     }
   ]
 }
