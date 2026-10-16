@@ -1,285 +1,317 @@
 {
-  "date": "2026-10-15",
-  "generatedAt": "2026-10-15T17:51:12.922Z",
-  "windowStart": 240,
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T17:35:03.656Z",
+  "windowStart": 280,
   "windowSize": 40,
-  "cyclePosition": 6,
+  "cyclePosition": 7,
   "totalWindows": 13,
   "requested": 15,
   "picked": 15,
-  "skippedCount": 15,
+  "skippedCount": 23,
   "skipped": [
     {
-      "ticker": "HUBB",
+      "ticker": "LHX",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "IEX",
+      "ticker": "LH",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "INCY",
+      "ticker": "LRCX",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "IR",
+      "ticker": "LVS",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "IBKR",
+      "ticker": "LDOS",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "ICE",
+      "ticker": "LEN",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "IFF",
+      "ticker": "LII",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "INTU",
+      "ticker": "LYV",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "ISRG",
+      "ticker": "L",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "IVZ",
+      "ticker": "LOW",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "INVH",
+      "ticker": "LITE",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "IQV",
+      "ticker": "LYB",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "IRM",
+      "ticker": "MTB",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "JBL",
+      "ticker": "MPC",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "JKHY",
+      "ticker": "MAR",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "MRSH",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "MLM",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "MAS",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "MKC",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "MET",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "MTD",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "MGM",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "MAA",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     }
   ],
   "picks": [
     {
-      "ticker": "HPQ",
-      "name": "HP Inc.",
+      "ticker": "KR",
+      "name": "Kroger",
       "skipped": false,
-      "website": "https://investor.hp.com/",
-      "industry": "Technology",
-      "marketCap": "$28.0B",
-      "description": "HP Inc. is an American multinational information technology company with its headquarters in Palo Alto, California, that develops personal computers (PCs), printers and other related supplies, as well as 3D printing services. It is the world's second-largest personal computer vendor by unit sales after Lenovo and ahead of Dell as of 2024.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/HP_Inc.",
-      "employees": 48000,
-      "price": 30.69,
-      "change": 0.7551
+      "website": "https://www.thekrogerco.com/",
+      "industry": "Retail",
+      "marketCap": "$37.0B",
+      "description": "The Kroger Co. is an American retail corporation headquartered in Cincinnati, Ohio. It operates supermarkets and multi-department stores throughout the United States.",
+      "descriptionHE": "חברת קרוגר היא חברה קמעונאית אמריקאית שנוסדה על ידי ברנרד קרוגר בשנת 1883 בסינסינטי, אוהיו. זוהי רשת הסופרמרקטים הגדולה בארצות הברית במונחי הכנסות. קרוגר היא גם הקמעונאית השנייה בגודלה בארצות הברית אחרי וול-מארט, והרביעית בגודלה בעולם נכון לדצמבר 2022 אחרי וולמארט, קוסטקו וסבן אילבן.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kroger",
+      "employees": 453000,
+      "price": 63.35,
+      "change": 1.0206
     },
     {
-      "ticker": "HUM",
-      "name": "Humana",
+      "ticker": "LLY",
+      "name": "Lilly (Eli)",
       "skipped": false,
-      "website": "https://www.humana.com/",
-      "industry": "Health Care",
-      "marketCap": "$51.8B",
-      "description": "Humana Inc. is an American for-profit health insurance company based in Louisville, Kentucky. In 2024, the company ranked 92 on the Fortune 500 list. It is the fourth largest health insurance provider in the U.S.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Humana",
-      "employees": 51600,
-      "price": 435.58,
-      "change": 1.9139
-    },
-    {
-      "ticker": "HBAN",
-      "name": "Huntington Bancshares",
-      "skipped": false,
-      "website": "https://www.huntington.com/",
-      "industry": "Banking",
-      "marketCap": "$30.4B",
-      "description": "Huntington Bancshares Incorporated is an American bank holding company headquartered in Columbus, Ohio. Its banking subsidiary, The Huntington National Bank, operates 1,048 banking offices, primarily in the Midwest: 459 in Ohio, 290 in Michigan, 112 in Texas, 80 in Minnesota, 51 in Pennsylvania, 45 in Indiana, 35 in Illinois, 32 in Colorado, 29 in West Virginia, 16 in Wisconsin, 10 in Kentucky, 2 in South Carolina, and 6 in North Carolina.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Huntington_Bancshares",
-      "employees": 11000,
-      "price": 15.43,
-      "change": 2.1854
-    },
-    {
-      "ticker": "HII",
-      "name": "Huntington Ingalls Industries",
-      "skipped": false,
-      "website": "https://hii.com/",
-      "industry": "Aerospace & Defense",
-      "marketCap": "$10.5B",
-      "description": "Huntington Ingalls Industries, Inc., (HII) is the largest military shipbuilding company in the United States as well as a provider of professional services to partners in government and industry. HII was formed on 31 March 2011, as a divestiture from Northrop Grumman.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Huntington_Ingalls_Industries",
-      "employees": 44000,
-      "price": 264.53,
-      "change": 0
-    },
-    {
-      "ticker": "IBM",
-      "name": "IBM",
-      "skipped": false,
-      "website": "https://www.ibm.com/",
-      "industry": "Technology",
-      "marketCap": "$217.5B",
-      "description": "International Business Machines Corporation, doing business as IBM, is an American multinational technology company headquartered in Armonk, New York, and present in over 175 countries. It is a publicly traded company and one of the 30 companies in the Dow Jones Industrial Average. IBM is the largest industrial research organization in the world, with 19 research facilities across a dozen countries; for 29 consecutive years, from 1993 to 2021, it held the record for most annual U.S. patents generated by a business.",
-      "descriptionHE": "IBM הוא תאגיד רב-לאומי אמריקאי, שמרכזו במדינת ניו יורק, והוא מהווה את אחד התאגידים הגדולים והוותיקים בעולם המחשוב, ובמשך שנים רבות היה הגדול בתחום זה. מכונה גם \"הענק הכחול\" על שום גודלו וצבעו הכחול של הלוגו שלו.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/IBM",
-      "employees": 352600,
-      "price": 232.94,
-      "change": 2.2205
-    },
-    {
-      "ticker": "IDXX",
-      "name": "Idexx Laboratories",
-      "skipped": false,
-      "website": "https://www.idexx.com/",
-      "industry": "Health Care",
-      "marketCap": "$42.2B",
-      "description": "IDEXX Laboratories, Inc. is an American multinational corporation engaged in the development, manufacture, and distribution of products and services for the companion animal veterinary, livestock and poultry, water testing, and dairy markets. Incorporated in 1983 by David Evans Shaw, the company is headquartered in Westbrook, Maine, and in Hoofddorp, Netherlands for its EMEA divisions. IDEXX offers products to customers in over 175 countries around the world and employs about 11,000 people in full-and part-time positions.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Idexx_Laboratories",
-      "employees": 5000,
-      "price": 542.44,
-      "change": 2.5387
-    },
-    {
-      "ticker": "ITW",
-      "name": "Illinois Tool Works",
-      "skipped": false,
-      "website": "https://www.itw.com/",
-      "industry": "Machinery",
-      "marketCap": "$78.0B",
-      "description": "Illinois Tool Works Inc. (ITW) is an American Fortune 500 company that produces engineered fasteners and components, equipment and consumable systems, and specialty products. It was founded in 1912 by Byron L. Smith and has built its growth on a \"small-wins strategy\" based on decentralization, simplicity, customer-focused innovation, and acquisitions.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Illinois_Tool_Works",
-      "employees": 51000,
-      "price": 271.31,
-      "change": 0.6828
-    },
-    {
-      "ticker": "PODD",
-      "name": "Insulet Corporation",
-      "skipped": false,
-      "website": "https://www.omnipod.com",
-      "industry": "Health Care",
-      "marketCap": "$9.5B",
-      "description": "Fox Corporation, commonly known as Fox Corp or Fox, is an American multinational mass media company headquartered at 1211 Avenue of the Americas in Midtown Manhattan with offices also in Burbank, California. Named after William Fox and incorporated in Delaware, it was formed as a spin-off of 21st Century Fox's television broadcasting, news, and sports assets on March 19, 2019. 21CF's remaining assets were acquired the next day by The Walt Disney Company. Fox Corp is controlled by Lachlan Murdoch through a family trust with 36% voting shares. Lachlan Murdoch's father Rupert Murdoch is chairman emeritus, while Lachlan is chairman and CEO.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Fox_Corporation",
-      "employees": 9000,
-      "price": 139.01,
-      "change": 3.793
-    },
-    {
-      "ticker": "INTC",
-      "name": "Intel",
-      "skipped": false,
-      "website": "https://www.intel.com/",
-      "industry": "Semiconductors",
-      "marketCap": "$492.7B",
-      "description": "Intel Corporation is an American multinational technology company headquartered in Santa Clara, California. It designs, manufactures, and sells computer components such as central processing units (CPUs) and related products for business and consumer markets. Intel was the world's third-largest semiconductor chip manufacturer by revenue in 2024 and has been included in the Fortune 500 list of the largest United States corporations by revenue since 2007. It was one of the first companies listed on Nasdaq.",
-      "descriptionHE": "אינטל קורפוריישן הוא תאגיד רב-לאומי אמריקאי, מהחברות המובילות בעולם בתחום של תכנון וייצור מיקרו-מעבדים ומעגלים משולבים. כמו כן, אינטל מייצרת כרטיסי רשת, מערכות שבבים ללוחות אם, מוצרי תוכנה והתקנים אחרים. לאינטל פרויקטי מחקר מתקדמים בכל ההיבטים של ייצור מוליכים למחצה, כולל MEMS, וכן פרויקטים בתחום התוכנה כמו מהדר לשפות תכנות וערכת פיתוח לעיבודים גרפיים.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Intel",
-      "employees": 121100,
-      "price": 94.38,
-      "change": -3.8117
-    },
-    {
-      "ticker": "IP",
-      "name": "International Paper",
-      "skipped": false,
-      "website": "https://www.internationalpaper.com/",
-      "industry": "Packaging",
-      "marketCap": "$17.8B",
-      "description": "The International Paper Company is an American pulp and paper company, the largest such company in the world. It has approximately 39,000 employees, and is headquartered in Memphis, Tennessee.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/International_Paper",
-      "employees": 58000,
-      "price": 34.36,
-      "change": 7.7116
-    },
-    {
-      "ticker": "JBHT",
-      "name": "J.B. Hunt",
-      "skipped": false,
-      "website": "https://www.jbhunt.com/",
-      "industry": "Road & Rail",
-      "marketCap": "$21.8B",
-      "description": "J.B. Hunt Transport Services, Inc. is an American transportation and logistics company based in Lowell, Arkansas. It was founded by Johnnie Bryan Hunt and Johnelle Hunt in Arkansas on August 10, 1961. By 1983, J.B. Hunt had grown into the 80th largest trucking firm in the US, with $623.47 million in revenue. At that time J.B. Hunt operated 550 tractors, 1,049 trailers, and had roughly 1,050 employees. J.B. Hunt primarily operates semi-trailer trucks and provides transportation services throughout the continental US, Canada and Mexico. The company's fleet consists of over 12,000 trucks and 145,000 trailers and containers.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/J._B._Hunt",
-      "employees": 33646,
-      "price": 233.64,
-      "change": 0.6375
-    },
-    {
-      "ticker": "J",
-      "name": "Jacobs Solutions",
-      "skipped": false,
-      "website": "https://www.jacobs.com/",
-      "industry": "Professional Services",
-      "marketCap": "$16.8B",
-      "description": "Jacobs Solutions Inc. is an American international technical professional services firm based in Dallas. The company provides engineering, technical, professional, and construction services as well as scientific and specialty consulting for a broad range of clients globally, including companies, organizations, and government agencies. Jacobs has consistently ranked No. 1 on both Engineering News-Record (ENR)'s 2018, 2019, 2020, 2021, 2022, and 2023 Top 500 Design Firms and Trenchless Technology’s 2018, 2019, 2020, and 2021 Top 50 Trenchless Engineering Firms. Its worldwide annual revenue were over $12 billion in the 2025 fiscal year, and earnings dropped to $289 million.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Jacobs_Solutions",
-      "employees": 55000,
-      "price": 140.12,
-      "change": -1.3239
-    },
-    {
-      "ticker": "JNJ",
-      "name": "Johnson & Johnson",
-      "skipped": false,
-      "website": "https://www.jnj.com/",
+      "website": "https://www.lilly.com/",
       "industry": "Pharmaceuticals",
-      "marketCap": "$625.1B",
-      "description": "Johnson & Johnson (J&J) is an American multinational pharmaceutical, biotechnology, and medical technologies corporation headquartered in New Brunswick, New Jersey. The company is ranked No. 42 on the 2026 Fortune 500 list of the largest United States corporations. In 2026, the company was ranked 43rd in the Forbes Global 2000. Along with Microsoft, Johnson & Johnson is one of only two U.S.-based companies that has a prime credit rating of AAA from S&P Global.",
-      "descriptionHE": "ג'ונסון אנד ג'ונסון הוא תאגיד רב-לאומי שמקורו בארצות הברית ונוסד בשנת 1886. החברה עוסקת בתחומי התרופות, מכשור רפואי, מוצרי קוסמטיקה והגיינה ועוד. המניה שלה נסחרת בבורסה האמריקנית כחלק ממדד הדאו ג'ונס. כמו כן החברה נמצאת ברשימת פורצ'ן 500.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Johnson_%26_Johnson",
-      "employees": 136400,
-      "price": 254.68,
-      "change": 0.3033
+      "marketCap": "$1.18T",
+      "description": "Eli Lilly and Company, doing business as Lilly, is an American multinational pharmaceutical company headquartered in Indianapolis, Indiana, with offices in 36 countries. Its products are marketed in approximately 90 countries. The company was founded in 1876 by Eli Lilly, a pharmaceutical chemist and Union army veteran during the American Civil War for whom the company was later named.",
+      "descriptionHE": "איליי לילי אנד קומפני היא חברת תרופות אמריקאית. החברה נוסדה באינדיאנפוליס ב-1876 והמטה שלה ממוקם בעיר מאז. החברה מעסיקה נכון ל-2024 כ-42,000 עובדים ברחבי העולם והכנסותיה כ-45 מיליארד דולר.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Eli_Lilly_and_Company",
+      "employees": 38350,
+      "price": 1260.29,
+      "change": 0.6935
     },
     {
-      "ticker": "JCI",
-      "name": "Johnson Controls",
+      "ticker": "LIN",
+      "name": "Linde plc",
       "skipped": false,
-      "website": "https://www.johnsoncontrols.com/",
-      "industry": "Building",
-      "marketCap": "$88.7B",
-      "description": "Johnson Controls International plc is an American multinational conglomerate headquartered in Cork, Ireland, that produces fire, HVAC, and security equipment for buildings. As of mid-2019, it employed 105,000 people in around 2,000 locations across six continents. In 2017 it was listed as 389th in the Fortune Global 500. It became ineligible for the Fortune 500 in subsequent years since it relocated its headquarters outside the U.S.",
+      "website": "https://www.linde.com/",
+      "industry": "Chemicals",
+      "marketCap": "$227.4B",
+      "description": "Linde is a global multinational chemical company and the world's largest industrial gas supplier by market share and revenue. Founded by German scientist and engineer Carl von Linde in 1879 in Wiesbaden, Germany, the company is now headquartered in Woking, United Kingdom, and registered in Ireland as Linde plc. Linde plc was formed in 2018 through the merger of Linde AG and Praxair, which was founded in 1907 in the United States as Linde Air Products Company.",
       "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Johnson_Controls",
-      "employees": 120000,
-      "price": 144.98,
-      "change": -4.8937
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Linde_plc",
+      "employees": 66323,
+      "price": 497.91,
+      "change": 0.9509
     },
     {
-      "ticker": "JPM",
-      "name": "JPMorgan Chase",
+      "ticker": "LMT",
+      "name": "Lockheed Martin",
       "skipped": false,
-      "website": "https://www.jpmorganchase.com/",
-      "industry": "Banking",
-      "marketCap": "$885.7B",
-      "description": "JPMorgan Chase & Co. is an American multinational banking institution headquartered in New York City and incorporated in Delaware. It is the largest bank in the United States, and the world's largest bank by market capitalization as of 2026. As the largest of the Big Four banks in America, the firm is considered systemically important by the Financial Stability Board. Its size and scale have often led to enhanced regulatory oversight as well as the development of an internal \"Fortress Balance Sheet\".",
-      "descriptionHE": "ג'יי פי מורגן צ'ייס הוא תאגיד בנקאי אמריקאי רב-לאומי הפעיל בתחום ניירות ערך, השקעות ובנקאות קמעונאית.\nזהו הבנק הגדול בארצות הברית לפי שווי נכסיו.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/JPMorgan_Chase",
-      "employees": 271025,
-      "price": 334.74,
-      "change": -0.1611
+      "website": "https://www.lockheedmartin.com/",
+      "industry": "Aerospace & Defense",
+      "marketCap": "$122.9B",
+      "description": "The Lockheed Martin Corporation is an American defense and aerospace manufacturer. It is headquartered in North Bethesda, Maryland, United States. The company was formed by the merger of the Lockheed Corporation with Martin Marietta on March 15, 1995.",
+      "descriptionHE": "לוקהיד מרטין הוא תאגיד רב-לאומי אמריקאי, הנמנה עם המובילים בעולם בתחומי התעופה, הביטחון, הצבא והטכנולוגיה, המספק מוצרים ושירותים מתקדמים לאלפי סוכנויות אזרחיות ומודיעיניות, גופים ממשלתיים וביטחוניים ותאגידים מסחריים בארצות הברית וברחבי העולם.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Lockheed_Martin",
+      "employees": 110000,
+      "price": 547.32,
+      "change": 2.7561
+    },
+    {
+      "ticker": "LULU",
+      "name": "Lululemon Athletica",
+      "skipped": false,
+      "website": "https://shop.lululemon.com/",
+      "industry": "Textiles, Apparel & Luxury Goods",
+      "marketCap": "$11.5B",
+      "description": "Lululemon, commonly styled as lululemon, is a Canadian-American multinational athletic apparel retailer headquartered in Vancouver, British Columbia, and incorporated in Delaware, United States, as Lululemon Athletica Inc. It was founded in 1998 as a retailer of yoga pants and other yoga wear, and has expanded to also sell sportswear, lifestyle apparel, shoes, accessories and personal care products. The company has 811 stores and also processes sales online through its website.",
+      "descriptionHE": "לולולמון אתלטיקה היא חברת הלבשה שבסיסה בוונקובר. היא נוסדה בשנת 1998 כחברת מכנסי יוגה ולבוש יוגה אחר, והתרחבה למכור גם בגדי ספורט ואביזרי ספורט. לחברה 574 חנויות ברחבי העולם ואתר אינטרנט.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Lululemon",
+      "employees": 13400,
+      "price": 97.46,
+      "change": -1.645
+    },
+    {
+      "ticker": "MA",
+      "name": "Mastercard",
+      "skipped": false,
+      "website": "https://www.mastercard.us/",
+      "industry": "Financial Services",
+      "marketCap": "$539.9B",
+      "description": "Mastercard Inc. is an American multinational payment card services corporation headquartered in Purchase, New York. It provides payment transaction processing and other related-payment services, including travel-related payments and bookings. Its principal business globally is to process payments between the banks of merchants and the card-issuing banks or credit unions of purchasers who use its branded debit, credit and prepaid cards to make purchases. Mastercard has been publicly traded since 2006.",
+      "descriptionHE": "MasterCard Incorporated או MasterCard Worldwide הוא תאגיד רב-לאומי אמריקאי לשירותים פיננסיים שמתבסס במדינת ניו יורק. מרכז השירותים הבינלאומיים של התאגיד יושב במדינת אוהיו.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mastercard",
+      "employees": 33400,
+      "price": 614.78,
+      "change": -0.2499
+    },
+    {
+      "ticker": "MCD",
+      "name": "McDonald's",
+      "skipped": false,
+      "website": "https://www.mcdonalds.com/",
+      "industry": "Hotels, Restaurants & Leisure",
+      "marketCap": "$171.6B",
+      "description": "McDonald's Corporation is an American multinational fast food restaurant chain. Founded in 1940 as a restaurant operated by brothers Richard and Maurice McDonald in San Bernardino, California, the company has grown into one of the world's largest restaurant chains. At the end of 2025, the McDonald's system comprised 45,356 restaurants in more than 100 countries, approximately 95% of which were operated by franchisees.",
+      "descriptionHE": "מקדונלד'ס היא רשת מסעדות מזון מהיר אמריקאית רב-לאומית, מהגדולות בעולם, כולל בישראל. מזוהה במיוחד עם המנה העיקרית שהיא מגישה: המבורגר – כריך לחמנייה עגולה ובה קציצת בשר בקר טחון העשויה בגריל.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/McDonald's",
+      "employees": 200000,
+      "price": 242.66,
+      "change": 0.066
+    },
+    {
+      "ticker": "MCK",
+      "name": "McKesson Corporation",
+      "skipped": false,
+      "website": "https://www.mckesson.com/",
+      "industry": "Health Care",
+      "marketCap": "$116.4B",
+      "description": "McKesson Corporation is an American publicly traded company that distributes pharmaceuticals and provides health information technology, medical supplies, and health management tools. The company delivers a third of all pharmaceutical products used or consumed in North America and employs over 80,000 employees. With $308.9 billion in 2024 revenue, it is the ninth-largest company by revenue in the United States and the nation's largest health care company. The company is headquartered in Irving, Texas. It is a component of the S&P 500 and is listed on the New York Stock Exchange, where it is traded under the ticker symbol \"MCK\".",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/McKesson",
+      "employees": 68000,
+      "price": 1000.63,
+      "change": 0.1993
+    },
+    {
+      "ticker": "MDT",
+      "name": "Medtronic",
+      "skipped": false,
+      "website": "https://www.medtronic.com/",
+      "industry": "Health Care",
+      "marketCap": "$122.1B",
+      "description": "Medtronic plc is an international medical device company. The company's legal and executive headquarters are in Ireland, while its operational headquarters are in Minneapolis, Minnesota. Medtronic rebased to Ireland following its acquisition of Irish-based Covidien in 2015. While it primarily operates in the United States, it operates in more than 150 countries and employs over 90,000 people. It develops and manufactures healthcare technologies and therapies. It is one of the biggest medical tech companies in the world and is currently the largest medical device company in the world by revenue.",
+      "descriptionHE": "מדטרוניק הוא תאגיד רב-לאומי המתמחה בפיתוח, ייצור ושיווק מכשור רפואי. מטה החברה שוכן בעיר פרידלי, הסמוכה למיניאפוליס שבמינסוטה, אולם מאז שרכשה את חברת קובידיאן (Covidien) בשנת 2014, החברה רשומה לצורכי מס חברות באירלנד.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Medtronic",
+      "employees": 86000,
+      "price": 94.56,
+      "change": -0.9324
+    },
+    {
+      "ticker": "MRK",
+      "name": "Merck & Co.",
+      "skipped": false,
+      "website": "https://www.merck.com/",
+      "industry": "Pharmaceuticals",
+      "marketCap": "$358.2B",
+      "description": "Merck & Co., Inc. is an American multinational pharmaceutical company headquartered in Rahway, New Jersey. The company does business as Merck Sharp & Dohme or MSD outside the United States and Canada. The company is ranked fifth on the list of largest biomedical companies by revenue.",
+      "descriptionHE": "מֶרְק היא אחת מחברות התרופות הגדולות בעולם. מטה חברת מרק נמצא בניו ג'רזי, בארצות הברית. החברה נוסדה בשנת 1891 כחברת בת אמריקאית של החברה הגרמנית הידועה היום בשם Merck KGaA. בשנת 1917, בשלהי מלחמת העולם הראשונה, הוחרמו נכסי החברה בארצות הברית ועל יסודם הוקמה חברה עצמאית. נכון ל-2010, מרק היא אחת משבע חברות התרופות הגדולות בעולם הן במחזור עסקיה והן בשווי שוק.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Merck_%26_Co.",
+      "employees": 70000,
+      "price": 147.03,
+      "change": 1.2673
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "skipped": false,
+      "website": "https://www.meta.com/",
+      "industry": "Media",
+      "marketCap": "$1.88T",
+      "description": "Meta Platforms, Inc., headquartered in Menlo Park, California, is an American multinational technology company and is one of the Big Tech companies. Meta owns and operates several prominent social media platforms and communication services, including Facebook, Instagram, WhatsApp, Messenger, and Threads. The company also operates an advertising network for its own sites and third parties; as of 2023, advertising accounted for 97.8% of its total revenue.",
+      "descriptionHE": "מֶטָא בע\"מ היא חברה ציבורית רב-לאומית אמריקאית, המפעילה בין השאר את הרשתות החברתיות פייסבוק, אינסטגרם ו-Threads, את תוכנות המסרים המיידיים וואטסאפ ופייסבוק מסנג'ר, ואת חברת המחשוב הלביש אוקולוס. החברה נוסדה באמצע 2004, כחצי שנה לאחר הקמת אתר האינטרנט שבבעלותה. האתר הוקם על ידי מארק צוקרברג, אדוארדו סברין, דסטין מוסקוביץ', כריס יוז ואנדרו מקולום בהיותם סטודנטים באוניברסיטת הרווארד, ב-4 בפברואר 2004.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Meta_Platforms",
+      "employees": 58604,
+      "price": 712.65,
+      "change": -3.2672
+    },
+    {
+      "ticker": "MCHP",
+      "name": "Microchip Technology",
+      "skipped": false,
+      "website": "https://www.microchip.com/",
+      "industry": "Semiconductors",
+      "marketCap": "$40.3B",
+      "description": "Microchip Technology Incorporated is an American publicly traded semiconductor corporation that manufactures microcontrollers, microprocessors, integrated circuits, and flash memory.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Microchip_Technology",
+      "employees": 19500,
+      "price": 74.77,
+      "change": 0.6868
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "skipped": false,
+      "website": "https://www.micron.com/",
+      "industry": "Semiconductors",
+      "marketCap": "$1.05T",
+      "description": "Micron Technology, Inc. is an American multinational semiconductor company that manufactures computer memory and computer data storage products, including dynamic random-access memory (DRAM), flash memory, High Bandwidth Memory (HBM), and solid-state drives (SSDs). Founded in 1978 in Boise, Idaho, Micron is the only major American computer memory manufacturer. It is one of the \"Big Three\" computer memory manufacturers, along with the South Korean companies Samsung Electronics and SK Hynix.",
+      "descriptionHE": "מייקרון טכנולוג'י, המוכרת בתור מייקרון, היא חברה רב-לאומית אמריקאית מתחום מוליכים למחצה, המייצרת מוצרי זיכרון מחשב ואחסון נתונים במחשב, כולל DRAM, זיכרון הבזק, SSD ו-HBM. החברה הוקמה בשנת 1978 בבויסי, איידהו, והיא יצרנית זיכרונות המחשב האמריקאית הגדולה היחידה. היא אחת מ\"שלוש הגדולות\" של יצרניות זיכרונות המחשב, יחד עם החברות הדרום קוריאניות סמסונג אלקטרוניקה ו-SK Hynix.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Micron_Technology",
+      "employees": 48000,
+      "price": 894.54,
+      "change": -3.941
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "skipped": false,
+      "website": "https://www.microsoft.com/en-in/",
+      "industry": "Technology",
+      "marketCap": "$4.01T",
+      "description": "Microsoft Corporation is an American multinational technology conglomerate headquartered in Redmond, Washington. The company became influential in the rise of personal computers through software like Windows and has since expanded into areas such as Internet services, cloud computing, artificial intelligence and video gaming among others. A Big Tech company, Microsoft is the largest software company by revenue, one of the most valuable public companies, and one of the most valuable brands globally.",
+      "descriptionHE": "תאגיד מיקרוסופט היא חברת תוכנה, מחשבים ומוצרי אלקטרוניקה אמריקאית רב-לאומית, שבסיסה ברדמונד, ליד העיר סיאטל שבמדינת וושינגטון, ארצות הברית.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Microsoft",
+      "employees": 228000,
+      "price": 526.67,
+      "change": -2.3673
+    },
+    {
+      "ticker": "MRNA",
+      "name": "Moderna",
+      "skipped": false,
+      "website": "https://www.modernatx.com/",
+      "industry": "Biotechnology",
+      "marketCap": "$94.4B",
+      "description": "Moderna, Inc. is an American pharmaceutical and biotechnology company based in Cambridge, Massachusetts, that focuses on RNA therapeutics, primarily mRNA vaccines. These vaccines use a copy of a molecule called messenger RNA (mRNA) to carry instructions for proteins to produce an immune response. The company's name is derived from the terms \"modified\", \"RNA\", and \"modern\".",
+      "descriptionHE": "מודרנה או מודרנא היא חברת תרופות וביוטכנולוגיה אמריקאית הנמצאת בקיימברידג', מסצ'וסטס. החברה מתמקדת בפיתוח תרופות באמצעות RNA. זוהי טכנולוגיה חדשה שננטשה בעבר על ידי רוב חברות התרופות. מודרנה פיתחה את החיסון נגד קורונה, MRNA-1273, שקיבל בדצמבר 2020 אישור חירום של ה-FDA.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Moderna",
+      "employees": 5800,
+      "price": 214.18,
+      "change": -9.4376
     }
   ]
 }
