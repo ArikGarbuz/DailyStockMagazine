@@ -1,0 +1,265 @@
+{
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T19:24:45.559Z",
+  "windowStart": 400,
+  "windowSize": 40,
+  "cyclePosition": 10,
+  "totalWindows": 13,
+  "requested": 15,
+  "picked": 15,
+  "skippedCount": 10,
+  "skipped": [
+    {
+      "ticker": "ROST",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "SNDK",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "SBAC",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "SRE",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "SHW",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "SJM",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "SNA",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "SO",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "SWK",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "STE",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    }
+  ],
+  "picks": [
+    {
+      "ticker": "RCL",
+      "name": "Royal Caribbean Group",
+      "skipped": false,
+      "website": "https://www.royalcaribbeangroup.com/",
+      "industry": "Hotels, Restaurants & Leisure",
+      "marketCap": "$74.3B",
+      "description": "Royal Caribbean Group, formerly known as Royal Caribbean Cruises Ltd., is a cruise holding company headquartered in Miami, Florida, United States and incorporated in Liberia. It is the world's second-largest cruise line operator, after Carnival Corporation & plc. As of September 2025, Royal Caribbean Group fully owns three cruise lines: Royal Caribbean International, Celebrity Cruises, and Silversea Cruises. It also holds a 50% stake in TUI Cruises, which operates Mein Schiff and Hapag-Lloyd Cruises, with the Group's global fleet consisting of 71 ships.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Royal_Caribbean_Group",
+      "employees": 108,
+      "price": 282.55,
+      "change": 1.7538
+    },
+    {
+      "ticker": "SPGI",
+      "name": "S&P Global",
+      "skipped": false,
+      "website": "https://www.spglobal.com/",
+      "industry": "Financial Services",
+      "marketCap": "$126.7B",
+      "description": "S&P Global Inc. is an American publicly traded corporation headquartered in Manhattan, New York. Its primary areas of business are financial information, analytics, and energy and commodities intelligence. It is the parent company of S&P Global Ratings, S&P Global Energy, S&P Global Market Intelligence, and the Indian credit rating agency CRISIL. It is also the majority owner of the S&P Dow Jones Indices joint venture. \"S&P\" is a shortening of \"Standard and Poor's.\"",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/S%26P_Global",
+      "employees": 35000,
+      "price": 428.93,
+      "change": -0.1653
+    },
+    {
+      "ticker": "CRM",
+      "name": "Salesforce",
+      "skipped": false,
+      "website": "https://www.salesforce.com/",
+      "industry": "Technology",
+      "marketCap": "$198.1B",
+      "description": "Salesforce, Inc. is an American enterprise software company headquartered in San Francisco, California. It is best known for customer relationship management software and related applications, which the corporation delivers through a software as a service subscription business model. It also provides software for sales, customer service, marketing automation, e-commerce, data analytics, artificial intelligence, agentic AI, and application development.",
+      "descriptionHE": "Salesforce.com היא חברת תוכנה אמריקאית העוסקת בשירותי מחשוב ענן ומספקת שירותי תוכנה כשירות (SaaS) לניהול קשרי לקוחות (CRM) וכן פלטפורמת פיתוח (PaaS) לאפליקציות עסקיות (Force.com) עבור ארגונים, דרך רשת האינטרנט. מטה החברה שוכן בסן פרנסיסקו, בנוסף לעשרות משרדים ברחבי העולם. היא נסחרת בבורסה לניירות ערך בניו יורק תחת הסימול CRM. החל מאוגוסט 2020, סיילספורס היא מרכיב במדד דאו ג'ונס. סיילספורס דורגה במקום ה-120 במהדורת 2026 של רשימת Fortune 500, עם הכנסות של 37.895 מיליארד דולר.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Salesforce",
+      "employees": 35000,
+      "price": 241.94,
+      "change": 0.5152
+    },
+    {
+      "ticker": "SLB",
+      "name": "Schlumberger",
+      "skipped": false,
+      "website": "https://www.slb.com/",
+      "industry": "Energy",
+      "marketCap": "$73.5B",
+      "description": "SLB, formerly known as Schlumberger, is a multinational oilfield services company. Founded in France in 1926, the company is now incorporated as SLB N.V. in Willemstad, Curaçao, with principal executive offices in four cities: Paris, France; Houston, Texas, United States; London, UK; and The Hague, Netherlands. As of 2022, it is both the world's largest offshore drilling company and the world's largest offshore drilling contractor by revenue.",
+      "descriptionHE": "SLB, לשעבר שלומברגר היא חברה לשירותי שדות נפט רב-לאומית אמריקאית. נכון לשנת 2022, היא חברת הקידוחים הימיים הגדולה בעולם וגם קבלנית הקידוחים הימיים הגדולה בעולם מבחינת הכנסות. SLB פועלת במעל ל-100 מדינות שונות ומעסיקה 111,000 עובדים המייצגים 160 לאומים. משרדי ההנהלה הראשיים נמצאים בארבע ערים מרכזיות: יוסטון, פריז, לונדון והאג.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/SLB",
+      "employees": 100000,
+      "price": 49.11,
+      "change": -0.7879
+    },
+    {
+      "ticker": "STX",
+      "name": "Seagate Technology",
+      "skipped": false,
+      "website": "https://investors.seagate.com/overview/default.aspx",
+      "industry": "Technology",
+      "marketCap": "$145.3B",
+      "description": "Seagate Technology Holdings plc is an international data storage company. It was incorporated in 1978 as Shugart Technology and commenced business in 1979. Since 2010, the company has been incorporated in Dublin, Ireland, with operational headquarters in Fremont, California, United States.",
+      "descriptionHE": "סיגייט טכנולוגיות היא חברה אמריקאית, ואחת מגדולות יצרניות הדיסקים הקשיחים ופתרונות האחסון בעולם. החברה הוקמה בשנת 1979 ומשרדיה המרכזיים ממוקמים בעיר קופרטינו שבמדינת קליפורניה בארצות הברית.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Seagate_Technology",
+      "employees": 57900,
+      "price": 660.33,
+      "change": 3.3364
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow",
+      "skipped": false,
+      "website": "https://www.servicenow.com/",
+      "industry": "Technology",
+      "marketCap": "$146.8B",
+      "description": "ServiceNow, Inc. is an American software company that supplies cloud computing platforms for the creation and management of automated business workflows. The company was founded in Santa Clara, California, United States, in 2003 by Fred Luddy. It is listed on the New York Stock Exchange and is a constituent of the S&P 100 and S&P 500 indices.",
+      "descriptionHE": "ServiceNow היא חברה אמריקאית למחשוב ענן, שנוסדה בשנת 2003 על ידי פרד לאדי. מטה החברה שוכן בסנטה קלרה, קליפורניה, והיא פרושה על פני יותר מ-70 סניפים בכ-30 מדינות, כולל ישראל.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/ServiceNow",
+      "employees": 10371,
+      "price": 144.92,
+      "change": 2.0779
+    },
+    {
+      "ticker": "SPG",
+      "name": "Simon Property Group",
+      "skipped": false,
+      "website": "https://www.simon.com/",
+      "industry": "Real Estate",
+      "marketCap": "$66.5B",
+      "description": "Simon Property Group, Inc. is an American real estate investment trust that invests in shopping malls, outlet centers, and community/lifestyle centers. It is the largest owner of shopping malls in the United States and is headquartered in Indianapolis, Indiana. As of June 9, 2026, it owned interests in 235 properties.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Simon_Property_Group",
+      "employees": 3300,
+      "price": 202.75,
+      "change": -1.3094
+    },
+    {
+      "ticker": "SWKS",
+      "name": "Skyworks Solutions",
+      "skipped": false,
+      "website": "https://www.skyworksinc.com/",
+      "industry": "Semiconductors",
+      "marketCap": "$18.7B",
+      "description": "Skyworks Solutions, Inc. is an American semiconductor company headquartered in Irvine, California, United States. The company's shares are listed on the Nasdaq Global Select Market under the ticker symbol SWKS and is a constituent of the S&P 500.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Skyworks_Solutions",
+      "employees": 4400,
+      "price": 81.27,
+      "change": 1.9699
+    },
+    {
+      "ticker": "SW",
+      "name": "Smurfit Westrock",
+      "skipped": false,
+      "website": "https://www.smurfitwestrock.com/",
+      "industry": "Packaging",
+      "marketCap": "$21.5B",
+      "description": "Smurfit Westrock plc is an Irish company based in Dublin, Ireland, that manufactures corrugated and paper-based packaging. Its stock is listed on the New York Stock Exchange and the London Stock Exchange.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Smurfit_Westrock",
+      "employees": 42000,
+      "price": 41.12,
+      "change": -0.0972
+    },
+    {
+      "ticker": "SOLV",
+      "name": "Solventum",
+      "skipped": false,
+      "website": "https://www.solventum.com/en-us/home/",
+      "industry": "Health Care",
+      "marketCap": "$14.6B",
+      "description": "Solventum Corporation is an American health care company that was spun off from 3M on April 1, 2024.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Solventum",
+      "employees": 20000,
+      "price": 85.21,
+      "change": -0.6992
+    },
+    {
+      "ticker": "LUV",
+      "name": "Southwest Airlines",
+      "skipped": false,
+      "website": "https://www.southwest.com/",
+      "industry": "Airlines",
+      "marketCap": "$19.3B",
+      "description": "Southwest Airlines is a low-cost airline in the United States. It is headquartered in the Love Field neighborhood of Dallas, Texas. It is the fourth-largest airline in North America when measured by passengers carried, as of 2024. With its all-Boeing 737 fleet, Southwest serves over 100 destinations in 42 states, Washington, D.C., Puerto Rico, and ten other countries and territories near the southern United States in the Gulf of Mexico and Caribbean Sea regions: Aruba, the Bahamas, Belize, the Cayman Islands, Costa Rica, Cuba, the Dominican Republic, Mexico, Jamaica, and Turks and Caicos Islands.",
+      "descriptionHE": "סאות'ווסט איירליינס היא חברת תעופה זולה (LCC) אמריקאית, שבסיסה הראשי נמצא בדאלאס, טקסס, ובסיסה הגדול ביותר נמצא בעיר שיקגו. החברה היא חברת התעופה הגדולה בעולם מבחינת מספר הנוסעים שהיא מטיסה, והרביעית בגודלה בעולם מבחינת היקף הצי שברשותה. בשנת 2009 הפעילה החברה כ-3,200 טיסות יומיות בממוצע. המודל העסקי של החברה מבוסס על שימוש במטוסי בואינג 737 בלבד, והפעלת טיסות לנמלי תעופה משניים, והיא אחת החברות הרווחיות בעולם.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Southwest_Airlines",
+      "employees": 59793,
+      "price": 39.04,
+      "change": -1.1646
+    },
+    {
+      "ticker": "SBUX",
+      "name": "Starbucks",
+      "skipped": false,
+      "website": "https://www.starbucks.com/",
+      "industry": "Hotels, Restaurants & Leisure",
+      "marketCap": "$111.2B",
+      "description": "Starbucks Corporation is an American multinational chain of coffeehouses and roastery reserves headquartered in Seattle, Washington. It was founded in 1971 by Jerry Baldwin, Zev Siegl, and Gordon Bowker at Seattle's Pike Place Market initially as a coffee bean wholesaler. Starbucks was converted into a coffee shop serving espresso-based drinks under the ownership of Howard Schultz, who was chief executive officer from 1986 to 2000 and led the aggressive expansion of the franchise across the West Coast of the United States.",
+      "descriptionHE": "סטארבקס היא רשת בתי קפה אמריקאית רב-לאומית, והגדולה בעולם. מטה החברה נמצא בעיר סיאטל שבמדינת וושינגטון בארצות הברית. החברה קיבלה את שמה משמו של \"סטארבק\", דמות בספר מובי דיק, וסמלה הוא סירנה מצוירת. נכון ליוני 2018, מונה הרשת 35,712 סניפים בלמעלה מ-76 מדינות ברחבי העולם, מתוכם 18,416 סניפים בארצות הברית. לחברה סניפי \"דרייב ת'רו\" רבים שבהם הלקוחות מזמינים את המוצרים מתוך רכבם.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Starbucks",
+      "employees": 383000,
+      "price": 97.88,
+      "change": 0.3692
+    },
+    {
+      "ticker": "STT",
+      "name": "State Street Corporation",
+      "skipped": false,
+      "website": "https://www.statestreet.com/",
+      "industry": "Financial Services",
+      "marketCap": "$45.5B",
+      "description": "State Street Corporation is an American multinational financial services and bank holding company headquartered at One Congress Street in Boston. It is the second-oldest continuously operating U.S. bank, tracing its roots to Union Bank, chartered in 1792. As of the third quarter of 2025, State Street is one of the world's largest asset managers and custodians, with approximately US$5.4 trillion in assets under management and US$51.7 trillion under custody and administration.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/State_Street_Corporation",
+      "employees": 33783,
+      "price": 165.27,
+      "change": -0.2715
+    },
+    {
+      "ticker": "STLD",
+      "name": "Steel Dynamics",
+      "skipped": false,
+      "website": "https://www.steeldynamics.com/",
+      "industry": "Metals & Mining",
+      "marketCap": "$34.5B",
+      "description": "Steel Dynamics, Inc. (SDI) is an American steel producer based in Fort Wayne, Indiana. With a production capacity of 13 million tons of steel, the company is the third largest producer of carbon steel products in the United States. It is among the most profitable American steel companies in terms of profit margins and operating margin per ton. Based on its 2021 revenue, the company ranked 196th on the 2022 edition of the Fortune 500.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Steel_Dynamics",
+      "employees": 7780,
+      "price": 243.17,
+      "change": 1.0934
+    },
+    {
+      "ticker": "SYK",
+      "name": "Stryker Corporation",
+      "skipped": false,
+      "website": "https://www.stryker.com/",
+      "industry": "Health Care",
+      "marketCap": "$113.0B",
+      "description": "Stryker Corporation is an American multinational medical technologies corporation based in Portage, Michigan, United States. The company's products are used for medical surgery and neurotechnology, which include surgical equipment, patient and caregiver safety technologies, endoscopy systems, and patient handling, emergency medical equipment, and intensive care disposable products, as well as neurosurgical, neurovascular and oral and maxillofacial surgery implant products; and orthopedic surgery, which includes implants used in total joint replacements, such as hip, knee and shoulder, and trauma and extremities surgeries. Stryker's products are sold in over 75 countries and are used by 150 million patients annually. In 2024, 75% of the company's revenues came from the United States.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Stryker_Corporation",
+      "employees": 22000,
+      "price": 299.09,
+      "change": 1.5034
+    }
+  ]
+}
