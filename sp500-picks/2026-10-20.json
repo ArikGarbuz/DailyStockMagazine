@@ -1,0 +1,309 @@
+{
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T18:05:35.890Z",
+  "windowStart": 440,
+  "windowSize": 40,
+  "cyclePosition": 11,
+  "totalWindows": 13,
+  "requested": 15,
+  "picked": 15,
+  "skippedCount": 21,
+  "skipped": [
+    {
+      "ticker": "TPL",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "TJX",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "TKO",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "TTD",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "TSCO",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "TT",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "TDG",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "TRV",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "TYL",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "UDR",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ULTA",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "UAL",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "UHS",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "VLO",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "VEEV",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "VTR",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "VLTO",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "VRSK",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "VRTX",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "VTRS",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "VICI",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    }
+  ],
+  "picks": [
+    {
+      "ticker": "TXT",
+      "name": "Textron",
+      "skipped": false,
+      "website": "https://www.textron.com/",
+      "industry": "Aerospace & Defense",
+      "marketCap": "$13.1B",
+      "description": "Textron Inc. is an American industrial conglomerate based in Providence, Rhode Island. Textron's subsidiaries include Bell Textron, Kautex, Textron Aviation, and Lycoming Engines. It was founded by Royal Little in 1923 as the Special Yarns Company.",
+      "descriptionHE": "טקסטרון הוא קונגלומרט תעשייתי אמריקאי רב-לאומי, שמטהו שוכן בפרובידנס, רוד איילנד, ארצות הברית. החברה נוסדה בשנת 1923 על ידי רויאל ליטל כחברת טקסטיל בשם Special Yarns Company. במרוצת השנים גיוונה החברה את תחומי פעילותה והפכה לאחד הקונגלומרטים הראשונים בעולם במודל העסקי המודרני.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Textron",
+      "employees": 40000,
+      "price": 76.62,
+      "change": 0.5512
+    },
+    {
+      "ticker": "TMO",
+      "name": "Thermo Fisher Scientific",
+      "skipped": false,
+      "website": "https://corporate.thermofisher.com/us/en/index.html",
+      "industry": "Life Sciences Tools & Services",
+      "marketCap": "$251.2B",
+      "description": "Thermo Fisher Scientific Inc. is an American life science and clinical research company. It is a global supplier of analytical instruments, clinical development solutions, specialty diagnostics, laboratory, pharmaceutical and biotechnology services. Based in Waltham, Massachusetts, Thermo Fisher was formed through the merger of Thermo Electron and Fisher Scientific in 2006. Thermo Fisher Scientific has acquired other reagent, consumable, instrumentation, and service providers, including Life Technologies Corporation (2013), Alfa Aesar (2015), Affymetrix (2016), FEI Company (2016), BD Advanced Bioprocessing (2018), and PPD (2021).",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Thermo_Fisher_Scientific",
+      "employees": 67816,
+      "price": 689.41,
+      "change": 1.4763
+    },
+    {
+      "ticker": "TRMB",
+      "name": "Trimble Inc.",
+      "skipped": false,
+      "website": "https://www.trimble.com/en",
+      "industry": "Technology",
+      "marketCap": "$14.0B",
+      "description": "Trimble Inc. is an American software, hardware, and services technology company that was founded in 1978. Its headquarters is in Westminster, Colorado. It is publicly traded on the Nasdaq and listed on the S&P 500. Trimble develops hardware and software for a variety of business sectors including architecture, engineering, and construction (AEC); surveying, mapping, and geomatics (geospatial); and transportation and logistics (T&L).",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Trimble_Inc.",
+      "employees": 11000,
+      "price": 61.7,
+      "change": 2.9191
+    },
+    {
+      "ticker": "TFC",
+      "name": "Truist Financial",
+      "skipped": false,
+      "website": "https://www.truist.com/",
+      "industry": "Banking",
+      "marketCap": "$56.6B",
+      "description": "Truist Financial Corporation is an American bank holding company headquartered in Charlotte, North Carolina. The company was formed in December 2019 as the result of the merger of BB&T and SunTrust. Its bank operates 1,928 branches in 15 states and Washington, D.C., offering consumer, commercial, and investment banking, securities brokerage, asset management, mortgage, and insurance products and services. It is the tenth-largest bank in the United States, with $523 billion in assets.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Truist",
+      "employees": 30000,
+      "price": 47.29,
+      "change": 2.0941
+    },
+    {
+      "ticker": "TSN",
+      "name": "Tyson Foods",
+      "skipped": false,
+      "website": "https://www.tysonfoods.com/",
+      "industry": "Food Products",
+      "marketCap": "$18.6B",
+      "description": "Tyson Foods, Inc. is an American multinational corporation based in Springdale, Arkansas that operates in the food industry. The company is the world's second-largest processor and marketer of chicken, beef, and pork after JBS S.A. It is the largest meat company in America. It annually exports the largest percentage of beef out of the United States. Together with its subsidiaries, it operates major food brands, including Tyson, Jimmy Dean, Hillshire Farm, Ball Park, Wright Brand, Aidells, and State Fair.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tyson_Foods",
+      "employees": 133000,
+      "price": 54.97,
+      "change": 1.7963
+    },
+    {
+      "ticker": "USB",
+      "name": "U.S. Bancorp",
+      "skipped": false,
+      "website": "https://www.usbank.com/",
+      "industry": "Banking",
+      "marketCap": "$90.2B",
+      "description": "U.S. Bancorp is an American multinational banking institution headquartered in Minneapolis, Minnesota, and incorporated in Delaware. It is the 7th-largest bank in the United States as of March 2026. As the largest bank in the Midwestern United States, it is considered a domestic systemically important bank (D-SIB) by the Federal Reserve. It is the parent company of its primary operating entity, U.S. Bank National Association, which does business as U.S. Bank. The company provides banking, investment, mortgage, trust, and payment services products to individuals, businesses, governmental entities, and other financial institutions.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/U.S._Bancorp",
+      "employees": 68108,
+      "price": 59.02,
+      "change": 2.0225
+    },
+    {
+      "ticker": "UBER",
+      "name": "Uber",
+      "skipped": false,
+      "website": "https://www.uber.com/",
+      "industry": "Road & Rail",
+      "marketCap": "$142.9B",
+      "description": "Uber Technologies, Inc. is an American multinational transportation company that provides ride-hailing services, courier services, food delivery, and freight transport. It is headquartered in San Francisco, California, and operates in approximately 70 countries and 15,000 cities worldwide. It is the largest ridesharing company worldwide with over 202 million monthly active users and 10 million active drivers and couriers. It coordinates an average of 42 million trips and delivery orders per day, and has coordinated 72 billion trips and delivery orders since its inception in 2010. In the fourth quarter of 2025, the company had a take rate of 29.9% for mobility services and 19.2% for food delivery.",
+      "descriptionHE": "אוּבֶּר היא חברה אמריקאית המספקת שירות קריאת הסעה דרך האינטרנט ברחבי העולם. החברה, שמקום מושבה בסן פרנסיסקו, קליפורניה, מפתחת, משווקת ומפעילה את היישומון Uber המאפשר יצירת קשר בין נהגים לנוסעים, תיאום נסיעות ותשלום עליהן, ובתמורה גובה עמלה יחסית. חברת אובר פעילה במאות ערים בעשרות מדינות ברחבי העולם. על פי אובר, בערים בהן אובר פעילה היא הצליחה להוריד את מחירי הנסיעה ב-25–50 אחוזים.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Uber",
+      "employees": 12000,
+      "price": 69.08,
+      "change": -1.2579
+    },
+    {
+      "ticker": "UNP",
+      "name": "Union Pacific Corporation",
+      "skipped": false,
+      "website": "https://www.up.com/index.htm",
+      "industry": "Road & Rail",
+      "marketCap": "$170.5B",
+      "description": "The Union Pacific Corporation is an American publicly traded railroad holding company serving as the holding company for the Union Pacific Railroad.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Union_Pacific_Corporation",
+      "employees": 46445,
+      "price": 287.99,
+      "change": 0.3415
+    },
+    {
+      "ticker": "UPS",
+      "name": "United Parcel Service",
+      "skipped": false,
+      "website": "https://www.ups.com/",
+      "industry": "Logistics & Transportation",
+      "marketCap": "$82.9B",
+      "description": "United Parcel Service, Inc. (UPS) is an American multinational shipping-and-receiving and supply chain management company founded in 1907. Originally known as the American Messenger Company specializing in telegraphs, UPS has expanded to become a Fortune 500 company and one of the world's largest shipping couriers. UPS today is primarily known for its ground shipping services as well as the UPS Store, a retail chain which assists UPS shipments and provides tools for small businesses. UPS offers air shipping on an overnight or two-day basis and delivers to post office boxes through UPS Mail Innovations and UPS Ground Saver.",
+      "descriptionHE": "United Parcel Service היא חברה העוסקת במשלוחים בפריסה בין-לאומית. זו אחת מחברות השילוח הגדולות ביותר בעולם.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/United_Parcel_Service",
+      "employees": 434000,
+      "price": 99.1,
+      "change": 1.6827
+    },
+    {
+      "ticker": "URI",
+      "name": "United Rentals",
+      "skipped": false,
+      "website": "https://www.unitedrentals.com/",
+      "industry": "Trading Companies & Distributors",
+      "marketCap": "$63.8B",
+      "description": "United Rentals, Inc. is an American equipment rental company, with about 16 percent of the North American market share as of 2022. It owns the largest rental fleet in the world with approximately 4,800 classes of equipment totaling about $20.59 billion in original equipment cost (OEC) as of 2025. The company has a combined total of 1,625 locations, including an integrated network of 1,504 rental locations in North America, 38 in Europe, 23 in Australia and 19 in New Zealand. In North America, the company operates in 49 U.S. states and Puerto Rico and in every Canadian province. In 2017, United Rentals' revenue totaled more than $6.64 billion, with over $1.35 billion in profit.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/United_Rentals",
+      "employees": 18800,
+      "price": 1047.96,
+      "change": 2.24
+    },
+    {
+      "ticker": "UNH",
+      "name": "UnitedHealth Group",
+      "skipped": false,
+      "website": "https://www.unitedhealthgroup.com/",
+      "industry": "Health Care",
+      "marketCap": "$365.2B",
+      "description": "UnitedHealth Group Incorporated is an American multinational company based in Eden Prairie, Minnesota, specializing in health insurance and health care services. Selling insurance products under UnitedHealthcare, and health care services under the Optum brand, it is the world's ninth-largest company by revenue and the largest health care company by revenue. The company is ranked fourth on the 2026 Fortune Global 500.",
+      "descriptionHE": "קבוצת יונייטד הלת' היא חברה אמריקאית המספקת ביטוחי בריאות ושירותים רפואיים.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/UnitedHealth_Group",
+      "employees": 58000,
+      "price": 420.51,
+      "change": 3.3499
+    },
+    {
+      "ticker": "VRSN",
+      "name": "Verisign",
+      "skipped": false,
+      "website": "https://www.verisign.com/",
+      "industry": "Technology",
+      "marketCap": "$27.3B",
+      "description": "Verisign, Inc. is an American company based in Reston, Virginia, that operates a diverse array of network infrastructure, including two of the Internet's thirteen root nameservers, the authoritative registry for the .com, .net, .web and .name generic top-level domains and the .cc country-code top-level domains, and the back-end systems for the .jobs and .edu sponsored top-level domains.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Verisign",
+      "employees": 1019,
+      "price": 307.63,
+      "change": 0.3752
+    },
+    {
+      "ticker": "VZ",
+      "name": "Verizon",
+      "skipped": false,
+      "website": "https://www.verizon.com/",
+      "industry": "Telecommunication",
+      "marketCap": "$186.1B",
+      "description": "Verizon Communications Inc. is an American telecommunications company headquartered in New York City. It is the world's second-largest telecommunications company by revenue and its mobile network is the largest wireless carrier in the United States, with 146.8 million subscribers as of March 31, 2026. The company was founded as Bell Atlantic Corporation and renamed to Verizon on June 30, 2000 as a result of a merger with GTE.",
+      "descriptionHE": "חברת ורייזון תקשורת היא חברת תקשורת אמריקאית רב-לאומית, המספקת שירותי תקשורת סלולרית, טלפוניה, מערכות מידע, ושירותי פס רחב ללקוחות בארצות הברית ובעולם.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Verizon",
+      "employees": 132200,
+      "price": 44.54,
+      "change": 0.8834
+    },
+    {
+      "ticker": "VRT",
+      "name": "Vertiv",
+      "skipped": false,
+      "website": "https://investors.vertiv.com/",
+      "industry": "Electrical Equipment",
+      "marketCap": "$79.5B",
+      "description": "Vertiv Holdings Co. is an American provider of infrastructure and services for data centers, communication networks, and commercial and industrial environments. Headquartered in Westerville, Ohio, Vertiv has around 34,000 employees worldwide, operating in more than 40 countries and with 30 manufacturing and assembly facilities.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Vertiv",
+      "employees": 34000,
+      "price": 203.41,
+      "change": -1.2956
+    },
+    {
+      "ticker": "V",
+      "name": "Visa Inc.",
+      "skipped": false,
+      "website": "https://usa.visa.com/",
+      "industry": "Financial Services",
+      "marketCap": "$750.2B",
+      "description": "Visa Inc. is an American multinational payment card services corporation headquartered in San Francisco, California. It facilitates electronic funds transfers worldwide, most commonly through Visa-branded credit cards, debit cards and prepaid cards.",
+      "descriptionHE": "ויזה בע\"מ היא תאגיד רב-לאומי אמריקאי המספק שירותי כרטיסי תשלום, שהמטה הראשי שלו שוכן בסן פרנסיסקו, קליפורניה. החברה מאפשרת העברות כספים אלקטרוניות ברחבי העולם, בעיקר באמצעות כרטיסי אשראי, כרטיסי חיוב וכרטיסים נטענים ממותג ויזה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Visa_Inc.",
+      "employees": 31600,
+      "price": 407.18,
+      "change": 1.0573
+    }
+  ]
+}
