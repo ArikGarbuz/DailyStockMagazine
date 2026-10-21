@@ -1,309 +1,277 @@
 {
-  "date": "2026-10-20",
-  "generatedAt": "2026-10-20T18:05:35.890Z",
-  "windowStart": 440,
+  "date": "2026-10-21",
+  "generatedAt": "2026-10-21T18:09:38.917Z",
+  "windowStart": 480,
   "windowSize": 40,
-  "cyclePosition": 11,
+  "cyclePosition": 12,
   "totalWindows": 13,
   "requested": 15,
   "picked": 15,
-  "skippedCount": 21,
+  "skippedCount": 13,
   "skipped": [
     {
-      "ticker": "TPL",
+      "ticker": "WAB",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "TJX",
+      "ticker": "WBD",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "TKO",
+      "ticker": "WEC",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "TTD",
+      "ticker": "WST",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "TSCO",
+      "ticker": "WSM",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "TT",
+      "ticker": "WMB",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "TDG",
+      "ticker": "WYNN",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "TRV",
+      "ticker": "XEL",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "TYL",
+      "ticker": "ZBRA",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "UDR",
+      "ticker": "ZBH",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "ULTA",
+      "ticker": "ZTS",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "UAL",
+      "ticker": "AOS",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "UHS",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "VLO",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "VEEV",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "VTR",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "VLTO",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "VRSK",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "VRTX",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "VTRS",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "VICI",
+      "ticker": "ABBV",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     }
   ],
   "picks": [
     {
-      "ticker": "TXT",
-      "name": "Textron",
+      "ticker": "WMT",
+      "name": "Walmart",
       "skipped": false,
-      "website": "https://www.textron.com/",
-      "industry": "Aerospace & Defense",
-      "marketCap": "$13.1B",
-      "description": "Textron Inc. is an American industrial conglomerate based in Providence, Rhode Island. Textron's subsidiaries include Bell Textron, Kautex, Textron Aviation, and Lycoming Engines. It was founded by Royal Little in 1923 as the Special Yarns Company.",
-      "descriptionHE": "טקסטרון הוא קונגלומרט תעשייתי אמריקאי רב-לאומי, שמטהו שוכן בפרובידנס, רוד איילנד, ארצות הברית. החברה נוסדה בשנת 1923 על ידי רויאל ליטל כחברת טקסטיל בשם Special Yarns Company. במרוצת השנים גיוונה החברה את תחומי פעילותה והפכה לאחד הקונגלומרטים הראשונים בעולם במודל העסקי המודרני.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Textron",
-      "employees": 40000,
-      "price": 76.62,
-      "change": 0.5512
+      "website": "https://corporate.walmart.com/",
+      "industry": "Retail",
+      "marketCap": "$884.1B",
+      "description": "Walmart Inc. is an American multinational omnichannel retail corporation that operates a chain of hypermarkets, discount department stores, grocery stores, pharmacies, and gas stations in the United States and 19 other countries. It is headquartered in Bentonville, Arkansas. The company was founded in 1962 by brothers Sam Walton and James \"Bud\" Walton in nearby Rogers, Arkansas. It also owns and operates Sam's Club retail warehouses.",
+      "descriptionHE": "וול-מארט חנויות בע\"מ, המוכרת כמותג וולמארט, היא החברה הקמעונאית הגדולה בעולם והיא גם החברה המסחרית הגדולה בעולם. וול-מארט היא חברה ציבורית אמריקאית שנוסדה על ידי סם וולטון בשנת 1962 ונרשמה כחברה בערבון מוגבל ב-31 באוקטובר 1969. בשנת 1972 החלה מנייתה להיסחר בבורסת ניו יורק. וולמארט היא המעסיק הפרטי הגדול ביותר בעולם, שני מיליון ומאה אלף עובדים מועסקים בחברה. נכון לדצמבר 2022 היא רשת המזון הגדולה בעולם.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Walmart",
+      "employees": 2300000,
+      "price": 117.83,
+      "change": -0.017
     },
     {
-      "ticker": "TMO",
-      "name": "Thermo Fisher Scientific",
+      "ticker": "DIS",
+      "name": "Walt Disney Company (The)",
       "skipped": false,
-      "website": "https://corporate.thermofisher.com/us/en/index.html",
+      "website": "https://thewaltdisneycompany.com/",
+      "industry": "Media",
+      "marketCap": "$191.8B",
+      "description": "The Walt Disney Company (TWDC), commonly known as simply Disney, is an American multinational mass media and entertainment conglomerate headquartered at the Walt Disney Studios complex in Burbank, California. Founded on October 16, 1923, as an animation studio by brothers Walt and Roy Oliver Disney as Disney Brothers Cartoon Studio, Disney operated under the names Walt Disney Studio and Walt Disney Productions before adopting its current name in 1986. In 1928, Disney established itself as a leader in the animation industry with the short film Steamboat Willie. The film used synchronized sound to become the first post-produced sound cartoon, and popularized Mickey Mouse, who became Disney's mascot and corporate icon.",
+      "descriptionHE": "חברת וולט דיסני, או דיסני בשמה המקוצר, היא תאגיד רב-לאומי אמריקאי של בידור ותקשורת המונים מגוונת, שבסיסה באולפני וולט דיסני בברבנק, קליפורניה, ארצות הברית. וולט דיסני הוא תאגיד השידור והכבלים השני בגודלו בעולם מבחינת הכנסות, לאחר תאגיד Comcast. אולפני וולט דיסני נוסדו ב-16 באוקטובר 1923 על ידי וולט דיסני ואחיו רוי דיסני בשם אולפני הקרטוּן האחים דיסני (Disney Brothers Cartoon Studio. במרוצת השנים, ביסס את עצמו דיסני כאולפן מוביל בתעשיית האנימציה העולמית בזכות מגוון הפקותיו, שכוללות סרטי קולנוע וסרטי הפצה ביתית במספר סוגות, הפקות טלוויזיה ופארקי שעשועים נושאיים סביב קניינו הרוחני ברחבי העולם.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company",
+      "employees": 201000,
+      "price": 111.37,
+      "change": -0.2686
+    },
+    {
+      "ticker": "WM",
+      "name": "Waste Management",
+      "skipped": false,
+      "website": "https://www.wm.com/",
+      "industry": "Commercial Services & Supplies",
+      "marketCap": "$90.5B",
+      "description": "Waste Management, Inc., doing business as WM, is a waste management an American company operating in North America. Founded in 1968, the company is headquartered in the Bank of America Tower in Houston, Texas.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Waste_Management%2C_Inc.",
+      "employees": 43000,
+      "price": 229.58,
+      "change": -0.9278
+    },
+    {
+      "ticker": "WAT",
+      "name": "Waters Corporation",
+      "skipped": false,
+      "website": "https://www.waters.com",
       "industry": "Life Sciences Tools & Services",
-      "marketCap": "$251.2B",
-      "description": "Thermo Fisher Scientific Inc. is an American life science and clinical research company. It is a global supplier of analytical instruments, clinical development solutions, specialty diagnostics, laboratory, pharmaceutical and biotechnology services. Based in Waltham, Massachusetts, Thermo Fisher was formed through the merger of Thermo Electron and Fisher Scientific in 2006. Thermo Fisher Scientific has acquired other reagent, consumable, instrumentation, and service providers, including Life Technologies Corporation (2013), Alfa Aesar (2015), Affymetrix (2016), FEI Company (2016), BD Advanced Bioprocessing (2018), and PPD (2021).",
+      "marketCap": "$42.9B",
+      "description": "Waters Corporation is an American company headquartered in Milford, Massachusetts that provides analytical instruments and software used for chromatography, mass spectrometry, laboratory informatics, and rheometry by the life sciences, materials, and food industries.",
       "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Thermo_Fisher_Scientific",
-      "employees": 67816,
-      "price": 689.41,
-      "change": 1.4763
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Waters_Corporation",
+      "employees": 7262,
+      "price": 455.88,
+      "change": 2.947
     },
     {
-      "ticker": "TRMB",
-      "name": "Trimble Inc.",
+      "ticker": "WFC",
+      "name": "Wells Fargo",
       "skipped": false,
-      "website": "https://www.trimble.com/en",
-      "industry": "Technology",
-      "marketCap": "$14.0B",
-      "description": "Trimble Inc. is an American software, hardware, and services technology company that was founded in 1978. Its headquarters is in Westminster, Colorado. It is publicly traded on the Nasdaq and listed on the S&P 500. Trimble develops hardware and software for a variety of business sectors including architecture, engineering, and construction (AEC); surveying, mapping, and geomatics (geospatial); and transportation and logistics (T&L).",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Trimble_Inc.",
-      "employees": 11000,
-      "price": 61.7,
-      "change": 2.9191
-    },
-    {
-      "ticker": "TFC",
-      "name": "Truist Financial",
-      "skipped": false,
-      "website": "https://www.truist.com/",
+      "website": "https://www.wellsfargo.com",
       "industry": "Banking",
-      "marketCap": "$56.6B",
-      "description": "Truist Financial Corporation is an American bank holding company headquartered in Charlotte, North Carolina. The company was formed in December 2019 as the result of the merger of BB&T and SunTrust. Its bank operates 1,928 branches in 15 states and Washington, D.C., offering consumer, commercial, and investment banking, securities brokerage, asset management, mortgage, and insurance products and services. It is the tenth-largest bank in the United States, with $523 billion in assets.",
+      "marketCap": "$258.3B",
+      "description": "Wells Fargo & Company is an American multinational financial services company. The company operates in 35 countries and serves more than 70 million customers worldwide. It is a systemically important financial institution according to the Financial Stability Board, and is considered one of the Big Four banks in the United States, alongside JPMorgan Chase, Bank of America, and Citigroup.",
+      "descriptionHE": "ולס פארגו היא חברת שירותים פיננסיים אמריקאית רב-לאומית, הפועלת ב-35 מדינות ומשרתת למעלה מ-70 מיליון לקוחות ברחבי העולם. זהו מוסד פיננסי בעל חשיבות מערכתית (SIFI) על פי המועצה ליציבות פיננסית (FSB), והוא נחשב לאחד מ\"ארבעת הבנקים הגדולים\" בארצות הברית, לצד ג'יי פי מורגן צ'ייס, בנק אוף אמריקה וסיטיגרופ.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Wells_Fargo",
+      "employees": 150500,
+      "price": 82.35,
+      "change": 0.1825
+    },
+    {
+      "ticker": "WELL",
+      "name": "Welltower",
+      "skipped": false,
+      "website": "https://welltower.com/",
+      "industry": "Real Estate",
+      "marketCap": "$169.8B",
+      "description": "Welltower Inc. is an American real estate investment trust that invests in healthcare facilities such as retirement and nursing homes, and outpatient medical clinics.",
       "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Truist",
-      "employees": 30000,
-      "price": 47.29,
-      "change": 2.0941
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Welltower",
+      "employees": 685,
+      "price": 235.64,
+      "change": -1.0249
     },
     {
-      "ticker": "TSN",
-      "name": "Tyson Foods",
+      "ticker": "WDC",
+      "name": "Western Digital",
       "skipped": false,
-      "website": "https://www.tysonfoods.com/",
-      "industry": "Food Products",
-      "marketCap": "$18.6B",
-      "description": "Tyson Foods, Inc. is an American multinational corporation based in Springdale, Arkansas that operates in the food industry. The company is the world's second-largest processor and marketer of chicken, beef, and pork after JBS S.A. It is the largest meat company in America. It annually exports the largest percentage of beef out of the United States. Together with its subsidiaries, it operates major food brands, including Tyson, Jimmy Dean, Hillshire Farm, Ball Park, Wright Brand, Aidells, and State Fair.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tyson_Foods",
-      "employees": 133000,
-      "price": 54.97,
-      "change": 1.7963
-    },
-    {
-      "ticker": "USB",
-      "name": "U.S. Bancorp",
-      "skipped": false,
-      "website": "https://www.usbank.com/",
-      "industry": "Banking",
-      "marketCap": "$90.2B",
-      "description": "U.S. Bancorp is an American multinational banking institution headquartered in Minneapolis, Minnesota, and incorporated in Delaware. It is the 7th-largest bank in the United States as of March 2026. As the largest bank in the Midwestern United States, it is considered a domestic systemically important bank (D-SIB) by the Federal Reserve. It is the parent company of its primary operating entity, U.S. Bank National Association, which does business as U.S. Bank. The company provides banking, investment, mortgage, trust, and payment services products to individuals, businesses, governmental entities, and other financial institutions.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/U.S._Bancorp",
-      "employees": 68108,
-      "price": 59.02,
-      "change": 2.0225
-    },
-    {
-      "ticker": "UBER",
-      "name": "Uber",
-      "skipped": false,
-      "website": "https://www.uber.com/",
-      "industry": "Road & Rail",
-      "marketCap": "$142.9B",
-      "description": "Uber Technologies, Inc. is an American multinational transportation company that provides ride-hailing services, courier services, food delivery, and freight transport. It is headquartered in San Francisco, California, and operates in approximately 70 countries and 15,000 cities worldwide. It is the largest ridesharing company worldwide with over 202 million monthly active users and 10 million active drivers and couriers. It coordinates an average of 42 million trips and delivery orders per day, and has coordinated 72 billion trips and delivery orders since its inception in 2010. In the fourth quarter of 2025, the company had a take rate of 29.9% for mobility services and 19.2% for food delivery.",
-      "descriptionHE": "אוּבֶּר היא חברה אמריקאית המספקת שירות קריאת הסעה דרך האינטרנט ברחבי העולם. החברה, שמקום מושבה בסן פרנסיסקו, קליפורניה, מפתחת, משווקת ומפעילה את היישומון Uber המאפשר יצירת קשר בין נהגים לנוסעים, תיאום נסיעות ותשלום עליהן, ובתמורה גובה עמלה יחסית. חברת אובר פעילה במאות ערים בעשרות מדינות ברחבי העולם. על פי אובר, בערים בהן אובר פעילה היא הצליחה להוריד את מחירי הנסיעה ב-25–50 אחוזים.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Uber",
-      "employees": 12000,
-      "price": 69.08,
-      "change": -1.2579
-    },
-    {
-      "ticker": "UNP",
-      "name": "Union Pacific Corporation",
-      "skipped": false,
-      "website": "https://www.up.com/index.htm",
-      "industry": "Road & Rail",
-      "marketCap": "$170.5B",
-      "description": "The Union Pacific Corporation is an American publicly traded railroad holding company serving as the holding company for the Union Pacific Railroad.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Union_Pacific_Corporation",
-      "employees": 46445,
-      "price": 287.99,
-      "change": 0.3415
-    },
-    {
-      "ticker": "UPS",
-      "name": "United Parcel Service",
-      "skipped": false,
-      "website": "https://www.ups.com/",
-      "industry": "Logistics & Transportation",
-      "marketCap": "$82.9B",
-      "description": "United Parcel Service, Inc. (UPS) is an American multinational shipping-and-receiving and supply chain management company founded in 1907. Originally known as the American Messenger Company specializing in telegraphs, UPS has expanded to become a Fortune 500 company and one of the world's largest shipping couriers. UPS today is primarily known for its ground shipping services as well as the UPS Store, a retail chain which assists UPS shipments and provides tools for small businesses. UPS offers air shipping on an overnight or two-day basis and delivers to post office boxes through UPS Mail Innovations and UPS Ground Saver.",
-      "descriptionHE": "United Parcel Service היא חברה העוסקת במשלוחים בפריסה בין-לאומית. זו אחת מחברות השילוח הגדולות ביותר בעולם.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/United_Parcel_Service",
-      "employees": 434000,
-      "price": 99.1,
-      "change": 1.6827
-    },
-    {
-      "ticker": "URI",
-      "name": "United Rentals",
-      "skipped": false,
-      "website": "https://www.unitedrentals.com/",
-      "industry": "Trading Companies & Distributors",
-      "marketCap": "$63.8B",
-      "description": "United Rentals, Inc. is an American equipment rental company, with about 16 percent of the North American market share as of 2022. It owns the largest rental fleet in the world with approximately 4,800 classes of equipment totaling about $20.59 billion in original equipment cost (OEC) as of 2025. The company has a combined total of 1,625 locations, including an integrated network of 1,504 rental locations in North America, 38 in Europe, 23 in Australia and 19 in New Zealand. In North America, the company operates in 49 U.S. states and Puerto Rico and in every Canadian province. In 2017, United Rentals' revenue totaled more than $6.64 billion, with over $1.35 billion in profit.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/United_Rentals",
-      "employees": 18800,
-      "price": 1047.96,
-      "change": 2.24
-    },
-    {
-      "ticker": "UNH",
-      "name": "UnitedHealth Group",
-      "skipped": false,
-      "website": "https://www.unitedhealthgroup.com/",
-      "industry": "Health Care",
-      "marketCap": "$365.2B",
-      "description": "UnitedHealth Group Incorporated is an American multinational company based in Eden Prairie, Minnesota, specializing in health insurance and health care services. Selling insurance products under UnitedHealthcare, and health care services under the Optum brand, it is the world's ninth-largest company by revenue and the largest health care company by revenue. The company is ranked fourth on the 2026 Fortune Global 500.",
-      "descriptionHE": "קבוצת יונייטד הלת' היא חברה אמריקאית המספקת ביטוחי בריאות ושירותים רפואיים.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/UnitedHealth_Group",
-      "employees": 58000,
-      "price": 420.51,
-      "change": 3.3499
-    },
-    {
-      "ticker": "VRSN",
-      "name": "Verisign",
-      "skipped": false,
-      "website": "https://www.verisign.com/",
+      "website": "https://www.westerndigital.com/",
       "industry": "Technology",
+      "marketCap": "$133.4B",
+      "description": "Western Digital Corporation, doing business as WD, is an American data storage company headquartered in San Jose, California. Established in 1970, the company is one of the world's largest manufacturers of hard disk drives (HDDs).",
+      "descriptionHE": "וסטרן דיגיטל היא חברה אמריקאית לאחסון נתונים דיגיטליים ואחת מיצרניות הדיסקים הקשיחים הגדולות בעולם, שהנהלתה שוכנת בסן חוסה, קליפורניה.\nלחברה היסטוריה ארוכה כחברת אלקטרוניקה וייצור מעגלים מודפסים ומוצרי אחסון. היא נוסדה באפריל 1970 על ידי אלווין פיליפס, עבור מוטורולה, בשם \"General Digital\" כחברה לייצור ציוד בדיקות MOS והתפתחה מהרה לייצור מוליכים למחצה. ביולי 1971 שינתה את שמה ל-\"Western Digital\" והציגה את המוצר הראשון שלה - \"WD1402A UART\".",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Western_Digital",
+      "employees": 76449,
+      "price": 379.01,
+      "change": 4.0322
+    },
+    {
+      "ticker": "WY",
+      "name": "Weyerhaeuser",
+      "skipped": false,
+      "website": "https://www.weyerhaeuser.com/",
+      "industry": "Real Estate",
+      "marketCap": "$16.9B",
+      "description": "The Weyerhaeuser Company is an American timberland company which owns approximately 10,400,000 acres of timberlands in the U.S., and manages an additional 14,000,000 acres of timberlands under long-term licenses in Canada. The company has manufactured wood products for over a century. It operates as a real estate investment trust (REIT).",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Weyerhaeuser",
+      "employees": 13200,
+      "price": 19.1,
+      "change": -1.241
+    },
+    {
+      "ticker": "WTW",
+      "name": "Willis Towers Watson",
+      "skipped": false,
+      "website": "https://www.wtwco.com/",
+      "industry": "Insurance",
+      "marketCap": "$31.7B",
+      "description": "Willis Towers Watson plc is a British-American multinational advisory, broking and solutions company. Its operations span commercial insurance brokerage and risk advisory, employee benefits and rewards consulting, retirement and actuarial services, and investment advice for pension funds and institutional investors.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Willis_Towers_Watson",
+      "employees": 46100,
+      "price": 316.43,
+      "change": -0.7185
+    },
+    {
+      "ticker": "WDAY",
+      "name": "Workday, Inc.",
+      "skipped": false,
+      "website": "https://www.workday.com/",
+      "industry": "Technology",
+      "marketCap": "$47.4B",
+      "description": "Workday, Inc., is an American cloud-based provider of financial management, human capital management, and student information system software. The company was founded by former PeopleSoft executives David Duffield and Aneel Bhusri following Oracle's acquisition of that company in 2005.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Workday%2C_Inc.",
+      "employees": 20000,
+      "price": 201.95,
+      "change": -0.9952
+    },
+    {
+      "ticker": "XYL",
+      "name": "Xylem Inc.",
+      "skipped": false,
+      "website": "https://www.xylem.com/",
+      "industry": "Machinery",
       "marketCap": "$27.3B",
-      "description": "Verisign, Inc. is an American company based in Reston, Virginia, that operates a diverse array of network infrastructure, including two of the Internet's thirteen root nameservers, the authoritative registry for the .com, .net, .web and .name generic top-level domains and the .cc country-code top-level domains, and the back-end systems for the .jobs and .edu sponsored top-level domains.",
+      "description": "Xylem Inc. is a large American water technology provider, in public utility, industrial, commercial, agricultural and residential settings. The company does business in more than 150 countries. Launched in 2011 as the spinoff of the water-related businesses of ITT Corporation, Xylem is headquartered in Washington, DC, with 2024 revenues of $8.6 billion and 23,000 employees worldwide.",
       "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Verisign",
-      "employees": 1019,
-      "price": 307.63,
-      "change": 0.3752
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Xylem_Inc.",
+      "employees": 17800,
+      "price": 106.77,
+      "change": 1.6663
     },
     {
-      "ticker": "VZ",
-      "name": "Verizon",
+      "ticker": "YUM",
+      "name": "Yum! Brands",
       "skipped": false,
-      "website": "https://www.verizon.com/",
-      "industry": "Telecommunication",
-      "marketCap": "$186.1B",
-      "description": "Verizon Communications Inc. is an American telecommunications company headquartered in New York City. It is the world's second-largest telecommunications company by revenue and its mobile network is the largest wireless carrier in the United States, with 146.8 million subscribers as of March 31, 2026. The company was founded as Bell Atlantic Corporation and renamed to Verizon on June 30, 2000 as a result of a merger with GTE.",
-      "descriptionHE": "חברת ורייזון תקשורת היא חברת תקשורת אמריקאית רב-לאומית, המספקת שירותי תקשורת סלולרית, טלפוניה, מערכות מידע, ושירותי פס רחב ללקוחות בארצות הברית ובעולם.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Verizon",
-      "employees": 132200,
-      "price": 44.54,
-      "change": 0.8834
+      "website": "https://www.yum.com/",
+      "industry": "Hotels, Restaurants & Leisure",
+      "marketCap": "$43.3B",
+      "description": "Yum! Brands, Inc. is an American multinational fast food corporation. Based in Louisville, Kentucky, the company operates KFC, Taco Bell, Habit Burger & Grill, and several technology companies. As of 2024 Yum! is the world's second largest fast food restaurant chain by gross revenues, after McDonald's, though the large majority of Yum! locations are independently owned franchises and the parent company's revenue is substantially lower than gross revenues.",
+      "descriptionHE": "Yum! Brands היא חברת מזון מהיר אמריקאית רב-לאומית, שמטה שלה נמצא בלואיוויל שבקנטקי. החברה מפעילה את רשתות KFC, טאקו בל ו־Habit Burger & Grill, וכן כמה חברות טכנולוגיה. Yum! היא אחת מחברות המזון המהיר הגדולות בעולם מבחינת מספר הסניפים, ונכון לשנת 2025 הפעילה כ־61,000 סניפים ברחבי העולם.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Yum!_Brands",
+      "employees": 90000,
+      "price": 150.74,
+      "change": -0.5673
     },
     {
-      "ticker": "VRT",
-      "name": "Vertiv",
+      "ticker": "MMM",
+      "name": "3M",
       "skipped": false,
-      "website": "https://investors.vertiv.com/",
-      "industry": "Electrical Equipment",
-      "marketCap": "$79.5B",
-      "description": "Vertiv Holdings Co. is an American provider of infrastructure and services for data centers, communication networks, and commercial and industrial environments. Headquartered in Westerville, Ohio, Vertiv has around 34,000 employees worldwide, operating in more than 40 countries and with 30 manufacturing and assembly facilities.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Vertiv",
-      "employees": 34000,
-      "price": 203.41,
-      "change": -1.2956
+      "website": "https://www.3m.com/",
+      "industry": "Industrial Conglomerates",
+      "marketCap": "$87.5B",
+      "description": "The 3M Company is an American multinational conglomerate operating in the fields of industry, worker safety, and consumer goods. Based in the Saint Paul suburb of Maplewood, the company produces over 60,000 products, including adhesives, abrasives, laminates, passive fire protection, personal protective equipment, window films, paint protection film, electrical, electronic connecting, insulating materials, car-care products, electronic circuits, and optical films. Among its best-known consumer brands are Scotch Tape, Scotchgard surface protectants, Post-it notes, and Nexcare adhesive bandages. 3M's stock ticker symbol is MMM and is listed on the New York Stock Exchange, Inc. (NYSE), and the SIX Swiss Exchange.",
+      "descriptionHE": "3M‏ היא קונצרן רב-לאומי אמריקני המפתח ומייצר אלפי מוצרים שונים בתחומי התעשייה, הבטיחות והמיגון, האלקטרוניקה, התקשורת, המשרד ובית, רפואה, אבטחה, ננוטכנולוגיה, אנרגיה חלופית, בנייה ירוקה ועוד. החברה מונה כ-75,000 עובדים ברחבי העולם, ולה אתרי ייצור ביותר מ-60 מדינות. מוצרי החברה נמכרים באמצעות מפיצים מקומיים וקמעונאים ברחבי העולם. 3M היא אחת מ-30 החברות המרכיבות את מדד הדאו-ג'ונס. משרדי ההנהלה הראשית של החברה נמצאים בעיר מייפלווד, פרבר של הערים סיינט פול ומיניאפוליס שבמדינת מינסוטה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/3M",
+      "employees": 94987,
+      "price": 173.7,
+      "change": 1.3596
     },
     {
-      "ticker": "V",
-      "name": "Visa Inc.",
+      "ticker": "ABT",
+      "name": "Abbott Laboratories",
       "skipped": false,
-      "website": "https://usa.visa.com/",
-      "industry": "Financial Services",
-      "marketCap": "$750.2B",
-      "description": "Visa Inc. is an American multinational payment card services corporation headquartered in San Francisco, California. It facilitates electronic funds transfers worldwide, most commonly through Visa-branded credit cards, debit cards and prepaid cards.",
-      "descriptionHE": "ויזה בע\"מ היא תאגיד רב-לאומי אמריקאי המספק שירותי כרטיסי תשלום, שהמטה הראשי שלו שוכן בסן פרנסיסקו, קליפורניה. החברה מאפשרת העברות כספים אלקטרוניות ברחבי העולם, בעיקר באמצעות כרטיסי אשראי, כרטיסי חיוב וכרטיסים נטענים ממותג ויזה.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Visa_Inc.",
-      "employees": 31600,
-      "price": 407.18,
-      "change": 1.0573
+      "website": "https://www.abbott.com",
+      "industry": "Health Care",
+      "marketCap": "$177.5B",
+      "description": "Abbott Laboratories, commonly known as Abbott, is an American multinational medical devices and health care company founded in Chicago with headquarters in Abbott Park, Illinois. The company produces pharmaceuticals for sale outside the United States, diagnostic products, nutritional products, and medical devices.",
+      "descriptionHE": "מעבדות אבוט היא חברת מכשור רפואי תרכובות מזון לתינוקות ותוספי תזונה אמריקאית. החברה נוסדה ב-1888 והמטה הראשי שלה באילינוי. היא מעסיקה כ-107,000 עובדים ברחבי העולם והכנסותיה כ-32 מיליארד דולר. בין מוצרי החברה הבולטים סימילאק, פדיאלייט, אנשור, גלוצרנה, פדיאשור, פריסטייל ליברה, ומכשור לבדיקת קורונה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Abbott_Laboratories",
+      "employees": 73000,
+      "price": 98.58,
+      "change": -3.7775
+    },
+    {
+      "ticker": "ACN",
+      "name": "Accenture",
+      "skipped": false,
+      "website": "https://www.accenture.com/ie-en/",
+      "industry": "Technology",
+      "marketCap": "$160.3B",
+      "description": "Accenture plc is a technology consulting company headquartered in Dublin, Ireland. Founded in 1989 in the United States, Accenture provides information technology and management consulting services across 120 countries globally.",
+      "descriptionHE": "אקסנצ'ר היא חברה גלובלית המעניקה ייעוץ עסקי, שירותים טכנולוגיים ושירותי מיקור חוץ לארגונים ולחברות הגדולות במשק. הכנסותיה של אקסנצ'ר ממקמות אותה כאחת מחברות הייעוץ הגדולות בעולם, ונמצאת ברשימת 500 החברות הגדולות בעולם של המגזין Fortune Global 500.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Accenture",
+      "employees": 779000,
+      "price": 237.3,
+      "change": -0.7611
     }
   ]
 }

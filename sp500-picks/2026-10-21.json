@@ -1,0 +1,277 @@
+{
+  "date": "2026-10-21",
+  "generatedAt": "2026-10-21T18:09:38.917Z",
+  "windowStart": 480,
+  "windowSize": 40,
+  "cyclePosition": 12,
+  "totalWindows": 13,
+  "requested": 15,
+  "picked": 15,
+  "skippedCount": 13,
+  "skipped": [
+    {
+      "ticker": "WAB",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "WBD",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "WEC",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "WST",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "WSM",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "WMB",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "WYNN",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "XEL",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ZBRA",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ZBH",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ZTS",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "AOS",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ABBV",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    }
+  ],
+  "picks": [
+    {
+      "ticker": "WMT",
+      "name": "Walmart",
+      "skipped": false,
+      "website": "https://corporate.walmart.com/",
+      "industry": "Retail",
+      "marketCap": "$884.1B",
+      "description": "Walmart Inc. is an American multinational omnichannel retail corporation that operates a chain of hypermarkets, discount department stores, grocery stores, pharmacies, and gas stations in the United States and 19 other countries. It is headquartered in Bentonville, Arkansas. The company was founded in 1962 by brothers Sam Walton and James \"Bud\" Walton in nearby Rogers, Arkansas. It also owns and operates Sam's Club retail warehouses.",
+      "descriptionHE": "וול-מארט חנויות בע\"מ, המוכרת כמותג וולמארט, היא החברה הקמעונאית הגדולה בעולם והיא גם החברה המסחרית הגדולה בעולם. וול-מארט היא חברה ציבורית אמריקאית שנוסדה על ידי סם וולטון בשנת 1962 ונרשמה כחברה בערבון מוגבל ב-31 באוקטובר 1969. בשנת 1972 החלה מנייתה להיסחר בבורסת ניו יורק. וולמארט היא המעסיק הפרטי הגדול ביותר בעולם, שני מיליון ומאה אלף עובדים מועסקים בחברה. נכון לדצמבר 2022 היא רשת המזון הגדולה בעולם.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Walmart",
+      "employees": 2300000,
+      "price": 117.83,
+      "change": -0.017
+    },
+    {
+      "ticker": "DIS",
+      "name": "Walt Disney Company (The)",
+      "skipped": false,
+      "website": "https://thewaltdisneycompany.com/",
+      "industry": "Media",
+      "marketCap": "$191.8B",
+      "description": "The Walt Disney Company (TWDC), commonly known as simply Disney, is an American multinational mass media and entertainment conglomerate headquartered at the Walt Disney Studios complex in Burbank, California. Founded on October 16, 1923, as an animation studio by brothers Walt and Roy Oliver Disney as Disney Brothers Cartoon Studio, Disney operated under the names Walt Disney Studio and Walt Disney Productions before adopting its current name in 1986. In 1928, Disney established itself as a leader in the animation industry with the short film Steamboat Willie. The film used synchronized sound to become the first post-produced sound cartoon, and popularized Mickey Mouse, who became Disney's mascot and corporate icon.",
+      "descriptionHE": "חברת וולט דיסני, או דיסני בשמה המקוצר, היא תאגיד רב-לאומי אמריקאי של בידור ותקשורת המונים מגוונת, שבסיסה באולפני וולט דיסני בברבנק, קליפורניה, ארצות הברית. וולט דיסני הוא תאגיד השידור והכבלים השני בגודלו בעולם מבחינת הכנסות, לאחר תאגיד Comcast. אולפני וולט דיסני נוסדו ב-16 באוקטובר 1923 על ידי וולט דיסני ואחיו רוי דיסני בשם אולפני הקרטוּן האחים דיסני (Disney Brothers Cartoon Studio. במרוצת השנים, ביסס את עצמו דיסני כאולפן מוביל בתעשיית האנימציה העולמית בזכות מגוון הפקותיו, שכוללות סרטי קולנוע וסרטי הפצה ביתית במספר סוגות, הפקות טלוויזיה ופארקי שעשועים נושאיים סביב קניינו הרוחני ברחבי העולם.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company",
+      "employees": 201000,
+      "price": 111.37,
+      "change": -0.2686
+    },
+    {
+      "ticker": "WM",
+      "name": "Waste Management",
+      "skipped": false,
+      "website": "https://www.wm.com/",
+      "industry": "Commercial Services & Supplies",
+      "marketCap": "$90.5B",
+      "description": "Waste Management, Inc., doing business as WM, is a waste management an American company operating in North America. Founded in 1968, the company is headquartered in the Bank of America Tower in Houston, Texas.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Waste_Management%2C_Inc.",
+      "employees": 43000,
+      "price": 229.58,
+      "change": -0.9278
+    },
+    {
+      "ticker": "WAT",
+      "name": "Waters Corporation",
+      "skipped": false,
+      "website": "https://www.waters.com",
+      "industry": "Life Sciences Tools & Services",
+      "marketCap": "$42.9B",
+      "description": "Waters Corporation is an American company headquartered in Milford, Massachusetts that provides analytical instruments and software used for chromatography, mass spectrometry, laboratory informatics, and rheometry by the life sciences, materials, and food industries.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Waters_Corporation",
+      "employees": 7262,
+      "price": 455.88,
+      "change": 2.947
+    },
+    {
+      "ticker": "WFC",
+      "name": "Wells Fargo",
+      "skipped": false,
+      "website": "https://www.wellsfargo.com",
+      "industry": "Banking",
+      "marketCap": "$258.3B",
+      "description": "Wells Fargo & Company is an American multinational financial services company. The company operates in 35 countries and serves more than 70 million customers worldwide. It is a systemically important financial institution according to the Financial Stability Board, and is considered one of the Big Four banks in the United States, alongside JPMorgan Chase, Bank of America, and Citigroup.",
+      "descriptionHE": "ולס פארגו היא חברת שירותים פיננסיים אמריקאית רב-לאומית, הפועלת ב-35 מדינות ומשרתת למעלה מ-70 מיליון לקוחות ברחבי העולם. זהו מוסד פיננסי בעל חשיבות מערכתית (SIFI) על פי המועצה ליציבות פיננסית (FSB), והוא נחשב לאחד מ\"ארבעת הבנקים הגדולים\" בארצות הברית, לצד ג'יי פי מורגן צ'ייס, בנק אוף אמריקה וסיטיגרופ.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Wells_Fargo",
+      "employees": 150500,
+      "price": 82.35,
+      "change": 0.1825
+    },
+    {
+      "ticker": "WELL",
+      "name": "Welltower",
+      "skipped": false,
+      "website": "https://welltower.com/",
+      "industry": "Real Estate",
+      "marketCap": "$169.8B",
+      "description": "Welltower Inc. is an American real estate investment trust that invests in healthcare facilities such as retirement and nursing homes, and outpatient medical clinics.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Welltower",
+      "employees": 685,
+      "price": 235.64,
+      "change": -1.0249
+    },
+    {
+      "ticker": "WDC",
+      "name": "Western Digital",
+      "skipped": false,
+      "website": "https://www.westerndigital.com/",
+      "industry": "Technology",
+      "marketCap": "$133.4B",
+      "description": "Western Digital Corporation, doing business as WD, is an American data storage company headquartered in San Jose, California. Established in 1970, the company is one of the world's largest manufacturers of hard disk drives (HDDs).",
+      "descriptionHE": "וסטרן דיגיטל היא חברה אמריקאית לאחסון נתונים דיגיטליים ואחת מיצרניות הדיסקים הקשיחים הגדולות בעולם, שהנהלתה שוכנת בסן חוסה, קליפורניה.\nלחברה היסטוריה ארוכה כחברת אלקטרוניקה וייצור מעגלים מודפסים ומוצרי אחסון. היא נוסדה באפריל 1970 על ידי אלווין פיליפס, עבור מוטורולה, בשם \"General Digital\" כחברה לייצור ציוד בדיקות MOS והתפתחה מהרה לייצור מוליכים למחצה. ביולי 1971 שינתה את שמה ל-\"Western Digital\" והציגה את המוצר הראשון שלה - \"WD1402A UART\".",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Western_Digital",
+      "employees": 76449,
+      "price": 379.01,
+      "change": 4.0322
+    },
+    {
+      "ticker": "WY",
+      "name": "Weyerhaeuser",
+      "skipped": false,
+      "website": "https://www.weyerhaeuser.com/",
+      "industry": "Real Estate",
+      "marketCap": "$16.9B",
+      "description": "The Weyerhaeuser Company is an American timberland company which owns approximately 10,400,000 acres of timberlands in the U.S., and manages an additional 14,000,000 acres of timberlands under long-term licenses in Canada. The company has manufactured wood products for over a century. It operates as a real estate investment trust (REIT).",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Weyerhaeuser",
+      "employees": 13200,
+      "price": 19.1,
+      "change": -1.241
+    },
+    {
+      "ticker": "WTW",
+      "name": "Willis Towers Watson",
+      "skipped": false,
+      "website": "https://www.wtwco.com/",
+      "industry": "Insurance",
+      "marketCap": "$31.7B",
+      "description": "Willis Towers Watson plc is a British-American multinational advisory, broking and solutions company. Its operations span commercial insurance brokerage and risk advisory, employee benefits and rewards consulting, retirement and actuarial services, and investment advice for pension funds and institutional investors.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Willis_Towers_Watson",
+      "employees": 46100,
+      "price": 316.43,
+      "change": -0.7185
+    },
+    {
+      "ticker": "WDAY",
+      "name": "Workday, Inc.",
+      "skipped": false,
+      "website": "https://www.workday.com/",
+      "industry": "Technology",
+      "marketCap": "$47.4B",
+      "description": "Workday, Inc., is an American cloud-based provider of financial management, human capital management, and student information system software. The company was founded by former PeopleSoft executives David Duffield and Aneel Bhusri following Oracle's acquisition of that company in 2005.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Workday%2C_Inc.",
+      "employees": 20000,
+      "price": 201.95,
+      "change": -0.9952
+    },
+    {
+      "ticker": "XYL",
+      "name": "Xylem Inc.",
+      "skipped": false,
+      "website": "https://www.xylem.com/",
+      "industry": "Machinery",
+      "marketCap": "$27.3B",
+      "description": "Xylem Inc. is a large American water technology provider, in public utility, industrial, commercial, agricultural and residential settings. The company does business in more than 150 countries. Launched in 2011 as the spinoff of the water-related businesses of ITT Corporation, Xylem is headquartered in Washington, DC, with 2024 revenues of $8.6 billion and 23,000 employees worldwide.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Xylem_Inc.",
+      "employees": 17800,
+      "price": 106.77,
+      "change": 1.6663
+    },
+    {
+      "ticker": "YUM",
+      "name": "Yum! Brands",
+      "skipped": false,
+      "website": "https://www.yum.com/",
+      "industry": "Hotels, Restaurants & Leisure",
+      "marketCap": "$43.3B",
+      "description": "Yum! Brands, Inc. is an American multinational fast food corporation. Based in Louisville, Kentucky, the company operates KFC, Taco Bell, Habit Burger & Grill, and several technology companies. As of 2024 Yum! is the world's second largest fast food restaurant chain by gross revenues, after McDonald's, though the large majority of Yum! locations are independently owned franchises and the parent company's revenue is substantially lower than gross revenues.",
+      "descriptionHE": "Yum! Brands היא חברת מזון מהיר אמריקאית רב-לאומית, שמטה שלה נמצא בלואיוויל שבקנטקי. החברה מפעילה את רשתות KFC, טאקו בל ו־Habit Burger & Grill, וכן כמה חברות טכנולוגיה. Yum! היא אחת מחברות המזון המהיר הגדולות בעולם מבחינת מספר הסניפים, ונכון לשנת 2025 הפעילה כ־61,000 סניפים ברחבי העולם.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Yum!_Brands",
+      "employees": 90000,
+      "price": 150.74,
+      "change": -0.5673
+    },
+    {
+      "ticker": "MMM",
+      "name": "3M",
+      "skipped": false,
+      "website": "https://www.3m.com/",
+      "industry": "Industrial Conglomerates",
+      "marketCap": "$87.5B",
+      "description": "The 3M Company is an American multinational conglomerate operating in the fields of industry, worker safety, and consumer goods. Based in the Saint Paul suburb of Maplewood, the company produces over 60,000 products, including adhesives, abrasives, laminates, passive fire protection, personal protective equipment, window films, paint protection film, electrical, electronic connecting, insulating materials, car-care products, electronic circuits, and optical films. Among its best-known consumer brands are Scotch Tape, Scotchgard surface protectants, Post-it notes, and Nexcare adhesive bandages. 3M's stock ticker symbol is MMM and is listed on the New York Stock Exchange, Inc. (NYSE), and the SIX Swiss Exchange.",
+      "descriptionHE": "3M‏ היא קונצרן רב-לאומי אמריקני המפתח ומייצר אלפי מוצרים שונים בתחומי התעשייה, הבטיחות והמיגון, האלקטרוניקה, התקשורת, המשרד ובית, רפואה, אבטחה, ננוטכנולוגיה, אנרגיה חלופית, בנייה ירוקה ועוד. החברה מונה כ-75,000 עובדים ברחבי העולם, ולה אתרי ייצור ביותר מ-60 מדינות. מוצרי החברה נמכרים באמצעות מפיצים מקומיים וקמעונאים ברחבי העולם. 3M היא אחת מ-30 החברות המרכיבות את מדד הדאו-ג'ונס. משרדי ההנהלה הראשית של החברה נמצאים בעיר מייפלווד, פרבר של הערים סיינט פול ומיניאפוליס שבמדינת מינסוטה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/3M",
+      "employees": 94987,
+      "price": 173.7,
+      "change": 1.3596
+    },
+    {
+      "ticker": "ABT",
+      "name": "Abbott Laboratories",
+      "skipped": false,
+      "website": "https://www.abbott.com",
+      "industry": "Health Care",
+      "marketCap": "$177.5B",
+      "description": "Abbott Laboratories, commonly known as Abbott, is an American multinational medical devices and health care company founded in Chicago with headquarters in Abbott Park, Illinois. The company produces pharmaceuticals for sale outside the United States, diagnostic products, nutritional products, and medical devices.",
+      "descriptionHE": "מעבדות אבוט היא חברת מכשור רפואי תרכובות מזון לתינוקות ותוספי תזונה אמריקאית. החברה נוסדה ב-1888 והמטה הראשי שלה באילינוי. היא מעסיקה כ-107,000 עובדים ברחבי העולם והכנסותיה כ-32 מיליארד דולר. בין מוצרי החברה הבולטים סימילאק, פדיאלייט, אנשור, גלוצרנה, פדיאשור, פריסטייל ליברה, ומכשור לבדיקת קורונה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Abbott_Laboratories",
+      "employees": 73000,
+      "price": 98.58,
+      "change": -3.7775
+    },
+    {
+      "ticker": "ACN",
+      "name": "Accenture",
+      "skipped": false,
+      "website": "https://www.accenture.com/ie-en/",
+      "industry": "Technology",
+      "marketCap": "$160.3B",
+      "description": "Accenture plc is a technology consulting company headquartered in Dublin, Ireland. Founded in 1989 in the United States, Accenture provides information technology and management consulting services across 120 countries globally.",
+      "descriptionHE": "אקסנצ'ר היא חברה גלובלית המעניקה ייעוץ עסקי, שירותים טכנולוגיים ושירותי מיקור חוץ לארגונים ולחברות הגדולות במשק. הכנסותיה של אקסנצ'ר ממקמות אותה כאחת מחברות הייעוץ הגדולות בעולם, ונמצאת ברשימת 500 החברות הגדולות בעולם של המגזין Fortune Global 500.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Accenture",
+      "employees": 779000,
+      "price": 237.3,
+      "change": -0.7611
+    }
+  ]
+}
