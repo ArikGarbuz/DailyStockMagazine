@@ -1,0 +1,277 @@
+{
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T18:07:09.751Z",
+  "windowStart": 0,
+  "windowSize": 40,
+  "cyclePosition": 0,
+  "totalWindows": 13,
+  "requested": 15,
+  "picked": 15,
+  "skippedCount": 13,
+  "skipped": [
+    {
+      "ticker": "AOS",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ABBV",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "AES",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "APD",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ALB",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ARE",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ALGN",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ALLE",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "LNT",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ALL",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "AMCR",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "AEE",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "AEP",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    }
+  ],
+  "picks": [
+    {
+      "ticker": "MMM",
+      "name": "3M",
+      "skipped": false,
+      "website": "https://www.3m.com/",
+      "industry": "Industrial Conglomerates",
+      "marketCap": "$90.1B",
+      "description": "The 3M Company is an American multinational conglomerate operating in the fields of industry, worker safety, and consumer goods. Based in the Saint Paul suburb of Maplewood, the company produces over 60,000 products, including adhesives, abrasives, laminates, passive fire protection, personal protective equipment, window films, paint protection film, electrical, electronic connecting, insulating materials, car-care products, electronic circuits, and optical films. Among its best-known consumer brands are Scotch Tape, Scotchgard surface protectants, Post-it notes, and Nexcare adhesive bandages. 3M's stock ticker symbol is MMM and is listed on the New York Stock Exchange, Inc. (NYSE), and the SIX Swiss Exchange.",
+      "descriptionHE": "3M‏ היא קונצרן רב-לאומי אמריקני המפתח ומייצר אלפי מוצרים שונים בתחומי התעשייה, הבטיחות והמיגון, האלקטרוניקה, התקשורת, המשרד ובית, רפואה, אבטחה, ננוטכנולוגיה, אנרגיה חלופית, בנייה ירוקה ועוד. החברה מונה כ-75,000 עובדים ברחבי העולם, ולה אתרי ייצור ביותר מ-60 מדינות. מוצרי החברה נמכרים באמצעות מפיצים מקומיים וקמעונאים ברחבי העולם. 3M היא אחת מ-30 החברות המרכיבות את מדד הדאו-ג'ונס. משרדי ההנהלה הראשית של החברה נמצאים בעיר מייפלווד, פרבר של הערים סיינט פול ומיניאפוליס שבמדינת מינסוטה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/3M",
+      "employees": 94987,
+      "price": 173.68,
+      "change": -0.6066
+    },
+    {
+      "ticker": "ABT",
+      "name": "Abbott Laboratories",
+      "skipped": false,
+      "website": "https://www.abbott.com",
+      "industry": "Health Care",
+      "marketCap": "$174.1B",
+      "description": "Abbott Laboratories, commonly known as Abbott, is an American multinational medical devices and health care company founded in Chicago with headquarters in Abbott Park, Illinois. The company produces pharmaceuticals for sale outside the United States, diagnostic products, nutritional products, and medical devices.",
+      "descriptionHE": "מעבדות אבוט היא חברת מכשור רפואי תרכובות מזון לתינוקות ותוספי תזונה אמריקאית. החברה נוסדה ב-1888 והמטה הראשי שלה באילינוי. היא מעסיקה כ-107,000 עובדים ברחבי העולם והכנסותיה כ-32 מיליארד דולר. בין מוצרי החברה הבולטים סימילאק, פדיאלייט, אנשור, גלוצרנה, פדיאשור, פריסטייל ליברה, ומכשור לבדיקת קורונה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Abbott_Laboratories",
+      "employees": 73000,
+      "price": 102.28,
+      "change": 1.761
+    },
+    {
+      "ticker": "ACN",
+      "name": "Accenture",
+      "skipped": false,
+      "website": "https://www.accenture.com/ie-en/",
+      "industry": "Technology",
+      "marketCap": "$144.7B",
+      "description": "Accenture plc is a technology consulting company headquartered in Dublin, Ireland. Founded in 1989 in the United States, Accenture provides information technology and management consulting services across 120 countries globally.",
+      "descriptionHE": "אקסנצ'ר היא חברה גלובלית המעניקה ייעוץ עסקי, שירותים טכנולוגיים ושירותי מיקור חוץ לארגונים ולחברות הגדולות במשק. הכנסותיה של אקסנצ'ר ממקמות אותה כאחת מחברות הייעוץ הגדולות בעולם, ונמצאת ברשימת 500 החברות הגדולות בעולם של המגזין Fortune Global 500.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Accenture",
+      "employees": 779000,
+      "price": 251.28,
+      "change": 4.5867
+    },
+    {
+      "ticker": "ADBE",
+      "name": "Adobe Inc.",
+      "skipped": false,
+      "website": "https://www.adobe.com/",
+      "industry": "Technology",
+      "marketCap": "$101.6B",
+      "description": "Adobe Inc., formerly Adobe Systems Incorporated, is an American multinational computer software company based in San Jose, California. It offers a wide range of programs from web design tools, photo manipulation, and vector creation to video and audio editing, mobile app development, print layout and animation software.",
+      "descriptionHE": "אַדוֹבִּי, שנקראה בעבר \"אדובי מערכות\", היא חברת תוכנה שנוסדה בדצמבר 1982 על ידי ג'ון וארנוק וצ'ארלס גצ'קי.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Adobe_Inc.",
+      "employees": 25988,
+      "price": 269.01,
+      "change": 5.4693
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "skipped": false,
+      "website": "https://www.amd.com/",
+      "industry": "Semiconductors",
+      "marketCap": "$857.7B",
+      "description": "Advanced Micro Devices, Inc. (AMD) is an American multinational semiconductor company headquartered in Santa Clara, California. It develops central processing units (CPUs), graphics processing units (GPUs), field-programmable gate arrays (FPGAs), system-on-chips (SoCs), and high-performance computer components. AMD serves a wide range of business and consumer markets, including personal computers (PCs), gaming, data centers, and embedded systems.",
+      "descriptionHE": "Advanced Micro Devices, Inc. היא חברה אמריקאית רב-לאומית, יצרנית של מעגלים משולבים. בסיסה בסנטה קלרה, קליפורניה. היא היצרן השני בגודלו של יחידות עיבוד מרכזי תואמי x86, היצרנית הגדולה ביותר של יחידות עיבוד מרכזי תואם FPGA, וספק מוביל של זיכרון מסוג Flash. היא נוסדה ב-1969 על ידי קבוצה של פורשים מחברת המוליכים למחצה \"Fairchild\", הכוללת את ג'רי סנדרס. בעוד שבעבר ייצרה מעבדים במפעלים משלה, החל משנת 2009 מכרה את מפעלי הייצור שלה לחברת \"מובאדלה\", קרן העושר הריבונית של ממשלת אבו דאבי, הפועלים תחת חברה חדשה בשם \"Global Foundaries\", כאשר נותרה המתכננת והמעצבת של השבבים, שאותם אחר-כך שולחת לייצור במפעלים חיצוניים, ביניהם גם החל מ-2014 חברת השבבים הטיוואנית TSMC, שסיפקה לה קווי ייצור של 7 ננומטר.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AMD",
+      "employees": 15500,
+      "price": 509.68,
+      "change": -7.7869
+    },
+    {
+      "ticker": "AFL",
+      "name": "Aflac",
+      "skipped": false,
+      "website": "https://www.aflac.com/",
+      "industry": "Insurance",
+      "marketCap": "$60.5B",
+      "description": "Aflac Incorporated is an American insurance company and is the largest provider of supplemental insurance in the United States. It was founded in 1955 and is based in Columbus, Georgia. In the U.S., it underwrites a wide range of insurance policies, but is perhaps more known for its payroll deduction insurance coverage, which pays cash benefits when a policyholder has a covered accident or illness. The company states it \"provides financial protection to more than 50 million people worldwide\".",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Aflac",
+      "employees": 12003,
+      "price": 122.91,
+      "change": 2.2971
+    },
+    {
+      "ticker": "A",
+      "name": "Agilent Technologies",
+      "skipped": false,
+      "website": "https://www.agilent.com/",
+      "industry": "Life Sciences Tools & Services",
+      "marketCap": "$50.0B",
+      "description": "Agilent Technologies, Inc. is an American global company headquartered in Santa Clara, California, that provides instruments, software, services, and consumables for laboratories. Agilent was established in 1999 as a spin-off from Hewlett-Packard. The resulting initial public offering of Agilent stock was the largest in the history of Silicon Valley at the time.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Agilent_Technologies",
+      "employees": 17671,
+      "price": 172.51,
+      "change": -2.948
+    },
+    {
+      "ticker": "ABNB",
+      "name": "Airbnb",
+      "skipped": false,
+      "website": "https://www.airbnb.com/",
+      "industry": "Hotels, Restaurants & Leisure",
+      "marketCap": "$104.7B",
+      "description": "Airbnb, Inc. is an American company operating an online marketplace for short-and-long-term homestays, experiences and services in various countries and regions. It acts as a broker and charges a commission from each booking. Airbnb was founded in 2008 by Brian Chesky, Nathan Blecharczyk, and Joe Gebbia.",
+      "descriptionHE": "Airbnb הוא אתר אינטרנט המתווך בין שוכרי יחידות נופש להשכרה או יחידות מגורים לטווח קצר לבין בעלים של יחידות כאלו.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Airbnb",
+      "employees": 5597,
+      "price": 175.35,
+      "change": 0.9557
+    },
+    {
+      "ticker": "AKAM",
+      "name": "Akamai Technologies",
+      "skipped": false,
+      "website": "https://www.akamai.com/",
+      "industry": "Technology",
+      "marketCap": "$13.0B",
+      "description": "Akamai Technologies, Inc. is an American company specializing in content delivery network (CDN), cybersecurity, DDoS mitigation, and cloud services. It is headquartered in Cambridge, Massachusetts.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Akamai_Technologies",
+      "employees": 8368,
+      "price": 89.92,
+      "change": -0.3877
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc. (Class A)",
+      "skipped": false,
+      "website": "https://abc.xyz/",
+      "industry": "Media",
+      "marketCap": "$4.03T",
+      "description": "Alphabet Inc. is an American multinational technology conglomerate holding company headquartered in Mountain View, California. It was created through a restructuring of Google on October 2, 2015, and became the parent holding company of Google and several former Google subsidiaries. Alphabet is listed on the large-cap section of the Nasdaq under the ticker symbols GOOGL and GOOG; both classes of stock are components of major stock market indices such as the S&P 500 and Nasdaq-100. Alphabet has been described as a Big Tech company. As of July 2026, it is the third largest publicly traded company in the world by market capitalization.",
+      "descriptionHE": "אלפאבית היא חברת החזקות העוסקת בטכנולוגיה וממוקמת במאונטיין ויו, קליפורניה. היא הוקמה על מנת להפוך את גוגל לחברה שמתמקדת רק בשירותי אינטרנט ולאפשר עצמאות לחברות הבנות שלא עוסקות בתחום, ונוצרה כתוצאה מארגון מחדש של חברת גוגל ב-2 באוקטובר 2015. בכך הפכה לחברת האם של גוגל ומספר חברות בנות שלה. שני המייסדים של גוגל מינו את עצמם לתפקידים בכירים בחברה החדשה: לארי פייג' בתפקיד המנכ\"ל וסרגיי ברין בתפקיד נשיא החברה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Alphabet_Inc.",
+      "employees": 190234,
+      "price": 324.69,
+      "change": -3.0081
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
+      "skipped": false,
+      "website": "https://abc.xyz/",
+      "industry": "Media",
+      "marketCap": "$4.03T",
+      "description": "Alphabet Inc. is an American multinational technology conglomerate holding company headquartered in Mountain View, California. It was created through a restructuring of Google on October 2, 2015, and became the parent holding company of Google and several former Google subsidiaries. Alphabet is listed on the large-cap section of the Nasdaq under the ticker symbols GOOGL and GOOG; both classes of stock are components of major stock market indices such as the S&P 500 and Nasdaq-100. Alphabet has been described as a Big Tech company. As of July 2026, it is the third largest publicly traded company in the world by market capitalization.",
+      "descriptionHE": "אלפאבית היא חברת החזקות העוסקת בטכנולוגיה וממוקמת במאונטיין ויו, קליפורניה. היא הוקמה על מנת להפוך את גוגל לחברה שמתמקדת רק בשירותי אינטרנט ולאפשר עצמאות לחברות הבנות שלא עוסקות בתחום, ונוצרה כתוצאה מארגון מחדש של חברת גוגל ב-2 באוקטובר 2015. בכך הפכה לחברת האם של גוגל ומספר חברות בנות שלה. שני המייסדים של גוגל מינו את עצמם לתפקידים בכירים בחברה החדשה: לארי פייג' בתפקיד המנכ\"ל וסרגיי ברין בתפקיד נשיא החברה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Alphabet_Inc.",
+      "employees": 190234,
+      "price": 321.1,
+      "change": -2.9763
+    },
+    {
+      "ticker": "MO",
+      "name": "Altria",
+      "skipped": false,
+      "website": "https://www.altria.com/",
+      "industry": "Tobacco",
+      "marketCap": "$124.8B",
+      "description": "Altria Group, Inc. is an American corporation and one of the world's largest producers and marketers of tobacco, cigarettes, and medical products in the treatment of illnesses caused by tobacco. It operates worldwide and is headquartered in the city of Richmond, Virginia.",
+      "descriptionHE": "קבוצת אלטריה היא חברת טבק אמריקאית העוסקת בייצור ושיווק של טבק, סיגריות, ומוצרים הנלווים אליהם. כמו כן, היא גם אחת מחברה הגדולות בעולם הפועלות בתחום זה. משרדיה הראשיים של החברה שוכנים במדינת וירג'יניה שבארצות הברית.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Altria",
+      "employees": 9900,
+      "price": 75.94,
+      "change": 2.8579
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "skipped": false,
+      "website": "https://www.amazon.com/",
+      "industry": "Retail",
+      "marketCap": "$2.75T",
+      "description": "Amazon.com, Inc. is an American multinational conglomerate engaged in e-commerce, retail, cloud computing, online advertising, digital streaming, entertainment, and artificial intelligence. Founded in 1994 by Jeff Bezos in Bellevue, Washington, the company started as an online book marketplace that gradually expanded to include virtually all consumer products as well as many other categories, positioned as \"The Everything Store\".",
+      "descriptionHE": "אמזון.קום בע\"מ, המוכרת בשם המקוצר אמזון, היא חברה אמריקאית למסחר אלקטרוני ושירותי מחשוב ענן. החברה שבסיסה בסיאטל, וושינגטון, נוסדה ב-5 ביולי 1994. היא הייתה מחלוצות המסחר באינטרנט והתפרסמה בראשיתה במכירת ספרים, אך בהמשך החלה למכור גם דיסקים, סרטים, מוצרי אלקטרוניקה, בגדים ועוד. עם התפתחותה של החברה ניתן לקנות באתר החברה מגוון רחב מאוד של מוצרים.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Amazon_(company)",
+      "employees": 1500000,
+      "price": 250.07,
+      "change": -4.688
+    },
+    {
+      "ticker": "AXP",
+      "name": "American Express",
+      "skipped": false,
+      "website": "https://www.americanexpress.com/",
+      "industry": "Financial Services",
+      "marketCap": "$218.8B",
+      "description": "American Express Company (Amex) is an American bank holding company and multinational financial services corporation that specializes in payment cards. It is headquartered at 200 Vesey Street, also known as American Express Tower, in the Battery Park City neighborhood of Lower Manhattan; in 2026, the company announced that it would develop and be the sole occupant of the new 2 World Trade Center skyscraper in the nearby World Trade Center complex.",
+      "descriptionHE": "אמריקן אקספרס, היא חברת שירותים פיננסיים אמריקאית בינלאומית, שמרכזה בבניין רחוב וסי 200, מנהטן, ניו יורק, ארצות הברית. החברה הוקמה בשנת 1850, והיא אחת משלושים החברות הנכללות במדד דאו ג'ונס. החברה ידועה בעיקר בשל שירותי כרטיסי האשראי, כרטיסי החיוב, והמחאות הנוסעים שלה. כרטיסי אמריקן אקספרס אחראים לכ-24% מסך נפח החיוב בעסקאות בכרטיסי אשראי בדולר אמריקני בארצות הברית, שיעור גבוה מכל מנפיק כרטיסים אחר. ביזנסוויק ואינטרברנד דירגו את אמריקן אקספרס כמותג ה-22 בחשיבותו בעולם, בהערכתם את שווי המותג ב-14.97 מיליארד דולר אמריקני. מגזין Fortune דירג את אמריקן אקספרס כאחת מ-20 החברות הנערצות ביותר בעולם. סמל החברה, אשר אומץ בשנת 1958, הוא קנטוריון, דרגת קצונה בצבא הרומאי. סמל זה מופיע על המחאות הנוסעים וכרטיסי החיוב של החברה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/American_Express",
+      "employees": 64000,
+      "price": 323.7,
+      "change": 0.0278
+    },
+    {
+      "ticker": "AIG",
+      "name": "American International Group",
+      "skipped": false,
+      "website": "https://www.aig.com/home",
+      "industry": "Insurance",
+      "marketCap": "$42.8B",
+      "description": "American International Group, Inc. (AIG) is a global insurer headquartered in New York City, with operations in more than 200 countries and jurisdictions. Founded in 1919, the company primarily provides commercial and personal insurance products, including property and casualty insurance, liability coverage, accident and health insurance, and specialty insurance products. The company also provides risk management, multinational, and related insurance services to businesses and individuals.",
+      "descriptionHE": "AIG היא תאגיד ביטוח אמריקני בינלאומי שמרכזו בעיר ניו יורק. ל-AIG מטה באירופה (בלונדון) ומטה באסיה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/American_International_Group",
+      "employees": 26200,
+      "price": 83.02,
+      "change": 1.5535
+    }
+  ]
+}

@@ -1,58 +1,14 @@
 {
-  "date": "2026-10-21",
-  "generatedAt": "2026-10-21T18:09:38.917Z",
-  "windowStart": 480,
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T18:07:09.751Z",
+  "windowStart": 0,
   "windowSize": 40,
-  "cyclePosition": 12,
+  "cyclePosition": 0,
   "totalWindows": 13,
   "requested": 15,
   "picked": 15,
   "skippedCount": 13,
   "skipped": [
-    {
-      "ticker": "WAB",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "WBD",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "WEC",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "WST",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "WSM",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "WMB",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "WYNN",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "XEL",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "ZBRA",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "ZBH",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "ZTS",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
     {
       "ticker": "AOS",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
@@ -60,190 +16,66 @@
     {
       "ticker": "ABBV",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "AES",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "APD",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ALB",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ARE",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ALGN",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ALLE",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "LNT",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ALL",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "AMCR",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "AEE",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "AEP",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     }
   ],
   "picks": [
-    {
-      "ticker": "WMT",
-      "name": "Walmart",
-      "skipped": false,
-      "website": "https://corporate.walmart.com/",
-      "industry": "Retail",
-      "marketCap": "$884.1B",
-      "description": "Walmart Inc. is an American multinational omnichannel retail corporation that operates a chain of hypermarkets, discount department stores, grocery stores, pharmacies, and gas stations in the United States and 19 other countries. It is headquartered in Bentonville, Arkansas. The company was founded in 1962 by brothers Sam Walton and James \"Bud\" Walton in nearby Rogers, Arkansas. It also owns and operates Sam's Club retail warehouses.",
-      "descriptionHE": "וול-מארט חנויות בע\"מ, המוכרת כמותג וולמארט, היא החברה הקמעונאית הגדולה בעולם והיא גם החברה המסחרית הגדולה בעולם. וול-מארט היא חברה ציבורית אמריקאית שנוסדה על ידי סם וולטון בשנת 1962 ונרשמה כחברה בערבון מוגבל ב-31 באוקטובר 1969. בשנת 1972 החלה מנייתה להיסחר בבורסת ניו יורק. וולמארט היא המעסיק הפרטי הגדול ביותר בעולם, שני מיליון ומאה אלף עובדים מועסקים בחברה. נכון לדצמבר 2022 היא רשת המזון הגדולה בעולם.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Walmart",
-      "employees": 2300000,
-      "price": 117.83,
-      "change": -0.017
-    },
-    {
-      "ticker": "DIS",
-      "name": "Walt Disney Company (The)",
-      "skipped": false,
-      "website": "https://thewaltdisneycompany.com/",
-      "industry": "Media",
-      "marketCap": "$191.8B",
-      "description": "The Walt Disney Company (TWDC), commonly known as simply Disney, is an American multinational mass media and entertainment conglomerate headquartered at the Walt Disney Studios complex in Burbank, California. Founded on October 16, 1923, as an animation studio by brothers Walt and Roy Oliver Disney as Disney Brothers Cartoon Studio, Disney operated under the names Walt Disney Studio and Walt Disney Productions before adopting its current name in 1986. In 1928, Disney established itself as a leader in the animation industry with the short film Steamboat Willie. The film used synchronized sound to become the first post-produced sound cartoon, and popularized Mickey Mouse, who became Disney's mascot and corporate icon.",
-      "descriptionHE": "חברת וולט דיסני, או דיסני בשמה המקוצר, היא תאגיד רב-לאומי אמריקאי של בידור ותקשורת המונים מגוונת, שבסיסה באולפני וולט דיסני בברבנק, קליפורניה, ארצות הברית. וולט דיסני הוא תאגיד השידור והכבלים השני בגודלו בעולם מבחינת הכנסות, לאחר תאגיד Comcast. אולפני וולט דיסני נוסדו ב-16 באוקטובר 1923 על ידי וולט דיסני ואחיו רוי דיסני בשם אולפני הקרטוּן האחים דיסני (Disney Brothers Cartoon Studio. במרוצת השנים, ביסס את עצמו דיסני כאולפן מוביל בתעשיית האנימציה העולמית בזכות מגוון הפקותיו, שכוללות סרטי קולנוע וסרטי הפצה ביתית במספר סוגות, הפקות טלוויזיה ופארקי שעשועים נושאיים סביב קניינו הרוחני ברחבי העולם.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company",
-      "employees": 201000,
-      "price": 111.37,
-      "change": -0.2686
-    },
-    {
-      "ticker": "WM",
-      "name": "Waste Management",
-      "skipped": false,
-      "website": "https://www.wm.com/",
-      "industry": "Commercial Services & Supplies",
-      "marketCap": "$90.5B",
-      "description": "Waste Management, Inc., doing business as WM, is a waste management an American company operating in North America. Founded in 1968, the company is headquartered in the Bank of America Tower in Houston, Texas.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Waste_Management%2C_Inc.",
-      "employees": 43000,
-      "price": 229.58,
-      "change": -0.9278
-    },
-    {
-      "ticker": "WAT",
-      "name": "Waters Corporation",
-      "skipped": false,
-      "website": "https://www.waters.com",
-      "industry": "Life Sciences Tools & Services",
-      "marketCap": "$42.9B",
-      "description": "Waters Corporation is an American company headquartered in Milford, Massachusetts that provides analytical instruments and software used for chromatography, mass spectrometry, laboratory informatics, and rheometry by the life sciences, materials, and food industries.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Waters_Corporation",
-      "employees": 7262,
-      "price": 455.88,
-      "change": 2.947
-    },
-    {
-      "ticker": "WFC",
-      "name": "Wells Fargo",
-      "skipped": false,
-      "website": "https://www.wellsfargo.com",
-      "industry": "Banking",
-      "marketCap": "$258.3B",
-      "description": "Wells Fargo & Company is an American multinational financial services company. The company operates in 35 countries and serves more than 70 million customers worldwide. It is a systemically important financial institution according to the Financial Stability Board, and is considered one of the Big Four banks in the United States, alongside JPMorgan Chase, Bank of America, and Citigroup.",
-      "descriptionHE": "ולס פארגו היא חברת שירותים פיננסיים אמריקאית רב-לאומית, הפועלת ב-35 מדינות ומשרתת למעלה מ-70 מיליון לקוחות ברחבי העולם. זהו מוסד פיננסי בעל חשיבות מערכתית (SIFI) על פי המועצה ליציבות פיננסית (FSB), והוא נחשב לאחד מ\"ארבעת הבנקים הגדולים\" בארצות הברית, לצד ג'יי פי מורגן צ'ייס, בנק אוף אמריקה וסיטיגרופ.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Wells_Fargo",
-      "employees": 150500,
-      "price": 82.35,
-      "change": 0.1825
-    },
-    {
-      "ticker": "WELL",
-      "name": "Welltower",
-      "skipped": false,
-      "website": "https://welltower.com/",
-      "industry": "Real Estate",
-      "marketCap": "$169.8B",
-      "description": "Welltower Inc. is an American real estate investment trust that invests in healthcare facilities such as retirement and nursing homes, and outpatient medical clinics.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Welltower",
-      "employees": 685,
-      "price": 235.64,
-      "change": -1.0249
-    },
-    {
-      "ticker": "WDC",
-      "name": "Western Digital",
-      "skipped": false,
-      "website": "https://www.westerndigital.com/",
-      "industry": "Technology",
-      "marketCap": "$133.4B",
-      "description": "Western Digital Corporation, doing business as WD, is an American data storage company headquartered in San Jose, California. Established in 1970, the company is one of the world's largest manufacturers of hard disk drives (HDDs).",
-      "descriptionHE": "וסטרן דיגיטל היא חברה אמריקאית לאחסון נתונים דיגיטליים ואחת מיצרניות הדיסקים הקשיחים הגדולות בעולם, שהנהלתה שוכנת בסן חוסה, קליפורניה.\nלחברה היסטוריה ארוכה כחברת אלקטרוניקה וייצור מעגלים מודפסים ומוצרי אחסון. היא נוסדה באפריל 1970 על ידי אלווין פיליפס, עבור מוטורולה, בשם \"General Digital\" כחברה לייצור ציוד בדיקות MOS והתפתחה מהרה לייצור מוליכים למחצה. ביולי 1971 שינתה את שמה ל-\"Western Digital\" והציגה את המוצר הראשון שלה - \"WD1402A UART\".",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Western_Digital",
-      "employees": 76449,
-      "price": 379.01,
-      "change": 4.0322
-    },
-    {
-      "ticker": "WY",
-      "name": "Weyerhaeuser",
-      "skipped": false,
-      "website": "https://www.weyerhaeuser.com/",
-      "industry": "Real Estate",
-      "marketCap": "$16.9B",
-      "description": "The Weyerhaeuser Company is an American timberland company which owns approximately 10,400,000 acres of timberlands in the U.S., and manages an additional 14,000,000 acres of timberlands under long-term licenses in Canada. The company has manufactured wood products for over a century. It operates as a real estate investment trust (REIT).",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Weyerhaeuser",
-      "employees": 13200,
-      "price": 19.1,
-      "change": -1.241
-    },
-    {
-      "ticker": "WTW",
-      "name": "Willis Towers Watson",
-      "skipped": false,
-      "website": "https://www.wtwco.com/",
-      "industry": "Insurance",
-      "marketCap": "$31.7B",
-      "description": "Willis Towers Watson plc is a British-American multinational advisory, broking and solutions company. Its operations span commercial insurance brokerage and risk advisory, employee benefits and rewards consulting, retirement and actuarial services, and investment advice for pension funds and institutional investors.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Willis_Towers_Watson",
-      "employees": 46100,
-      "price": 316.43,
-      "change": -0.7185
-    },
-    {
-      "ticker": "WDAY",
-      "name": "Workday, Inc.",
-      "skipped": false,
-      "website": "https://www.workday.com/",
-      "industry": "Technology",
-      "marketCap": "$47.4B",
-      "description": "Workday, Inc., is an American cloud-based provider of financial management, human capital management, and student information system software. The company was founded by former PeopleSoft executives David Duffield and Aneel Bhusri following Oracle's acquisition of that company in 2005.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Workday%2C_Inc.",
-      "employees": 20000,
-      "price": 201.95,
-      "change": -0.9952
-    },
-    {
-      "ticker": "XYL",
-      "name": "Xylem Inc.",
-      "skipped": false,
-      "website": "https://www.xylem.com/",
-      "industry": "Machinery",
-      "marketCap": "$27.3B",
-      "description": "Xylem Inc. is a large American water technology provider, in public utility, industrial, commercial, agricultural and residential settings. The company does business in more than 150 countries. Launched in 2011 as the spinoff of the water-related businesses of ITT Corporation, Xylem is headquartered in Washington, DC, with 2024 revenues of $8.6 billion and 23,000 employees worldwide.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Xylem_Inc.",
-      "employees": 17800,
-      "price": 106.77,
-      "change": 1.6663
-    },
-    {
-      "ticker": "YUM",
-      "name": "Yum! Brands",
-      "skipped": false,
-      "website": "https://www.yum.com/",
-      "industry": "Hotels, Restaurants & Leisure",
-      "marketCap": "$43.3B",
-      "description": "Yum! Brands, Inc. is an American multinational fast food corporation. Based in Louisville, Kentucky, the company operates KFC, Taco Bell, Habit Burger & Grill, and several technology companies. As of 2024 Yum! is the world's second largest fast food restaurant chain by gross revenues, after McDonald's, though the large majority of Yum! locations are independently owned franchises and the parent company's revenue is substantially lower than gross revenues.",
-      "descriptionHE": "Yum! Brands היא חברת מזון מהיר אמריקאית רב-לאומית, שמטה שלה נמצא בלואיוויל שבקנטקי. החברה מפעילה את רשתות KFC, טאקו בל ו־Habit Burger & Grill, וכן כמה חברות טכנולוגיה. Yum! היא אחת מחברות המזון המהיר הגדולות בעולם מבחינת מספר הסניפים, ונכון לשנת 2025 הפעילה כ־61,000 סניפים ברחבי העולם.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Yum!_Brands",
-      "employees": 90000,
-      "price": 150.74,
-      "change": -0.5673
-    },
     {
       "ticker": "MMM",
       "name": "3M",
       "skipped": false,
       "website": "https://www.3m.com/",
       "industry": "Industrial Conglomerates",
-      "marketCap": "$87.5B",
+      "marketCap": "$90.1B",
       "description": "The 3M Company is an American multinational conglomerate operating in the fields of industry, worker safety, and consumer goods. Based in the Saint Paul suburb of Maplewood, the company produces over 60,000 products, including adhesives, abrasives, laminates, passive fire protection, personal protective equipment, window films, paint protection film, electrical, electronic connecting, insulating materials, car-care products, electronic circuits, and optical films. Among its best-known consumer brands are Scotch Tape, Scotchgard surface protectants, Post-it notes, and Nexcare adhesive bandages. 3M's stock ticker symbol is MMM and is listed on the New York Stock Exchange, Inc. (NYSE), and the SIX Swiss Exchange.",
       "descriptionHE": "3M‏ היא קונצרן רב-לאומי אמריקני המפתח ומייצר אלפי מוצרים שונים בתחומי התעשייה, הבטיחות והמיגון, האלקטרוניקה, התקשורת, המשרד ובית, רפואה, אבטחה, ננוטכנולוגיה, אנרגיה חלופית, בנייה ירוקה ועוד. החברה מונה כ-75,000 עובדים ברחבי העולם, ולה אתרי ייצור ביותר מ-60 מדינות. מוצרי החברה נמכרים באמצעות מפיצים מקומיים וקמעונאים ברחבי העולם. 3M היא אחת מ-30 החברות המרכיבות את מדד הדאו-ג'ונס. משרדי ההנהלה הראשית של החברה נמצאים בעיר מייפלווד, פרבר של הערים סיינט פול ומיניאפוליס שבמדינת מינסוטה.",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/3M",
       "employees": 94987,
-      "price": 173.7,
-      "change": 1.3596
+      "price": 173.68,
+      "change": -0.6066
     },
     {
       "ticker": "ABT",
@@ -251,13 +83,13 @@
       "skipped": false,
       "website": "https://www.abbott.com",
       "industry": "Health Care",
-      "marketCap": "$177.5B",
+      "marketCap": "$174.1B",
       "description": "Abbott Laboratories, commonly known as Abbott, is an American multinational medical devices and health care company founded in Chicago with headquarters in Abbott Park, Illinois. The company produces pharmaceuticals for sale outside the United States, diagnostic products, nutritional products, and medical devices.",
       "descriptionHE": "מעבדות אבוט היא חברת מכשור רפואי תרכובות מזון לתינוקות ותוספי תזונה אמריקאית. החברה נוסדה ב-1888 והמטה הראשי שלה באילינוי. היא מעסיקה כ-107,000 עובדים ברחבי העולם והכנסותיה כ-32 מיליארד דולר. בין מוצרי החברה הבולטים סימילאק, פדיאלייט, אנשור, גלוצרנה, פדיאשור, פריסטייל ליברה, ומכשור לבדיקת קורונה.",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Abbott_Laboratories",
       "employees": 73000,
-      "price": 98.58,
-      "change": -3.7775
+      "price": 102.28,
+      "change": 1.761
     },
     {
       "ticker": "ACN",
@@ -265,13 +97,181 @@
       "skipped": false,
       "website": "https://www.accenture.com/ie-en/",
       "industry": "Technology",
-      "marketCap": "$160.3B",
+      "marketCap": "$144.7B",
       "description": "Accenture plc is a technology consulting company headquartered in Dublin, Ireland. Founded in 1989 in the United States, Accenture provides information technology and management consulting services across 120 countries globally.",
       "descriptionHE": "אקסנצ'ר היא חברה גלובלית המעניקה ייעוץ עסקי, שירותים טכנולוגיים ושירותי מיקור חוץ לארגונים ולחברות הגדולות במשק. הכנסותיה של אקסנצ'ר ממקמות אותה כאחת מחברות הייעוץ הגדולות בעולם, ונמצאת ברשימת 500 החברות הגדולות בעולם של המגזין Fortune Global 500.",
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Accenture",
       "employees": 779000,
-      "price": 237.3,
-      "change": -0.7611
+      "price": 251.28,
+      "change": 4.5867
+    },
+    {
+      "ticker": "ADBE",
+      "name": "Adobe Inc.",
+      "skipped": false,
+      "website": "https://www.adobe.com/",
+      "industry": "Technology",
+      "marketCap": "$101.6B",
+      "description": "Adobe Inc., formerly Adobe Systems Incorporated, is an American multinational computer software company based in San Jose, California. It offers a wide range of programs from web design tools, photo manipulation, and vector creation to video and audio editing, mobile app development, print layout and animation software.",
+      "descriptionHE": "אַדוֹבִּי, שנקראה בעבר \"אדובי מערכות\", היא חברת תוכנה שנוסדה בדצמבר 1982 על ידי ג'ון וארנוק וצ'ארלס גצ'קי.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Adobe_Inc.",
+      "employees": 25988,
+      "price": 269.01,
+      "change": 5.4693
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "skipped": false,
+      "website": "https://www.amd.com/",
+      "industry": "Semiconductors",
+      "marketCap": "$857.7B",
+      "description": "Advanced Micro Devices, Inc. (AMD) is an American multinational semiconductor company headquartered in Santa Clara, California. It develops central processing units (CPUs), graphics processing units (GPUs), field-programmable gate arrays (FPGAs), system-on-chips (SoCs), and high-performance computer components. AMD serves a wide range of business and consumer markets, including personal computers (PCs), gaming, data centers, and embedded systems.",
+      "descriptionHE": "Advanced Micro Devices, Inc. היא חברה אמריקאית רב-לאומית, יצרנית של מעגלים משולבים. בסיסה בסנטה קלרה, קליפורניה. היא היצרן השני בגודלו של יחידות עיבוד מרכזי תואמי x86, היצרנית הגדולה ביותר של יחידות עיבוד מרכזי תואם FPGA, וספק מוביל של זיכרון מסוג Flash. היא נוסדה ב-1969 על ידי קבוצה של פורשים מחברת המוליכים למחצה \"Fairchild\", הכוללת את ג'רי סנדרס. בעוד שבעבר ייצרה מעבדים במפעלים משלה, החל משנת 2009 מכרה את מפעלי הייצור שלה לחברת \"מובאדלה\", קרן העושר הריבונית של ממשלת אבו דאבי, הפועלים תחת חברה חדשה בשם \"Global Foundaries\", כאשר נותרה המתכננת והמעצבת של השבבים, שאותם אחר-כך שולחת לייצור במפעלים חיצוניים, ביניהם גם החל מ-2014 חברת השבבים הטיוואנית TSMC, שסיפקה לה קווי ייצור של 7 ננומטר.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AMD",
+      "employees": 15500,
+      "price": 509.68,
+      "change": -7.7869
+    },
+    {
+      "ticker": "AFL",
+      "name": "Aflac",
+      "skipped": false,
+      "website": "https://www.aflac.com/",
+      "industry": "Insurance",
+      "marketCap": "$60.5B",
+      "description": "Aflac Incorporated is an American insurance company and is the largest provider of supplemental insurance in the United States. It was founded in 1955 and is based in Columbus, Georgia. In the U.S., it underwrites a wide range of insurance policies, but is perhaps more known for its payroll deduction insurance coverage, which pays cash benefits when a policyholder has a covered accident or illness. The company states it \"provides financial protection to more than 50 million people worldwide\".",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Aflac",
+      "employees": 12003,
+      "price": 122.91,
+      "change": 2.2971
+    },
+    {
+      "ticker": "A",
+      "name": "Agilent Technologies",
+      "skipped": false,
+      "website": "https://www.agilent.com/",
+      "industry": "Life Sciences Tools & Services",
+      "marketCap": "$50.0B",
+      "description": "Agilent Technologies, Inc. is an American global company headquartered in Santa Clara, California, that provides instruments, software, services, and consumables for laboratories. Agilent was established in 1999 as a spin-off from Hewlett-Packard. The resulting initial public offering of Agilent stock was the largest in the history of Silicon Valley at the time.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Agilent_Technologies",
+      "employees": 17671,
+      "price": 172.51,
+      "change": -2.948
+    },
+    {
+      "ticker": "ABNB",
+      "name": "Airbnb",
+      "skipped": false,
+      "website": "https://www.airbnb.com/",
+      "industry": "Hotels, Restaurants & Leisure",
+      "marketCap": "$104.7B",
+      "description": "Airbnb, Inc. is an American company operating an online marketplace for short-and-long-term homestays, experiences and services in various countries and regions. It acts as a broker and charges a commission from each booking. Airbnb was founded in 2008 by Brian Chesky, Nathan Blecharczyk, and Joe Gebbia.",
+      "descriptionHE": "Airbnb הוא אתר אינטרנט המתווך בין שוכרי יחידות נופש להשכרה או יחידות מגורים לטווח קצר לבין בעלים של יחידות כאלו.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Airbnb",
+      "employees": 5597,
+      "price": 175.35,
+      "change": 0.9557
+    },
+    {
+      "ticker": "AKAM",
+      "name": "Akamai Technologies",
+      "skipped": false,
+      "website": "https://www.akamai.com/",
+      "industry": "Technology",
+      "marketCap": "$13.0B",
+      "description": "Akamai Technologies, Inc. is an American company specializing in content delivery network (CDN), cybersecurity, DDoS mitigation, and cloud services. It is headquartered in Cambridge, Massachusetts.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Akamai_Technologies",
+      "employees": 8368,
+      "price": 89.92,
+      "change": -0.3877
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc. (Class A)",
+      "skipped": false,
+      "website": "https://abc.xyz/",
+      "industry": "Media",
+      "marketCap": "$4.03T",
+      "description": "Alphabet Inc. is an American multinational technology conglomerate holding company headquartered in Mountain View, California. It was created through a restructuring of Google on October 2, 2015, and became the parent holding company of Google and several former Google subsidiaries. Alphabet is listed on the large-cap section of the Nasdaq under the ticker symbols GOOGL and GOOG; both classes of stock are components of major stock market indices such as the S&P 500 and Nasdaq-100. Alphabet has been described as a Big Tech company. As of July 2026, it is the third largest publicly traded company in the world by market capitalization.",
+      "descriptionHE": "אלפאבית היא חברת החזקות העוסקת בטכנולוגיה וממוקמת במאונטיין ויו, קליפורניה. היא הוקמה על מנת להפוך את גוגל לחברה שמתמקדת רק בשירותי אינטרנט ולאפשר עצמאות לחברות הבנות שלא עוסקות בתחום, ונוצרה כתוצאה מארגון מחדש של חברת גוגל ב-2 באוקטובר 2015. בכך הפכה לחברת האם של גוגל ומספר חברות בנות שלה. שני המייסדים של גוגל מינו את עצמם לתפקידים בכירים בחברה החדשה: לארי פייג' בתפקיד המנכ\"ל וסרגיי ברין בתפקיד נשיא החברה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Alphabet_Inc.",
+      "employees": 190234,
+      "price": 324.69,
+      "change": -3.0081
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
+      "skipped": false,
+      "website": "https://abc.xyz/",
+      "industry": "Media",
+      "marketCap": "$4.03T",
+      "description": "Alphabet Inc. is an American multinational technology conglomerate holding company headquartered in Mountain View, California. It was created through a restructuring of Google on October 2, 2015, and became the parent holding company of Google and several former Google subsidiaries. Alphabet is listed on the large-cap section of the Nasdaq under the ticker symbols GOOGL and GOOG; both classes of stock are components of major stock market indices such as the S&P 500 and Nasdaq-100. Alphabet has been described as a Big Tech company. As of July 2026, it is the third largest publicly traded company in the world by market capitalization.",
+      "descriptionHE": "אלפאבית היא חברת החזקות העוסקת בטכנולוגיה וממוקמת במאונטיין ויו, קליפורניה. היא הוקמה על מנת להפוך את גוגל לחברה שמתמקדת רק בשירותי אינטרנט ולאפשר עצמאות לחברות הבנות שלא עוסקות בתחום, ונוצרה כתוצאה מארגון מחדש של חברת גוגל ב-2 באוקטובר 2015. בכך הפכה לחברת האם של גוגל ומספר חברות בנות שלה. שני המייסדים של גוגל מינו את עצמם לתפקידים בכירים בחברה החדשה: לארי פייג' בתפקיד המנכ\"ל וסרגיי ברין בתפקיד נשיא החברה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Alphabet_Inc.",
+      "employees": 190234,
+      "price": 321.1,
+      "change": -2.9763
+    },
+    {
+      "ticker": "MO",
+      "name": "Altria",
+      "skipped": false,
+      "website": "https://www.altria.com/",
+      "industry": "Tobacco",
+      "marketCap": "$124.8B",
+      "description": "Altria Group, Inc. is an American corporation and one of the world's largest producers and marketers of tobacco, cigarettes, and medical products in the treatment of illnesses caused by tobacco. It operates worldwide and is headquartered in the city of Richmond, Virginia.",
+      "descriptionHE": "קבוצת אלטריה היא חברת טבק אמריקאית העוסקת בייצור ושיווק של טבק, סיגריות, ומוצרים הנלווים אליהם. כמו כן, היא גם אחת מחברה הגדולות בעולם הפועלות בתחום זה. משרדיה הראשיים של החברה שוכנים במדינת וירג'יניה שבארצות הברית.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Altria",
+      "employees": 9900,
+      "price": 75.94,
+      "change": 2.8579
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "skipped": false,
+      "website": "https://www.amazon.com/",
+      "industry": "Retail",
+      "marketCap": "$2.75T",
+      "description": "Amazon.com, Inc. is an American multinational conglomerate engaged in e-commerce, retail, cloud computing, online advertising, digital streaming, entertainment, and artificial intelligence. Founded in 1994 by Jeff Bezos in Bellevue, Washington, the company started as an online book marketplace that gradually expanded to include virtually all consumer products as well as many other categories, positioned as \"The Everything Store\".",
+      "descriptionHE": "אמזון.קום בע\"מ, המוכרת בשם המקוצר אמזון, היא חברה אמריקאית למסחר אלקטרוני ושירותי מחשוב ענן. החברה שבסיסה בסיאטל, וושינגטון, נוסדה ב-5 ביולי 1994. היא הייתה מחלוצות המסחר באינטרנט והתפרסמה בראשיתה במכירת ספרים, אך בהמשך החלה למכור גם דיסקים, סרטים, מוצרי אלקטרוניקה, בגדים ועוד. עם התפתחותה של החברה ניתן לקנות באתר החברה מגוון רחב מאוד של מוצרים.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Amazon_(company)",
+      "employees": 1500000,
+      "price": 250.07,
+      "change": -4.688
+    },
+    {
+      "ticker": "AXP",
+      "name": "American Express",
+      "skipped": false,
+      "website": "https://www.americanexpress.com/",
+      "industry": "Financial Services",
+      "marketCap": "$218.8B",
+      "description": "American Express Company (Amex) is an American bank holding company and multinational financial services corporation that specializes in payment cards. It is headquartered at 200 Vesey Street, also known as American Express Tower, in the Battery Park City neighborhood of Lower Manhattan; in 2026, the company announced that it would develop and be the sole occupant of the new 2 World Trade Center skyscraper in the nearby World Trade Center complex.",
+      "descriptionHE": "אמריקן אקספרס, היא חברת שירותים פיננסיים אמריקאית בינלאומית, שמרכזה בבניין רחוב וסי 200, מנהטן, ניו יורק, ארצות הברית. החברה הוקמה בשנת 1850, והיא אחת משלושים החברות הנכללות במדד דאו ג'ונס. החברה ידועה בעיקר בשל שירותי כרטיסי האשראי, כרטיסי החיוב, והמחאות הנוסעים שלה. כרטיסי אמריקן אקספרס אחראים לכ-24% מסך נפח החיוב בעסקאות בכרטיסי אשראי בדולר אמריקני בארצות הברית, שיעור גבוה מכל מנפיק כרטיסים אחר. ביזנסוויק ואינטרברנד דירגו את אמריקן אקספרס כמותג ה-22 בחשיבותו בעולם, בהערכתם את שווי המותג ב-14.97 מיליארד דולר אמריקני. מגזין Fortune דירג את אמריקן אקספרס כאחת מ-20 החברות הנערצות ביותר בעולם. סמל החברה, אשר אומץ בשנת 1958, הוא קנטוריון, דרגת קצונה בצבא הרומאי. סמל זה מופיע על המחאות הנוסעים וכרטיסי החיוב של החברה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/American_Express",
+      "employees": 64000,
+      "price": 323.7,
+      "change": 0.0278
+    },
+    {
+      "ticker": "AIG",
+      "name": "American International Group",
+      "skipped": false,
+      "website": "https://www.aig.com/home",
+      "industry": "Insurance",
+      "marketCap": "$42.8B",
+      "description": "American International Group, Inc. (AIG) is a global insurer headquartered in New York City, with operations in more than 200 countries and jurisdictions. Founded in 1919, the company primarily provides commercial and personal insurance products, including property and casualty insurance, liability coverage, accident and health insurance, and specialty insurance products. The company also provides risk management, multinational, and related insurance services to businesses and individuals.",
+      "descriptionHE": "AIG היא תאגיד ביטוח אמריקני בינלאומי שמרכזו בעיר ניו יורק. ל-AIG מטה באירופה (בלונדון) ומטה באסיה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/American_International_Group",
+      "employees": 26200,
+      "price": 83.02,
+      "change": 1.5535
     }
   ]
 }
