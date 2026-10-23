@@ -1,0 +1,321 @@
+{
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T17:57:13.395Z",
+  "windowStart": 40,
+  "windowSize": 40,
+  "cyclePosition": 1,
+  "totalWindows": 13,
+  "requested": 15,
+  "picked": 15,
+  "skippedCount": 24,
+  "skipped": [
+    {
+      "ticker": "APP",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "APTV",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ACGL",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ARES",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ANET",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "AJG",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "AIZ",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ATO",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ADSK",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ADP",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "AZO",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "AVB",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "AXON",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "BDX",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "BBY",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "TECH",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "BIIB",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "XYZ",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "BNY",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "BKNG",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "BR",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "BRO",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "BF-B",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "BLDR",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    }
+  ],
+  "picks": [
+    {
+      "ticker": "ADM",
+      "name": "Archer Daniels Midland",
+      "skipped": false,
+      "website": "https://www.adm.com/",
+      "industry": "Food Products",
+      "marketCap": "$38.5B",
+      "description": "The Archer-Daniels-Midland Company, commonly known as ADM, is an American multinational food processing and commodities trading corporation founded in 1902 and headquartered in Chicago, Illinois.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Archer_Daniels_Midland",
+      "employees": 31600,
+      "price": 80.08,
+      "change": 0.3006
+    },
+    {
+      "ticker": "T",
+      "name": "AT&T",
+      "skipped": false,
+      "website": "https://www.att.com/",
+      "industry": "Telecommunication",
+      "marketCap": "$153.2B",
+      "description": "AT&T Inc., an abbreviation of its predecessor's original name, the American Telephone and Telegraph Company, is an American multinational telecommunications holding company headquartered at the Whitacre Tower in Downtown Dallas, Texas. AT&T is the world's third-largest telecommunications company by revenue, the third-largest wireless carrier in the United States behind T-Mobile and Verizon, and the nation's largest fiber internet provider. On the New York Stock Exchange, AT&T trades under the ticker symbol \"T\", and has a market capitalization of $186.83 billion. On the Fortune 500 (2025) AT&T ranked 37th among the largest American businesses and reported revenues of $125.6 billion last year.",
+      "descriptionHE": "AT&T הוא תאגיד תקשורת בין-לאומי אמריקאי שבסיסו בדאלאס, טקסס. זו אחת מחברות התקשורת הגדולות בעולם וספקית שרותי הטלפוניה וטלפון סלולריים מהגדולות בארצות הברית. ביוני 2018 החברה הפכה לבעלים של חברת WarnerMedia ובכך הפכה לחברת הבידור והמדיה הגדולה בעולם ודורגה כאחת מ-500 החברות הגדולות בארצות הברית.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AT%26T",
+      "employees": 202600,
+      "price": 21.28,
+      "change": -6.4204
+    },
+    {
+      "ticker": "AVY",
+      "name": "Avery Dennison",
+      "skipped": false,
+      "website": "https://www.averydennison.com/en/home.html",
+      "industry": "Packaging",
+      "marketCap": "$14.0B",
+      "description": "Avery Dennison Corporation is an American multinational manufacturer and distributor of pressure-sensitive adhesive materials, apparel branding labels and tags, RFID inlays, and specialty medical products. The company is a member of the Fortune 500 and is headquartered in Mentor, Ohio.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Avery_Dennison",
+      "employees": 36000,
+      "price": 182.59,
+      "change": -1.121
+    },
+    {
+      "ticker": "BKR",
+      "name": "Baker Hughes",
+      "skipped": false,
+      "website": "https://www.bakerhughes.com/",
+      "industry": "Energy",
+      "marketCap": "$53.2B",
+      "description": "Baker Hughes Company is an American global energy technology company co-headquartered in Houston, Texas and London, UK. As one of the world's largest oil field services, industrial and energy technology companies, it provides products and services to the oil and gas industry for exploration and production, as well as other energy and industrial applications. It operates in over 120 countries, with facilities in Australia, Brazil, Singapore, Malaysia, India, UAE, Saudi Arabia, Italy, Germany, Norway, the United Kingdom, Namibia, Nigeria and the United States.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Baker_Hughes",
+      "employees": 59400,
+      "price": 55.7,
+      "change": 3.8791
+    },
+    {
+      "ticker": "BALL",
+      "name": "Ball Corporation",
+      "skipped": false,
+      "website": "https://www.ball.com/",
+      "industry": "Packaging",
+      "marketCap": "$17.4B",
+      "description": "Ball Corporation is an American aluminum manufacturing company headquartered in Westminster, Colorado, United States. It is best known for its early production of glass jars, lids, and related products used for home canning. Since its founding in Buffalo, New York, in 1880, when it was known as the Wooden Jacket Can Company, the Ball company has expanded and diversified into other business ventures, including aerospace technology. It eventually became the world's largest manufacturer of recyclable aluminum packaging for a variety of beverage, home and personal care applications.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ball_Corporation",
+      "employees": 15500,
+      "price": 65.04,
+      "change": -1.17
+    },
+    {
+      "ticker": "BAC",
+      "name": "Bank of America",
+      "skipped": false,
+      "website": "https://www.bankofamerica.com",
+      "industry": "Banking",
+      "marketCap": "$353.6B",
+      "description": "The Bank of America Corporation is an American multinational bank and financial services holding company headquartered at the Bank of America Corporate Center in Charlotte, North Carolina, with investment banking and auxiliary headquarters in Manhattan. The bank was formed by the merger of NationsBank and the legacy corporation of Bank of America in 1998. It is the second-largest banking institution in the United States by consolidated assets, after JPMorgan Chase. It is also the second-largest bank in the world by market capitalization, after JPMorgan Chase.",
+      "descriptionHE": "בנק אוף אמריקה, תאגיד בנקאות ושירותים פיננסיים אמריקאי רב-לאומי, הוא אחת מחברות ההחזקות הבנקאיות הגדולות ביותר בארצות הברית מבחינת היקף נכסים, והבנק השני בגודלו בארצות הברית לפי שווי שוק. החברה המבוססת בשארלוט, בקרוליינה הצפונית; משרתת לקוחות ביותר מ-150 מדינות ומקושרת ל-99% מהחברות האמריקאיות המופיעות במדד Fortune 500 ול-83% מהחברות במדד פורצ'ן גלובל 500. החברה שותפה בתאגיד הפדרלי לביטוח פיקדונות (FDIC) והיא מהווה מרכיב של מדד ה-S&P 500 ושל מדד הדאו ג'ונס. החל משנת 2010, החברה היא החמישית בגודלה בארצות הברית מבחינת פדיון כולל, והשנייה בגודלה מבחינה זאת ללא הכללה של חברות הנפט. הרכישה של מריל לינץ', שביצע הבנק בשנת 2008, הפכה את בנק אוף אמריקה למנהל ההון הגדול ביותר בעולם, ולשחקן מרכזי בתעשיית בנקאות ההשקעות.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bank_of_America",
+      "employees": 213000,
+      "price": 50.68,
+      "change": -0.7831
+    },
+    {
+      "ticker": "BAX",
+      "name": "Baxter International",
+      "skipped": false,
+      "website": "https://www.baxter.com/",
+      "industry": "Health Care",
+      "marketCap": "$13.3B",
+      "description": "Baxter International Inc. is an American multinational healthcare company with headquarters in Deerfield, Illinois.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Baxter_International",
+      "employees": 61500,
+      "price": 25.28,
+      "change": -1.4425
+    },
+    {
+      "ticker": "BRK-B",
+      "name": "Berkshire Hathaway",
+      "skipped": false,
+      "website": "https://www.berkshirehathaway.com/",
+      "industry": "Financial Services",
+      "marketCap": "$1.17T",
+      "description": "Berkshire Hathaway Inc. is an American multinational conglomerate holding company headquartered in Omaha, Nebraska. Originally a textile manufacturer, the company transitioned into a conglomerate starting in 1965 under the management of chairman and CEO Warren Buffett and vice chairman Charlie Munger. Greg Abel succeeded Buffett as CEO at the beginning of 2026. Buffett personally owns 38.4% of the Class A voting shares of Berkshire Hathaway, representing a 15.1% overall economic interest in the company.",
+      "descriptionHE": "ברקשייר האת'וויי בע\"מ הוא קונצרן אמריקאי-רב לאומי בבעלות המיליארדר וורן באפט, שמשרדיה ממוקמים באומהה, נברסקה, ארצות הברית. לקונצרן כ-80 חברות בנות בתחומי הביטוח השונים, ובכלל זה בעסקי ביטוח משנה. לחברה החזקות גדולות גם בענפי הקמעונאות, ריהוט לבית, ממתקים, שואבי אבק, תכשיטים, הוצאה לאור של עיתונים, והנעלה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Berkshire_Hathaway",
+      "employees": 360000,
+      "price": 541.46,
+      "change": -1.0074
+    },
+    {
+      "ticker": "BLK",
+      "name": "BlackRock",
+      "skipped": false,
+      "website": "https://www.blackrock.com/",
+      "industry": "Financial Services",
+      "marketCap": "$184.8B",
+      "description": "BlackRock, Inc. is an American multinational investment company. Founded in 1988, initially as an enterprise risk management and fixed income institutional asset manager, BlackRock is the largest asset manager worldwide, with $15.3 trillion in assets under management as of 2026. Headquartered in New York City, BlackRock has 70 offices in 30 countries and clients in 100 countries.",
+      "descriptionHE": "בלאקרוק בע\"מ הוא בית השקעות אמריקאי רב-לאומי, שמטהו נמצא בעיר ניו יורק, ומנהל הנכסים הגדול בעולם. נכון לסוף דצמבר 2023, מנהלת בלאקרוק נכסים בשווי של כ-11.5 טריליון דולר. בלאקרוק מפעילה 70 משרדים ב-30 מדינות, ויש לה לקוחות ב-100 מדינות.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/BlackRock",
+      "employees": 19800,
+      "price": 1111.42,
+      "change": -2.2747
+    },
+    {
+      "ticker": "BX",
+      "name": "Blackstone Inc.",
+      "skipped": false,
+      "website": "https://www.blackstone.com/",
+      "industry": "Financial Services",
+      "marketCap": "$146.5B",
+      "description": "Blackstone Inc. is an American alternative investment management company based in New York City. It was founded in 1985 as a mergers and acquisitions firm by Peter Peterson and Stephen Schwarzman, who had previously worked together at Lehman Brothers. Blackstone's private equity business has been one of the largest investors in leveraged buyouts in the last three decades, while its real estate business has actively acquired commercial real estate across the globe. Blackstone is also active in credit, infrastructure, hedge funds, secondaries, growth equity, and insurance solutions. As of September 2025, Blackstone had $1.2 trillion in total assets under management, making it the world's largest alternative investment firm.",
+      "descriptionHE": "בלקסטון היא חברת השקעות אלטרנטיבית וקרן השקעות פרטית אמריקאית אשר בסיסה בניו יורק. החברה הוקמה ב-1985 כמיזוג של חברות השקעה השייכות לבנקאי ההשקעות האמריקאי פיטר פיטרסון ולאיש העסקים היהודי והפילנתרופ המיליארדר סטיבן שוורצמן אשר עבד בעבר בחברת השירותים הפיננסים ליהמן ברדרס. בלקסטון היא חברת ההשקעות האלטרנטיבית העשירה בעולם, וכוללת משקיעים ברכישות ממונפות. בלקסטון מנהלת גם קרן גידור ופתרונות ביטוח. נכון ל-30 בספטמבר 2025, בלקסטון מחזיקה בכ-1.2 טריליון דולר בנכסים תחת ניהול.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Blackstone_Inc.",
+      "employees": 4735,
+      "price": 116.69,
+      "change": -1.7347
+    },
+    {
+      "ticker": "BA",
+      "name": "Boeing",
+      "skipped": false,
+      "website": "https://www.boeing.com",
+      "industry": "Aerospace & Defense",
+      "marketCap": "$148.2B",
+      "description": "The Boeing Company is an American multinational corporation that designs and manufactures airplanes, rotorcraft, rockets, satellites, and missiles worldwide. The company also provides leasing and product support services. Boeing is among the largest global aerospace manufacturers; it is the fourth-largest defense contractor in the world based on 2022 revenue and is the largest exporter in the United States by dollar value. Boeing was founded in 1916 by William E. Boeing in Seattle, Washington. The present corporation is the result of the Boeing acquisition of McDonnell Douglas on August 1, 1997.",
+      "descriptionHE": "חברת בואינג היא חברה אמריקנית רב-לאומית, אשר עוסקת בתעופה ובמערכות חלל. היא נוסדה בידי ויליאם בואינג בשנת 1916, התרחבה במהלך השנים ובשנת 1997 התמזגה עם מקדונל דאגלס. שתי החטיבות העיקריות שלה הן החטיבה הצבאית והחטיבה למטוסי נוסעים. בואינג היא היצואנית הגדולה ביותר של ארצות הברית, ומניותיה נסחרות בבורסה לניירות ערך בניו יורק ונכללות במדד דאו ג'ונס.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Boeing",
+      "employees": 171000,
+      "price": 188.4,
+      "change": 0.4532
+    },
+    {
+      "ticker": "BSX",
+      "name": "Boston Scientific",
+      "skipped": false,
+      "website": "https://www.bostonscientific.com/en-US/Home.html",
+      "industry": "Health Care",
+      "marketCap": "$66.7B",
+      "description": "Boston Scientific Corporation (BSC) is an American biotechnology and biomedical engineering firm and multinational manufacturer of medical devices used in interventional medical specialties, including interventional radiology, interventional cardiology, peripheral interventions, neuromodulation, neurovascular intervention, electrophysiology, cardiac surgery, vascular surgery, endoscopy, oncology, urology and gynecology.",
+      "descriptionHE": "בוסטון סיינטיפיק היא חברה שמרכזה במרלבורו, מסצ'וסטס, המפתחת, יצרנית ומשווקת עולמית של התקנים רפואיים. מוצריה נפוצים לטווח רחב של תחומי התמחות כגון קרדיולוגיה, טיפולים היקפיים, נוירומודולציה, אלקטרופיזיולוגיה, ניתוח לב, ניתוח כלי דם, אנדוסקופיה, אונקולוגיה, אורולוגיה וגינקולוגיה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Boston_Scientific",
+      "employees": 59000,
+      "price": 45.37,
+      "change": -1.391
+    },
+    {
+      "ticker": "BMY",
+      "name": "Bristol Myers Squibb",
+      "skipped": false,
+      "website": "https://www.bms.com",
+      "industry": "Pharmaceuticals",
+      "marketCap": "$128.7B",
+      "description": "Bristol-Myers Squibb Company, doing business as Bristol Myers Squibb, is an American multinational pharmaceutical company headquartered in Princeton, New Jersey. The company's primary products are apixaban (Eliquis) for people with atrial fibrillation ; nivolumab (Opdivo), used to treat certain types of cancer ; lenalidomide (Revlimid), used to treat multiple myeloma, smoldering myeloma, and myelodysplastic syndromes ; abatacept (Orencia), used to treat autoimmune diseases such as rheumatoid arthritis ; pomalidomide (Pomalyst/Imnovid), an anti-cancer medication used for the treatment of multiple myeloma and AIDS-related Kaposi sarcoma ; ipilimumab (Yervoy), to treat cancer ; and luspatercept (Reblozyl) for the treatment of anemia in beta thalassemia and myelodysplastic syndromes. In 2025, 69% of the company's revenues came from the United States.",
+      "descriptionHE": "בריסטול מאיירס סקוויב היא חברת תרופות אמריקאית. מטה החברה ממוקם בניו יורק, היא מעסיקה כ-30,000 עובדים ברחבי העולם והכנסותיה ב-2022 כ-46 מיליארד דולר.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bristol_Myers_Squibb",
+      "employees": 30000,
+      "price": 61.56,
+      "change": -2.2857
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "skipped": false,
+      "website": "https://www.broadcom.com",
+      "industry": "Semiconductors",
+      "marketCap": "$1.54T",
+      "description": "Broadcom Inc. is an American multinational designer, developer, manufacturer, and global supplier of a wide range of semiconductor and infrastructure software products. Broadcom's product offerings serve the data center, networking, software, broadband, wireless, storage, and industrial markets. As of 2026, Broadcom is one of the largest companies globally.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Broadcom",
+      "employees": 20000,
+      "price": 324.67,
+      "change": 0.4424
+    },
+    {
+      "ticker": "BG",
+      "name": "Bunge Global",
+      "skipped": false,
+      "website": "https://www.bunge.com/",
+      "industry": "Food Products",
+      "marketCap": "$19.8B",
+      "description": "Bunge Global SA (BUN-ghee) is a global agribusiness and food company, incorporated in Geneva, Switzerland, and headquartered in St. Louis, Missouri, United States.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bunge_Global",
+      "employees": 22706,
+      "price": 103.25,
+      "change": 0.0969
+    }
+  ]
+}

@@ -1,277 +1,321 @@
 {
-  "date": "2026-10-22",
-  "generatedAt": "2026-10-22T18:07:09.751Z",
-  "windowStart": 0,
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T17:57:13.395Z",
+  "windowStart": 40,
   "windowSize": 40,
-  "cyclePosition": 0,
+  "cyclePosition": 1,
   "totalWindows": 13,
   "requested": 15,
   "picked": 15,
-  "skippedCount": 13,
+  "skippedCount": 24,
   "skipped": [
     {
-      "ticker": "AOS",
+      "ticker": "APP",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "ABBV",
+      "ticker": "APTV",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "AES",
+      "ticker": "ACGL",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "APD",
+      "ticker": "ARES",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "ALB",
+      "ticker": "ANET",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "ARE",
+      "ticker": "AJG",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "ALGN",
+      "ticker": "AIZ",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "ALLE",
+      "ticker": "ATO",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "LNT",
+      "ticker": "ADSK",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "ALL",
+      "ticker": "ADP",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "AMCR",
+      "ticker": "AZO",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "AEE",
+      "ticker": "AVB",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "AEP",
+      "ticker": "AXON",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "BDX",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "BBY",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "TECH",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "BIIB",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "XYZ",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "BNY",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "BKNG",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "BR",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "BRO",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "BF-B",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "BLDR",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     }
   ],
   "picks": [
     {
-      "ticker": "MMM",
-      "name": "3M",
+      "ticker": "ADM",
+      "name": "Archer Daniels Midland",
       "skipped": false,
-      "website": "https://www.3m.com/",
-      "industry": "Industrial Conglomerates",
-      "marketCap": "$90.1B",
-      "description": "The 3M Company is an American multinational conglomerate operating in the fields of industry, worker safety, and consumer goods. Based in the Saint Paul suburb of Maplewood, the company produces over 60,000 products, including adhesives, abrasives, laminates, passive fire protection, personal protective equipment, window films, paint protection film, electrical, electronic connecting, insulating materials, car-care products, electronic circuits, and optical films. Among its best-known consumer brands are Scotch Tape, Scotchgard surface protectants, Post-it notes, and Nexcare adhesive bandages. 3M's stock ticker symbol is MMM and is listed on the New York Stock Exchange, Inc. (NYSE), and the SIX Swiss Exchange.",
-      "descriptionHE": "3M‏ היא קונצרן רב-לאומי אמריקני המפתח ומייצר אלפי מוצרים שונים בתחומי התעשייה, הבטיחות והמיגון, האלקטרוניקה, התקשורת, המשרד ובית, רפואה, אבטחה, ננוטכנולוגיה, אנרגיה חלופית, בנייה ירוקה ועוד. החברה מונה כ-75,000 עובדים ברחבי העולם, ולה אתרי ייצור ביותר מ-60 מדינות. מוצרי החברה נמכרים באמצעות מפיצים מקומיים וקמעונאים ברחבי העולם. 3M היא אחת מ-30 החברות המרכיבות את מדד הדאו-ג'ונס. משרדי ההנהלה הראשית של החברה נמצאים בעיר מייפלווד, פרבר של הערים סיינט פול ומיניאפוליס שבמדינת מינסוטה.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/3M",
-      "employees": 94987,
-      "price": 173.68,
-      "change": -0.6066
+      "website": "https://www.adm.com/",
+      "industry": "Food Products",
+      "marketCap": "$38.5B",
+      "description": "The Archer-Daniels-Midland Company, commonly known as ADM, is an American multinational food processing and commodities trading corporation founded in 1902 and headquartered in Chicago, Illinois.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Archer_Daniels_Midland",
+      "employees": 31600,
+      "price": 80.08,
+      "change": 0.3006
     },
     {
-      "ticker": "ABT",
-      "name": "Abbott Laboratories",
+      "ticker": "T",
+      "name": "AT&T",
       "skipped": false,
-      "website": "https://www.abbott.com",
-      "industry": "Health Care",
-      "marketCap": "$174.1B",
-      "description": "Abbott Laboratories, commonly known as Abbott, is an American multinational medical devices and health care company founded in Chicago with headquarters in Abbott Park, Illinois. The company produces pharmaceuticals for sale outside the United States, diagnostic products, nutritional products, and medical devices.",
-      "descriptionHE": "מעבדות אבוט היא חברת מכשור רפואי תרכובות מזון לתינוקות ותוספי תזונה אמריקאית. החברה נוסדה ב-1888 והמטה הראשי שלה באילינוי. היא מעסיקה כ-107,000 עובדים ברחבי העולם והכנסותיה כ-32 מיליארד דולר. בין מוצרי החברה הבולטים סימילאק, פדיאלייט, אנשור, גלוצרנה, פדיאשור, פריסטייל ליברה, ומכשור לבדיקת קורונה.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Abbott_Laboratories",
-      "employees": 73000,
-      "price": 102.28,
-      "change": 1.761
+      "website": "https://www.att.com/",
+      "industry": "Telecommunication",
+      "marketCap": "$153.2B",
+      "description": "AT&T Inc., an abbreviation of its predecessor's original name, the American Telephone and Telegraph Company, is an American multinational telecommunications holding company headquartered at the Whitacre Tower in Downtown Dallas, Texas. AT&T is the world's third-largest telecommunications company by revenue, the third-largest wireless carrier in the United States behind T-Mobile and Verizon, and the nation's largest fiber internet provider. On the New York Stock Exchange, AT&T trades under the ticker symbol \"T\", and has a market capitalization of $186.83 billion. On the Fortune 500 (2025) AT&T ranked 37th among the largest American businesses and reported revenues of $125.6 billion last year.",
+      "descriptionHE": "AT&T הוא תאגיד תקשורת בין-לאומי אמריקאי שבסיסו בדאלאס, טקסס. זו אחת מחברות התקשורת הגדולות בעולם וספקית שרותי הטלפוניה וטלפון סלולריים מהגדולות בארצות הברית. ביוני 2018 החברה הפכה לבעלים של חברת WarnerMedia ובכך הפכה לחברת הבידור והמדיה הגדולה בעולם ודורגה כאחת מ-500 החברות הגדולות בארצות הברית.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AT%26T",
+      "employees": 202600,
+      "price": 21.28,
+      "change": -6.4204
     },
     {
-      "ticker": "ACN",
-      "name": "Accenture",
+      "ticker": "AVY",
+      "name": "Avery Dennison",
       "skipped": false,
-      "website": "https://www.accenture.com/ie-en/",
-      "industry": "Technology",
-      "marketCap": "$144.7B",
-      "description": "Accenture plc is a technology consulting company headquartered in Dublin, Ireland. Founded in 1989 in the United States, Accenture provides information technology and management consulting services across 120 countries globally.",
-      "descriptionHE": "אקסנצ'ר היא חברה גלובלית המעניקה ייעוץ עסקי, שירותים טכנולוגיים ושירותי מיקור חוץ לארגונים ולחברות הגדולות במשק. הכנסותיה של אקסנצ'ר ממקמות אותה כאחת מחברות הייעוץ הגדולות בעולם, ונמצאת ברשימת 500 החברות הגדולות בעולם של המגזין Fortune Global 500.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Accenture",
-      "employees": 779000,
-      "price": 251.28,
-      "change": 4.5867
+      "website": "https://www.averydennison.com/en/home.html",
+      "industry": "Packaging",
+      "marketCap": "$14.0B",
+      "description": "Avery Dennison Corporation is an American multinational manufacturer and distributor of pressure-sensitive adhesive materials, apparel branding labels and tags, RFID inlays, and specialty medical products. The company is a member of the Fortune 500 and is headquartered in Mentor, Ohio.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Avery_Dennison",
+      "employees": 36000,
+      "price": 182.59,
+      "change": -1.121
     },
     {
-      "ticker": "ADBE",
-      "name": "Adobe Inc.",
+      "ticker": "BKR",
+      "name": "Baker Hughes",
       "skipped": false,
-      "website": "https://www.adobe.com/",
-      "industry": "Technology",
-      "marketCap": "$101.6B",
-      "description": "Adobe Inc., formerly Adobe Systems Incorporated, is an American multinational computer software company based in San Jose, California. It offers a wide range of programs from web design tools, photo manipulation, and vector creation to video and audio editing, mobile app development, print layout and animation software.",
-      "descriptionHE": "אַדוֹבִּי, שנקראה בעבר \"אדובי מערכות\", היא חברת תוכנה שנוסדה בדצמבר 1982 על ידי ג'ון וארנוק וצ'ארלס גצ'קי.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Adobe_Inc.",
-      "employees": 25988,
-      "price": 269.01,
-      "change": 5.4693
+      "website": "https://www.bakerhughes.com/",
+      "industry": "Energy",
+      "marketCap": "$53.2B",
+      "description": "Baker Hughes Company is an American global energy technology company co-headquartered in Houston, Texas and London, UK. As one of the world's largest oil field services, industrial and energy technology companies, it provides products and services to the oil and gas industry for exploration and production, as well as other energy and industrial applications. It operates in over 120 countries, with facilities in Australia, Brazil, Singapore, Malaysia, India, UAE, Saudi Arabia, Italy, Germany, Norway, the United Kingdom, Namibia, Nigeria and the United States.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Baker_Hughes",
+      "employees": 59400,
+      "price": 55.7,
+      "change": 3.8791
     },
     {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices",
+      "ticker": "BALL",
+      "name": "Ball Corporation",
       "skipped": false,
-      "website": "https://www.amd.com/",
-      "industry": "Semiconductors",
-      "marketCap": "$857.7B",
-      "description": "Advanced Micro Devices, Inc. (AMD) is an American multinational semiconductor company headquartered in Santa Clara, California. It develops central processing units (CPUs), graphics processing units (GPUs), field-programmable gate arrays (FPGAs), system-on-chips (SoCs), and high-performance computer components. AMD serves a wide range of business and consumer markets, including personal computers (PCs), gaming, data centers, and embedded systems.",
-      "descriptionHE": "Advanced Micro Devices, Inc. היא חברה אמריקאית רב-לאומית, יצרנית של מעגלים משולבים. בסיסה בסנטה קלרה, קליפורניה. היא היצרן השני בגודלו של יחידות עיבוד מרכזי תואמי x86, היצרנית הגדולה ביותר של יחידות עיבוד מרכזי תואם FPGA, וספק מוביל של זיכרון מסוג Flash. היא נוסדה ב-1969 על ידי קבוצה של פורשים מחברת המוליכים למחצה \"Fairchild\", הכוללת את ג'רי סנדרס. בעוד שבעבר ייצרה מעבדים במפעלים משלה, החל משנת 2009 מכרה את מפעלי הייצור שלה לחברת \"מובאדלה\", קרן העושר הריבונית של ממשלת אבו דאבי, הפועלים תחת חברה חדשה בשם \"Global Foundaries\", כאשר נותרה המתכננת והמעצבת של השבבים, שאותם אחר-כך שולחת לייצור במפעלים חיצוניים, ביניהם גם החל מ-2014 חברת השבבים הטיוואנית TSMC, שסיפקה לה קווי ייצור של 7 ננומטר.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/AMD",
+      "website": "https://www.ball.com/",
+      "industry": "Packaging",
+      "marketCap": "$17.4B",
+      "description": "Ball Corporation is an American aluminum manufacturing company headquartered in Westminster, Colorado, United States. It is best known for its early production of glass jars, lids, and related products used for home canning. Since its founding in Buffalo, New York, in 1880, when it was known as the Wooden Jacket Can Company, the Ball company has expanded and diversified into other business ventures, including aerospace technology. It eventually became the world's largest manufacturer of recyclable aluminum packaging for a variety of beverage, home and personal care applications.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ball_Corporation",
       "employees": 15500,
-      "price": 509.68,
-      "change": -7.7869
+      "price": 65.04,
+      "change": -1.17
     },
     {
-      "ticker": "AFL",
-      "name": "Aflac",
+      "ticker": "BAC",
+      "name": "Bank of America",
       "skipped": false,
-      "website": "https://www.aflac.com/",
-      "industry": "Insurance",
-      "marketCap": "$60.5B",
-      "description": "Aflac Incorporated is an American insurance company and is the largest provider of supplemental insurance in the United States. It was founded in 1955 and is based in Columbus, Georgia. In the U.S., it underwrites a wide range of insurance policies, but is perhaps more known for its payroll deduction insurance coverage, which pays cash benefits when a policyholder has a covered accident or illness. The company states it \"provides financial protection to more than 50 million people worldwide\".",
+      "website": "https://www.bankofamerica.com",
+      "industry": "Banking",
+      "marketCap": "$353.6B",
+      "description": "The Bank of America Corporation is an American multinational bank and financial services holding company headquartered at the Bank of America Corporate Center in Charlotte, North Carolina, with investment banking and auxiliary headquarters in Manhattan. The bank was formed by the merger of NationsBank and the legacy corporation of Bank of America in 1998. It is the second-largest banking institution in the United States by consolidated assets, after JPMorgan Chase. It is also the second-largest bank in the world by market capitalization, after JPMorgan Chase.",
+      "descriptionHE": "בנק אוף אמריקה, תאגיד בנקאות ושירותים פיננסיים אמריקאי רב-לאומי, הוא אחת מחברות ההחזקות הבנקאיות הגדולות ביותר בארצות הברית מבחינת היקף נכסים, והבנק השני בגודלו בארצות הברית לפי שווי שוק. החברה המבוססת בשארלוט, בקרוליינה הצפונית; משרתת לקוחות ביותר מ-150 מדינות ומקושרת ל-99% מהחברות האמריקאיות המופיעות במדד Fortune 500 ול-83% מהחברות במדד פורצ'ן גלובל 500. החברה שותפה בתאגיד הפדרלי לביטוח פיקדונות (FDIC) והיא מהווה מרכיב של מדד ה-S&P 500 ושל מדד הדאו ג'ונס. החל משנת 2010, החברה היא החמישית בגודלה בארצות הברית מבחינת פדיון כולל, והשנייה בגודלה מבחינה זאת ללא הכללה של חברות הנפט. הרכישה של מריל לינץ', שביצע הבנק בשנת 2008, הפכה את בנק אוף אמריקה למנהל ההון הגדול ביותר בעולם, ולשחקן מרכזי בתעשיית בנקאות ההשקעות.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bank_of_America",
+      "employees": 213000,
+      "price": 50.68,
+      "change": -0.7831
+    },
+    {
+      "ticker": "BAX",
+      "name": "Baxter International",
+      "skipped": false,
+      "website": "https://www.baxter.com/",
+      "industry": "Health Care",
+      "marketCap": "$13.3B",
+      "description": "Baxter International Inc. is an American multinational healthcare company with headquarters in Deerfield, Illinois.",
       "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Aflac",
-      "employees": 12003,
-      "price": 122.91,
-      "change": 2.2971
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Baxter_International",
+      "employees": 61500,
+      "price": 25.28,
+      "change": -1.4425
     },
     {
-      "ticker": "A",
-      "name": "Agilent Technologies",
+      "ticker": "BRK-B",
+      "name": "Berkshire Hathaway",
       "skipped": false,
-      "website": "https://www.agilent.com/",
-      "industry": "Life Sciences Tools & Services",
-      "marketCap": "$50.0B",
-      "description": "Agilent Technologies, Inc. is an American global company headquartered in Santa Clara, California, that provides instruments, software, services, and consumables for laboratories. Agilent was established in 1999 as a spin-off from Hewlett-Packard. The resulting initial public offering of Agilent stock was the largest in the history of Silicon Valley at the time.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Agilent_Technologies",
-      "employees": 17671,
-      "price": 172.51,
-      "change": -2.948
-    },
-    {
-      "ticker": "ABNB",
-      "name": "Airbnb",
-      "skipped": false,
-      "website": "https://www.airbnb.com/",
-      "industry": "Hotels, Restaurants & Leisure",
-      "marketCap": "$104.7B",
-      "description": "Airbnb, Inc. is an American company operating an online marketplace for short-and-long-term homestays, experiences and services in various countries and regions. It acts as a broker and charges a commission from each booking. Airbnb was founded in 2008 by Brian Chesky, Nathan Blecharczyk, and Joe Gebbia.",
-      "descriptionHE": "Airbnb הוא אתר אינטרנט המתווך בין שוכרי יחידות נופש להשכרה או יחידות מגורים לטווח קצר לבין בעלים של יחידות כאלו.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Airbnb",
-      "employees": 5597,
-      "price": 175.35,
-      "change": 0.9557
-    },
-    {
-      "ticker": "AKAM",
-      "name": "Akamai Technologies",
-      "skipped": false,
-      "website": "https://www.akamai.com/",
-      "industry": "Technology",
-      "marketCap": "$13.0B",
-      "description": "Akamai Technologies, Inc. is an American company specializing in content delivery network (CDN), cybersecurity, DDoS mitigation, and cloud services. It is headquartered in Cambridge, Massachusetts.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Akamai_Technologies",
-      "employees": 8368,
-      "price": 89.92,
-      "change": -0.3877
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Alphabet Inc. (Class A)",
-      "skipped": false,
-      "website": "https://abc.xyz/",
-      "industry": "Media",
-      "marketCap": "$4.03T",
-      "description": "Alphabet Inc. is an American multinational technology conglomerate holding company headquartered in Mountain View, California. It was created through a restructuring of Google on October 2, 2015, and became the parent holding company of Google and several former Google subsidiaries. Alphabet is listed on the large-cap section of the Nasdaq under the ticker symbols GOOGL and GOOG; both classes of stock are components of major stock market indices such as the S&P 500 and Nasdaq-100. Alphabet has been described as a Big Tech company. As of July 2026, it is the third largest publicly traded company in the world by market capitalization.",
-      "descriptionHE": "אלפאבית היא חברת החזקות העוסקת בטכנולוגיה וממוקמת במאונטיין ויו, קליפורניה. היא הוקמה על מנת להפוך את גוגל לחברה שמתמקדת רק בשירותי אינטרנט ולאפשר עצמאות לחברות הבנות שלא עוסקות בתחום, ונוצרה כתוצאה מארגון מחדש של חברת גוגל ב-2 באוקטובר 2015. בכך הפכה לחברת האם של גוגל ומספר חברות בנות שלה. שני המייסדים של גוגל מינו את עצמם לתפקידים בכירים בחברה החדשה: לארי פייג' בתפקיד המנכ\"ל וסרגיי ברין בתפקיד נשיא החברה.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Alphabet_Inc.",
-      "employees": 190234,
-      "price": 324.69,
-      "change": -3.0081
-    },
-    {
-      "ticker": "GOOG",
-      "name": "Alphabet Inc. (Class C)",
-      "skipped": false,
-      "website": "https://abc.xyz/",
-      "industry": "Media",
-      "marketCap": "$4.03T",
-      "description": "Alphabet Inc. is an American multinational technology conglomerate holding company headquartered in Mountain View, California. It was created through a restructuring of Google on October 2, 2015, and became the parent holding company of Google and several former Google subsidiaries. Alphabet is listed on the large-cap section of the Nasdaq under the ticker symbols GOOGL and GOOG; both classes of stock are components of major stock market indices such as the S&P 500 and Nasdaq-100. Alphabet has been described as a Big Tech company. As of July 2026, it is the third largest publicly traded company in the world by market capitalization.",
-      "descriptionHE": "אלפאבית היא חברת החזקות העוסקת בטכנולוגיה וממוקמת במאונטיין ויו, קליפורניה. היא הוקמה על מנת להפוך את גוגל לחברה שמתמקדת רק בשירותי אינטרנט ולאפשר עצמאות לחברות הבנות שלא עוסקות בתחום, ונוצרה כתוצאה מארגון מחדש של חברת גוגל ב-2 באוקטובר 2015. בכך הפכה לחברת האם של גוגל ומספר חברות בנות שלה. שני המייסדים של גוגל מינו את עצמם לתפקידים בכירים בחברה החדשה: לארי פייג' בתפקיד המנכ\"ל וסרגיי ברין בתפקיד נשיא החברה.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Alphabet_Inc.",
-      "employees": 190234,
-      "price": 321.1,
-      "change": -2.9763
-    },
-    {
-      "ticker": "MO",
-      "name": "Altria",
-      "skipped": false,
-      "website": "https://www.altria.com/",
-      "industry": "Tobacco",
-      "marketCap": "$124.8B",
-      "description": "Altria Group, Inc. is an American corporation and one of the world's largest producers and marketers of tobacco, cigarettes, and medical products in the treatment of illnesses caused by tobacco. It operates worldwide and is headquartered in the city of Richmond, Virginia.",
-      "descriptionHE": "קבוצת אלטריה היא חברת טבק אמריקאית העוסקת בייצור ושיווק של טבק, סיגריות, ומוצרים הנלווים אליהם. כמו כן, היא גם אחת מחברה הגדולות בעולם הפועלות בתחום זה. משרדיה הראשיים של החברה שוכנים במדינת וירג'יניה שבארצות הברית.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Altria",
-      "employees": 9900,
-      "price": 75.94,
-      "change": 2.8579
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Amazon",
-      "skipped": false,
-      "website": "https://www.amazon.com/",
-      "industry": "Retail",
-      "marketCap": "$2.75T",
-      "description": "Amazon.com, Inc. is an American multinational conglomerate engaged in e-commerce, retail, cloud computing, online advertising, digital streaming, entertainment, and artificial intelligence. Founded in 1994 by Jeff Bezos in Bellevue, Washington, the company started as an online book marketplace that gradually expanded to include virtually all consumer products as well as many other categories, positioned as \"The Everything Store\".",
-      "descriptionHE": "אמזון.קום בע\"מ, המוכרת בשם המקוצר אמזון, היא חברה אמריקאית למסחר אלקטרוני ושירותי מחשוב ענן. החברה שבסיסה בסיאטל, וושינגטון, נוסדה ב-5 ביולי 1994. היא הייתה מחלוצות המסחר באינטרנט והתפרסמה בראשיתה במכירת ספרים, אך בהמשך החלה למכור גם דיסקים, סרטים, מוצרי אלקטרוניקה, בגדים ועוד. עם התפתחותה של החברה ניתן לקנות באתר החברה מגוון רחב מאוד של מוצרים.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Amazon_(company)",
-      "employees": 1500000,
-      "price": 250.07,
-      "change": -4.688
-    },
-    {
-      "ticker": "AXP",
-      "name": "American Express",
-      "skipped": false,
-      "website": "https://www.americanexpress.com/",
+      "website": "https://www.berkshirehathaway.com/",
       "industry": "Financial Services",
-      "marketCap": "$218.8B",
-      "description": "American Express Company (Amex) is an American bank holding company and multinational financial services corporation that specializes in payment cards. It is headquartered at 200 Vesey Street, also known as American Express Tower, in the Battery Park City neighborhood of Lower Manhattan; in 2026, the company announced that it would develop and be the sole occupant of the new 2 World Trade Center skyscraper in the nearby World Trade Center complex.",
-      "descriptionHE": "אמריקן אקספרס, היא חברת שירותים פיננסיים אמריקאית בינלאומית, שמרכזה בבניין רחוב וסי 200, מנהטן, ניו יורק, ארצות הברית. החברה הוקמה בשנת 1850, והיא אחת משלושים החברות הנכללות במדד דאו ג'ונס. החברה ידועה בעיקר בשל שירותי כרטיסי האשראי, כרטיסי החיוב, והמחאות הנוסעים שלה. כרטיסי אמריקן אקספרס אחראים לכ-24% מסך נפח החיוב בעסקאות בכרטיסי אשראי בדולר אמריקני בארצות הברית, שיעור גבוה מכל מנפיק כרטיסים אחר. ביזנסוויק ואינטרברנד דירגו את אמריקן אקספרס כמותג ה-22 בחשיבותו בעולם, בהערכתם את שווי המותג ב-14.97 מיליארד דולר אמריקני. מגזין Fortune דירג את אמריקן אקספרס כאחת מ-20 החברות הנערצות ביותר בעולם. סמל החברה, אשר אומץ בשנת 1958, הוא קנטוריון, דרגת קצונה בצבא הרומאי. סמל זה מופיע על המחאות הנוסעים וכרטיסי החיוב של החברה.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/American_Express",
-      "employees": 64000,
-      "price": 323.7,
-      "change": 0.0278
+      "marketCap": "$1.17T",
+      "description": "Berkshire Hathaway Inc. is an American multinational conglomerate holding company headquartered in Omaha, Nebraska. Originally a textile manufacturer, the company transitioned into a conglomerate starting in 1965 under the management of chairman and CEO Warren Buffett and vice chairman Charlie Munger. Greg Abel succeeded Buffett as CEO at the beginning of 2026. Buffett personally owns 38.4% of the Class A voting shares of Berkshire Hathaway, representing a 15.1% overall economic interest in the company.",
+      "descriptionHE": "ברקשייר האת'וויי בע\"מ הוא קונצרן אמריקאי-רב לאומי בבעלות המיליארדר וורן באפט, שמשרדיה ממוקמים באומהה, נברסקה, ארצות הברית. לקונצרן כ-80 חברות בנות בתחומי הביטוח השונים, ובכלל זה בעסקי ביטוח משנה. לחברה החזקות גדולות גם בענפי הקמעונאות, ריהוט לבית, ממתקים, שואבי אבק, תכשיטים, הוצאה לאור של עיתונים, והנעלה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Berkshire_Hathaway",
+      "employees": 360000,
+      "price": 541.46,
+      "change": -1.0074
     },
     {
-      "ticker": "AIG",
-      "name": "American International Group",
+      "ticker": "BLK",
+      "name": "BlackRock",
       "skipped": false,
-      "website": "https://www.aig.com/home",
-      "industry": "Insurance",
-      "marketCap": "$42.8B",
-      "description": "American International Group, Inc. (AIG) is a global insurer headquartered in New York City, with operations in more than 200 countries and jurisdictions. Founded in 1919, the company primarily provides commercial and personal insurance products, including property and casualty insurance, liability coverage, accident and health insurance, and specialty insurance products. The company also provides risk management, multinational, and related insurance services to businesses and individuals.",
-      "descriptionHE": "AIG היא תאגיד ביטוח אמריקני בינלאומי שמרכזו בעיר ניו יורק. ל-AIG מטה באירופה (בלונדון) ומטה באסיה.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/American_International_Group",
-      "employees": 26200,
-      "price": 83.02,
-      "change": 1.5535
+      "website": "https://www.blackrock.com/",
+      "industry": "Financial Services",
+      "marketCap": "$184.8B",
+      "description": "BlackRock, Inc. is an American multinational investment company. Founded in 1988, initially as an enterprise risk management and fixed income institutional asset manager, BlackRock is the largest asset manager worldwide, with $15.3 trillion in assets under management as of 2026. Headquartered in New York City, BlackRock has 70 offices in 30 countries and clients in 100 countries.",
+      "descriptionHE": "בלאקרוק בע\"מ הוא בית השקעות אמריקאי רב-לאומי, שמטהו נמצא בעיר ניו יורק, ומנהל הנכסים הגדול בעולם. נכון לסוף דצמבר 2023, מנהלת בלאקרוק נכסים בשווי של כ-11.5 טריליון דולר. בלאקרוק מפעילה 70 משרדים ב-30 מדינות, ויש לה לקוחות ב-100 מדינות.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/BlackRock",
+      "employees": 19800,
+      "price": 1111.42,
+      "change": -2.2747
+    },
+    {
+      "ticker": "BX",
+      "name": "Blackstone Inc.",
+      "skipped": false,
+      "website": "https://www.blackstone.com/",
+      "industry": "Financial Services",
+      "marketCap": "$146.5B",
+      "description": "Blackstone Inc. is an American alternative investment management company based in New York City. It was founded in 1985 as a mergers and acquisitions firm by Peter Peterson and Stephen Schwarzman, who had previously worked together at Lehman Brothers. Blackstone's private equity business has been one of the largest investors in leveraged buyouts in the last three decades, while its real estate business has actively acquired commercial real estate across the globe. Blackstone is also active in credit, infrastructure, hedge funds, secondaries, growth equity, and insurance solutions. As of September 2025, Blackstone had $1.2 trillion in total assets under management, making it the world's largest alternative investment firm.",
+      "descriptionHE": "בלקסטון היא חברת השקעות אלטרנטיבית וקרן השקעות פרטית אמריקאית אשר בסיסה בניו יורק. החברה הוקמה ב-1985 כמיזוג של חברות השקעה השייכות לבנקאי ההשקעות האמריקאי פיטר פיטרסון ולאיש העסקים היהודי והפילנתרופ המיליארדר סטיבן שוורצמן אשר עבד בעבר בחברת השירותים הפיננסים ליהמן ברדרס. בלקסטון היא חברת ההשקעות האלטרנטיבית העשירה בעולם, וכוללת משקיעים ברכישות ממונפות. בלקסטון מנהלת גם קרן גידור ופתרונות ביטוח. נכון ל-30 בספטמבר 2025, בלקסטון מחזיקה בכ-1.2 טריליון דולר בנכסים תחת ניהול.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Blackstone_Inc.",
+      "employees": 4735,
+      "price": 116.69,
+      "change": -1.7347
+    },
+    {
+      "ticker": "BA",
+      "name": "Boeing",
+      "skipped": false,
+      "website": "https://www.boeing.com",
+      "industry": "Aerospace & Defense",
+      "marketCap": "$148.2B",
+      "description": "The Boeing Company is an American multinational corporation that designs and manufactures airplanes, rotorcraft, rockets, satellites, and missiles worldwide. The company also provides leasing and product support services. Boeing is among the largest global aerospace manufacturers; it is the fourth-largest defense contractor in the world based on 2022 revenue and is the largest exporter in the United States by dollar value. Boeing was founded in 1916 by William E. Boeing in Seattle, Washington. The present corporation is the result of the Boeing acquisition of McDonnell Douglas on August 1, 1997.",
+      "descriptionHE": "חברת בואינג היא חברה אמריקנית רב-לאומית, אשר עוסקת בתעופה ובמערכות חלל. היא נוסדה בידי ויליאם בואינג בשנת 1916, התרחבה במהלך השנים ובשנת 1997 התמזגה עם מקדונל דאגלס. שתי החטיבות העיקריות שלה הן החטיבה הצבאית והחטיבה למטוסי נוסעים. בואינג היא היצואנית הגדולה ביותר של ארצות הברית, ומניותיה נסחרות בבורסה לניירות ערך בניו יורק ונכללות במדד דאו ג'ונס.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Boeing",
+      "employees": 171000,
+      "price": 188.4,
+      "change": 0.4532
+    },
+    {
+      "ticker": "BSX",
+      "name": "Boston Scientific",
+      "skipped": false,
+      "website": "https://www.bostonscientific.com/en-US/Home.html",
+      "industry": "Health Care",
+      "marketCap": "$66.7B",
+      "description": "Boston Scientific Corporation (BSC) is an American biotechnology and biomedical engineering firm and multinational manufacturer of medical devices used in interventional medical specialties, including interventional radiology, interventional cardiology, peripheral interventions, neuromodulation, neurovascular intervention, electrophysiology, cardiac surgery, vascular surgery, endoscopy, oncology, urology and gynecology.",
+      "descriptionHE": "בוסטון סיינטיפיק היא חברה שמרכזה במרלבורו, מסצ'וסטס, המפתחת, יצרנית ומשווקת עולמית של התקנים רפואיים. מוצריה נפוצים לטווח רחב של תחומי התמחות כגון קרדיולוגיה, טיפולים היקפיים, נוירומודולציה, אלקטרופיזיולוגיה, ניתוח לב, ניתוח כלי דם, אנדוסקופיה, אונקולוגיה, אורולוגיה וגינקולוגיה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Boston_Scientific",
+      "employees": 59000,
+      "price": 45.37,
+      "change": -1.391
+    },
+    {
+      "ticker": "BMY",
+      "name": "Bristol Myers Squibb",
+      "skipped": false,
+      "website": "https://www.bms.com",
+      "industry": "Pharmaceuticals",
+      "marketCap": "$128.7B",
+      "description": "Bristol-Myers Squibb Company, doing business as Bristol Myers Squibb, is an American multinational pharmaceutical company headquartered in Princeton, New Jersey. The company's primary products are apixaban (Eliquis) for people with atrial fibrillation ; nivolumab (Opdivo), used to treat certain types of cancer ; lenalidomide (Revlimid), used to treat multiple myeloma, smoldering myeloma, and myelodysplastic syndromes ; abatacept (Orencia), used to treat autoimmune diseases such as rheumatoid arthritis ; pomalidomide (Pomalyst/Imnovid), an anti-cancer medication used for the treatment of multiple myeloma and AIDS-related Kaposi sarcoma ; ipilimumab (Yervoy), to treat cancer ; and luspatercept (Reblozyl) for the treatment of anemia in beta thalassemia and myelodysplastic syndromes. In 2025, 69% of the company's revenues came from the United States.",
+      "descriptionHE": "בריסטול מאיירס סקוויב היא חברת תרופות אמריקאית. מטה החברה ממוקם בניו יורק, היא מעסיקה כ-30,000 עובדים ברחבי העולם והכנסותיה ב-2022 כ-46 מיליארד דולר.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bristol_Myers_Squibb",
+      "employees": 30000,
+      "price": 61.56,
+      "change": -2.2857
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "skipped": false,
+      "website": "https://www.broadcom.com",
+      "industry": "Semiconductors",
+      "marketCap": "$1.54T",
+      "description": "Broadcom Inc. is an American multinational designer, developer, manufacturer, and global supplier of a wide range of semiconductor and infrastructure software products. Broadcom's product offerings serve the data center, networking, software, broadband, wireless, storage, and industrial markets. As of 2026, Broadcom is one of the largest companies globally.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Broadcom",
+      "employees": 20000,
+      "price": 324.67,
+      "change": 0.4424
+    },
+    {
+      "ticker": "BG",
+      "name": "Bunge Global",
+      "skipped": false,
+      "website": "https://www.bunge.com/",
+      "industry": "Food Products",
+      "marketCap": "$19.8B",
+      "description": "Bunge Global SA (BUN-ghee) is a global agribusiness and food company, incorporated in Geneva, Switzerland, and headquartered in St. Louis, Missouri, United States.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bunge_Global",
+      "employees": 22706,
+      "price": 103.25,
+      "change": 0.0969
     }
   ]
 }
