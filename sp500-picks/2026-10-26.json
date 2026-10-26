@@ -1,0 +1,295 @@
+{
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T19:26:22.283Z",
+  "windowStart": 160,
+  "windowSize": 40,
+  "cyclePosition": 4,
+  "totalWindows": 13,
+  "requested": 15,
+  "picked": 12,
+  "skippedCount": 28,
+  "skipped": [
+    {
+      "ticker": "DTE",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "DUK",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "SATS",
+      "reason": "profile lookup failed: empty profile response"
+    },
+    {
+      "ticker": "ECL",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ELV",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "EME",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ETR",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "EOG",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "EPAM",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "EQT",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "EQR",
+      "reason": "profile lookup failed: empty profile response"
+    },
+    {
+      "ticker": "ERIE",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ESS",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "EL",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "EG",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "EVRG",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ES",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "EXE",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "EXPD",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "EXR",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "XOM",
+      "reason": "no official website (Finnhub weburl empty)"
+    },
+    {
+      "ticker": "FFIV",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "FDS",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "FICO",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "FAST",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "FRT",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "FIS",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "FITB",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    }
+  ],
+  "picks": [
+    {
+      "ticker": "DD",
+      "name": "DuPont",
+      "skipped": false,
+      "website": "https://www.dupont.com/",
+      "industry": "Chemicals",
+      "marketCap": "$18.4B",
+      "description": "DuPont de Nemours, Inc., commonly shortened to DuPont, is a company headquartered and organized in Delaware that produces products for the healthcare, water, construction and industrial markets. It was formed in 1802 by French-American chemist and industrialist Éleuthère Irénée du Pont de Nemours.",
+      "descriptionHE": "דופונט היא חברה אמריקאית, שהוקמה לטובת מיזוג של דאו כימיקלים ודופונט ב-31 באוגוסט 2017.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/DuPont",
+      "employees": 98000,
+      "price": 137.1,
+      "change": 0.4028
+    },
+    {
+      "ticker": "ETN",
+      "name": "Eaton Corporation",
+      "skipped": false,
+      "website": "https://www.eaton.com/",
+      "industry": "Electrical Equipment",
+      "marketCap": "$142.2B",
+      "description": "Eaton Corporation plc is an Irish multinational power management company, with global headquarters at the Eaton House in Dublin and a primary administrative center in Beachwood, Ohio. Eaton has more than 85,000 employees and sells products to customers in more than 175 countries.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Eaton_Corporation",
+      "employees": 92000,
+      "price": 374.31,
+      "change": 2.2398
+    },
+    {
+      "ticker": "EBAY",
+      "name": "eBay Inc.",
+      "skipped": false,
+      "website": "https://www.ebayinc.com/",
+      "industry": "Retail",
+      "marketCap": "$54.0B",
+      "description": "eBay Inc. is an American multinational e-commerce company based in San Jose, California, that allows users to buy or view items via retail sales through online marketplaces and websites in 190 markets worldwide. Sales occur either via online auctions or \"Buy It Now\" instant sales, and the company charges commissions to sellers upon sale. eBay was founded by Pierre Omidyar in September 1995. In 2021, eBay had approximately 17 million global sellers; in 2023, it reported 132 million annual active buyers worldwide and handled $73 billion in transactions, 48% of which were in the United States. In 2023, the company had a take rate of 13.81%.",
+      "descriptionHE": "איביי הוא אתר מכירות פומביות וישירות באינטרנט, כמו גם שמה של החברה האמריקנית המנהלת אותו, .eBay, Inc. האתר הוא שוק עולמי מקוון המאפשר מסחר מקומי, ובינלאומי. המוכרים הם אנשים פרטיים ועסקים קטנים עד בינוניים המציעים מיליוני פריטים ושירותים דרך הפלטפורמה המקוונת.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/EBay",
+      "employees": 12600,
+      "price": 118.25,
+      "change": -2.6028
+    },
+    {
+      "ticker": "EIX",
+      "name": "Edison International",
+      "skipped": false,
+      "website": "https://www.edison.com/",
+      "industry": "Utilities",
+      "marketCap": "$22.1B",
+      "description": "Edison International is a public utility holding company based in Rosemead, California. Its subsidiaries include Southern California Edison, and unregulated non-utility business assets Edison Energy. Edison's roots trace back to Holt & Knupps, a company founded in 1886 as a provider of street lights in Visalia, California.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Edison_International",
+      "employees": 16677,
+      "price": 57.82,
+      "change": 0.8195
+    },
+    {
+      "ticker": "EW",
+      "name": "Edwards Lifesciences",
+      "skipped": false,
+      "website": "https://www.edwards.com",
+      "industry": "Health Care",
+      "marketCap": "$51.3B",
+      "description": "Edwards Lifesciences Corporation is an American medical technology company headquartered in Irvine, California, specializing in tissue heart valves and transcatheter technologies for the treatment of structural heart disease. The company has manufacturing facilities at the Irvine headquarters, as well as in Draper, Utah; Costa Rica; Singapore; and Limerick, Ireland. The company is also constructing a manufacturing plant in Moncada, near Valencia, Spain, with a €150 million investment. Production is scheduled to begin in 2027.",
+      "descriptionHE": "Edwards Lifesciences‏ היא מפתחת, יצרנית ומשווקת עולמית של התקנים רפואיים בתחום קרדיולוגיה וציוד ליחידה לטיפול נמרץ.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Edwards_Lifesciences",
+      "employees": 14000,
+      "price": 90.5,
+      "change": 1.6055
+    },
+    {
+      "ticker": "EA",
+      "name": "Electronic Arts",
+      "skipped": false,
+      "website": "https://www.ea.com/",
+      "industry": "Media",
+      "marketCap": "$53.0B",
+      "description": "Electronic Arts Inc. (EA) is an American video game company headquartered in Redwood City, California, United States. Founded in May 1982 by former Apple employee Trip Hawkins, the company was a pioneer of the early home computer game industry and promoted the designers and programmers responsible for its games as \"software artists\". EA published numerous games and some productivity software for personal computers, all of which were developed by external individuals or groups until 1987's Skate or Die! The company shifted toward internal game studios, often through acquisitions, such as Distinctive Software becoming EA Canada in 1991.",
+      "descriptionHE": "Electronic Arts היא חברה בינלאומית לפיתוח, שיווק והפצת משחקי וידאו.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Electronic_Arts",
+      "employees": 11000,
+      "price": null,
+      "change": null
+    },
+    {
+      "ticker": "EMR",
+      "name": "Emerson Electric",
+      "skipped": false,
+      "website": "https://www.emerson.com/en-us",
+      "industry": "Electrical Equipment",
+      "marketCap": "$90.1B",
+      "description": "Emerson Electric Co., commonly known as Emerson, is an American multinational corporation headquartered in St. Louis, Missouri. The Fortune 500 company manufactures and delivers a range of industrial automation and control systems, climate control solutions, measurement and analytical instrumentation, and provides engineering services for industrial, commercial, and consumer markets.",
+      "descriptionHE": "אמרסון היא תאגיד אמריקאי רב-לאומי שבסיסו בסנט לואיס, מיזורי. היא חברת Fortune 500 ומספקת מגוון שירותי הנדסה, מייצרת ציוד אוטומציה תעשייתית, מערכות בקרת אקלים ומכשירי מדידה מדויקים, ומספקת הנדסת תוכנה לשווקים תעשייתיים, מסחריים וצרכניים.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Emerson_Electric",
+      "employees": 134900,
+      "price": 162.56,
+      "change": 0.6003
+    },
+    {
+      "ticker": "EFX",
+      "name": "Equifax",
+      "skipped": false,
+      "website": "https://www.equifax.com/",
+      "industry": "Professional Services",
+      "marketCap": "$21.3B",
+      "description": "Equifax Inc. is an American multinational consumer credit reporting agency headquartered in Atlanta, Georgia, and is one of the three largest consumer credit reporting agencies, along with Experian and TransUnion. Equifax collects and aggregates information on more than 800 million individual consumers and more than 88 million businesses worldwide. In addition to credit and demographic data and services to business, Equifax sells credit monitoring and fraud prevention services directly to consumers.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Equifax",
+      "employees": 9500,
+      "price": 177.57,
+      "change": -2.6267
+    },
+    {
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "skipped": false,
+      "website": "https://www.equinix.com/",
+      "industry": "Real Estate",
+      "marketCap": "$94.2B",
+      "description": "Equinix Inc., is an American multinational internet and data center company headquartered in Redwood City, California. It specialized in internet connectivity and data center colocation centers, commonly known as carrier hotels, until the company converted to a real estate investment trust (REIT) in January 2015. It is listed on the Nasdaq stock exchange under the ticker symbol EQIX. As of 2025, the company operates 260 data centers in 33 countries, across five continents and employed more than 13,000 people worldwide.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Equinix",
+      "employees": 8378,
+      "price": 963.2,
+      "change": 0.8555
+    },
+    {
+      "ticker": "EXC",
+      "name": "Exelon",
+      "skipped": false,
+      "website": "https://www.exeloncorp.com/",
+      "industry": "Utilities",
+      "marketCap": "$45.9B",
+      "description": "Exelon Corporation is an American public utility headquartered in Chicago, and incorporated in Pennsylvania. Exelon is the largest electric parent company in the United States by revenue and is the largest regulated electric utility in the United States with approximately 10 million customers. The company is ranked 187th on the Fortune 500.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Exelon",
+      "employees": 34000,
+      "price": 44.47,
+      "change": 0.09
+    },
+    {
+      "ticker": "EXPE",
+      "name": "Expedia Group",
+      "skipped": false,
+      "website": "https://www.expediagroup.com/",
+      "industry": "Hotels, Restaurants & Leisure",
+      "marketCap": "$34.7B",
+      "description": "Expedia Group, Inc. is an American travel technology company that owns and operates travel fare aggregators and travel metasearch engines, including Expedia, Hotels.com, Vrbo, Travelocity, Hotwire.com, Orbitz, Ebookers, CheapTickets, CarRentals.com, Expedia Cruises, Wotif, and Trivago. Over 3.5 million lodging facilities and flights on over 500 airlines are bookable on the company's websites. It has 16,500 employees, and its headquarters are located in Seattle, Washington.",
+      "descriptionHE": "קבוצת אקספדיה היא חברת טכנולוגיית נסיעות אמריקאית שבבעלותה אתרים ומנועי חיפוש על לנסיעות, כולל Expedia,‏ Hotels.com,‏ Vrbo,‏ Travelocity,‏ Hotwire.com, Orbitz,‏ Ebookers,‏ CheapTickets,‏ CarRentals.com,‏ Expedia Cruises,‏ Wotif ו־Trivago. מעל 3.5 מיליון אתרי לינה וטיסות ביותר מ-500 חברות תעופה ניתנים להזמנה באתרי האינטרנט של החברה. לחברה 16,500 עובדים, והמטה שלה ממוקם בסיאטל, וושינגטון.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Expedia_Group",
+      "employees": 16000,
+      "price": 280.86,
+      "change": -2.82
+    },
+    {
+      "ticker": "FDX",
+      "name": "FedEx",
+      "skipped": false,
+      "website": "https://www.fedex.com/en-us/home.html",
+      "industry": "Logistics & Transportation",
+      "marketCap": "$70.7B",
+      "description": "FedEx Corporation is an American multinational transportation, e-commerce, and business-services company headquartered in Memphis, Tennessee. Founded in 1971 by Frederick W. Smith as Federal Express Corporation, it began operations in 1973 as an express delivery company centered on an air-and-ground network based at Memphis International Airport. FedEx now provides parcel delivery, express transportation, freight forwarding, logistics, customs brokerage, supply-chain services, and retail printing and shipping services worldwide. In fiscal 2026, the company reported revenue of $94.7 billion and employed about 452,000 people.",
+      "descriptionHE": "פדקס, לשעבר פדרל אקספרס, היא חברת שילוח מטענים שמרכזה בארצות הברית, המציעה שירותי שליחים בארצות הברית וברחבי העולם. החברה מציעה גם שינוע מטענים כבדים, ביבשה ובאוויר, וכן שירות העתקת מסמכים ושירותים לוגיסטיים. \"פדקס\" הוא קיצור של שמה המקורי של החברה, \"פדרל אקספרס\".",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/FedEx",
+      "employees": 400000,
+      "price": 302.2,
+      "change": 1.165
+    }
+  ]
+}
