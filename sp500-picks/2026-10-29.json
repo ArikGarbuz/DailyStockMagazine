@@ -1,0 +1,317 @@
+{
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T19:02:55.475Z",
+  "windowStart": 280,
+  "windowSize": 40,
+  "cyclePosition": 7,
+  "totalWindows": 13,
+  "requested": 15,
+  "picked": 15,
+  "skippedCount": 23,
+  "skipped": [
+    {
+      "ticker": "LHX",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "LH",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "LRCX",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "LVS",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "LDOS",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "LEN",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "LII",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "LYV",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "L",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "LOW",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "LITE",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "LYB",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "MTB",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "MPC",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "MAR",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "MRSH",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "MLM",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "MAS",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "MKC",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "MET",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "MTD",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "MGM",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "MAA",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    }
+  ],
+  "picks": [
+    {
+      "ticker": "KR",
+      "name": "Kroger",
+      "skipped": false,
+      "website": "https://www.thekrogerco.com/",
+      "industry": "Retail",
+      "marketCap": "$38.4B",
+      "description": "The Kroger Co. is an American retail corporation headquartered in Cincinnati, Ohio. It operates supermarkets and multi-department stores throughout the United States.",
+      "descriptionHE": "חברת קרוגר היא חברה קמעונאית אמריקאית שנוסדה על ידי ברנרד קרוגר בשנת 1883 בסינסינטי, אוהיו. זוהי רשת הסופרמרקטים הגדולה בארצות הברית במונחי הכנסות. קרוגר היא גם הקמעונאית השנייה בגודלה בארצות הברית אחרי וול-מארט, והרביעית בגודלה בעולם נכון לדצמבר 2022 אחרי וולמארט, קוסטקו וסבן אילבן.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kroger",
+      "employees": 453000,
+      "price": 66.06,
+      "change": 1.5995
+    },
+    {
+      "ticker": "LLY",
+      "name": "Lilly (Eli)",
+      "skipped": false,
+      "website": "https://www.lilly.com/",
+      "industry": "Pharmaceuticals",
+      "marketCap": "$1.21T",
+      "description": "Eli Lilly and Company, doing business as Lilly, is an American multinational pharmaceutical company headquartered in Indianapolis, Indiana, with offices in 36 countries. Its products are marketed in approximately 90 countries. The company was founded in 1876 by Eli Lilly, a pharmaceutical chemist and Union army veteran during the American Civil War for whom the company was later named.",
+      "descriptionHE": "איליי לילי אנד קומפני היא חברת תרופות אמריקאית. החברה נוסדה באינדיאנפוליס ב-1876 והמטה שלה ממוקם בעיר מאז. החברה מעסיקה נכון ל-2024 כ-42,000 עובדים ברחבי העולם והכנסותיה כ-45 מיליארד דולר.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Eli_Lilly_and_Company",
+      "employees": 38350,
+      "price": 1365.78,
+      "change": 6.0141
+    },
+    {
+      "ticker": "LIN",
+      "name": "Linde plc",
+      "skipped": false,
+      "website": "https://www.linde.com/",
+      "industry": "Chemicals",
+      "marketCap": "$234.3B",
+      "description": "Linde is a global multinational chemical company and the world's largest industrial gas supplier by market share and revenue. Founded by German scientist and engineer Carl von Linde in 1879 in Wiesbaden, Germany, the company is now headquartered in Woking, United Kingdom, and registered in Ireland as Linde plc. Linde plc was formed in 2018 through the merger of Linde AG and Praxair, which was founded in 1907 in the United States as Linde Air Products Company.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Linde_plc",
+      "employees": 66323,
+      "price": 501.55,
+      "change": -1.3008
+    },
+    {
+      "ticker": "LMT",
+      "name": "Lockheed Martin",
+      "skipped": false,
+      "website": "https://www.lockheedmartin.com/",
+      "industry": "Aerospace & Defense",
+      "marketCap": "$145.5B",
+      "description": "The Lockheed Martin Corporation is an American defense and aerospace manufacturer. It is headquartered in North Bethesda, Maryland, United States. The company was formed by the merger of the Lockheed Corporation with Martin Marietta on March 15, 1995.",
+      "descriptionHE": "לוקהיד מרטין הוא תאגיד רב-לאומי אמריקאי, הנמנה עם המובילים בעולם בתחומי התעופה, הביטחון, הצבא והטכנולוגיה, המספק מוצרים ושירותים מתקדמים לאלפי סוכנויות אזרחיות ומודיעיניות, גופים ממשלתיים וביטחוניים ותאגידים מסחריים בארצות הברית וברחבי העולם.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Lockheed_Martin",
+      "employees": 110000,
+      "price": 648.15,
+      "change": 2.9218
+    },
+    {
+      "ticker": "LULU",
+      "name": "Lululemon Athletica",
+      "skipped": false,
+      "website": "https://shop.lululemon.com/",
+      "industry": "Textiles, Apparel & Luxury Goods",
+      "marketCap": "$12.2B",
+      "description": "Lululemon, commonly styled as lululemon, is a Canadian-American multinational athletic apparel retailer headquartered in Vancouver, British Columbia, and incorporated in Delaware, United States, as Lululemon Athletica Inc. It was founded in 1998 as a retailer of yoga pants and other yoga wear, and has expanded to also sell sportswear, lifestyle apparel, shoes, accessories and personal care products. The company has 811 stores and also processes sales online through its website.",
+      "descriptionHE": "לולולמון אתלטיקה היא חברת הלבשה שבסיסה בוונקובר. היא נוסדה בשנת 1998 כחברת מכנסי יוגה ולבוש יוגה אחר, והתרחבה למכור גם בגדי ספורט ואביזרי ספורט. לחברה 574 חנויות ברחבי העולם ואתר אינטרנט.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Lululemon",
+      "employees": 13400,
+      "price": 110.09,
+      "change": 4.6284
+    },
+    {
+      "ticker": "MA",
+      "name": "Mastercard",
+      "skipped": false,
+      "website": "https://www.mastercard.us/",
+      "industry": "Financial Services",
+      "marketCap": "$534.6B",
+      "description": "Mastercard Inc. is an American multinational payment card services corporation headquartered in Purchase, New York. It provides payment transaction processing and other related-payment services, including travel-related payments and bookings. Its principal business globally is to process payments between the banks of merchants and the card-issuing banks or credit unions of purchasers who use its branded debit, credit and prepaid cards to make purchases. Mastercard has been publicly traded since 2006.",
+      "descriptionHE": "MasterCard Incorporated או MasterCard Worldwide הוא תאגיד רב-לאומי אמריקאי לשירותים פיננסיים שמתבסס במדינת ניו יורק. מרכז השירותים הבינלאומיים של התאגיד יושב במדינת אוהיו.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mastercard",
+      "employees": 33400,
+      "price": 636.68,
+      "change": 4.3208
+    },
+    {
+      "ticker": "MCD",
+      "name": "McDonald's",
+      "skipped": false,
+      "website": "https://www.mcdonalds.com/",
+      "industry": "Hotels, Restaurants & Leisure",
+      "marketCap": "$177.3B",
+      "description": "McDonald's Corporation is an American multinational fast food restaurant chain. Founded in 1940 as a restaurant operated by brothers Richard and Maurice McDonald in San Bernardino, California, the company has grown into one of the world's largest restaurant chains. At the end of 2025, the McDonald's system comprised 45,356 restaurants in more than 100 countries, approximately 95% of which were operated by franchisees.",
+      "descriptionHE": "מקדונלד'ס היא רשת מסעדות מזון מהיר אמריקאית רב-לאומית, מהגדולות בעולם, כולל בישראל. מזוהה במיוחד עם המנה העיקרית שהיא מגישה: המבורגר – כריך לחמנייה עגולה ובה קציצת בשר בקר טחון העשויה בגריל.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/McDonald's",
+      "employees": 200000,
+      "price": 257.23,
+      "change": 2.6866
+    },
+    {
+      "ticker": "MCK",
+      "name": "McKesson Corporation",
+      "skipped": false,
+      "website": "https://www.mckesson.com/",
+      "industry": "Health Care",
+      "marketCap": "$112.0B",
+      "description": "McKesson Corporation is an American publicly traded company that distributes pharmaceuticals and provides health information technology, medical supplies, and health management tools. The company delivers a third of all pharmaceutical products used or consumed in North America and employs over 80,000 employees. With $308.9 billion in 2024 revenue, it is the ninth-largest company by revenue in the United States and the nation's largest health care company. The company is headquartered in Irving, Texas. It is a component of the S&P 500 and is listed on the New York Stock Exchange, where it is traded under the ticker symbol \"MCK\".",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/McKesson",
+      "employees": 68000,
+      "price": 971.66,
+      "change": 1.1556
+    },
+    {
+      "ticker": "MDT",
+      "name": "Medtronic",
+      "skipped": false,
+      "website": "https://www.medtronic.com/",
+      "industry": "Health Care",
+      "marketCap": "$121.2B",
+      "description": "Medtronic plc is an international medical device company. The company's legal and executive headquarters are in Ireland, while its operational headquarters are in Minneapolis, Minnesota. Medtronic rebased to Ireland following its acquisition of Irish-based Covidien in 2015. While it primarily operates in the United States, it operates in more than 150 countries and employs over 90,000 people. It develops and manufactures healthcare technologies and therapies. It is one of the biggest medical tech companies in the world and is currently the largest medical device company in the world by revenue.",
+      "descriptionHE": "מדטרוניק הוא תאגיד רב-לאומי המתמחה בפיתוח, ייצור ושיווק מכשור רפואי. מטה החברה שוכן בעיר פרידלי, הסמוכה למיניאפוליס שבמינסוטה, אולם מאז שרכשה את חברת קובידיאן (Covidien) בשנת 2014, החברה רשומה לצורכי מס חברות באירלנד.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Medtronic",
+      "employees": 86000,
+      "price": 96.91,
+      "change": 2.2473
+    },
+    {
+      "ticker": "MRK",
+      "name": "Merck & Co.",
+      "skipped": false,
+      "website": "https://www.merck.com/",
+      "industry": "Pharmaceuticals",
+      "marketCap": "$347.7B",
+      "description": "Merck & Co., Inc. is an American multinational pharmaceutical company headquartered in Rahway, New Jersey. The company does business as Merck Sharp & Dohme or MSD outside the United States and Canada. The company is ranked fifth on the list of largest biomedical companies by revenue.",
+      "descriptionHE": "מֶרְק היא אחת מחברות התרופות הגדולות בעולם. מטה חברת מרק נמצא בניו ג'רזי, בארצות הברית. החברה נוסדה בשנת 1891 כחברת בת אמריקאית של החברה הגרמנית הידועה היום בשם Merck KGaA. בשנת 1917, בשלהי מלחמת העולם הראשונה, הוחרמו נכסי החברה בארצות הברית ועל יסודם הוקמה חברה עצמאית. נכון ל-2010, מרק היא אחת משבע חברות התרופות הגדולות בעולם הן במחזור עסקיה והן בשווי שוק.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Merck_%26_Co.",
+      "employees": 70000,
+      "price": 146.03,
+      "change": 3.6188
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "skipped": false,
+      "website": "https://www.meta.com/",
+      "industry": "Media",
+      "marketCap": "$1.57T",
+      "description": "Meta Platforms, Inc., headquartered in Menlo Park, California, is an American multinational technology company and is one of the Big Tech companies. Meta owns and operates several prominent social media platforms and communication services, including Facebook, Instagram, WhatsApp, Messenger, and Threads. The company also operates an advertising network for its own sites and third parties; as of 2023, advertising accounted for 97.8% of its total revenue.",
+      "descriptionHE": "מֶטָא בע\"מ היא חברה ציבורית רב-לאומית אמריקאית, המפעילה בין השאר את הרשתות החברתיות פייסבוק, אינסטגרם ו-Threads, את תוכנות המסרים המיידיים וואטסאפ ופייסבוק מסנג'ר, ואת חברת המחשוב הלביש אוקולוס. החברה נוסדה באמצע 2004, כחצי שנה לאחר הקמת אתר האינטרנט שבבעלותה. האתר הוקם על ידי מארק צוקרברג, אדוארדו סברין, דסטין מוסקוביץ', כריס יוז ואנדרו מקולום בהיותם סטודנטים באוניברסיטת הרווארד, ב-4 בפברואר 2004.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Meta_Platforms",
+      "employees": 58604,
+      "price": 627.83,
+      "change": 2.5045
+    },
+    {
+      "ticker": "MCHP",
+      "name": "Microchip Technology",
+      "skipped": false,
+      "website": "https://www.microchip.com/",
+      "industry": "Semiconductors",
+      "marketCap": "$43.2B",
+      "description": "Microchip Technology Incorporated is an American publicly traded semiconductor corporation that manufactures microcontrollers, microprocessors, integrated circuits, and flash memory.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Microchip_Technology",
+      "employees": 19500,
+      "price": 80.2,
+      "change": 0.7158
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "skipped": false,
+      "website": "https://www.micron.com/",
+      "industry": "Semiconductors",
+      "marketCap": "$1.11T",
+      "description": "Micron Technology, Inc. is an American multinational semiconductor company that manufactures computer memory and computer data storage products, including dynamic random-access memory (DRAM), flash memory, High Bandwidth Memory (HBM), and solid-state drives (SSDs). Founded in 1978 in Boise, Idaho, Micron is the only major American computer memory manufacturer. It is one of the \"Big Three\" computer memory manufacturers, along with the South Korean companies Samsung Electronics and SK Hynix.",
+      "descriptionHE": "מייקרון טכנולוג'י, המוכרת בתור מייקרון, היא חברה רב-לאומית אמריקאית מתחום מוליכים למחצה, המייצרת מוצרי זיכרון מחשב ואחסון נתונים במחשב, כולל DRAM, זיכרון הבזק, SSD ו-HBM. החברה הוקמה בשנת 1978 בבויסי, איידהו, והיא יצרנית זיכרונות המחשב האמריקאית הגדולה היחידה. היא אחת מ\"שלוש הגדולות\" של יצרניות זיכרונות המחשב, יחד עם החברות הדרום קוריאניות סמסונג אלקטרוניקה ו-SK Hynix.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Micron_Technology",
+      "employees": 48000,
+      "price": 927.36,
+      "change": -5.6823
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "skipped": false,
+      "website": "https://www.microsoft.com/en-in/",
+      "industry": "Technology",
+      "marketCap": "$3.94T",
+      "description": "Microsoft Corporation is an American multinational technology conglomerate headquartered in Redmond, Washington. The company became influential in the rise of personal computers through software like Windows and has since expanded into areas such as Internet services, cloud computing, artificial intelligence and video gaming among others. A Big Tech company, Microsoft is the largest software company by revenue, one of the most valuable public companies, and one of the most valuable brands globally.",
+      "descriptionHE": "תאגיד מיקרוסופט היא חברת תוכנה, מחשבים ומוצרי אלקטרוניקה אמריקאית רב-לאומית, שבסיסה ברדמונד, ליד העיר סיאטל שבמדינת וושינגטון, ארצות הברית.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Microsoft",
+      "employees": 228000,
+      "price": 528.78,
+      "change": -0.42
+    },
+    {
+      "ticker": "MRNA",
+      "name": "Moderna",
+      "skipped": false,
+      "website": "https://www.modernatx.com/",
+      "industry": "Biotechnology",
+      "marketCap": "$85.5B",
+      "description": "Moderna, Inc. is an American pharmaceutical and biotechnology company based in Cambridge, Massachusetts, that focuses on RNA therapeutics, primarily mRNA vaccines. These vaccines use a copy of a molecule called messenger RNA (mRNA) to carry instructions for proteins to produce an immune response. The company's name is derived from the terms \"modified\", \"RNA\", and \"modern\".",
+      "descriptionHE": "מודרנה או מודרנא היא חברת תרופות וביוטכנולוגיה אמריקאית הנמצאת בקיימברידג', מסצ'וסטס. החברה מתמקדת בפיתוח תרופות באמצעות RNA. זוהי טכנולוגיה חדשה שננטשה בעבר על ידי רוב חברות התרופות. מודרנה פיתחה את החיסון נגד קורונה, MRNA-1273, שקיבל בדצמבר 2020 אישור חירום של ה-FDA.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Moderna",
+      "employees": 5800,
+      "price": 217.09,
+      "change": 1.3658
+    }
+  ]
+}
