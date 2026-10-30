@@ -1,0 +1,281 @@
+{
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T18:42:41.881Z",
+  "windowStart": 320,
+  "windowSize": 40,
+  "cyclePosition": 8,
+  "totalWindows": 13,
+  "requested": 15,
+  "picked": 15,
+  "skippedCount": 14,
+  "skipped": [
+    {
+      "ticker": "MPWR",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "MNST",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "MCO",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "MSCI",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "NEM",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "NEE",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "NI",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "NDSN",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "NSC",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "NCLH",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "NVR",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "NXPI",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "ORLY",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "OXY",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    }
+  ],
+  "picks": [
+    {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "skipped": false,
+      "website": "https://www.morganstanley.com/",
+      "industry": "Financial Services",
+      "marketCap": "$298.4B",
+      "description": "Morgan Stanley is an American multinational investment bank and financial services company. It is headquartered at 1585 Broadway in Midtown Manhattan, New York City, with offices in 42 countries, including offices in many financial centers worldwide. Morgan Stanley is one of the largest investment banks by revenue. It is ranked 39th on the Fortune 500 and 21st on the Forbes Global 2000. It is considered a systemically important financial institution by the Financial Stability Board.",
+      "descriptionHE": "מורגן סטנלי הוא תאגיד אמריקני הנסחר בבורסה לניירות ערך בניו יורק, ואשר עוסק בתחום בנקאות ההשקעות והשירותים הפיננסיים. החברה, שמטהַ נמצא בעיר ניו יורק, משרתת מגוון של תאגידים, ממשלות, ארגונים פיננסיים ואנשים פרטיים. מורגן סטנלי פועל ב-33 מדינות ברחבי העולם, ויש לו 600 משרדים שבהם מועסקים כ-45,000 עובדים. על פי דיווחי החברה, היא מנהלת נכסים בהיקף של 779 מיליארד דולר.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Morgan_Stanley",
+      "employees": 80006,
+      "price": 182.64,
+      "change": -3.8737
+    },
+    {
+      "ticker": "MOS",
+      "name": "Mosaic Company (The)",
+      "skipped": false,
+      "website": "https://www.mosaicco.com/",
+      "industry": "Chemicals",
+      "marketCap": "$5.8B",
+      "description": "The Mosaic Company is an American chemical company based in Tampa, Florida, which mines phosphate and potash and collects urea used for fertilizer, through various international distribution networks and Mosaic Fertilizantes. It is the largest U.S. producer of potash and phosphate fertilizers.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Mosaic_Company",
+      "employees": 8400,
+      "price": 18.3,
+      "change": 0.384
+    },
+    {
+      "ticker": "MSI",
+      "name": "Motorola Solutions",
+      "skipped": false,
+      "website": "https://www.motorolasolutions.com",
+      "industry": "Communications",
+      "marketCap": "$81.4B",
+      "description": "Motorola Solutions, Inc., is an American technology company that provides safety and security products and services. Headquartered in Chicago, Illinois, the company provides critical communications, video security, and command center technologies, used by public safety agencies and enterprises. It was formed in 2011 by the division of Motorola, Inc., and is its legal successor; the former company's mobile phone division was spun off as Motorola Mobility, now part of Chinese technology company Lenovo.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Motorola_Solutions",
+      "employees": 18000,
+      "price": 492.18,
+      "change": 0.0203
+    },
+    {
+      "ticker": "NDAQ",
+      "name": "Nasdaq, Inc.",
+      "skipped": false,
+      "website": "https://www.nasdaq.com/",
+      "industry": "Financial Services",
+      "marketCap": "$58.6B",
+      "description": "Nasdaq, Inc. is an American multinational financial services corporation providing data, analytics, software, exchange capabilities, and advisory services to corporate clients, investment managers, banks, brokers, and exchange operators across the global financial system. Nasdaq was founded in 1971 as the world's first electronic stock market, and became publicly traded in 2000. It is headquartered in New York City, and its chair and chief executive officer is Adena Friedman.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nasdaq%2C_Inc.",
+      "employees": 8809,
+      "price": 106.1,
+      "change": 0.4735
+    },
+    {
+      "ticker": "NTAP",
+      "name": "NetApp",
+      "skipped": false,
+      "website": "https://www.netapp.com/",
+      "industry": "Technology",
+      "marketCap": "$42.9B",
+      "description": "NetApp, Inc. is an American data infrastructure company that provides unified data storage, integrated data services, and cloud operations (CloudOps) solutions to enterprise customers. The company is based in San Jose, California. It was ranked in the Fortune 500 from 2012 to 2021. Founded in 1992 with an initial public offering in 1995, NetApp offers cloud data services for management of applications and data both online and physically.",
+      "descriptionHE": "נטאפ בע\"מ היא חברת מחשבים אמריקאית המתמחה בניהול אחסון ובמאגרי נתונים. קובצי האחסון של נטאפ מחוברים לרשתות, ומאפשרים לקהל הלקוחות הארגוני לאחסן ולשתף נתונים בין העובדים. משרדיה הראשיים של החברה ממוקמים בסאניווייל, קליפורניה. החברה חברה בנאסד\"ק-100, ודורגה כאחת מ־500 החברות ששוויין הגדול ביותר בפעם הראשונה ב-2012.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/NetApp",
+      "employees": 12000,
+      "price": 196.53,
+      "change": -10.022
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Netflix",
+      "skipped": false,
+      "website": "https://www.netflix.com/",
+      "industry": "Media",
+      "marketCap": "$254.8B",
+      "description": "Netflix, Inc. is an American media company founded on August 29, 1997, by Reed Hastings and Marc Randolph in Scotts Valley, California, and currently based in Los Gatos, California, with production offices and stages at the Los Angeles–based Hollywood studios and the Albuquerque Studios. It owns and operates an eponymous over-the-top subscription video on-demand service, which showcases acquired and original programming as well as third-party content licensed from other production companies and distributors. Netflix is also the first streaming media company to be a member of the Motion Picture Association.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Netflix%2C_Inc.",
+      "employees": 11300,
+      "price": 62.05,
+      "change": 0
+    },
+    {
+      "ticker": "NWSA",
+      "name": "News Corp (Class A)",
+      "skipped": false,
+      "website": "https://newscorp.com/",
+      "industry": "Media",
+      "marketCap": "$16.4B",
+      "description": "The original incarnation of News Corporation, was an American multinational mass media corporation founded and controlled by media mogul Rupert Murdoch. Founded on March 15, 1980 as News Corp Limited and formerly incorporated in Adelaide, South Australia, the company was re-incorporated under Delaware General Corporation Law following a successful shareholder vote on November 12, 2004; it had since been headquartered at 1211 Avenue of the Americas in New York City.",
+      "descriptionHE": "ניוז קורפ הייתה חברת תקשורת אמריקאית רב-לאומית. לפני הפיצול שלה, בתחילת שנות ה-2000, הייתה החברה קבוצת התקשורת השנייה בגודלה בעולם מבחינת הכנסות, ובעלת מעמד דומיננטי בתעשיית החדשות, הטלוויזיה, הקולנוע וההוצאה לאור. בעלי השליטה בחברה הם רופרט מרדוק ובני משפחתו.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/News_Corporation",
+      "employees": 51000,
+      "price": 29.24,
+      "change": -0.7131
+    },
+    {
+      "ticker": "NWS",
+      "name": "News Corp (Class B)",
+      "skipped": false,
+      "website": "https://newscorp.com/",
+      "industry": "Media",
+      "marketCap": "$16.4B",
+      "description": "The original incarnation of News Corporation, was an American multinational mass media corporation founded and controlled by media mogul Rupert Murdoch. Founded on March 15, 1980 as News Corp Limited and formerly incorporated in Adelaide, South Australia, the company was re-incorporated under Delaware General Corporation Law following a successful shareholder vote on November 12, 2004; it had since been headquartered at 1211 Avenue of the Americas in New York City.",
+      "descriptionHE": "ניוז קורפ הייתה חברת תקשורת אמריקאית רב-לאומית. לפני הפיצול שלה, בתחילת שנות ה-2000, הייתה החברה קבוצת התקשורת השנייה בגודלה בעולם מבחינת הכנסות, ובעלת מעמד דומיננטי בתעשיית החדשות, הטלוויזיה, הקולנוע וההוצאה לאור. בעלי השליטה בחברה הם רופרט מרדוק ובני משפחתו.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/News_Corporation",
+      "employees": 51000,
+      "price": 31.9,
+      "change": -0.8701
+    },
+    {
+      "ticker": "NKE",
+      "name": "Nike, Inc.",
+      "skipped": false,
+      "website": "https://about.nike.com/",
+      "industry": "Textiles, Apparel & Luxury Goods",
+      "marketCap": "$57.1B",
+      "description": "Nike, Inc. is an American athletic footwear and apparel corporation headquartered near Beaverton, Oregon. It is the world's largest supplier of athletic shoes and apparel and a major manufacturer of sports equipment, with revenue in excess of US$46 billion in its fiscal year 2022.",
+      "descriptionHE": "נייקי הוא תאגיד רב-לאומי אמריקאי העוסק בייצור נעלי ספורט, ביגוד וציוד ספורט.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nike%2C_Inc.",
+      "employees": 76700,
+      "price": 38.77,
+      "change": 0.911
+    },
+    {
+      "ticker": "NTRS",
+      "name": "Northern Trust",
+      "skipped": false,
+      "website": "https://www.northerntrust.com/",
+      "industry": "Financial Services",
+      "marketCap": "$31.6B",
+      "description": "Northern Trust Corporation is an American financial services company headquartered in Chicago, Illinois, that caters to corporations, institutional investors, and ultra-high-net-worth individuals. Northern Trust is one of the largest banking institutions in the United States and one of the oldest banks in continuous operation. As of December 31, 2025, it had $1.8 trillion in assets under management and $14.9 trillion in assets under custody. Northern Trust Corporation is incorporated in Delaware.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Northern_Trust",
+      "employees": 20900,
+      "price": 168.12,
+      "change": -2.7759
+    },
+    {
+      "ticker": "NOC",
+      "name": "Northrop Grumman",
+      "skipped": false,
+      "website": "https://www.northropgrumman.com",
+      "industry": "Aerospace & Defense",
+      "marketCap": "$79.9B",
+      "description": "Northrop Grumman Corporation is an American aerospace and defense company that designs and manufactures systems for aeronautics, defense, missions, and space. Headquartered in West Falls Church, Virginia, the company is the fifth-largest contractor of the U.S. federal government; it receives over 2% of all federal government spending on contractors.",
+      "descriptionHE": "נוֹרְתְ'רוֹפּ גְּרָאמֶן הוא קונצרן ספנות, תעופה, חלל וביטחון, תוצאה של רכישת גראמן על ידי נורת'רופ. החברה, הממוקמת במטרופולין וושינגטון די. סי. שבווירג'יניה, ארצות הברית, היא יצרנית מערכות־ביטחוניות השלישית בגודלה בעולם, יצרנית מערכות המכ\"ם הגדולה ביותר, והיצרנית המובילה בעולם של כלי שיט. נכון לשנת 2017, העסיקה למעלה מ-67,000 עובדים בכמה מאות אתרים בארצות הברית ומחוצה לה. נכון לשנת 2010, \"נורת'רופ גראמן\" מדורגת במקום ה-61 ברשימת פורצ'ן 500 של חברות תעשייתיות אמריקניות.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Northrop_Grumman",
+      "employees": 65600,
+      "price": 558.95,
+      "change": -0.6064
+    },
+    {
+      "ticker": "NRG",
+      "name": "NRG Energy",
+      "skipped": false,
+      "website": "https://www.nrg.com/",
+      "industry": "Utilities",
+      "marketCap": "$20.5B",
+      "description": "NRG Energy, Inc. is an American energy company, headquartered in Houston, Texas. It was formerly the wholesale arm of Northern States Power Company (NSP), which became Xcel Energy, but became independent in 2000. NRG Energy is involved in energy generation and retail electricity. Their portfolio includes natural gas generation, coal generation, oil generation, nuclear generation, wind generation, utility-scale generation, and distributed solar generation. NRG serves over 7 million retail customers in 24 US states including Texas, Connecticut, Delaware, Illinois, Maryland, Massachusetts, New Jersey, New York, Pennsylvania, Ohio; the District of Columbia, and eight provinces in Canada.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/NRG_Energy",
+      "employees": 9806,
+      "price": 94.57,
+      "change": -3.0449
+    },
+    {
+      "ticker": "NUE",
+      "name": "Nucor",
+      "skipped": false,
+      "website": "https://nucor.com/",
+      "industry": "Metals & Mining",
+      "marketCap": "$62.5B",
+      "description": "Nucor Corporation is an American company based in Charlotte, North Carolina, that produces steel and related products. It is the largest steel producer in the United States and the largest recycler of scrap in North America. Nucor is the 16th-largest steel producer in the world. Along with Commercial Metals Company, it is one of two primary suppliers of rebar used to reinforce concrete in buildings, bridges, roads, and infrastructure in the U.S.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nucor",
+      "employees": 31400,
+      "price": 269.68,
+      "change": -2.0379
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "skipped": false,
+      "website": "https://www.nvidia.com",
+      "industry": "Semiconductors",
+      "marketCap": "$5.15T",
+      "description": "Nvidia Corporation is an American multinational technology company headquartered in Santa Clara, California. The company develops graphics processing units (GPUs), systems on chips (SoCs), and application programming interfaces (APIs) for data science, high-performance computing, artificial intelligence (AI), and mobile and automotive applications. Founded in 1993 by Jensen Huang, Chris Malachowsky, and Curtis Priem, Nvidia has been described as a Big Tech company and is among the largest companies by market capitalization.",
+      "descriptionHE": "אנבידיה היא חברה אמריקאית, ספקית גדולה של מיקרו-שבבים המשמשים לערכות שבבים של מחשבים אישיים, יחידות עיבוד גרפיות (GPU), כרטיסי מסך, חישובי בינה מלאכותית, התקני מדיה ותקשורת וקונסולות משחקים. החברה מוכרת בזכות סדרות כרטיסי המסך למחשב GeForce ו-Quadro, סדרת ערכות השבבים nForce, וסדרת השבבים טגרה לסמארטפונים ולטאבלטים. המטה הראשי של החברה נמצא בסנטה קלרה שבקליפורניה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nvidia",
+      "employees": 42000,
+      "price": 201.89,
+      "change": -5.5088
+    },
+    {
+      "ticker": "ODFL",
+      "name": "Old Dominion",
+      "skipped": false,
+      "website": "https://www.odfl.com/",
+      "industry": "Road & Rail",
+      "marketCap": "$35.7B",
+      "description": "Old Dominion Freight Line, Inc. (ODFL) is an American regional, inter-regional and national less than truckload shipping (LTL) company. In addition to its core LTL services, the company offers expedited, logistics and household moving services.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Old_Dominion_Freight_Line",
+      "employees": 21279,
+      "price": 172.78,
+      "change": 0.2495
+    }
+  ]
+}

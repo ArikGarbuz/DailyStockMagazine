@@ -1,317 +1,281 @@
 {
-  "date": "2026-10-29",
-  "generatedAt": "2026-10-29T19:02:55.475Z",
-  "windowStart": 280,
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T18:42:41.881Z",
+  "windowStart": 320,
   "windowSize": 40,
-  "cyclePosition": 7,
+  "cyclePosition": 8,
   "totalWindows": 13,
   "requested": 15,
   "picked": 15,
-  "skippedCount": 23,
+  "skippedCount": 14,
   "skipped": [
     {
-      "ticker": "LHX",
+      "ticker": "MPWR",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "LH",
+      "ticker": "MNST",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "LRCX",
+      "ticker": "MCO",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "LVS",
+      "ticker": "MSCI",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "LDOS",
+      "ticker": "NEM",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "LEN",
+      "ticker": "NEE",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "LII",
+      "ticker": "NI",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "LYV",
+      "ticker": "NDSN",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "L",
+      "ticker": "NSC",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "LOW",
+      "ticker": "NCLH",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "LITE",
+      "ticker": "NVR",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "LYB",
+      "ticker": "NXPI",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "MTB",
+      "ticker": "ORLY",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "MPC",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "MAR",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "MRSH",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "MLM",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "MAS",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "MKC",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "MET",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "MTD",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "MGM",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "MAA",
+      "ticker": "OXY",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     }
   ],
   "picks": [
     {
-      "ticker": "KR",
-      "name": "Kroger",
+      "ticker": "MS",
+      "name": "Morgan Stanley",
       "skipped": false,
-      "website": "https://www.thekrogerco.com/",
-      "industry": "Retail",
-      "marketCap": "$38.4B",
-      "description": "The Kroger Co. is an American retail corporation headquartered in Cincinnati, Ohio. It operates supermarkets and multi-department stores throughout the United States.",
-      "descriptionHE": "חברת קרוגר היא חברה קמעונאית אמריקאית שנוסדה על ידי ברנרד קרוגר בשנת 1883 בסינסינטי, אוהיו. זוהי רשת הסופרמרקטים הגדולה בארצות הברית במונחי הכנסות. קרוגר היא גם הקמעונאית השנייה בגודלה בארצות הברית אחרי וול-מארט, והרביעית בגודלה בעולם נכון לדצמבר 2022 אחרי וולמארט, קוסטקו וסבן אילבן.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kroger",
-      "employees": 453000,
-      "price": 66.06,
-      "change": 1.5995
-    },
-    {
-      "ticker": "LLY",
-      "name": "Lilly (Eli)",
-      "skipped": false,
-      "website": "https://www.lilly.com/",
-      "industry": "Pharmaceuticals",
-      "marketCap": "$1.21T",
-      "description": "Eli Lilly and Company, doing business as Lilly, is an American multinational pharmaceutical company headquartered in Indianapolis, Indiana, with offices in 36 countries. Its products are marketed in approximately 90 countries. The company was founded in 1876 by Eli Lilly, a pharmaceutical chemist and Union army veteran during the American Civil War for whom the company was later named.",
-      "descriptionHE": "איליי לילי אנד קומפני היא חברת תרופות אמריקאית. החברה נוסדה באינדיאנפוליס ב-1876 והמטה שלה ממוקם בעיר מאז. החברה מעסיקה נכון ל-2024 כ-42,000 עובדים ברחבי העולם והכנסותיה כ-45 מיליארד דולר.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Eli_Lilly_and_Company",
-      "employees": 38350,
-      "price": 1365.78,
-      "change": 6.0141
-    },
-    {
-      "ticker": "LIN",
-      "name": "Linde plc",
-      "skipped": false,
-      "website": "https://www.linde.com/",
-      "industry": "Chemicals",
-      "marketCap": "$234.3B",
-      "description": "Linde is a global multinational chemical company and the world's largest industrial gas supplier by market share and revenue. Founded by German scientist and engineer Carl von Linde in 1879 in Wiesbaden, Germany, the company is now headquartered in Woking, United Kingdom, and registered in Ireland as Linde plc. Linde plc was formed in 2018 through the merger of Linde AG and Praxair, which was founded in 1907 in the United States as Linde Air Products Company.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Linde_plc",
-      "employees": 66323,
-      "price": 501.55,
-      "change": -1.3008
-    },
-    {
-      "ticker": "LMT",
-      "name": "Lockheed Martin",
-      "skipped": false,
-      "website": "https://www.lockheedmartin.com/",
-      "industry": "Aerospace & Defense",
-      "marketCap": "$145.5B",
-      "description": "The Lockheed Martin Corporation is an American defense and aerospace manufacturer. It is headquartered in North Bethesda, Maryland, United States. The company was formed by the merger of the Lockheed Corporation with Martin Marietta on March 15, 1995.",
-      "descriptionHE": "לוקהיד מרטין הוא תאגיד רב-לאומי אמריקאי, הנמנה עם המובילים בעולם בתחומי התעופה, הביטחון, הצבא והטכנולוגיה, המספק מוצרים ושירותים מתקדמים לאלפי סוכנויות אזרחיות ומודיעיניות, גופים ממשלתיים וביטחוניים ותאגידים מסחריים בארצות הברית וברחבי העולם.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Lockheed_Martin",
-      "employees": 110000,
-      "price": 648.15,
-      "change": 2.9218
-    },
-    {
-      "ticker": "LULU",
-      "name": "Lululemon Athletica",
-      "skipped": false,
-      "website": "https://shop.lululemon.com/",
-      "industry": "Textiles, Apparel & Luxury Goods",
-      "marketCap": "$12.2B",
-      "description": "Lululemon, commonly styled as lululemon, is a Canadian-American multinational athletic apparel retailer headquartered in Vancouver, British Columbia, and incorporated in Delaware, United States, as Lululemon Athletica Inc. It was founded in 1998 as a retailer of yoga pants and other yoga wear, and has expanded to also sell sportswear, lifestyle apparel, shoes, accessories and personal care products. The company has 811 stores and also processes sales online through its website.",
-      "descriptionHE": "לולולמון אתלטיקה היא חברת הלבשה שבסיסה בוונקובר. היא נוסדה בשנת 1998 כחברת מכנסי יוגה ולבוש יוגה אחר, והתרחבה למכור גם בגדי ספורט ואביזרי ספורט. לחברה 574 חנויות ברחבי העולם ואתר אינטרנט.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Lululemon",
-      "employees": 13400,
-      "price": 110.09,
-      "change": 4.6284
-    },
-    {
-      "ticker": "MA",
-      "name": "Mastercard",
-      "skipped": false,
-      "website": "https://www.mastercard.us/",
+      "website": "https://www.morganstanley.com/",
       "industry": "Financial Services",
-      "marketCap": "$534.6B",
-      "description": "Mastercard Inc. is an American multinational payment card services corporation headquartered in Purchase, New York. It provides payment transaction processing and other related-payment services, including travel-related payments and bookings. Its principal business globally is to process payments between the banks of merchants and the card-issuing banks or credit unions of purchasers who use its branded debit, credit and prepaid cards to make purchases. Mastercard has been publicly traded since 2006.",
-      "descriptionHE": "MasterCard Incorporated או MasterCard Worldwide הוא תאגיד רב-לאומי אמריקאי לשירותים פיננסיים שמתבסס במדינת ניו יורק. מרכז השירותים הבינלאומיים של התאגיד יושב במדינת אוהיו.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mastercard",
-      "employees": 33400,
-      "price": 636.68,
-      "change": 4.3208
+      "marketCap": "$298.4B",
+      "description": "Morgan Stanley is an American multinational investment bank and financial services company. It is headquartered at 1585 Broadway in Midtown Manhattan, New York City, with offices in 42 countries, including offices in many financial centers worldwide. Morgan Stanley is one of the largest investment banks by revenue. It is ranked 39th on the Fortune 500 and 21st on the Forbes Global 2000. It is considered a systemically important financial institution by the Financial Stability Board.",
+      "descriptionHE": "מורגן סטנלי הוא תאגיד אמריקני הנסחר בבורסה לניירות ערך בניו יורק, ואשר עוסק בתחום בנקאות ההשקעות והשירותים הפיננסיים. החברה, שמטהַ נמצא בעיר ניו יורק, משרתת מגוון של תאגידים, ממשלות, ארגונים פיננסיים ואנשים פרטיים. מורגן סטנלי פועל ב-33 מדינות ברחבי העולם, ויש לו 600 משרדים שבהם מועסקים כ-45,000 עובדים. על פי דיווחי החברה, היא מנהלת נכסים בהיקף של 779 מיליארד דולר.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Morgan_Stanley",
+      "employees": 80006,
+      "price": 182.64,
+      "change": -3.8737
     },
     {
-      "ticker": "MCD",
-      "name": "McDonald's",
+      "ticker": "MOS",
+      "name": "Mosaic Company (The)",
       "skipped": false,
-      "website": "https://www.mcdonalds.com/",
-      "industry": "Hotels, Restaurants & Leisure",
-      "marketCap": "$177.3B",
-      "description": "McDonald's Corporation is an American multinational fast food restaurant chain. Founded in 1940 as a restaurant operated by brothers Richard and Maurice McDonald in San Bernardino, California, the company has grown into one of the world's largest restaurant chains. At the end of 2025, the McDonald's system comprised 45,356 restaurants in more than 100 countries, approximately 95% of which were operated by franchisees.",
-      "descriptionHE": "מקדונלד'ס היא רשת מסעדות מזון מהיר אמריקאית רב-לאומית, מהגדולות בעולם, כולל בישראל. מזוהה במיוחד עם המנה העיקרית שהיא מגישה: המבורגר – כריך לחמנייה עגולה ובה קציצת בשר בקר טחון העשויה בגריל.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/McDonald's",
-      "employees": 200000,
-      "price": 257.23,
-      "change": 2.6866
-    },
-    {
-      "ticker": "MCK",
-      "name": "McKesson Corporation",
-      "skipped": false,
-      "website": "https://www.mckesson.com/",
-      "industry": "Health Care",
-      "marketCap": "$112.0B",
-      "description": "McKesson Corporation is an American publicly traded company that distributes pharmaceuticals and provides health information technology, medical supplies, and health management tools. The company delivers a third of all pharmaceutical products used or consumed in North America and employs over 80,000 employees. With $308.9 billion in 2024 revenue, it is the ninth-largest company by revenue in the United States and the nation's largest health care company. The company is headquartered in Irving, Texas. It is a component of the S&P 500 and is listed on the New York Stock Exchange, where it is traded under the ticker symbol \"MCK\".",
+      "website": "https://www.mosaicco.com/",
+      "industry": "Chemicals",
+      "marketCap": "$5.8B",
+      "description": "The Mosaic Company is an American chemical company based in Tampa, Florida, which mines phosphate and potash and collects urea used for fertilizer, through various international distribution networks and Mosaic Fertilizantes. It is the largest U.S. producer of potash and phosphate fertilizers.",
       "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/McKesson",
-      "employees": 68000,
-      "price": 971.66,
-      "change": 1.1556
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Mosaic_Company",
+      "employees": 8400,
+      "price": 18.3,
+      "change": 0.384
     },
     {
-      "ticker": "MDT",
-      "name": "Medtronic",
+      "ticker": "MSI",
+      "name": "Motorola Solutions",
       "skipped": false,
-      "website": "https://www.medtronic.com/",
-      "industry": "Health Care",
-      "marketCap": "$121.2B",
-      "description": "Medtronic plc is an international medical device company. The company's legal and executive headquarters are in Ireland, while its operational headquarters are in Minneapolis, Minnesota. Medtronic rebased to Ireland following its acquisition of Irish-based Covidien in 2015. While it primarily operates in the United States, it operates in more than 150 countries and employs over 90,000 people. It develops and manufactures healthcare technologies and therapies. It is one of the biggest medical tech companies in the world and is currently the largest medical device company in the world by revenue.",
-      "descriptionHE": "מדטרוניק הוא תאגיד רב-לאומי המתמחה בפיתוח, ייצור ושיווק מכשור רפואי. מטה החברה שוכן בעיר פרידלי, הסמוכה למיניאפוליס שבמינסוטה, אולם מאז שרכשה את חברת קובידיאן (Covidien) בשנת 2014, החברה רשומה לצורכי מס חברות באירלנד.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Medtronic",
-      "employees": 86000,
-      "price": 96.91,
-      "change": 2.2473
-    },
-    {
-      "ticker": "MRK",
-      "name": "Merck & Co.",
-      "skipped": false,
-      "website": "https://www.merck.com/",
-      "industry": "Pharmaceuticals",
-      "marketCap": "$347.7B",
-      "description": "Merck & Co., Inc. is an American multinational pharmaceutical company headquartered in Rahway, New Jersey. The company does business as Merck Sharp & Dohme or MSD outside the United States and Canada. The company is ranked fifth on the list of largest biomedical companies by revenue.",
-      "descriptionHE": "מֶרְק היא אחת מחברות התרופות הגדולות בעולם. מטה חברת מרק נמצא בניו ג'רזי, בארצות הברית. החברה נוסדה בשנת 1891 כחברת בת אמריקאית של החברה הגרמנית הידועה היום בשם Merck KGaA. בשנת 1917, בשלהי מלחמת העולם הראשונה, הוחרמו נכסי החברה בארצות הברית ועל יסודם הוקמה חברה עצמאית. נכון ל-2010, מרק היא אחת משבע חברות התרופות הגדולות בעולם הן במחזור עסקיה והן בשווי שוק.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Merck_%26_Co.",
-      "employees": 70000,
-      "price": 146.03,
-      "change": 3.6188
-    },
-    {
-      "ticker": "META",
-      "name": "Meta Platforms",
-      "skipped": false,
-      "website": "https://www.meta.com/",
-      "industry": "Media",
-      "marketCap": "$1.57T",
-      "description": "Meta Platforms, Inc., headquartered in Menlo Park, California, is an American multinational technology company and is one of the Big Tech companies. Meta owns and operates several prominent social media platforms and communication services, including Facebook, Instagram, WhatsApp, Messenger, and Threads. The company also operates an advertising network for its own sites and third parties; as of 2023, advertising accounted for 97.8% of its total revenue.",
-      "descriptionHE": "מֶטָא בע\"מ היא חברה ציבורית רב-לאומית אמריקאית, המפעילה בין השאר את הרשתות החברתיות פייסבוק, אינסטגרם ו-Threads, את תוכנות המסרים המיידיים וואטסאפ ופייסבוק מסנג'ר, ואת חברת המחשוב הלביש אוקולוס. החברה נוסדה באמצע 2004, כחצי שנה לאחר הקמת אתר האינטרנט שבבעלותה. האתר הוקם על ידי מארק צוקרברג, אדוארדו סברין, דסטין מוסקוביץ', כריס יוז ואנדרו מקולום בהיותם סטודנטים באוניברסיטת הרווארד, ב-4 בפברואר 2004.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Meta_Platforms",
-      "employees": 58604,
-      "price": 627.83,
-      "change": 2.5045
-    },
-    {
-      "ticker": "MCHP",
-      "name": "Microchip Technology",
-      "skipped": false,
-      "website": "https://www.microchip.com/",
-      "industry": "Semiconductors",
-      "marketCap": "$43.2B",
-      "description": "Microchip Technology Incorporated is an American publicly traded semiconductor corporation that manufactures microcontrollers, microprocessors, integrated circuits, and flash memory.",
+      "website": "https://www.motorolasolutions.com",
+      "industry": "Communications",
+      "marketCap": "$81.4B",
+      "description": "Motorola Solutions, Inc., is an American technology company that provides safety and security products and services. Headquartered in Chicago, Illinois, the company provides critical communications, video security, and command center technologies, used by public safety agencies and enterprises. It was formed in 2011 by the division of Motorola, Inc., and is its legal successor; the former company's mobile phone division was spun off as Motorola Mobility, now part of Chinese technology company Lenovo.",
       "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Microchip_Technology",
-      "employees": 19500,
-      "price": 80.2,
-      "change": 0.7158
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Motorola_Solutions",
+      "employees": 18000,
+      "price": 492.18,
+      "change": 0.0203
     },
     {
-      "ticker": "MU",
-      "name": "Micron Technology",
+      "ticker": "NDAQ",
+      "name": "Nasdaq, Inc.",
       "skipped": false,
-      "website": "https://www.micron.com/",
-      "industry": "Semiconductors",
-      "marketCap": "$1.11T",
-      "description": "Micron Technology, Inc. is an American multinational semiconductor company that manufactures computer memory and computer data storage products, including dynamic random-access memory (DRAM), flash memory, High Bandwidth Memory (HBM), and solid-state drives (SSDs). Founded in 1978 in Boise, Idaho, Micron is the only major American computer memory manufacturer. It is one of the \"Big Three\" computer memory manufacturers, along with the South Korean companies Samsung Electronics and SK Hynix.",
-      "descriptionHE": "מייקרון טכנולוג'י, המוכרת בתור מייקרון, היא חברה רב-לאומית אמריקאית מתחום מוליכים למחצה, המייצרת מוצרי זיכרון מחשב ואחסון נתונים במחשב, כולל DRAM, זיכרון הבזק, SSD ו-HBM. החברה הוקמה בשנת 1978 בבויסי, איידהו, והיא יצרנית זיכרונות המחשב האמריקאית הגדולה היחידה. היא אחת מ\"שלוש הגדולות\" של יצרניות זיכרונות המחשב, יחד עם החברות הדרום קוריאניות סמסונג אלקטרוניקה ו-SK Hynix.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Micron_Technology",
-      "employees": 48000,
-      "price": 927.36,
-      "change": -5.6823
+      "website": "https://www.nasdaq.com/",
+      "industry": "Financial Services",
+      "marketCap": "$58.6B",
+      "description": "Nasdaq, Inc. is an American multinational financial services corporation providing data, analytics, software, exchange capabilities, and advisory services to corporate clients, investment managers, banks, brokers, and exchange operators across the global financial system. Nasdaq was founded in 1971 as the world's first electronic stock market, and became publicly traded in 2000. It is headquartered in New York City, and its chair and chief executive officer is Adena Friedman.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nasdaq%2C_Inc.",
+      "employees": 8809,
+      "price": 106.1,
+      "change": 0.4735
     },
     {
-      "ticker": "MSFT",
-      "name": "Microsoft",
+      "ticker": "NTAP",
+      "name": "NetApp",
       "skipped": false,
-      "website": "https://www.microsoft.com/en-in/",
+      "website": "https://www.netapp.com/",
       "industry": "Technology",
-      "marketCap": "$3.94T",
-      "description": "Microsoft Corporation is an American multinational technology conglomerate headquartered in Redmond, Washington. The company became influential in the rise of personal computers through software like Windows and has since expanded into areas such as Internet services, cloud computing, artificial intelligence and video gaming among others. A Big Tech company, Microsoft is the largest software company by revenue, one of the most valuable public companies, and one of the most valuable brands globally.",
-      "descriptionHE": "תאגיד מיקרוסופט היא חברת תוכנה, מחשבים ומוצרי אלקטרוניקה אמריקאית רב-לאומית, שבסיסה ברדמונד, ליד העיר סיאטל שבמדינת וושינגטון, ארצות הברית.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Microsoft",
-      "employees": 228000,
-      "price": 528.78,
-      "change": -0.42
+      "marketCap": "$42.9B",
+      "description": "NetApp, Inc. is an American data infrastructure company that provides unified data storage, integrated data services, and cloud operations (CloudOps) solutions to enterprise customers. The company is based in San Jose, California. It was ranked in the Fortune 500 from 2012 to 2021. Founded in 1992 with an initial public offering in 1995, NetApp offers cloud data services for management of applications and data both online and physically.",
+      "descriptionHE": "נטאפ בע\"מ היא חברת מחשבים אמריקאית המתמחה בניהול אחסון ובמאגרי נתונים. קובצי האחסון של נטאפ מחוברים לרשתות, ומאפשרים לקהל הלקוחות הארגוני לאחסן ולשתף נתונים בין העובדים. משרדיה הראשיים של החברה ממוקמים בסאניווייל, קליפורניה. החברה חברה בנאסד\"ק-100, ודורגה כאחת מ־500 החברות ששוויין הגדול ביותר בפעם הראשונה ב-2012.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/NetApp",
+      "employees": 12000,
+      "price": 196.53,
+      "change": -10.022
     },
     {
-      "ticker": "MRNA",
-      "name": "Moderna",
+      "ticker": "NFLX",
+      "name": "Netflix",
       "skipped": false,
-      "website": "https://www.modernatx.com/",
-      "industry": "Biotechnology",
-      "marketCap": "$85.5B",
-      "description": "Moderna, Inc. is an American pharmaceutical and biotechnology company based in Cambridge, Massachusetts, that focuses on RNA therapeutics, primarily mRNA vaccines. These vaccines use a copy of a molecule called messenger RNA (mRNA) to carry instructions for proteins to produce an immune response. The company's name is derived from the terms \"modified\", \"RNA\", and \"modern\".",
-      "descriptionHE": "מודרנה או מודרנא היא חברת תרופות וביוטכנולוגיה אמריקאית הנמצאת בקיימברידג', מסצ'וסטס. החברה מתמקדת בפיתוח תרופות באמצעות RNA. זוהי טכנולוגיה חדשה שננטשה בעבר על ידי רוב חברות התרופות. מודרנה פיתחה את החיסון נגד קורונה, MRNA-1273, שקיבל בדצמבר 2020 אישור חירום של ה-FDA.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Moderna",
-      "employees": 5800,
-      "price": 217.09,
-      "change": 1.3658
+      "website": "https://www.netflix.com/",
+      "industry": "Media",
+      "marketCap": "$254.8B",
+      "description": "Netflix, Inc. is an American media company founded on August 29, 1997, by Reed Hastings and Marc Randolph in Scotts Valley, California, and currently based in Los Gatos, California, with production offices and stages at the Los Angeles–based Hollywood studios and the Albuquerque Studios. It owns and operates an eponymous over-the-top subscription video on-demand service, which showcases acquired and original programming as well as third-party content licensed from other production companies and distributors. Netflix is also the first streaming media company to be a member of the Motion Picture Association.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Netflix%2C_Inc.",
+      "employees": 11300,
+      "price": 62.05,
+      "change": 0
+    },
+    {
+      "ticker": "NWSA",
+      "name": "News Corp (Class A)",
+      "skipped": false,
+      "website": "https://newscorp.com/",
+      "industry": "Media",
+      "marketCap": "$16.4B",
+      "description": "The original incarnation of News Corporation, was an American multinational mass media corporation founded and controlled by media mogul Rupert Murdoch. Founded on March 15, 1980 as News Corp Limited and formerly incorporated in Adelaide, South Australia, the company was re-incorporated under Delaware General Corporation Law following a successful shareholder vote on November 12, 2004; it had since been headquartered at 1211 Avenue of the Americas in New York City.",
+      "descriptionHE": "ניוז קורפ הייתה חברת תקשורת אמריקאית רב-לאומית. לפני הפיצול שלה, בתחילת שנות ה-2000, הייתה החברה קבוצת התקשורת השנייה בגודלה בעולם מבחינת הכנסות, ובעלת מעמד דומיננטי בתעשיית החדשות, הטלוויזיה, הקולנוע וההוצאה לאור. בעלי השליטה בחברה הם רופרט מרדוק ובני משפחתו.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/News_Corporation",
+      "employees": 51000,
+      "price": 29.24,
+      "change": -0.7131
+    },
+    {
+      "ticker": "NWS",
+      "name": "News Corp (Class B)",
+      "skipped": false,
+      "website": "https://newscorp.com/",
+      "industry": "Media",
+      "marketCap": "$16.4B",
+      "description": "The original incarnation of News Corporation, was an American multinational mass media corporation founded and controlled by media mogul Rupert Murdoch. Founded on March 15, 1980 as News Corp Limited and formerly incorporated in Adelaide, South Australia, the company was re-incorporated under Delaware General Corporation Law following a successful shareholder vote on November 12, 2004; it had since been headquartered at 1211 Avenue of the Americas in New York City.",
+      "descriptionHE": "ניוז קורפ הייתה חברת תקשורת אמריקאית רב-לאומית. לפני הפיצול שלה, בתחילת שנות ה-2000, הייתה החברה קבוצת התקשורת השנייה בגודלה בעולם מבחינת הכנסות, ובעלת מעמד דומיננטי בתעשיית החדשות, הטלוויזיה, הקולנוע וההוצאה לאור. בעלי השליטה בחברה הם רופרט מרדוק ובני משפחתו.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/News_Corporation",
+      "employees": 51000,
+      "price": 31.9,
+      "change": -0.8701
+    },
+    {
+      "ticker": "NKE",
+      "name": "Nike, Inc.",
+      "skipped": false,
+      "website": "https://about.nike.com/",
+      "industry": "Textiles, Apparel & Luxury Goods",
+      "marketCap": "$57.1B",
+      "description": "Nike, Inc. is an American athletic footwear and apparel corporation headquartered near Beaverton, Oregon. It is the world's largest supplier of athletic shoes and apparel and a major manufacturer of sports equipment, with revenue in excess of US$46 billion in its fiscal year 2022.",
+      "descriptionHE": "נייקי הוא תאגיד רב-לאומי אמריקאי העוסק בייצור נעלי ספורט, ביגוד וציוד ספורט.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nike%2C_Inc.",
+      "employees": 76700,
+      "price": 38.77,
+      "change": 0.911
+    },
+    {
+      "ticker": "NTRS",
+      "name": "Northern Trust",
+      "skipped": false,
+      "website": "https://www.northerntrust.com/",
+      "industry": "Financial Services",
+      "marketCap": "$31.6B",
+      "description": "Northern Trust Corporation is an American financial services company headquartered in Chicago, Illinois, that caters to corporations, institutional investors, and ultra-high-net-worth individuals. Northern Trust is one of the largest banking institutions in the United States and one of the oldest banks in continuous operation. As of December 31, 2025, it had $1.8 trillion in assets under management and $14.9 trillion in assets under custody. Northern Trust Corporation is incorporated in Delaware.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Northern_Trust",
+      "employees": 20900,
+      "price": 168.12,
+      "change": -2.7759
+    },
+    {
+      "ticker": "NOC",
+      "name": "Northrop Grumman",
+      "skipped": false,
+      "website": "https://www.northropgrumman.com",
+      "industry": "Aerospace & Defense",
+      "marketCap": "$79.9B",
+      "description": "Northrop Grumman Corporation is an American aerospace and defense company that designs and manufactures systems for aeronautics, defense, missions, and space. Headquartered in West Falls Church, Virginia, the company is the fifth-largest contractor of the U.S. federal government; it receives over 2% of all federal government spending on contractors.",
+      "descriptionHE": "נוֹרְתְ'רוֹפּ גְּרָאמֶן הוא קונצרן ספנות, תעופה, חלל וביטחון, תוצאה של רכישת גראמן על ידי נורת'רופ. החברה, הממוקמת במטרופולין וושינגטון די. סי. שבווירג'יניה, ארצות הברית, היא יצרנית מערכות־ביטחוניות השלישית בגודלה בעולם, יצרנית מערכות המכ\"ם הגדולה ביותר, והיצרנית המובילה בעולם של כלי שיט. נכון לשנת 2017, העסיקה למעלה מ-67,000 עובדים בכמה מאות אתרים בארצות הברית ומחוצה לה. נכון לשנת 2010, \"נורת'רופ גראמן\" מדורגת במקום ה-61 ברשימת פורצ'ן 500 של חברות תעשייתיות אמריקניות.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Northrop_Grumman",
+      "employees": 65600,
+      "price": 558.95,
+      "change": -0.6064
+    },
+    {
+      "ticker": "NRG",
+      "name": "NRG Energy",
+      "skipped": false,
+      "website": "https://www.nrg.com/",
+      "industry": "Utilities",
+      "marketCap": "$20.5B",
+      "description": "NRG Energy, Inc. is an American energy company, headquartered in Houston, Texas. It was formerly the wholesale arm of Northern States Power Company (NSP), which became Xcel Energy, but became independent in 2000. NRG Energy is involved in energy generation and retail electricity. Their portfolio includes natural gas generation, coal generation, oil generation, nuclear generation, wind generation, utility-scale generation, and distributed solar generation. NRG serves over 7 million retail customers in 24 US states including Texas, Connecticut, Delaware, Illinois, Maryland, Massachusetts, New Jersey, New York, Pennsylvania, Ohio; the District of Columbia, and eight provinces in Canada.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/NRG_Energy",
+      "employees": 9806,
+      "price": 94.57,
+      "change": -3.0449
+    },
+    {
+      "ticker": "NUE",
+      "name": "Nucor",
+      "skipped": false,
+      "website": "https://nucor.com/",
+      "industry": "Metals & Mining",
+      "marketCap": "$62.5B",
+      "description": "Nucor Corporation is an American company based in Charlotte, North Carolina, that produces steel and related products. It is the largest steel producer in the United States and the largest recycler of scrap in North America. Nucor is the 16th-largest steel producer in the world. Along with Commercial Metals Company, it is one of two primary suppliers of rebar used to reinforce concrete in buildings, bridges, roads, and infrastructure in the U.S.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nucor",
+      "employees": 31400,
+      "price": 269.68,
+      "change": -2.0379
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "skipped": false,
+      "website": "https://www.nvidia.com",
+      "industry": "Semiconductors",
+      "marketCap": "$5.15T",
+      "description": "Nvidia Corporation is an American multinational technology company headquartered in Santa Clara, California. The company develops graphics processing units (GPUs), systems on chips (SoCs), and application programming interfaces (APIs) for data science, high-performance computing, artificial intelligence (AI), and mobile and automotive applications. Founded in 1993 by Jensen Huang, Chris Malachowsky, and Curtis Priem, Nvidia has been described as a Big Tech company and is among the largest companies by market capitalization.",
+      "descriptionHE": "אנבידיה היא חברה אמריקאית, ספקית גדולה של מיקרו-שבבים המשמשים לערכות שבבים של מחשבים אישיים, יחידות עיבוד גרפיות (GPU), כרטיסי מסך, חישובי בינה מלאכותית, התקני מדיה ותקשורת וקונסולות משחקים. החברה מוכרת בזכות סדרות כרטיסי המסך למחשב GeForce ו-Quadro, סדרת ערכות השבבים nForce, וסדרת השבבים טגרה לסמארטפונים ולטאבלטים. המטה הראשי של החברה נמצא בסנטה קלרה שבקליפורניה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nvidia",
+      "employees": 42000,
+      "price": 201.89,
+      "change": -5.5088
+    },
+    {
+      "ticker": "ODFL",
+      "name": "Old Dominion",
+      "skipped": false,
+      "website": "https://www.odfl.com/",
+      "industry": "Road & Rail",
+      "marketCap": "$35.7B",
+      "description": "Old Dominion Freight Line, Inc. (ODFL) is an American regional, inter-regional and national less than truckload shipping (LTL) company. In addition to its core LTL services, the company offers expedited, logistics and household moving services.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Old_Dominion_Freight_Line",
+      "employees": 21279,
+      "price": 172.78,
+      "change": 0.2495
     }
   ]
 }
