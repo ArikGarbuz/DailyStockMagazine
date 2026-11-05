@@ -1,0 +1,125 @@
+{
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T20:44:45.864Z",
+  "model": "gemini-flash-lite-latest",
+  "tickersAttempted": 15,
+  "succeeded": 3,
+  "failed": 12,
+  "totalTokens": 2544,
+  "results": [
+    {
+      "ticker": "CIFR",
+      "status": "error",
+      "error": "Gemini HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+    },
+    {
+      "ticker": "CLSK",
+      "status": "ok",
+      "recommendation": "AVOID",
+      "riskLevel": "HIGH",
+      "entryZone": "n/a",
+      "targetPrice": "n/a",
+      "stopLoss": "n/a",
+      "fundamental": "Fundamental data is not available from the provider, limiting visibility into the company's financial health and valuation metrics.",
+      "fundamentalHE": "נתונים פונדמנטליים אינם זמינים מספק הנתונים, מה שמגביל את הנראות לגבי הבריאות הפיננסית ומדדי ההערכה של החברה.",
+      "technical": "The stock is under heavy downward pressure, plunging 16.32% today to break below its previous 52-week low range amid softening volume.",
+      "technicalHE": "המניה נמצאת תחת לחץ שלילי כבד, וצנחה ב-16.32% היום כדי לרדת מתחת לטווח שפל 52 השבועות הקודם שלה על רקע נפח מסחר נחלש.",
+      "risk": "High volatility in the Bitcoin mining sector combined with severe downward price momentum and lack of fundamental data present substantial capital loss risks.",
+      "riskHE": "תנודתיות גבוהה בסקטור כריית הביטקוין בשילוב עם מומנטום מחיר שלילי חמור והיעדר נתונים פונדמנטליים מהווים סיכונים מהותיים להפסד הון.",
+      "rationale": "Severe technical breakdown and lack of fundamental transparency make this an unfavorable risk-reward setup.",
+      "rationaleHE": "פריצה טכנית חמורה והיعדר שקיפות פונדמנטלי הופכים את ההשקעה הזו לבעלת יחס סיכון-סיכוי לא חיובי.",
+      "tokens": 785
+    },
+    {
+      "ticker": "LCID",
+      "status": "error",
+      "error": "Gemini response was not valid JSON: {\n  \"recommendation\": \"AV"
+    },
+    {
+      "ticker": "RIOT",
+      "status": "ok",
+      "recommendation": "AVOID",
+      "riskLevel": "HIGH",
+      "entryZone": "n/a",
+      "targetPrice": "n/a",
+      "stopLoss": "n/a",
+      "fundamental": "Fundamental data is not available from the provider, preventing traditional financial health and valuation analysis. However, recent momentum has been driven by a Q3 earnings beat and a major AI data center lease.",
+      "fundamentalHE": "נתונים פונדמנטליים אינם זמינים מספק הנתונים, מה שמונע ניתוח בריאות פיננסית והערכת שווי מסורתית. עם זאת, המומנטום האחרון נתמך בעקיפת תחזיות רווח ברבעון השלישי ובחוזה מרכזי למרכז נתונים בינה מלאכותית.",
+      "technical": "The stock is trading at $15.72 with a strong single-day gain of 12.13% and a 10-day average volume of 21.9M exceeding the 3-month average of 18.7M. The 52-week range spans widely from $11.50 to $30.32.",
+      "technicalHE": "המניה נסחרת ברמת 15.72 דולר עם זינוק יומי חזק של 12.13% ונפח מסחר ממוצע של 19.2 מיליון ב-10 הימים האחרונים לעומת 18.7 מיליון בממוצע ל-3 חודשים. טווח 52 השבועות רחב ונע בין 11.50 ל-30.32 דולר.",
+      "risk": "Trading near the lower half of its 52-week range while lacking underlying fundamental metrics introduces high downside volatility and uncertainty. Chasing a single-day 12% surge without valuation support is highly speculative.",
+      "riskHE": "המסחר בחצי התחתון של טווח 52 השבועות וללא מדדים פונדמנטליים תומכים יוצר תנודתיות גבוהה כלפי מטה ואי-ודאות. מרדף אחרי עלייה יומית של 12% ללא תמיכת שווי מהווה סיכון ספקולטיבי גבוה.",
+      "rationale": "Given the lack of fundamental data and high volatility following a sharp one-day spike, the risk/reward profile is unfavorable for new capital deployment.",
+      "rationaleHE": "לאור היעדר נתונים פונדמנטליים ותנודתיות גבוהה בעקבות זינוק חד ביום אחד, יחס סיכון/סיכוי אינו נוח להקצאת הון חדשה.",
+      "tokens": 946
+    },
+    {
+      "ticker": "IREN",
+      "status": "error",
+      "error": "Gemini response was not valid JSON: {\n  \"recommendation\": \"AVOID\",\n  \"riskLevel\": \"HIGH\",\n  \"entryZone\": \"n/a\",\n  \"targetPrice\": \"n/a\",\n  \"stopLoss\": \"n/a\",\n  \"fundamental\": \"Fundamental financial metrics are not available from the data"
+    },
+    {
+      "ticker": "FCEL",
+      "status": "ok",
+      "recommendation": "AVOID",
+      "riskLevel": "HIGH",
+      "entryZone": "n/a",
+      "targetPrice": "n/a",
+      "stopLoss": "n/a",
+      "fundamental": "Fundamental financial metrics are not available from the data provider, making valuation assessment impossible.",
+      "fundamentalHE": "נתונים פיננסיים בסיסיים אינם זמינים מספק הנתונים, מה שמקשה על הערכת השווי.",
+      "technical": "The stock trades near $10.50, down 6.33% today within a wide 52-week range of $5.71 to $37.88, alongside declining volume compared to its 3-month average.",
+      "technicalHE": "המניה נסחרת סביב 10.50 דולר, ירידה של 6.33% היום בתוך טווח רחב של 52 שבועות בין 5.71 ל-37.88 דולר, לצד ירידה במחזורי המסחר בהשוואה לממוצע 3 חודשים.",
+      "risk": "High volatility, lack of fundamental visibility, and dependence on sector sentiment rather than proprietary catalysts present severe downside risks.",
+      "riskHE": "תנודתיות גבוהה, היעדר נראות פונדמנטלית ותלות בסנטימנט הסקטוריאלי במקום בזרזים פנימיים יוצרים סיכונים משמעותיים כלפי מטה.",
+      "rationale": "Without fundamental data to support valuation and given deteriorating volume trends, the risk/reward profile remains highly unfavorable.",
+      "rationaleHE": "ללא נתונים פונדמנטליים התומכים בשווי ובהינתן מגמת מחזורי מסחר יורדת, פרופיל הסיכון/סיכוי נותר בלתי אטרקטיבי בעליל.",
+      "tokens": 813
+    },
+    {
+      "ticker": "WULF",
+      "status": "error",
+      "error": "Gemini response was not valid JSON: {\n  \"recommendation\": \"AVOID\",\n  \"riskLevel\": \"HIGH\",\n  \"entryZone\": \"n/a\",\n  \"targetPrice\": \"n/a\",\n  \"stopLoss\": \"n/a\",\n  \"fundamental\": \"Fundamental financial metrics are not available from the data"
+    },
+    {
+      "ticker": "JOBY",
+      "status": "error",
+      "error": "Gemini HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+    },
+    {
+      "ticker": "RIVN",
+      "status": "error",
+      "error": "Gemini HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+    },
+    {
+      "ticker": "MARA",
+      "status": "error",
+      "error": "Gemini response was not valid JSON: {\n  \"recommendation\": \"AVOID\",\n  \"riskLevel\": \"HIGH\",\n  \"entryZone\": \"n/a\",\n  \"targetPrice\": \"n/a\",\n  \"stopLoss\": \"n/a\",\n  \"fundamental\": \"Fundamental data is not available from the provider, limiting"
+    },
+    {
+      "ticker": "SOFI",
+      "status": "error",
+      "error": "Gemini response was not valid JSON: {\n  \"recommendation\": \"AVOID\",\n  \"riskLevel\": \"HIGH\",\n  \"entryZone\": \"n/a\",\n  \"targetPrice\": \"n/a\",\n  \"stopLoss\": \"n/a\",\n  \"fundamental\": \"Fundamental financial metrics are not available from the data"
+    },
+    {
+      "ticker": "POET",
+      "status": "error",
+      "error": "Gemini HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+    },
+    {
+      "ticker": "PLUG",
+      "status": "error",
+      "error": "Gemini response was not valid JSON: {\n  \"recommendation\": \"AVOID\",\n  \"riskLevel\": \"HIGH\",\n  \"entryZone\": \"n/a\",\n  \"targetPrice\": \"n/a\",\n  \"stopLoss\": \"n/a\",\n  "
+    },
+    {
+      "ticker": "NOK",
+      "status": "error",
+      "error": "Gemini response was not valid JSON: {\n\"recommendation\": \"AVOID\",\n\"riskLevel\": \"HIGH\",\n\"entryZone\": \"n/a\",\n\"targetPrice\": \"n/a\",\n\"stopLoss\": \"n/a\",\n\"fundamental\": \"Fundamental data is currently unavailable from the data provider, making "
+    },
+    {
+      "ticker": "NIO",
+      "status": "error",
+      "error": "Gemini response was not valid JSON: {\n  \"recommendation\": \"AVOID\",\n  \"riskLevel\": \"HIGH\",\n  \"entryZone\": \"n/a\",\n  \"targetPrice\": \"n/a\",\n  \"stopLoss\": \"n/a\",\n  \"fundamental\": \"Fundamental data is currently unavailable from the data provi"
+    }
+  ]
+}
