@@ -1,321 +1,315 @@
 {
-  "date": "2026-11-05",
-  "generatedAt": "2026-11-05T20:45:28.643Z",
-  "windowStart": 40,
+  "date": "2026-11-06",
+  "generatedAt": "2026-11-06T20:02:06.713Z",
+  "windowStart": 80,
   "windowSize": 40,
-  "cyclePosition": 1,
+  "cyclePosition": 2,
   "totalWindows": 13,
   "requested": 15,
-  "picked": 15,
-  "skippedCount": 24,
+  "picked": 14,
+  "skippedCount": 26,
   "skipped": [
     {
-      "ticker": "APP",
+      "ticker": "CHRW",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "APTV",
+      "ticker": "CDNS",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "ACGL",
+      "ticker": "CPT",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "ARES",
+      "ticker": "CPB",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "ANET",
+      "ticker": "COF",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "AJG",
+      "ticker": "CAH",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "AIZ",
+      "ticker": "CCL",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "ATO",
+      "ticker": "CARR",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "ADSK",
+      "ticker": "CASY",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "ADP",
+      "ticker": "CBOE",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "AZO",
+      "ticker": "CBRE",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "AVB",
+      "ticker": "CDW",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "AXON",
+      "ticker": "CNC",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "BDX",
+      "ticker": "CNP",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "BBY",
+      "ticker": "CF",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "TECH",
+      "ticker": "CRL",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "BIIB",
+      "ticker": "CHTR",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "XYZ",
+      "ticker": "CB",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "BNY",
+      "ticker": "CHD",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "BKNG",
+      "ticker": "CIEN",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "BR",
+      "ticker": "CINF",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "BRO",
+      "ticker": "CTAS",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "BF-B",
+      "ticker": "CLX",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "BLDR",
+      "ticker": "CMS",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "COHR",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "CL",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     }
   ],
   "picks": [
     {
-      "ticker": "ADM",
-      "name": "Archer Daniels Midland",
+      "ticker": "CVNA",
+      "name": "Carvana",
       "skipped": false,
-      "website": "https://www.adm.com/",
-      "industry": "Food Products",
-      "marketCap": "$33.7B",
-      "description": "The Archer-Daniels-Midland Company, commonly known as ADM, is an American multinational food processing and commodities trading corporation founded in 1902 and headquartered in Chicago, Illinois.",
+      "website": "https://www.carvana.com/",
+      "industry": "Retail",
+      "marketCap": "$79.5B",
+      "description": "Carvana Co. is an American online car retailer based in Tempe, Arizona. Carvana was named to the 2021 Fortune 500 list, one of the youngest companies to be added to the list.",
       "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Archer_Daniels_Midland",
-      "employees": 31600,
-      "price": 70.31,
-      "change": -0.7482
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Carvana",
+      "employees": 21000,
+      "price": 73.45,
+      "change": 1.9007
     },
     {
-      "ticker": "T",
-      "name": "AT&T",
+      "ticker": "CAT",
+      "name": "Caterpillar Inc.",
       "skipped": false,
-      "website": "https://www.att.com/",
-      "industry": "Telecommunication",
-      "marketCap": "$147.1B",
-      "description": "AT&T Inc., an abbreviation of its predecessor's original name, the American Telephone and Telegraph Company, is an American multinational telecommunications holding company headquartered at the Whitacre Tower in Downtown Dallas, Texas. AT&T is the world's third-largest telecommunications company by revenue, the third-largest wireless carrier in the United States behind T-Mobile and Verizon, and the nation's largest fiber internet provider. On the New York Stock Exchange, AT&T trades under the ticker symbol \"T\", and has a market capitalization of $186.83 billion. On the Fortune 500 (2025) AT&T ranked 37th among the largest American businesses and reported revenues of $125.6 billion last year.",
-      "descriptionHE": "AT&T הוא תאגיד תקשורת בין-לאומי אמריקאי שבסיסו בדאלאס, טקסס. זו אחת מחברות התקשורת הגדולות בעולם וספקית שרותי הטלפוניה וטלפון סלולריים מהגדולות בארצות הברית. ביוני 2018 החברה הפכה לבעלים של חברת WarnerMedia ובכך הפכה לחברת הבידור והמדיה הגדולה בעולם ודורגה כאחת מ-500 החברות הגדולות בארצות הברית.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/AT%26T",
-      "employees": 202600,
-      "price": 21.69,
-      "change": -0.6413
+      "website": "https://www.caterpillar.com",
+      "industry": "Machinery",
+      "marketCap": "$254.5B",
+      "description": "Caterpillar Inc. is an American manufacturer of construction, mining, and other engineering equipment. The company is the world's largest manufacturer of construction equipment.\nIn 2025, Caterpillar was ranked 64th on the Fortune 500 and 118th on the Forbes Global 2000. Caterpillar stock is a component of the Dow Jones Industrial Average.",
+      "descriptionHE": "חברת קטרפילר היא חברה אמריקאית העוסקת בייצור מנועים וציוד מכני הנדסי (צמ״ה). מטה החברה נמצא באירווינג שבטקסס, ארצות הברית. מניות החברה נסחרות בבורסת ניו יורק ומסומנת באותיות CAT, שם שהפך לכינוי הלא-רשמי של החברה. בתרגום מילולי לעברית הוא \"זחל\", על שום מערכת המזקו\"ם המורכבת בדחפורים שתנועתה דומה לתנועת הזחל.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Caterpillar_Inc.",
+      "employees": 104000,
+      "price": 559,
+      "change": 0.9681
     },
     {
-      "ticker": "AVY",
-      "name": "Avery Dennison",
+      "ticker": "COR",
+      "name": "Cencora",
       "skipped": false,
-      "website": "https://www.averydennison.com/en/home.html",
-      "industry": "Packaging",
-      "marketCap": "$14.6B",
-      "description": "Avery Dennison Corporation is an American multinational manufacturer and distributor of pressure-sensitive adhesive materials, apparel branding labels and tags, RFID inlays, and specialty medical products. The company is a member of the Fortune 500 and is headquartered in Mentor, Ohio.",
+      "website": "https://www.cencora.com/",
+      "industry": "Health Care",
+      "marketCap": "$64.8B",
+      "description": "Cencora, Inc., formerly known as AmerisourceBergen, is an American drug wholesale and distribution company and a contract research organization, that was formed by the merger of Bergen Brunswig and AmeriSource in 2001. It was renamed to Cencora in 2023. Cencora is one of the largest pharmaceutical companies in the world and distributes generic pharmaceuticals, over-the-counter healthcare products, as well as home healthcare supplies and equipment. The company is headquartered in Conshohocken, Pennsylvania, part of the Philadelphia metropolitan area.",
       "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Avery_Dennison",
-      "employees": 36000,
-      "price": 188.92,
-      "change": -1.9056
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Cencora",
+      "employees": 44000,
+      "price": 337.79,
+      "change": -0.5564
     },
     {
-      "ticker": "BKR",
-      "name": "Baker Hughes",
+      "ticker": "SCHW",
+      "name": "Charles Schwab Corporation",
       "skipped": false,
-      "website": "https://www.bakerhughes.com/",
+      "website": "https://www.schwab.com/",
+      "industry": "Financial Services",
+      "marketCap": "$160.1B",
+      "description": "The Charles Schwab Corporation is an American multinational financial services company. It offers banking, commercial banking, investing, and related services including consulting, and wealth management advisory services to both retail and institutional clients. One of the largest banks in the United States by assets, as of December 31, 2024, it had $10.10 trillion in client assets, 36.5 million active brokerage accounts, 5.4 million workplace retirement plan participant accounts, and 2.0 million banking accounts. It also offers a donor advised fund for clients seeking to donate securities. It was founded in San Francisco, California, and is headquartered in Westlake, Texas. It has over 380 branches, primarily in financial centers in the United States and the United Kingdom.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Charles_Schwab_Corporation",
+      "employees": 12400,
+      "price": 91.69,
+      "change": -0.9613
+    },
+    {
+      "ticker": "CVX",
+      "name": "Chevron Corporation",
+      "skipped": false,
+      "website": "https://www.chevron.com/",
       "industry": "Energy",
-      "marketCap": "$48.1B",
-      "description": "Baker Hughes Company is an American global energy technology company co-headquartered in Houston, Texas and London, UK. As one of the world's largest oil field services, industrial and energy technology companies, it provides products and services to the oil and gas industry for exploration and production, as well as other energy and industrial applications. It operates in over 120 countries, with facilities in Australia, Brazil, Singapore, Malaysia, India, UAE, Saudi Arabia, Italy, Germany, Norway, the United Kingdom, Namibia, Nigeria and the United States.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Baker_Hughes",
-      "employees": 59400,
-      "price": 46.47,
-      "change": -6.8177
+      "marketCap": "$415.4B",
+      "description": "Chevron Corporation is an American multinational energy corporation predominantly specializing in oil and gas. The second-largest direct descendant of Standard Oil, and originally known as the Standard Oil Company of California, it is active in more than 180 countries.",
+      "descriptionHE": "תאגיד שברון הוא תאגיד רב-לאומי אמריקאי, העוסק באנרגיה, הפעיל ביותר מ-180 מדינות. התאגיד נקרא בעבר \"סטנדרד אויל של קליפורניה\", מטה החברה ממוקם בעיר סן רמון שבקליפורניה. שברון מעורב בכל תעשיית אנרגיית הגז, נפט והגיאותרמית. כולל חיפוש נפט, הפקה וזיקוק, שיווק והפצה, ייצור ומכירת כימיקלים וייצור חשמל. שברון היא אחת מהחברות הגדולות בעולם, וממוקמת במקום שלישי בדירוג החברות של כתב העת Fortune לשנת 2014.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevron_Corporation",
+      "employees": 48600,
+      "price": 213.38,
+      "change": 0.2113
     },
     {
-      "ticker": "BALL",
-      "name": "Ball Corporation",
+      "ticker": "CMG",
+      "name": "Chipotle Mexican Grill",
       "skipped": false,
-      "website": "https://www.ball.com/",
-      "industry": "Packaging",
-      "marketCap": "$17.8B",
-      "description": "Ball Corporation is an American aluminum manufacturing company headquartered in Westminster, Colorado, United States. It is best known for its early production of glass jars, lids, and related products used for home canning. Since its founding in Buffalo, New York, in 1880, when it was known as the Wooden Jacket Can Company, the Ball company has expanded and diversified into other business ventures, including aerospace technology. It eventually became the world's largest manufacturer of recyclable aluminum packaging for a variety of beverage, home and personal care applications.",
+      "website": "https://www.chipotle.com/",
+      "industry": "Hotels, Restaurants & Leisure",
+      "marketCap": "$44.8B",
+      "description": "Chipotle Mexican Grill, Inc., also known simply as Chipotle, is an American multinational chain of fast casual restaurants specializing in bowls, tacos, and Mission burritos made to order in front of the customer. As of December 2025, Chipotle has 4,000 locations. Its name derives from chipotle, the Nahuatl name for a smoked and dried jalapeño chili pepper.",
       "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ball_Corporation",
-      "employees": 15500,
-      "price": 66.79,
-      "change": -0.8756
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Chipotle_Mexican_Grill",
+      "employees": 45200,
+      "price": 34.48,
+      "change": -2.5989
     },
     {
-      "ticker": "BAC",
-      "name": "Bank of America",
+      "ticker": "CI",
+      "name": "Cigna",
       "skipped": false,
-      "website": "https://www.bankofamerica.com",
+      "website": "https://www.thecignagroup.com/",
+      "industry": "Health Care",
+      "marketCap": "$79.7B",
+      "description": "The Cigna Group is an American multinational for-profit managed healthcare and insurance company based in Bloomfield, Connecticut. Cigna's insurance subsidiaries are major providers of medical, dental, disability, life and accident insurance and related products and services, the majority of which are offered through employers and other groups.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Cigna_Group",
+      "employees": 73800,
+      "price": 294.84,
+      "change": -2.2025
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "skipped": false,
+      "website": "https://www.cisco.com/",
+      "industry": "Communications",
+      "marketCap": "$376.8B",
+      "description": "Cisco Systems, Inc., doing business as Cisco, is an American multinational technology conglomerate corporation that develops, manufactures, and sells hardware, software, telecommunications equipment, and other high-technology services and products focused on networking, cybersecurity and AI. Cisco specializes in specific tech markets, such as the Internet of things (IoT), domain security, videoconferencing, and energy management, including products such as Webex, OpenDNS, Jabber, and Jasper. The company is headquartered in San Jose, California, and, as of June 29, 2026, has a market capitalization of $461 billion.",
+      "descriptionHE": "סיסקו מערכות היא חברה אמריקאית רב-לאומית, המתמחה בטכנולוגיית המידע.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Cisco",
+      "employees": 86200,
+      "price": 94.39,
+      "change": -1.3895
+    },
+    {
+      "ticker": "C",
+      "name": "Citigroup",
+      "skipped": false,
+      "website": "http://www.citigroup.com/",
       "industry": "Banking",
-      "marketCap": "$356.3B",
-      "description": "The Bank of America Corporation is an American multinational bank and financial services holding company headquartered at the Bank of America Corporate Center in Charlotte, North Carolina, with investment banking and auxiliary headquarters in Manhattan. The bank was formed by the merger of NationsBank and the legacy corporation of Bank of America in 1998. It is the second-largest banking institution in the United States by consolidated assets, after JPMorgan Chase. It is also the second-largest bank in the world by market capitalization, after JPMorgan Chase.",
-      "descriptionHE": "בנק אוף אמריקה, תאגיד בנקאות ושירותים פיננסיים אמריקאי רב-לאומי, הוא אחת מחברות ההחזקות הבנקאיות הגדולות ביותר בארצות הברית מבחינת היקף נכסים, והבנק השני בגודלו בארצות הברית לפי שווי שוק. החברה המבוססת בשארלוט, בקרוליינה הצפונית; משרתת לקוחות ביותר מ-150 מדינות ומקושרת ל-99% מהחברות האמריקאיות המופיעות במדד Fortune 500 ול-83% מהחברות במדד פורצ'ן גלובל 500. החברה שותפה בתאגיד הפדרלי לביטוח פיקדונות (FDIC) והיא מהווה מרכיב של מדד ה-S&P 500 ושל מדד הדאו ג'ונס. החל משנת 2010, החברה היא החמישית בגודלה בארצות הברית מבחינת פדיון כולל, והשנייה בגודלה מבחינה זאת ללא הכללה של חברות הנפט. הרכישה של מריל לינץ', שביצע הבנק בשנת 2008, הפכה את בנק אוף אמריקה למנהל ההון הגדול ביותר בעולם, ולשחקן מרכזי בתעשיית בנקאות ההשקעות.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bank_of_America",
-      "employees": 213000,
-      "price": 50.16,
-      "change": -2.8472
+      "marketCap": "$198.7B",
+      "description": "Citigroup Inc. or Citi is an American multinational investment bank and financial services company based in New York City. The company was formed in 1998 by the merger of Citicorp, the bank holding company for Citibank, and Travelers; Travelers was spun off from the company in 2002.",
+      "descriptionHE": "סיטיגרופ היא חברה אמריקאית לשירותים פיננסיים וקבוצת בנקאות שבסיסה בניו יורק.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Citigroup",
+      "employees": 219000,
+      "price": 120.14,
+      "change": 1.4268
     },
     {
-      "ticker": "BAX",
-      "name": "Baxter International",
+      "ticker": "CFG",
+      "name": "Citizens Financial Group",
       "skipped": false,
-      "website": "https://www.baxter.com/",
-      "industry": "Health Care",
-      "marketCap": "$13.7B",
-      "description": "Baxter International Inc. is an American multinational healthcare company with headquarters in Deerfield, Illinois.",
+      "website": "https://www.citizensbank.com/",
+      "industry": "Banking",
+      "marketCap": "$26.8B",
+      "description": "Citizens Financial Group, Inc. is an American bank holding company, headquartered in Providence, Rhode Island. The company owns the bank Citizens Bank, N.A., which operates in the U.S. states of Connecticut, Delaware, Florida, Maryland, Massachusetts, Michigan, New Hampshire, New Jersey, New York, Ohio, Pennsylvania, Rhode Island, Vermont, and Virginia, as well as Washington, DC.",
       "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Baxter_International",
-      "employees": 61500,
-      "price": 25.36,
-      "change": -4.3019
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Citizens_Financial_Group",
+      "employees": 17398,
+      "price": 63.69,
+      "change": -0.2193
     },
     {
-      "ticker": "BRK-B",
-      "name": "Berkshire Hathaway",
+      "ticker": "CME",
+      "name": "CME Group",
       "skipped": false,
-      "website": "https://www.berkshirehathaway.com/",
+      "website": "https://www.cmegroup.com/",
       "industry": "Financial Services",
-      "marketCap": "$1.24T",
-      "description": "Berkshire Hathaway Inc. is an American multinational conglomerate holding company headquartered in Omaha, Nebraska. Originally a textile manufacturer, the company transitioned into a conglomerate starting in 1965 under the management of chairman and CEO Warren Buffett and vice chairman Charlie Munger. Greg Abel succeeded Buffett as CEO at the beginning of 2026. Buffett personally owns 38.4% of the Class A voting shares of Berkshire Hathaway, representing a 15.1% overall economic interest in the company.",
-      "descriptionHE": "ברקשייר האת'וויי בע\"מ הוא קונצרן אמריקאי-רב לאומי בבעלות המיליארדר וורן באפט, שמשרדיה ממוקמים באומהה, נברסקה, ארצות הברית. לקונצרן כ-80 חברות בנות בתחומי הביטוח השונים, ובכלל זה בעסקי ביטוח משנה. לחברה החזקות גדולות גם בענפי הקמעונאות, ריהוט לבית, ממתקים, שואבי אבק, תכשיטים, הוצאה לאור של עיתונים, והנעלה.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Berkshire_Hathaway",
-      "employees": 360000,
-      "price": 573.52,
-      "change": -0.9619
-    },
-    {
-      "ticker": "BLK",
-      "name": "BlackRock",
-      "skipped": false,
-      "website": "https://www.blackrock.com/",
-      "industry": "Financial Services",
-      "marketCap": "$198.9B",
-      "description": "BlackRock, Inc. is an American multinational investment company. Founded in 1988, initially as an enterprise risk management and fixed income institutional asset manager, BlackRock is the largest asset manager worldwide, with $15.3 trillion in assets under management as of 2026. Headquartered in New York City, BlackRock has 70 offices in 30 countries and clients in 100 countries.",
-      "descriptionHE": "בלאקרוק בע\"מ הוא בית השקעות אמריקאי רב-לאומי, שמטהו נמצא בעיר ניו יורק, ומנהל הנכסים הגדול בעולם. נכון לסוף דצמבר 2023, מנהלת בלאקרוק נכסים בשווי של כ-11.5 טריליון דולר. בלאקרוק מפעילה 70 משרדים ב-30 מדינות, ויש לה לקוחות ב-100 מדינות.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/BlackRock",
-      "employees": 19800,
-      "price": 1173.08,
-      "change": -4.1891
-    },
-    {
-      "ticker": "BX",
-      "name": "Blackstone Inc.",
-      "skipped": false,
-      "website": "https://www.blackstone.com",
-      "industry": "Financial Services",
-      "marketCap": "$156.1B",
-      "description": "Blackstone Inc. is an American alternative investment management company based in New York City. It was founded in 1985 as a mergers and acquisitions firm by Peter Peterson and Stephen Schwarzman, who had previously worked together at Lehman Brothers. Blackstone's private equity business has been one of the largest investors in leveraged buyouts in the last three decades, while its real estate business has actively acquired commercial real estate across the globe. Blackstone is also active in credit, infrastructure, hedge funds, secondaries, growth equity, and insurance solutions. As of September 2025, Blackstone had $1.2 trillion in total assets under management, making it the world's largest alternative investment firm.",
-      "descriptionHE": "בלקסטון היא חברת השקעות אלטרנטיבית וקרן השקעות פרטית אמריקאית אשר בסיסה בניו יורק. החברה הוקמה ב-1985 כמיזוג של חברות השקעה השייכות לבנקאי ההשקעות האמריקאי פיטר פיטרסון ולאיש העסקים היהודי והפילנתרופ המיליארדר סטיבן שוורצמן אשר עבד בעבר בחברת השירותים הפיננסים ליהמן ברדרס. בלקסטון היא חברת ההשקעות האלטרנטיבית העשירה בעולם, וכוללת משקיעים ברכישות ממונפות. בלקסטון מנהלת גם קרן גידור ופתרונות ביטוח. נכון ל-30 בספטמבר 2025, בלקסטון מחזיקה בכ-1.2 טריליון דולר בנכסים תחת ניהול.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Blackstone_Inc.",
-      "employees": 4735,
-      "price": 120.19,
-      "change": -4.2845
-    },
-    {
-      "ticker": "BA",
-      "name": "Boeing",
-      "skipped": false,
-      "website": "https://www.boeing.com",
-      "industry": "Aerospace & Defense",
-      "marketCap": "$140.3B",
-      "description": "The Boeing Company is an American multinational corporation that designs and manufactures airplanes, rotorcraft, rockets, satellites, and missiles worldwide. The company also provides leasing and product support services. Boeing is among the largest global aerospace manufacturers; it is the fourth-largest defense contractor in the world based on 2022 revenue and is the largest exporter in the United States by dollar value. Boeing was founded in 1916 by William E. Boeing in Seattle, Washington. The present corporation is the result of the Boeing acquisition of McDonnell Douglas on August 1, 1997.",
-      "descriptionHE": "חברת בואינג היא חברה אמריקנית רב-לאומית, אשר עוסקת בתעופה ובמערכות חלל. היא נוסדה בידי ויליאם בואינג בשנת 1916, התרחבה במהלך השנים ובשנת 1997 התמזגה עם מקדונל דאגלס. שתי החטיבות העיקריות שלה הן החטיבה הצבאית והחטיבה למטוסי נוסעים. בואינג היא היצואנית הגדולה ביותר של ארצות הברית, ומניותיה נסחרות בבורסה לניירות ערך בניו יורק ונכללות במדד דאו ג'ונס.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Boeing",
-      "employees": 171000,
-      "price": 172.52,
-      "change": -2.5311
-    },
-    {
-      "ticker": "BSX",
-      "name": "Boston Scientific",
-      "skipped": false,
-      "website": "https://www.bostonscientific.com/en-US/Home.html",
-      "industry": "Health Care",
-      "marketCap": "$66.4B",
-      "description": "Boston Scientific Corporation (BSC) is an American biotechnology and biomedical engineering firm and multinational manufacturer of medical devices used in interventional medical specialties, including interventional radiology, interventional cardiology, peripheral interventions, neuromodulation, neurovascular intervention, electrophysiology, cardiac surgery, vascular surgery, endoscopy, oncology, urology and gynecology.",
-      "descriptionHE": "בוסטון סיינטיפיק היא חברה שמרכזה במרלבורו, מסצ'וסטס, המפתחת, יצרנית ומשווקת עולמית של התקנים רפואיים. מוצריה נפוצים לטווח רחב של תחומי התמחות כגון קרדיולוגיה, טיפולים היקפיים, נוירומודולציה, אלקטרופיזיולוגיה, ניתוח לב, ניתוח כלי דם, אנדוסקופיה, אונקולוגיה, אורולוגיה וגינקולוגיה.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Boston_Scientific",
-      "employees": 59000,
-      "price": 44.39,
-      "change": -3.1209
-    },
-    {
-      "ticker": "BMY",
-      "name": "Bristol Myers Squibb",
-      "skipped": false,
-      "website": "https://www.bms.com",
-      "industry": "Pharmaceuticals",
-      "marketCap": "$131.2B",
-      "description": "Bristol-Myers Squibb Company, doing business as Bristol Myers Squibb, is an American multinational pharmaceutical company headquartered in Princeton, New Jersey. The company's primary products are apixaban (Eliquis) for people with atrial fibrillation ; nivolumab (Opdivo), used to treat certain types of cancer ; lenalidomide (Revlimid), used to treat multiple myeloma, smoldering myeloma, and myelodysplastic syndromes ; abatacept (Orencia), used to treat autoimmune diseases such as rheumatoid arthritis ; pomalidomide (Pomalyst/Imnovid), an anti-cancer medication used for the treatment of multiple myeloma and AIDS-related Kaposi sarcoma ; ipilimumab (Yervoy), to treat cancer ; and luspatercept (Reblozyl) for the treatment of anemia in beta thalassemia and myelodysplastic syndromes. In 2025, 69% of the company's revenues came from the United States.",
-      "descriptionHE": "בריסטול מאיירס סקוויב היא חברת תרופות אמריקאית. מטה החברה ממוקם בניו יורק, היא מעסיקה כ-30,000 עובדים ברחבי העולם והכנסותיה ב-2022 כ-46 מיליארד דולר.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bristol_Myers_Squibb",
-      "employees": 30000,
-      "price": 63.22,
-      "change": -1.5111
-    },
-    {
-      "ticker": "AVGO",
-      "name": "Broadcom",
-      "skipped": false,
-      "website": "https://www.broadcom.com",
-      "industry": "Semiconductors",
-      "marketCap": "$1.55T",
-      "description": "Broadcom Inc. is an American multinational designer, developer, manufacturer, and global supplier of a wide range of semiconductor and infrastructure software products. Broadcom's product offerings serve the data center, networking, software, broadband, wireless, storage, and industrial markets. As of 2026, Broadcom is one of the largest companies globally.",
+      "marketCap": "$110.0B",
+      "description": "CME Group Inc., headquartered in Chicago, Illinois, operates exchanges and provides clearing services for trading in financial derivatives such as futures contracts, options, and swaps. Its exchanges include the Chicago Mercantile Exchange (CME), the Chicago Board of Trade (CBOT), the New York Mercantile Exchange (NYMEX), and the Commodity Exchange (COMEX). The company also owns 27% of S&P Dow Jones Indices. The company operates the Globex Trading System, an electronic trading platform that allows customers in approximately 150 countries to trade futures and options contracts. The company also operates two platforms for spot market trading: BrokerTec, which facilitates dealer-to-dealer trading in fixed-income products, and EBS, which provides spot trading in foreign exchange markets. CME Clearing serves as a counterparty to every transaction cleared by the company.",
       "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Broadcom",
-      "employees": 20000,
-      "price": 294.85,
-      "change": -9.4107
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/CME_Group",
+      "employees": 2300,
+      "price": 306.47,
+      "change": -0.2506
     },
     {
-      "ticker": "BG",
-      "name": "Bunge Global",
+      "ticker": "KO",
+      "name": "Coca-Cola Company (The)",
       "skipped": false,
-      "website": "https://www.bunge.com/",
-      "industry": "Food Products",
-      "marketCap": "$18.6B",
-      "description": "Bunge Global SA (BUN-ghee) is a global agribusiness and food company, incorporated in Geneva, Switzerland, and headquartered in St. Louis, Missouri, United States.",
+      "website": "https://www.coca-colacompany.com/",
+      "industry": "Beverages",
+      "marketCap": "$411.8B",
+      "description": "The Coca-Cola Company is an American multinational corporation founded in January 1892, headquartered in Atlanta, Georgia. It manufactures, sells and markets soft drinks including Coca-Cola, other non-alcoholic beverage concentrates and syrups, and alcoholic beverages. Its stock is listed on the New York Stock Exchange and is a component of the DJIA and the S&P 500 and S&P 100 indices.",
+      "descriptionHE": "חברת קוקה-קולה היא תאגיד רב-לאומי אמריקאי ויצרן של משקאות קלים ותרכיזים ליצירת משקאות מסוג זה. המוצר הנפוץ ביותר שלה הוא המשקה קוקה-קולה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Coca-Cola_Company",
+      "employees": 69700,
+      "price": 95.96,
+      "change": 0.2403
+    },
+    {
+      "ticker": "CTSH",
+      "name": "Cognizant",
+      "skipped": false,
+      "website": "https://www.cognizant.com/",
+      "industry": "Technology",
+      "marketCap": "$29.7B",
+      "description": "Cognizant Technology Solutions Corporation is an American domiciled Indian multinational information technology services and outsourcing company, headquartered in Teaneck, New Jersey. It was originally founded in Chennai, India, as an in-house technology unit of Dun & Bradstreet in 1994. After a series of corporate restructurings, the company went public in 1998.",
       "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bunge_Global",
-      "employees": 22706,
-      "price": 97.67,
-      "change": 0.6803
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Cognizant",
+      "employees": 266200,
+      "price": 64.74,
+      "change": -2.7051
+    },
+    {
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "skipped": false,
+      "website": "https://www.coinbase.com",
+      "industry": "Financial Services",
+      "marketCap": "$36.2B",
+      "description": "Coinbase Global, Inc. is an American cryptocurrency exchange. It was founded in 2012 by Brian Armstrong and Fred Ehrsam. Coinbase has over 100 million users, and is the largest U.S. based cryptocurrency exchange as well as the world's biggest bitcoin custodian, as of 2024. The company operates in more than 100 countries and holds nearly US$516 billion in assets, including nearly 12 percent of all bitcoin in existence and 11 percent of all staked Ether.",
+      "descriptionHE": "קוינבייס גלובל בע\"מ היא חברה אמריקאית למסחר במטבעות מבוזרים שנוסדה ב-2012 על ידי בריאן ארמסטרונג ופרד אירסם. במרץ 2021 הפכה לבורסה המבוזרת הגדולה ביותר בארצות הברית ובאפריל אותה שנה החלה להיסחר באופן ישיר בנאסד\"ק. החברה אינה פועלת מתוך מטה מאורגן ומתנהלת בצורת עבודה מרחוק.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Coinbase",
+      "employees": 1249,
+      "price": 134.86,
+      "change": -1.4325
     }
   ]
 }
