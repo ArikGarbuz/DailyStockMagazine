@@ -1,295 +1,277 @@
 {
-  "date": "2026-11-13",
-  "generatedAt": "2026-11-13T20:32:17.364Z",
-  "windowStart": 360,
+  "date": "2026-11-17",
+  "generatedAt": "2026-11-17T21:52:58.190Z",
+  "windowStart": 0,
   "windowSize": 40,
-  "cyclePosition": 9,
+  "cyclePosition": 0,
   "totalWindows": 13,
   "requested": 15,
-  "picked": 12,
-  "skippedCount": 28,
+  "picked": 15,
+  "skippedCount": 13,
   "skipped": [
     {
-      "ticker": "PAYX",
+      "ticker": "AOS",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "PYPL",
+      "ticker": "ABBV",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "PNR",
+      "ticker": "AES",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "PSX",
+      "ticker": "APD",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "PNW",
+      "ticker": "ALB",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "POOL",
+      "ticker": "ARE",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "PPG",
+      "ticker": "ALGN",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "PPL",
+      "ticker": "ALLE",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "PFG",
+      "ticker": "LNT",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "PLD",
+      "ticker": "ALL",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "PEG",
+      "ticker": "AMCR",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "PSA",
+      "ticker": "AEE",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "PHM",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "PWR",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "DGX",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "Q",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "RJF",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "O",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "REG",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "REGN",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "RF",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "RSG",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "RMD",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "RVTY",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "HOOD",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "ROK",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "ROL",
-      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
-    },
-    {
-      "ticker": "ROP",
+      "ticker": "AEP",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     }
   ],
   "picks": [
     {
-      "ticker": "PEP",
-      "name": "PepsiCo",
+      "ticker": "MMM",
+      "name": "3M",
       "skipped": false,
-      "website": "https://www.pepsico.com/",
-      "industry": "Beverages",
-      "marketCap": "$196.8B",
-      "description": "PepsiCo, Inc. is an American multinational food and beverage corporation headquartered in Harrison, New York, in the hamlet of Purchase. PepsiCo's business encompasses all aspects of the food and beverage market. It oversees the manufacturing, distribution, and marketing of its products. PepsiCo was formed in 1965 with the merger of the Pepsi-Cola Company and Frito-Lay, Inc., PepsiCo has since expanded from its namesake product Pepsi to a diversified range of food and beverage brands. Significant acquisitions include Tropicana Products in 1998, the Quaker Oats Company in 2001, which added the Gatorade brand to the Pepsi portfolio, and Pioneer Foods in 2020 for US$1.7 billion.",
-      "descriptionHE": "פפסיקו היא תאגיד רב-לאומי אמריקאי המייצר ומשווק מוצרי מזון ושתייה מגוונים. הנהלתו ממוקמת בפֵּרְצְ'ס שבמדינת ניו יורק.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/PepsiCo",
-      "employees": 309000,
-      "price": null,
-      "change": null
+      "website": "https://www.3m.com/",
+      "industry": "Industrial Conglomerates",
+      "marketCap": "$93.9B",
+      "description": "The 3M Company is an American multinational conglomerate operating in the fields of industry, worker safety, and consumer goods. Based in the Saint Paul suburb of Maplewood, the company produces over 60,000 products, including adhesives, abrasives, laminates, passive fire protection, personal protective equipment, window films, paint protection film, electrical, electronic connecting, insulating materials, car-care products, electronic circuits, and optical films. Among its best-known consumer brands are Scotch Tape, Scotchgard surface protectants, Post-it notes, and Nexcare adhesive bandages. 3M's stock ticker symbol is MMM and is listed on the New York Stock Exchange, Inc. (NYSE), and the SIX Swiss Exchange.",
+      "descriptionHE": "3M‏ היא קונצרן רב-לאומי אמריקני המפתח ומייצר אלפי מוצרים שונים בתחומי התעשייה, הבטיחות והמיגון, האלקטרוניקה, התקשורת, המשרד ובית, רפואה, אבטחה, ננוטכנולוגיה, אנרגיה חלופית, בנייה ירוקה ועוד. החברה מונה כ-75,000 עובדים ברחבי העולם, ולה אתרי ייצור ביותר מ-60 מדינות. מוצרי החברה נמכרים באמצעות מפיצים מקומיים וקמעונאים ברחבי העולם. 3M היא אחת מ-30 החברות המרכיבות את מדד הדאו-ג'ונס. משרדי ההנהלה הראשית של החברה נמצאים בעיר מייפלווד, פרבר של הערים סיינט פול ומיניאפוליס שבמדינת מינסוטה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/3M",
+      "employees": 94987,
+      "price": 180.88,
+      "change": -0.4403
     },
     {
-      "ticker": "PFE",
-      "name": "Pfizer",
+      "ticker": "ABT",
+      "name": "Abbott Laboratories",
       "skipped": false,
-      "website": "https://www.pfizer.com/",
-      "industry": "Pharmaceuticals",
-      "marketCap": "$163.8B",
-      "description": "Pfizer Inc. is an American multinational pharmaceutical and biotechnology corporation headquartered at The Spiral in Manhattan, New York City. Founded in 1849 in New York by German entrepreneurs Charles Pfizer and Charles F. Erhart, Pfizer is one of the oldest pharmaceutical companies in North America.",
-      "descriptionHE": "פייזר היא חברה אמריקאית לייצור ולשיווק תרופות המדורגת במקום הראשון בעולם במכירות בין חברות התרופות. מטה החברה נמצא בבניין הספירלה, מנהטן שבניו יורק ומטה המחקר שלה בגרוטון, קונטיקט שבארצות הברית.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Pfizer",
-      "employees": 88300,
-      "price": 28.83,
-      "change": 0
+      "website": "https://www.abbott.com",
+      "industry": "Health Care",
+      "marketCap": "$186.1B",
+      "description": "Abbott Laboratories, commonly known as Abbott, is an American multinational medical devices and health care company founded in Chicago with headquarters in Abbott Park, Illinois. The company produces pharmaceuticals for sale outside the United States, diagnostic products, nutritional products, and medical devices.",
+      "descriptionHE": "מעבדות אבוט היא חברת מכשור רפואי תרכובות מזון לתינוקות ותוספי תזונה אמריקאית. החברה נוסדה ב-1888 והמטה הראשי שלה באילינוי. היא מעסיקה כ-107,000 עובדים ברחבי העולם והכנסותיה כ-32 מיליארד דולר. בין מוצרי החברה הבולטים סימילאק, פדיאלייט, אנשור, גלוצרנה, פדיאשור, פריסטייל ליברה, ומכשור לבדיקת קורונה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Abbott_Laboratories",
+      "employees": 73000,
+      "price": 104.71,
+      "change": -2.55
     },
     {
-      "ticker": "PCG",
-      "name": "PG&E Corporation",
+      "ticker": "ACN",
+      "name": "Accenture",
       "skipped": false,
-      "website": "https://www.pgecorp.com/",
-      "industry": "Utilities",
-      "marketCap": "$28.9B",
-      "description": "Pacific Gas and Electric Company (PG&E) is an American investor-owned utility (IOU). The company is headquartered at Kaiser Center, in Oakland, California. PG&E provides natural gas and electricity to 5.2 million households in the northern two-thirds of California, from Bakersfield and northern Santa Barbara County, almost to the Oregon and Nevada state lines.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Pacific_Gas_and_Electric_Company",
-      "employees": 19424,
-      "price": 13.23,
-      "change": 2.0046
-    },
-    {
-      "ticker": "PM",
-      "name": "Philip Morris International",
-      "skipped": false,
-      "website": "https://www.pmi.com/",
-      "industry": "Tobacco",
-      "marketCap": "$309.1B",
-      "description": "Philip Morris International Inc. (PMI) is a American publicly traded tobacco company, with products sold in over 180 countries. Marlboro is PMI’s most recognized brand, but in the last quarter of 2023, Iqos generated the greatest revenue. Philip Morris International is often referred to as one of the companies comprising Big Tobacco. The company ranked No. 117 in the 2025 Fortune 500 list of the largest US corporations by total revenue.",
-      "descriptionHE": "פיליפ מוריס אינטרנשיונל בע\"מ, היא חברת טבק אמריקאית בינלאומית העוסקת בייצור, פרסום שיווק והפצה של סיגריות, טבק ומוצרי עישון. החברה משווקת את מוצריה ב-180 מדינות שונות בעולם ומעסיקה כ-83,100 עובדים ברחבי העולם. מטה החברה נמצא בלוזאן שבשווייץ. החברה מחזיקה במספר מותגים ידועים של סיגריות, ביניהן, \"מרלבורו\", \"L&M\", \"פרלמנט\", ומותגים רבים נוספים. בשנים האחרונות, החברה עוברת טרנספורמציה ועוברת לשווק מוצרי אידוי וחימום טבק, מתוך מגמה להפסיק לשווק סיגריות בעתיד. מאז שנת 2008 השקיעה החברה 7.2 מיליארד דולר בפיתוח וביסוס מדעי של טכנולוגיות המבוססות על חימום טבק, ומעסיקה למעלה מ-400 מדעני מחקר ופיתוח, מהנדסים וטכנאים לפיתוח מוצרי אידוי וחימום טבק. חברת פיליפ מוריס הכריזה על כוונתה לחדול באופן מלא משיווק סיגריות עד שנת 2035.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Philip_Morris_International",
-      "employees": 79800,
-      "price": 198.42,
-      "change": 0.8949
-    },
-    {
-      "ticker": "PNC",
-      "name": "PNC Financial Services",
-      "skipped": false,
-      "website": "https://www.pnc.com/",
-      "industry": "Banking",
-      "marketCap": "$91.8B",
-      "description": "The PNC Financial Services Group, Inc. is an American bank holding company and financial services corporation based in Pittsburgh, Pennsylvania. Its banking subsidiary, PNC Bank, operates in 27 states and the District of Columbia, with 2,629 branches and 9,523 ATMs. PNC Bank is one of the largest banks in the US by assets and by number of branches, deposits, and ATMs.",
-      "descriptionHE": "PNC Financial Services Group, Inc. היא חברת החזקות בנקאית אמריקאית ותאגיד שירותים פיננסיים שבסיסה בפיטסבורג, פנסילבניה. חברת הבת הבנקאית שלה, PNC Bank, פועלת ב-27 מדינות ובמחוז קולומביה, עם 2,629 סניפים ו-9,523 כספומטים. בנק PNC נמצא ברשימת הבנקים הגדולים בארצות הברית לפי נכסים והוא אחד הבנקים הגדולים ביותר לפי מספר הסניפים, הפיקדונות ומספר הכספומטים.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/PNC_Financial_Services",
-      "employees": 52906,
-      "price": 231.75,
-      "change": 0.3116
-    },
-    {
-      "ticker": "PG",
-      "name": "Procter & Gamble",
-      "skipped": false,
-      "website": "https://us.pg.com/",
-      "industry": "Consumer products",
-      "marketCap": "$395.0B",
-      "description": "The Procter & Gamble Company (P&G) is an American multinational consumer goods corporation incorporated and headquartered in Cincinnati, Ohio. The company was founded in 1837 by William Procter and James Gamble.",
-      "descriptionHE": "פרוקטר אנד גמבל היא תאגיד רב־לאומי, אשר בסיסו בסינסינטי, אוהיו שבארצות הברית ולו מטה אירופי בז׳נבה, שווייץ. פרוקטר אנד גמבל מייצרת מעל 300 מותגים של מוצרי צריכה שוטפים, ביניהם אריאל, קרסט, פמפרס, דורסל, טייד, פנטן, אולוויז, פיירי, הד אנד שולדרס, אולד ספייס, ג׳ילט ועוד.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Procter_%26_Gamble",
-      "employees": 105000,
-      "price": 169.84,
-      "change": 1.0772
-    },
-    {
-      "ticker": "PGR",
-      "name": "Progressive Corporation",
-      "skipped": false,
-      "website": "https://www.progressive.com/",
-      "industry": "Insurance",
-      "marketCap": "$137.3B",
-      "description": "The Progressive Corporation is an American insurance company headquartered in Mayfield, Ohio. It was co-founded in 1937 by Jack Green and Joseph M. Lewis. The company insures passenger vehicles, motorcycles, recreational vehicles (RVs), trailers, boats, personal water craft (PWC), and commercial vehicles. Progressive also provides home, life, pet, and other types of insurance through select companies.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Progressive_Corporation",
-      "employees": 27250,
-      "price": 235.28,
-      "change": -0.0892
-    },
-    {
-      "ticker": "PRU",
-      "name": "Prudential Financial",
-      "skipped": false,
-      "website": "https://www.prudential.com/",
-      "industry": "Insurance",
-      "marketCap": "$41.9B",
-      "description": "Prudential Financial, Inc. is an American financial services company whose subsidiaries provide insurance, retirement planning, investment management, and other products and services to both retail and institutional customers throughout the United States and in over 40 other countries. In 2019, Prudential was the largest insurance provider in the United States with $815.1 billion in total assets. The company is included in the Fortune Global 500 and Fortune 500 rankings.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Prudential_Financial",
-      "employees": 41671,
-      "price": 122.7,
-      "change": 0.2369
-    },
-    {
-      "ticker": "PTC",
-      "name": "PTC Inc.",
-      "skipped": false,
-      "website": "https://www.ptc.com/",
+      "website": "https://www.accenture.com/ie-en/",
       "industry": "Technology",
-      "marketCap": "$21.3B",
-      "description": "PTC Inc. is an American computer software and services company founded in 1985 and headquartered in Boston, Massachusetts. The company was a pioneer in parametric, associative feature-based, solid computer-aided design (CAD) modeling software in 1988, including an Internet-based product for Product Lifecycle Management (PLM) in 1998. PTC markets products and services and an Internet of Things (IoT) and augmented reality (AR) platform for partners and developers.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/PTC_Inc.",
-      "employees": 8000,
-      "price": 196.21,
-      "change": -0.0204
+      "marketCap": "$146.4B",
+      "description": "Accenture plc is a technology consulting company headquartered in Dublin, Ireland. Founded in 1989 in the United States, Accenture provides information technology and management consulting services across 120 countries globally.",
+      "descriptionHE": "אקסנצ'ר היא חברה גלובלית המעניקה ייעוץ עסקי, שירותים טכנולוגיים ושירותי מיקור חוץ לארגונים ולחברות הגדולות במשק. הכנסותיה של אקסנצ'ר ממקמות אותה כאחת מחברות הייעוץ הגדולות בעולם, ונמצאת ברשימת 500 החברות הגדולות בעולם של המגזין Fortune Global 500.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Accenture",
+      "employees": 779000,
+      "price": 239.28,
+      "change": -3.3993
     },
     {
-      "ticker": "QCOM",
-      "name": "Qualcomm",
+      "ticker": "ADBE",
+      "name": "Adobe Inc.",
       "skipped": false,
-      "website": "https://www.qualcomm.com/",
+      "website": "https://www.adobe.com/",
+      "industry": "Technology",
+      "marketCap": "$95.7B",
+      "description": "Adobe Inc., formerly Adobe Systems Incorporated, is an American multinational computer software company based in San Jose, California. It offers a wide range of programs from web design tools, photo manipulation, and vector creation to video and audio editing, mobile app development, print layout and animation software.",
+      "descriptionHE": "אַדוֹבִּי, שנקראה בעבר \"אדובי מערכות\", היא חברת תוכנה שנוסדה בדצמבר 1982 על ידי ג'ון וארנוק וצ'ארלס גצ'קי.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Adobe_Inc.",
+      "employees": 25988,
+      "price": 235.55,
+      "change": -4.248
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "skipped": false,
+      "website": "https://www.amd.com/",
       "industry": "Semiconductors",
-      "marketCap": "$179.8B",
-      "description": "Qualcomm Incorporated is an American multinational technology corporation headquartered in San Diego, California. The company develops and designs technologies for global communications and computing, including next-generation mobile networks, smart devices, and semiconductors — such as mobile processors and artificial intelligence chips. The company holds essential patents for global mobile communication standards including 5G, 4G, CDMA2000, TD-SCDMA and WCDMA.",
-      "descriptionHE": "קוואלקום היא חברה אמריקאית רב-לאומית וציבורית שמנייתה נסחרת בנאסד\"ק, שבסיסה שוכן בסן דייגו, קליפורניה. קוואלקום היא חברה המתכננת רכיבי מוליכים למחצה אינטגראליים בעיקר לתחום תקשורת הנתונים האלחוטית ופועלת בשיטת ה-Fabless. השם Qualcomm הוא הלחם בסיסים של Quality Communications.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Qualcomm",
-      "employees": 45000,
-      "price": 172.75,
-      "change": -2.4783
+      "marketCap": "$827.1B",
+      "description": "Advanced Micro Devices, Inc. (AMD) is an American multinational semiconductor company headquartered in Santa Clara, California. It develops central processing units (CPUs), graphics processing units (GPUs), field-programmable gate arrays (FPGAs), system-on-chips (SoCs), and high-performance computer components. AMD serves a wide range of business and consumer markets, including personal computers (PCs), gaming, data centers, and embedded systems.",
+      "descriptionHE": "Advanced Micro Devices, Inc. היא חברה אמריקאית רב-לאומית, יצרנית של מעגלים משולבים. בסיסה בסנטה קלרה, קליפורניה. היא היצרן השני בגודלו של יחידות עיבוד מרכזי תואמי x86, היצרנית הגדולה ביותר של יחידות עיבוד מרכזי תואם FPGA, וספק מוביל של זיכרון מסוג Flash. היא נוסדה ב-1969 על ידי קבוצה של פורשים מחברת המוליכים למחצה \"Fairchild\", הכוללת את ג'רי סנדרס. בעוד שבעבר ייצרה מעבדים במפעלים משלה, החל משנת 2009 מכרה את מפעלי הייצור שלה לחברת \"מובאדלה\", קרן העושר הריבונית של ממשלת אבו דאבי, הפועלים תחת חברה חדשה בשם \"Global Foundaries\", כאשר נותרה המתכננת והמעצבת של השבבים, שאותם אחר-כך שולחת לייצור במפעלים חיצוניים, ביניהם גם החל מ-2014 חברת השבבים הטיוואנית TSMC, שסיפקה לה קווי ייצור של 7 ננומטר.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AMD",
+      "employees": 15500,
+      "price": 503.41,
+      "change": -0.1725
     },
     {
-      "ticker": "RL",
-      "name": "Ralph Lauren Corporation",
+      "ticker": "AFL",
+      "name": "Aflac",
       "skipped": false,
-      "website": "https://investor.ralphlauren.com/",
-      "industry": "Textiles, Apparel & Luxury Goods",
-      "marketCap": "$23.2B",
-      "description": "Ralph Lauren Corporation is a publicly traded American fashion and lifestyle brand founded in 1967 by American businessman Ralph Lauren in New York City. The company markets products in apparel, home, accessories, and fragrances, and is most known for its flagship brand, Polo Ralph Lauren. The company's brands include mid-range, sub-premium, and premium labels up to its highest priced luxury Ralph Lauren Purple Label apparel.",
-      "descriptionHE": "פולו ראלף לורן היא חברת אופנה של המעצב האמריקאי-יהודי ראלף לורן. מלבד תחום הפעולה העיקרי של החברה - ביגוד יוקרתי לגברים ונשים, היא מוכרת אביזרי אופנה, בשמים ורהיטים ביתיים.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ralph_Lauren_Corporation",
-      "employees": 23400,
-      "price": 388.03,
-      "change": -0.7088
+      "website": "https://www.aflac.com/",
+      "industry": "Insurance",
+      "marketCap": "$63.3B",
+      "description": "Aflac Incorporated is an American insurance company and is the largest provider of supplemental insurance in the United States. It was founded in 1955 and is based in Columbus, Georgia. In the U.S., it underwrites a wide range of insurance policies, but is perhaps more known for its payroll deduction insurance coverage, which pays cash benefits when a policyholder has a covered accident or illness. The company states it \"provides financial protection to more than 50 million people worldwide\".",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Aflac",
+      "employees": 12003,
+      "price": 127.69,
+      "change": -0.3045
     },
     {
-      "ticker": "RTX",
-      "name": "RTX Corporation",
+      "ticker": "A",
+      "name": "Agilent Technologies",
       "skipped": false,
-      "website": "https://www.rtx.com/",
-      "industry": "Aerospace & Defense",
-      "marketCap": "$266.6B",
-      "description": "RTX Corporation, formerly Raytheon Technologies Corporation, is an American multinational aerospace and defense conglomerate headquartered in Arlington, Virginia. It is one of the largest aerospace and defense manufacturers in the world by revenue and market capitalization, as well as one of the largest providers of intelligence services. In 2023, the company's rank in the Forbes Global 2000 was 79. RTX manufactures aircraft engines, avionics, aerostructures, cybersecurity solutions, guided missiles, air defense systems, satellites, and drones. The company is a large military contractor, getting much of its revenue from the U.S. government.",
-      "descriptionHE": "תאגיד RTX הוא תאגיד רב-לאומי העוסק בתעשיית הנשק ובייצור ציוד לתעופה וחלל. מטה התאגיד ממוקם במחוז ארלינגטון שבמדינת וירג'יניה שבארצות הברית. RTX היא אחת מיצרניות הנשק הגדולות בעולם מבחינת הכנסות ושווי שוק, וכן אחד הספקיות הגדולות בעולם בתחום שירותי המודיעין. החברה מייצרת מנועי תעופה, אמצעי נ\"מ, טילים, אוויוניקה, כלי טיס בלתי מאוישים (כטב\"ם), תוכנות אבטחה ולוויינים.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/RTX_Corporation",
-      "employees": 182000,
-      "price": 198.12,
-      "change": -0.121
+      "website": "https://www.agilent.com/",
+      "industry": "Life Sciences Tools & Services",
+      "marketCap": "$48.8B",
+      "description": "Agilent Technologies, Inc. is an American global company headquartered in Santa Clara, California, that provides instruments, software, services, and consumables for laboratories. Agilent was established in 1999 as a spin-off from Hewlett-Packard. The resulting initial public offering of Agilent stock was the largest in the history of Silicon Valley at the time.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Agilent_Technologies",
+      "employees": 17671,
+      "price": 172.22,
+      "change": -0.4048
+    },
+    {
+      "ticker": "ABNB",
+      "name": "Airbnb",
+      "skipped": false,
+      "website": "https://www.airbnb.com/",
+      "industry": "Hotels, Restaurants & Leisure",
+      "marketCap": "$110.2B",
+      "description": "Airbnb, Inc. is an American company operating an online marketplace for short-and-long-term homestays, experiences and services in various countries and regions. It acts as a broker and charges a commission from each booking. Airbnb was founded in 2008 by Brian Chesky, Nathan Blecharczyk, and Joe Gebbia.",
+      "descriptionHE": "Airbnb הוא אתר אינטרנט המתווך בין שוכרי יחידות נופש להשכרה או יחידות מגורים לטווח קצר לבין בעלים של יחידות כאלו.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Airbnb",
+      "employees": 5597,
+      "price": 180.94,
+      "change": -2.8197
+    },
+    {
+      "ticker": "AKAM",
+      "name": "Akamai Technologies",
+      "skipped": false,
+      "website": "https://www.akamai.com/",
+      "industry": "Technology",
+      "marketCap": "$12.1B",
+      "description": "Akamai Technologies, Inc. is an American company specializing in content delivery network (CDN), cybersecurity, DDoS mitigation, and cloud services. It is headquartered in Cambridge, Massachusetts.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Akamai_Technologies",
+      "employees": 8368,
+      "price": 84.64,
+      "change": 0.5823
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc. (Class A)",
+      "skipped": false,
+      "website": "https://abc.xyz/",
+      "industry": "Media",
+      "marketCap": "$3.49T",
+      "description": "Alphabet Inc. is an American multinational technology conglomerate holding company headquartered in Mountain View, California. It was created through a restructuring of Google on October 2, 2015, and became the parent holding company of Google and several former Google subsidiaries. Alphabet is listed on the large-cap section of the Nasdaq under the ticker symbols GOOGL and GOOG; both classes of stock are components of major stock market indices such as the S&P 500 and Nasdaq-100. Alphabet has been described as a Big Tech company. As of July 2026, it is the third largest publicly traded company in the world by market capitalization.",
+      "descriptionHE": "אלפאבית היא חברת החזקות העוסקת בטכנולוגיה וממוקמת במאונטיין ויו, קליפורניה. היא הוקמה על מנת להפוך את גוגל לחברה שמתמקדת רק בשירותי אינטרנט ולאפשר עצמאות לחברות הבנות שלא עוסקות בתחום, ונוצרה כתוצאה מארגון מחדש של חברת גוגל ב-2 באוקטובר 2015. בכך הפכה לחברת האם של גוגל ומספר חברות בנות שלה. שני המייסדים של גוגל מינו את עצמם לתפקידים בכירים בחברה החדשה: לארי פייג' בתפקיד המנכ\"ל וסרגיי ברין בתפקיד נשיא החברה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Alphabet_Inc.",
+      "employees": 190234,
+      "price": 280.2,
+      "change": -1.2407
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
+      "skipped": false,
+      "website": "https://abc.xyz/",
+      "industry": "Media",
+      "marketCap": "$3.49T",
+      "description": "Alphabet Inc. is an American multinational technology conglomerate holding company headquartered in Mountain View, California. It was created through a restructuring of Google on October 2, 2015, and became the parent holding company of Google and several former Google subsidiaries. Alphabet is listed on the large-cap section of the Nasdaq under the ticker symbols GOOGL and GOOG; both classes of stock are components of major stock market indices such as the S&P 500 and Nasdaq-100. Alphabet has been described as a Big Tech company. As of July 2026, it is the third largest publicly traded company in the world by market capitalization.",
+      "descriptionHE": "אלפאבית היא חברת החזקות העוסקת בטכנולוגיה וממוקמת במאונטיין ויו, קליפורניה. היא הוקמה על מנת להפוך את גוגל לחברה שמתמקדת רק בשירותי אינטרנט ולאפשר עצמאות לחברות הבנות שלא עוסקות בתחום, ונוצרה כתוצאה מארגון מחדש של חברת גוגל ב-2 באוקטובר 2015. בכך הפכה לחברת האם של גוגל ומספר חברות בנות שלה. שני המייסדים של גוגל מינו את עצמם לתפקידים בכירים בחברה החדשה: לארי פייג' בתפקיד המנכ\"ל וסרגיי ברין בתפקיד נשיא החברה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Alphabet_Inc.",
+      "employees": 190234,
+      "price": 277.6,
+      "change": -1.3013
+    },
+    {
+      "ticker": "MO",
+      "name": "Altria",
+      "skipped": false,
+      "website": "https://www.altria.com/",
+      "industry": "Tobacco",
+      "marketCap": "$131.2B",
+      "description": "Altria Group, Inc. is an American corporation and one of the world's largest producers and marketers of tobacco and cigarettes. It operates worldwide and is headquartered in the city of Richmond, Virginia.",
+      "descriptionHE": "קבוצת אלטריה היא חברת טבק אמריקאית העוסקת בייצור ושיווק של טבק, סיגריות, ומוצרים הנלווים אליהם. כמו כן, היא גם אחת מחברה הגדולות בעולם הפועלות בתחום זה. משרדיה הראשיים של החברה שוכנים במדינת וירג'יניה שבארצות הברית.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Altria",
+      "employees": 9900,
+      "price": 77.46,
+      "change": -1.8251
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "skipped": false,
+      "website": "https://www.amazon.com/",
+      "industry": "Retail",
+      "marketCap": "$2.79T",
+      "description": "Amazon.com, Inc. is an American multinational conglomerate engaged in e-commerce, retail, cloud computing, online advertising, digital streaming, entertainment, supermarkets, and artificial intelligence. Founded in 1994 by Jeff Bezos in Bellevue, Washington, the company started as an online book marketplace that gradually expanded to include virtually all consumer products as well as many other categories, positioned as \"The Everything Store\".",
+      "descriptionHE": "אמזון.קום בע\"מ, המוכרת בשם המקוצר אמזון, היא חברה אמריקאית למסחר אלקטרוני ושירותי מחשוב ענן. החברה שבסיסה בסיאטל, וושינגטון, נוסדה ב-5 ביולי 1994. היא הייתה מחלוצות המסחר באינטרנט והתפרסמה בראשיתה במכירת ספרים, אך בהמשך החלה למכור גם דיסקים, סרטים, מוצרי אלקטרוניקה, בגדים ועוד. עם התפתחותה של החברה ניתן לקנות באתר החברה מגוון רחב מאוד של מוצרים.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Amazon_(company)",
+      "employees": 1500000,
+      "price": 257.89,
+      "change": 0.0543
+    },
+    {
+      "ticker": "AXP",
+      "name": "American Express",
+      "skipped": false,
+      "website": "https://www.americanexpress.com/",
+      "industry": "Financial Services",
+      "marketCap": "$213.9B",
+      "description": "American Express Company (Amex) is an American bank holding company and multinational financial services corporation that specializes in payment cards. It is headquartered at 200 Vesey Street, also known as American Express Tower, in the Battery Park City neighborhood of Lower Manhattan; in 2026, the company announced that it would develop and be the sole occupant of the new 2 World Trade Center skyscraper in the nearby World Trade Center complex.",
+      "descriptionHE": "אמריקן אקספרס, היא חברת שירותים פיננסיים אמריקאית בינלאומית, שמרכזה בבניין רחוב וסי 200, מנהטן, ניו יורק, ארצות הברית. החברה הוקמה בשנת 1850, והיא אחת משלושים החברות הנכללות במדד דאו ג'ונס. החברה ידועה בעיקר בשל שירותי כרטיסי האשראי, כרטיסי החיוב, והמחאות הנוסעים שלה. כרטיסי אמריקן אקספרס אחראים לכ-24% מסך נפח החיוב בעסקאות בכרטיסי אשראי בדולר אמריקני בארצות הברית, שיעור גבוה מכל מנפיק כרטיסים אחר. ביזנסוויק ואינטרברנד דירגו את אמריקן אקספרס כמותג ה-22 בחשיבותו בעולם, בהערכתם את שווי המותג ב-14.97 מיליארד דולר אמריקני. מגזין Fortune דירג את אמריקן אקספרס כאחת מ-20 החברות הנערצות ביותר בעולם. סמל החברה, אשר אומץ בשנת 1958, הוא קנטוריון, דרגת קצונה בצבא הרומאי. סמל זה מופיע על המחאות הנוסעים וכרטיסי החיוב של החברה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/American_Express",
+      "employees": 64000,
+      "price": 315.78,
+      "change": -1.0249
+    },
+    {
+      "ticker": "AIG",
+      "name": "American International Group",
+      "skipped": false,
+      "website": "https://www.aig.com/home",
+      "industry": "Insurance",
+      "marketCap": "$42.9B",
+      "description": "American International Group, Inc. (AIG) is a global insurer headquartered in New York City, with operations in more than 200 countries and jurisdictions. Founded in 1919, the company primarily provides commercial and personal insurance products, including property and casualty insurance, liability coverage, accident and health insurance, and specialty insurance products. The company also provides risk management, multinational, and related insurance services to businesses and individuals.",
+      "descriptionHE": "AIG היא תאגיד ביטוח אמריקני בינלאומי שמרכזו בעיר ניו יורק. ל-AIG מטה באירופה (בלונדון) ומטה באסיה.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/American_International_Group",
+      "employees": 26200,
+      "price": 81.26,
+      "change": -1.8006
     }
   ]
 }
