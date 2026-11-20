@@ -1,0 +1,285 @@
+{
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T21:17:44.184Z",
+  "windowStart": 120,
+  "windowSize": 40,
+  "cyclePosition": 3,
+  "totalWindows": 13,
+  "requested": 15,
+  "picked": 11,
+  "skippedCount": 29,
+  "skipped": [
+    {
+      "ticker": "CMCSA",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "FIX",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "CAG",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "STZ",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "CEG",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "COO",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "CPRT",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "CPAY",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "CSGP",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "CCI",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "CSX",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "CMI",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "DHR",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "DRI",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "DDOG",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "DVA",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "DECK",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "DELL",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "DAL",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "DXCM",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "FANG",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "DLR",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "DG",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "D",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "DPZ",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "DASH",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "DOV",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "DOW",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "DHI",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    }
+  ],
+  "picks": [
+    {
+      "ticker": "COP",
+      "name": "ConocoPhillips",
+      "skipped": false,
+      "website": "https://www.conocophillips.com/",
+      "industry": "Energy",
+      "marketCap": "$159.6B",
+      "description": "ConocoPhillips Company is an American multinational corporation engaged in hydrocarbon exploration and production. It is based in the Energy Corridor district of Houston, Texas.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/ConocoPhillips",
+      "employees": 10800,
+      "price": 136.12,
+      "change": 0.8371
+    },
+    {
+      "ticker": "ED",
+      "name": "Consolidated Edison",
+      "skipped": false,
+      "website": "https://www.conedison.com/",
+      "industry": "Utilities",
+      "marketCap": "$44.2B",
+      "description": "Consolidated Edison, Inc., commonly known as Con Edison or ConEd, is an energy company based in New York City. It is one of the largest investor-owned energy companies in the United States, with approximately $15.26 billion in annual revenues as of 2024, and over $70 billion in assets. The company provides a wide range of energy-related products and services to its customers through its subsidiaries:Consolidated Edison Company of New York, Inc. (CECONY), a regulated utility providing electric and gas service in New York City and Westchester County, New York, and steam service in the borough of Manhattan;\nOrange and Rockland Utilities, Inc., a regulated utility serving customers in a 1,300-square-mile (3,400 km2) area in southeastern New York and northern New Jersey; and,\nCon Edison Transmission, Inc., which invests in electric and natural gas transmission projects.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Consolidated_Edison",
+      "employees": 15591,
+      "price": 119.36,
+      "change": 0.2267
+    },
+    {
+      "ticker": "GLW",
+      "name": "Corning Inc.",
+      "skipped": false,
+      "website": "https://www.corning.com/",
+      "industry": "Electrical Equipment",
+      "marketCap": "$91.3B",
+      "description": "Corning Incorporated is an American multinational technology company specializing in glass, ceramics, and related materials and technologies including advanced optics, primarily for industrial and scientific applications. Founded in 1851, the company was called Corning Glass Works for most of its history. Corning was known during the 20th century for its consumer product lines, such as including CorningWare and Visions Pyroceram-based cookware, Corelle Vitrelle tableware, and Pyrex glass bakeware. It divested its consumer product lines in 1998 by selling the Corning Consumer Products Company to Borden.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Corning_Inc.",
+      "employees": 46200,
+      "price": 94.38,
+      "change": -10.9371
+    },
+    {
+      "ticker": "CTVA",
+      "name": "Corteva",
+      "skipped": false,
+      "website": "https://www.corteva.com",
+      "industry": "Chemicals",
+      "marketCap": "$5.4B",
+      "description": "Corteva, Inc. is an American company devoted to products for seeds and crop protection, including herbicides, insecticides, fungicides, and biologicals that are sold in 110 countries. The company's name combines \"cor\" with \"teva\". It is headquartered in Indianapolis, Indiana. Its primary brand is Pioneer Hi-Bred International.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Corteva",
+      "employees": 21000,
+      "price": 7.89,
+      "change": -2.8325
+    },
+    {
+      "ticker": "COST",
+      "name": "Costco",
+      "skipped": false,
+      "website": "https://www.costco.com/",
+      "industry": "Retail",
+      "marketCap": "$484.7B",
+      "description": "Costco Wholesale Corporation is an American multinational corporation that operates a chain of membership-only big-box warehouse club retail stores. As of 2025, Costco is the third-largest retailer in the world, and as of August 2024, the world's largest retailer of beef, poultry, organic produce, and wine, with just under a third of American consumers regularly shopping at Costco warehouses. As of 2026, Costco is ranked 12th on the Fortune 500 rankings of the largest United States corporations by total revenue.",
+      "descriptionHE": "קוסטקו היא רשת חנויות הסיטונאות הגדולה ביותר בארצות הברית והתשיעית בעולם. נכון לפברואר 2024 החברה מפעילה 871 חנויות בארצות הברית, קנדה, אוסטרליה, מקסיקו, טאיוואן, קוריאה הדרומית, יפן וספרד. נכון לדצמבר 2023 היא רשת המזון השנייה הגדולה בעולם אחרי וולמארט.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Costco",
+      "employees": 316000,
+      "price": 1102.15,
+      "change": 0.7606
+    },
+    {
+      "ticker": "CRH",
+      "name": "CRH plc",
+      "skipped": false,
+      "website": "https://www.crh.com",
+      "industry": "Construction",
+      "marketCap": "$60.2B",
+      "description": "CRH plc is an American-Irish building materials provider headquartered in Dublin and New York, United States. CRH produces construction materials, primarily aggregates and cement, and manufactures ready-mixed concrete, asphalt concrete, and infrastructural components, of which it is one of the largest suppliers in North America. CRH operates 3,961 locations in 28 countries, including North America, Europe, Australia, and the Philippines.",
+      "descriptionHE": "CRH plc הוא תאגיד רב-לאומי המייצר ומשווק חומרי בניין שבסיסו בדבלין, אירלנד. התאגיד מייצר בעיקר אגרגטים, מלט, בטון מוכן, בטון אספלט ורכיבי תשתית, והוא אחד הספקים הגדולים ביותר בתחום בצפון אמריקה ואירופה, עם 3,816 אתרי ייצור ונקודות מכירה ב-28 מדינות בצפון אמריקה, אירופה, אוסטרליה והפיליפינים.\nתאגיד CRH הוא בין יצרני המלט הגדולים בעולם ומדורג במקום ה-457 ברשימת פורצ'ן גלובל 500 של התאגידים הגדולים בעולם.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/CRH_plc",
+      "employees": 71000,
+      "price": 88.05,
+      "change": -2.7502
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "skipped": false,
+      "website": "https://ir.crowdstrike.com/",
+      "industry": "Technology",
+      "marketCap": "$249.3B",
+      "description": "CrowdStrike Holdings, Inc. is an American cybersecurity technology company based in Austin, Texas. It provides endpoint security, threat intelligence, and cyberattack response services. The company was co-founded in 2011 by George Kurtz, Dmitri Alperovitch, and Gregg Marston. Kurtz is the CEO. CrowdStrike went public on the Nasdaq in 2019 and joined the S&P 500 index in 2024.",
+      "descriptionHE": "קראודסטרייק היא חברה ציבורית אמריקאית העוסקת בהגנת סייבר, שבסיסה באוסטין, טקסס. החברה הייתה מעורבת בחקירות של מתקפות סייבר משמעותיות, כולל מתקפת ההאקרים על סרטי סוני ב-2014, במתקפות סייבר של DNC על הוועדה הלאומית הדמוקרטית, ובדליפת תכתובות דואר אלקטרוני של הוועדה הלאומית הדמוקרטית ב-2016. ביולי 2024, עדכון פגום לתוכנת אבטחה של החברה גרם לשיבושים גלובליים בשירותי מחשוב, והשפיע על טיסות, גופי שידור ושירותים נוספים.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/CrowdStrike",
+      "employees": 7925,
+      "price": 229.44,
+      "change": -5.7586
+    },
+    {
+      "ticker": "CVS",
+      "name": "CVS Health",
+      "skipped": false,
+      "website": "https://cvshealth.com/",
+      "industry": "Health Care",
+      "marketCap": "$102.4B",
+      "description": "CVS Health Corporation is an American multinational healthcare company that owns CVS Pharmacy, a retail pharmacy chain; CVS Caremark, a pharmacy benefits manager; and Aetna, a health insurance provider, among many other brands. The company is the world's second largest healthcare company, behind UnitedHealth Group. In 2023, the company was ranked 64th in the Forbes Global 2000. CVS started in Lowell, Massachusetts by brothers Stanley and Sidney Goldstein and their partner Ralph Hoagland. The name stood for Consumer Value Stores.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/CVS_Health",
+      "employees": 300000,
+      "price": 80.84,
+      "change": 0.9995
+    },
+    {
+      "ticker": "DE",
+      "name": "Deere & Company",
+      "skipped": false,
+      "website": "https://www.deere.com/",
+      "industry": "Machinery",
+      "marketCap": "$168.5B",
+      "description": "Deere & Company, is an American corporation that manufactures agricultural machinery, heavy equipment, forestry machinery, diesel engines, drivetrains used in heavy equipment and lawn care equipment. It also provides financial services and other related activities.",
+      "descriptionHE": "ג'ון דיר היא חברה לציוד מכני חקלאי (צמ\"ח), הנקראת על שם מייסדה, ג'ון דיר ומובילה בתחום הציוד החקלאי בעולם. ג'ון דיר הייתה ב-2013 חברת המכונות הגדולה בעולם, והיא מובילה בתחומי טכנולוגיה חקלאית מתקדמת כגון בתחום חקלאות מדייקת עם חברות בת כגון NavCom שפיתחה את מערכת הניווט היחסי StarFire. הכלים שמייצרת החברה צבועים בדרך כלל בירוק.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/John_Deere",
+      "employees": 67000,
+      "price": 609.25,
+      "change": -2.5028
+    },
+    {
+      "ticker": "DVN",
+      "name": "Devon Energy",
+      "skipped": false,
+      "website": "https://www.devonenergy.com",
+      "industry": "Energy",
+      "marketCap": "$47.9B",
+      "description": "Devon Energy Corporation is an American company engaged in hydrocarbon exploration. It is organized in Delaware with headquarters in Houston, Texas. Its operations are in the Delaware Basin, Eagle Ford Group, and the Rocky Mountains.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Devon_Energy",
+      "employees": 5900,
+      "price": 41.54,
+      "change": -1.2128
+    },
+    {
+      "ticker": "DLTR",
+      "name": "Dollar Tree",
+      "skipped": false,
+      "website": "https://www.dollartree.com/",
+      "industry": "Retail",
+      "marketCap": "$26.3B",
+      "description": "Dollar Tree, Inc., formerly known as Dollar Tree Stores, Inc., is an American multi-price-point chain of discount variety stores. Headquartered in Chesapeake, Virginia, it is a Fortune 500 company and as of August 1, 2026 operates 9,150 stores throughout the 48 contiguous U.S. states and Canada.Its stores are supported by a nationwide logistics network of 24 distribution centers.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Dollar_Tree",
+      "employees": 145000,
+      "price": 137.96,
+      "change": -1.6258
+    }
+  ]
+}

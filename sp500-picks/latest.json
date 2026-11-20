@@ -1,315 +1,285 @@
 {
-  "date": "2026-11-19",
-  "generatedAt": "2026-11-19T21:42:22.886Z",
-  "windowStart": 80,
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T21:17:44.184Z",
+  "windowStart": 120,
   "windowSize": 40,
-  "cyclePosition": 2,
+  "cyclePosition": 3,
   "totalWindows": 13,
   "requested": 15,
-  "picked": 14,
-  "skippedCount": 26,
+  "picked": 11,
+  "skippedCount": 29,
   "skipped": [
     {
-      "ticker": "CHRW",
+      "ticker": "CMCSA",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "CDNS",
+      "ticker": "FIX",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "CPT",
+      "ticker": "CAG",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "CPB",
+      "ticker": "STZ",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "COF",
+      "ticker": "CEG",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "CAH",
+      "ticker": "COO",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "CCL",
+      "ticker": "CPRT",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "CARR",
+      "ticker": "CPAY",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "CASY",
+      "ticker": "CSGP",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "CBOE",
+      "ticker": "CCI",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "CBRE",
+      "ticker": "CSX",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "CDW",
+      "ticker": "CMI",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "CNC",
+      "ticker": "DHR",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "CNP",
+      "ticker": "DRI",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "CF",
+      "ticker": "DDOG",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "CRL",
+      "ticker": "DVA",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "CHTR",
+      "ticker": "DECK",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "CB",
+      "ticker": "DELL",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "CHD",
+      "ticker": "DAL",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "CIEN",
+      "ticker": "DXCM",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "CINF",
+      "ticker": "FANG",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "CTAS",
+      "ticker": "DLR",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "CLX",
+      "ticker": "DG",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "CMS",
+      "ticker": "D",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "COHR",
+      "ticker": "DPZ",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     },
     {
-      "ticker": "CL",
+      "ticker": "DASH",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "DOV",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "DOW",
+      "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
+    },
+    {
+      "ticker": "DHI",
       "reason": "employee count unavailable: no employee count (P1128) on Wikidata"
     }
   ],
   "picks": [
     {
-      "ticker": "CVNA",
-      "name": "Carvana",
+      "ticker": "COP",
+      "name": "ConocoPhillips",
       "skipped": false,
-      "website": "https://www.carvana.com/",
-      "industry": "Retail",
-      "marketCap": "$78.9B",
-      "description": "Carvana Co. is an American online car retailer based in Tempe, Arizona. Carvana was named to the 2021 Fortune 500 list, one of the youngest companies to be added to the list.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Carvana",
-      "employees": 21000,
-      "price": 68,
-      "change": -5.2661
-    },
-    {
-      "ticker": "CAT",
-      "name": "Caterpillar Inc.",
-      "skipped": false,
-      "website": "https://www.caterpillar.com",
-      "industry": "Machinery",
-      "marketCap": "$252.4B",
-      "description": "Caterpillar Inc. is an American manufacturer of construction, mining, and other engineering equipment. The company is the world's largest manufacturer of construction equipment.\nIn 2025, Caterpillar was ranked 64th on the Fortune 500 and 118th on the Forbes Global 2000. Caterpillar stock is a component of the Dow Jones Industrial Average.",
-      "descriptionHE": "חברת קטרפילר היא חברה אמריקאית העוסקת בייצור מנועים וציוד מכני הנדסי (צמ״ה). מטה החברה נמצא באירווינג שבטקסס, ארצות הברית. מניות החברה נסחרות בבורסת ניו יורק ומסומנת באותיות CAT, שם שהפך לכינוי הלא-רשמי של החברה. בתרגום מילולי לעברית הוא \"זחל\", על שום מערכת המזקו\"ם המורכבת בדחפורים שתנועתה דומה לתנועת הזחל.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Caterpillar_Inc.",
-      "employees": 104000,
-      "price": 537.37,
-      "change": -3.8298
-    },
-    {
-      "ticker": "COR",
-      "name": "Cencora",
-      "skipped": false,
-      "website": "https://www.cencora.com/",
-      "industry": "Health Care",
-      "marketCap": "$64.7B",
-      "description": "Cencora, Inc., formerly known as AmerisourceBergen, is an American drug wholesale and distribution company and a contract research organization, that was formed by the merger of Bergen Brunswig and AmeriSource in 2001. It was renamed to Cencora in 2023. Cencora is one of the largest pharmaceutical companies in the world and distributes generic pharmaceuticals, over-the-counter healthcare products, as well as home healthcare supplies and equipment. The company is headquartered in Conshohocken, Pennsylvania, part of the Philadelphia metropolitan area.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Cencora",
-      "employees": 44000,
-      "price": 341.25,
-      "change": -2.0269
-    },
-    {
-      "ticker": "SCHW",
-      "name": "Charles Schwab Corporation",
-      "skipped": false,
-      "website": "https://www.schwab.com/",
-      "industry": "Financial Services",
-      "marketCap": "$159.1B",
-      "description": "The Charles Schwab Corporation is an American multinational financial services company. It offers banking, commercial banking, investing, and related services including consulting, and wealth management advisory services to both retail and institutional clients. One of the largest banks in the United States by assets, as of December 31, 2024, it had $10.10 trillion in client assets, 36.5 million active brokerage accounts, 5.4 million workplace retirement plan participant accounts, and 2.0 million banking accounts. It also offers a donor advised fund for clients seeking to donate securities. It was founded in San Francisco, California, and is headquartered in Westlake, Texas. It has over 380 branches, primarily in financial centers in the United States and the United Kingdom.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Charles_Schwab_Corporation",
-      "employees": 12400,
-      "price": 92.12,
-      "change": -0.4754
-    },
-    {
-      "ticker": "CVX",
-      "name": "Chevron Corporation",
-      "skipped": false,
-      "website": "https://www.chevron.com/",
+      "website": "https://www.conocophillips.com/",
       "industry": "Energy",
-      "marketCap": "$405.2B",
-      "description": "Chevron Corporation is an American multinational energy corporation predominantly specializing in oil and gas. The second-largest direct descendant of Standard Oil, and originally known as the Standard Oil Company of California, it is active in more than 180 countries.",
-      "descriptionHE": "תאגיד שברון הוא תאגיד רב-לאומי אמריקאי, העוסק באנרגיה, הפעיל ביותר מ-180 מדינות. התאגיד נקרא בעבר \"סטנדרד אויל של קליפורניה\", מטה החברה ממוקם בעיר סן רמון שבקליפורניה. שברון מעורב בכל תעשיית אנרגיית הגז, נפט והגיאותרמית. כולל חיפוש נפט, הפקה וזיקוק, שיווק והפצה, ייצור ומכירת כימיקלים וייצור חשמל. שברון היא אחת מהחברות הגדולות בעולם, וממוקמת במקום שלישי בדירוג החברות של כתב העת Fortune לשנת 2014.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevron_Corporation",
-      "employees": 48600,
-      "price": 206.5,
-      "change": 0.3011
-    },
-    {
-      "ticker": "CMG",
-      "name": "Chipotle Mexican Grill",
-      "skipped": false,
-      "website": "https://www.chipotle.com/",
-      "industry": "Hotels, Restaurants & Leisure",
-      "marketCap": "$46.0B",
-      "description": "Chipotle Mexican Grill, Inc., also known simply as Chipotle, is an American multinational chain of fast casual restaurants specializing in bowls, tacos, and Mission burritos made to order in front of the customer. As of December 2025, Chipotle has 4,000 locations. Its name derives from chipotle, the Nahuatl name for a smoked and dried jalapeño chili pepper.",
+      "marketCap": "$159.6B",
+      "description": "ConocoPhillips Company is an American multinational corporation engaged in hydrocarbon exploration and production. It is based in the Energy Corridor district of Houston, Texas.",
       "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Chipotle_Mexican_Grill",
-      "employees": 45200,
-      "price": 36.3,
-      "change": -1.7591
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/ConocoPhillips",
+      "employees": 10800,
+      "price": 136.12,
+      "change": 0.8371
     },
     {
-      "ticker": "CI",
-      "name": "Cigna",
+      "ticker": "ED",
+      "name": "Consolidated Edison",
       "skipped": false,
-      "website": "https://www.thecignagroup.com/",
-      "industry": "Health Care",
-      "marketCap": "$71.5B",
-      "description": "The Cigna Group is an American multinational for-profit managed healthcare and insurance company based in Bloomfield, Connecticut. Cigna's insurance subsidiaries are major providers of medical, dental, disability, life and accident insurance and related products and services, the majority of which are offered through employers and other groups.",
+      "website": "https://www.conedison.com/",
+      "industry": "Utilities",
+      "marketCap": "$44.2B",
+      "description": "Consolidated Edison, Inc., commonly known as Con Edison or ConEd, is an energy company based in New York City. It is one of the largest investor-owned energy companies in the United States, with approximately $15.26 billion in annual revenues as of 2024, and over $70 billion in assets. The company provides a wide range of energy-related products and services to its customers through its subsidiaries:Consolidated Edison Company of New York, Inc. (CECONY), a regulated utility providing electric and gas service in New York City and Westchester County, New York, and steam service in the borough of Manhattan;\nOrange and Rockland Utilities, Inc., a regulated utility serving customers in a 1,300-square-mile (3,400 km2) area in southeastern New York and northern New Jersey; and,\nCon Edison Transmission, Inc., which invests in electric and natural gas transmission projects.",
       "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Cigna_Group",
-      "employees": 73800,
-      "price": 273.04,
-      "change": -4.3207
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Consolidated_Edison",
+      "employees": 15591,
+      "price": 119.36,
+      "change": 0.2267
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco",
+      "ticker": "GLW",
+      "name": "Corning Inc.",
       "skipped": false,
-      "website": "https://www.cisco.com/",
-      "industry": "Communications",
-      "marketCap": "$383.0B",
-      "description": "Cisco Systems, Inc., doing business as Cisco, is an American multinational technology conglomerate corporation that develops, manufactures, and sells hardware, software, telecommunications equipment, and other high-technology services and products focused on networking, cybersecurity and AI. Cisco specializes in specific tech markets, such as the Internet of things (IoT), domain security, videoconferencing, and energy management, including products such as Webex, OpenDNS, Jabber, and Jasper. The company is headquartered in San Jose, California, and, as of June 29, 2026, has a market capitalization of $461 billion.",
-      "descriptionHE": "סיסקו מערכות היא חברה אמריקאית רב-לאומית, המתמחה בטכנולוגיית המידע.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Cisco",
-      "employees": 86200,
-      "price": 94.7,
-      "change": -2.552
-    },
-    {
-      "ticker": "C",
-      "name": "Citigroup",
-      "skipped": false,
-      "website": "http://www.citigroup.com/",
-      "industry": "Banking",
-      "marketCap": "$194.2B",
-      "description": "Citigroup Inc. or Citi is an American multinational investment bank and financial services company based in New York City. The company was formed in 1998 by the merger of Citicorp, the bank holding company for Citibank, and Travelers; Travelers was spun off from the company in 2002.",
-      "descriptionHE": "סיטיגרופ היא חברה אמריקאית לשירותים פיננסיים וקבוצת בנקאות שבסיסה בניו יורק.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Citigroup",
-      "employees": 219000,
-      "price": 115.28,
-      "change": -1.7556
-    },
-    {
-      "ticker": "CFG",
-      "name": "Citizens Financial Group",
-      "skipped": false,
-      "website": "https://www.citizensbank.com/",
-      "industry": "Banking",
-      "marketCap": "$25.9B",
-      "description": "Citizens Financial Group, Inc. is an American bank holding company, headquartered in Providence, Rhode Island. The company owns the bank Citizens Bank, N.A., which operates in the U.S. states of Connecticut, Delaware, Florida, Maryland, Massachusetts, Michigan, New Hampshire, New Jersey, New York, Ohio, Pennsylvania, Rhode Island, Vermont, and Virginia, as well as Washington, DC.",
+      "website": "https://www.corning.com/",
+      "industry": "Electrical Equipment",
+      "marketCap": "$91.3B",
+      "description": "Corning Incorporated is an American multinational technology company specializing in glass, ceramics, and related materials and technologies including advanced optics, primarily for industrial and scientific applications. Founded in 1851, the company was called Corning Glass Works for most of its history. Corning was known during the 20th century for its consumer product lines, such as including CorningWare and Visions Pyroceram-based cookware, Corelle Vitrelle tableware, and Pyrex glass bakeware. It divested its consumer product lines in 1998 by selling the Corning Consumer Products Company to Borden.",
       "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Citizens_Financial_Group",
-      "employees": 17398,
-      "price": 60.51,
-      "change": -2.4504
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Corning_Inc.",
+      "employees": 46200,
+      "price": 94.38,
+      "change": -10.9371
     },
     {
-      "ticker": "CME",
-      "name": "CME Group",
+      "ticker": "CTVA",
+      "name": "Corteva",
       "skipped": false,
-      "website": "https://www.cmegroup.com/",
-      "industry": "Financial Services",
-      "marketCap": "$109.9B",
-      "description": "CME Group Inc., headquartered in Chicago, Illinois, operates exchanges and provides clearing services for trading in financial derivatives such as futures contracts, options, and swaps. Its exchanges include the Chicago Mercantile Exchange (CME), the Chicago Board of Trade (CBOT), the New York Mercantile Exchange (NYMEX), and the Commodity Exchange (COMEX). The company also owns 27% of S&P Dow Jones Indices. The company operates the Globex Trading System, an electronic trading platform that allows customers in approximately 150 countries to trade futures and options contracts. The company also operates two platforms for spot market trading: BrokerTec, which facilitates dealer-to-dealer trading in fixed-income products, and EBS, which provides spot trading in foreign exchange markets. CME Clearing serves as a counterparty to every transaction cleared by the company.",
+      "website": "https://www.corteva.com",
+      "industry": "Chemicals",
+      "marketCap": "$5.4B",
+      "description": "Corteva, Inc. is an American company devoted to products for seeds and crop protection, including herbicides, insecticides, fungicides, and biologicals that are sold in 110 countries. The company's name combines \"cor\" with \"teva\". It is headquartered in Indianapolis, Indiana. Its primary brand is Pioneer Hi-Bred International.",
       "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/CME_Group",
-      "employees": 2300,
-      "price": 306.31,
-      "change": -1.2699
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Corteva",
+      "employees": 21000,
+      "price": 7.89,
+      "change": -2.8325
     },
     {
-      "ticker": "KO",
-      "name": "Coca-Cola Company (The)",
+      "ticker": "COST",
+      "name": "Costco",
       "skipped": false,
-      "website": "https://www.coca-colacompany.com/",
-      "industry": "Beverages",
-      "marketCap": "$410.4B",
-      "description": "The Coca-Cola Company is an American multinational corporation founded in January 1892, headquartered in Atlanta, Georgia. It manufactures, sells and markets soft drinks including Coca-Cola, other non-alcoholic beverage concentrates and syrups, and alcoholic beverages. Its stock is listed on the New York Stock Exchange and is a component of the DJIA and the S&P 500 and S&P 100 indices.",
-      "descriptionHE": "חברת קוקה-קולה היא תאגיד רב-לאומי אמריקאי ויצרן של משקאות קלים ותרכיזים ליצירת משקאות מסוג זה. המוצר הנפוץ ביותר שלה הוא המשקה קוקה-קולה.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Coca-Cola_Company",
-      "employees": 69700,
-      "price": 96.09,
-      "change": -2.0389
+      "website": "https://www.costco.com/",
+      "industry": "Retail",
+      "marketCap": "$484.7B",
+      "description": "Costco Wholesale Corporation is an American multinational corporation that operates a chain of membership-only big-box warehouse club retail stores. As of 2025, Costco is the third-largest retailer in the world, and as of August 2024, the world's largest retailer of beef, poultry, organic produce, and wine, with just under a third of American consumers regularly shopping at Costco warehouses. As of 2026, Costco is ranked 12th on the Fortune 500 rankings of the largest United States corporations by total revenue.",
+      "descriptionHE": "קוסטקו היא רשת חנויות הסיטונאות הגדולה ביותר בארצות הברית והתשיעית בעולם. נכון לפברואר 2024 החברה מפעילה 871 חנויות בארצות הברית, קנדה, אוסטרליה, מקסיקו, טאיוואן, קוריאה הדרומית, יפן וספרד. נכון לדצמבר 2023 היא רשת המזון השנייה הגדולה בעולם אחרי וולמארט.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Costco",
+      "employees": 316000,
+      "price": 1102.15,
+      "change": 0.7606
     },
     {
-      "ticker": "CTSH",
-      "name": "Cognizant",
+      "ticker": "CRH",
+      "name": "CRH plc",
       "skipped": false,
-      "website": "https://www.cognizant.com/",
+      "website": "https://www.crh.com",
+      "industry": "Construction",
+      "marketCap": "$60.2B",
+      "description": "CRH plc is an American-Irish building materials provider headquartered in Dublin and New York, United States. CRH produces construction materials, primarily aggregates and cement, and manufactures ready-mixed concrete, asphalt concrete, and infrastructural components, of which it is one of the largest suppliers in North America. CRH operates 3,961 locations in 28 countries, including North America, Europe, Australia, and the Philippines.",
+      "descriptionHE": "CRH plc הוא תאגיד רב-לאומי המייצר ומשווק חומרי בניין שבסיסו בדבלין, אירלנד. התאגיד מייצר בעיקר אגרגטים, מלט, בטון מוכן, בטון אספלט ורכיבי תשתית, והוא אחד הספקים הגדולים ביותר בתחום בצפון אמריקה ואירופה, עם 3,816 אתרי ייצור ונקודות מכירה ב-28 מדינות בצפון אמריקה, אירופה, אוסטרליה והפיליפינים.\nתאגיד CRH הוא בין יצרני המלט הגדולים בעולם ומדורג במקום ה-457 ברשימת פורצ'ן גלובל 500 של התאגידים הגדולים בעולם.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/CRH_plc",
+      "employees": 71000,
+      "price": 88.05,
+      "change": -2.7502
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "skipped": false,
+      "website": "https://ir.crowdstrike.com/",
       "industry": "Technology",
-      "marketCap": "$25.5B",
-      "description": "Cognizant Technology Solutions Corporation is an American domiciled Indian multinational information technology services and outsourcing company, headquartered in Teaneck, New Jersey. It was originally founded in Chennai, India, as an in-house technology unit of Dun & Bradstreet in 1994. After a series of corporate restructurings, the company went public in 1998.",
-      "descriptionHE": null,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Cognizant",
-      "employees": 266200,
-      "price": 56.31,
-      "change": -2.83
+      "marketCap": "$249.3B",
+      "description": "CrowdStrike Holdings, Inc. is an American cybersecurity technology company based in Austin, Texas. It provides endpoint security, threat intelligence, and cyberattack response services. The company was co-founded in 2011 by George Kurtz, Dmitri Alperovitch, and Gregg Marston. Kurtz is the CEO. CrowdStrike went public on the Nasdaq in 2019 and joined the S&P 500 index in 2024.",
+      "descriptionHE": "קראודסטרייק היא חברה ציבורית אמריקאית העוסקת בהגנת סייבר, שבסיסה באוסטין, טקסס. החברה הייתה מעורבת בחקירות של מתקפות סייבר משמעותיות, כולל מתקפת ההאקרים על סרטי סוני ב-2014, במתקפות סייבר של DNC על הוועדה הלאומית הדמוקרטית, ובדליפת תכתובות דואר אלקטרוני של הוועדה הלאומית הדמוקרטית ב-2016. ביולי 2024, עדכון פגום לתוכנת אבטחה של החברה גרם לשיבושים גלובליים בשירותי מחשוב, והשפיע על טיסות, גופי שידור ושירותים נוספים.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/CrowdStrike",
+      "employees": 7925,
+      "price": 229.44,
+      "change": -5.7586
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
+      "ticker": "CVS",
+      "name": "CVS Health",
       "skipped": false,
-      "website": "https://www.coinbase.com",
-      "industry": "Financial Services",
-      "marketCap": "$29.6B",
-      "description": "Coinbase Global, Inc. is an American cryptocurrency exchange. It was founded in 2012 by Brian Armstrong and Fred Ehrsam. Coinbase has over 100 million users, and is the largest U.S. based cryptocurrency exchange as well as the world's biggest bitcoin custodian, as of 2024. The company operates in more than 100 countries and holds nearly US$516 billion in assets, including nearly 12 percent of all bitcoin in existence and 11 percent of all staked Ether.",
-      "descriptionHE": "קוינבייס גלובל בע\"מ היא חברה אמריקאית למסחר במטבעות מבוזרים שנוסדה ב-2012 על ידי בריאן ארמסטרונג ופרד אירסם. במרץ 2021 הפכה לבורסה המבוזרת הגדולה ביותר בארצות הברית ובאפריל אותה שנה החלה להיסחר באופן ישיר בנאסד\"ק. החברה אינה פועלת מתוך מטה מאורגן ומתנהלת בצורת עבודה מרחוק.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Coinbase",
-      "employees": 1249,
-      "price": 108.87,
-      "change": -1.484
+      "website": "https://cvshealth.com/",
+      "industry": "Health Care",
+      "marketCap": "$102.4B",
+      "description": "CVS Health Corporation is an American multinational healthcare company that owns CVS Pharmacy, a retail pharmacy chain; CVS Caremark, a pharmacy benefits manager; and Aetna, a health insurance provider, among many other brands. The company is the world's second largest healthcare company, behind UnitedHealth Group. In 2023, the company was ranked 64th in the Forbes Global 2000. CVS started in Lowell, Massachusetts by brothers Stanley and Sidney Goldstein and their partner Ralph Hoagland. The name stood for Consumer Value Stores.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/CVS_Health",
+      "employees": 300000,
+      "price": 80.84,
+      "change": 0.9995
+    },
+    {
+      "ticker": "DE",
+      "name": "Deere & Company",
+      "skipped": false,
+      "website": "https://www.deere.com/",
+      "industry": "Machinery",
+      "marketCap": "$168.5B",
+      "description": "Deere & Company, is an American corporation that manufactures agricultural machinery, heavy equipment, forestry machinery, diesel engines, drivetrains used in heavy equipment and lawn care equipment. It also provides financial services and other related activities.",
+      "descriptionHE": "ג'ון דיר היא חברה לציוד מכני חקלאי (צמ\"ח), הנקראת על שם מייסדה, ג'ון דיר ומובילה בתחום הציוד החקלאי בעולם. ג'ון דיר הייתה ב-2013 חברת המכונות הגדולה בעולם, והיא מובילה בתחומי טכנולוגיה חקלאית מתקדמת כגון בתחום חקלאות מדייקת עם חברות בת כגון NavCom שפיתחה את מערכת הניווט היחסי StarFire. הכלים שמייצרת החברה צבועים בדרך כלל בירוק.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/John_Deere",
+      "employees": 67000,
+      "price": 609.25,
+      "change": -2.5028
+    },
+    {
+      "ticker": "DVN",
+      "name": "Devon Energy",
+      "skipped": false,
+      "website": "https://www.devonenergy.com",
+      "industry": "Energy",
+      "marketCap": "$47.9B",
+      "description": "Devon Energy Corporation is an American company engaged in hydrocarbon exploration. It is organized in Delaware with headquarters in Houston, Texas. Its operations are in the Delaware Basin, Eagle Ford Group, and the Rocky Mountains.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Devon_Energy",
+      "employees": 5900,
+      "price": 41.54,
+      "change": -1.2128
+    },
+    {
+      "ticker": "DLTR",
+      "name": "Dollar Tree",
+      "skipped": false,
+      "website": "https://www.dollartree.com/",
+      "industry": "Retail",
+      "marketCap": "$26.3B",
+      "description": "Dollar Tree, Inc., formerly known as Dollar Tree Stores, Inc., is an American multi-price-point chain of discount variety stores. Headquartered in Chesapeake, Virginia, it is a Fortune 500 company and as of August 1, 2026 operates 9,150 stores throughout the 48 contiguous U.S. states and Canada.Its stores are supported by a nationwide logistics network of 24 distribution centers.",
+      "descriptionHE": null,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Dollar_Tree",
+      "employees": 145000,
+      "price": 137.96,
+      "change": -1.6258
     }
   ]
 }
